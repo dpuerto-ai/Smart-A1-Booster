@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boosters A1 - Kit Oficial</title>
+    <!-- Cargamos Tailwind desde CDN para el diseño profesional -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        /* Animación suave para las tarjetas */
+        .booster-card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .booster-card:hover { transform: translateY(-4px); }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen">
+
+    <div id="app" class="max-w-4xl mx-auto p-4 md:p-8">
+        
+        <!-- Encabezado Principal -->
+        <header class="text-center mb-10">
+            <h1 class="text-3xl font-extrabold text-slate-800 tracking-tight uppercase">Progress Check Boosters <span class="text-blue-600">(A1)</span></h1>
+            <p class="text-slate-500 mt-2 font-medium">Metodología Híbrida: Write-to-Speak</p>
+        </header>
+
+        <!-- Pantalla de Inicio: Selección de Rol -->
+        <div id="role-selector" class="grid md:grid-cols-2 gap-6 mt-10">
+            <button onclick="setRole('teacher')" class="group p-8 bg-white border-2 border-slate-200 rounded-3xl shadow-sm hover:border-blue-500 hover:shadow-xl transition-all text-center">
+                <div class="w-20 h-20 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-600 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-800">Soy Docente</h2>
+                <p class="text-slate-500 mt-2">Accede a las guías de monitoreo y tiempos.</p>
+            </button>
+
+            <button onclick="setRole('student')" class="group p-8 bg-white border-2 border-slate-200 rounded-3xl shadow-sm hover:border-indigo-500 hover:shadow-xl transition-all text-center">
+                <div class="w-20 h-20 bg-indigo-100 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-indigo-600 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                    </svg>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-800">Soy Estudiante</h2>
+                <p class="text-slate-500 mt-2">Prepara tu guion y misión de habla.</p>
+            </button>
+        </div>
+
+        <!-- Panel del Docente -->
+        <div id="teacher-dashboard" class="hidden space-y-8 animate-in fade-in duration-500">
+            <div class="flex items-center justify-between">
+                <button onclick="showHome()" class="text-slate-500 hover:text-slate-800 font-medium flex items-center gap-2">← Inicio</button>
+                <span class="px-4 py-1 bg-blue-100 text-blue-700 rounded-full font-bold text-xs uppercase">Vista Docente</span>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="p-4 bg-white rounded-xl border border-slate-200">
+                    <p class="text-blue-600 font-bold text-lg">00-05 min</p>
+                    <p class="text-slate-600 text-sm">Escritura individual (Handout).</p>
+                </div>
+                <div class="p-4 bg-white rounded-xl border border-slate-200">
+                    <p class="text-green-600 font-bold text-lg">05-15 min</p>
+                    <p class="text-slate-600 text-sm">Interacción oral (Monitoreo).</p>
+                </div>
+                <div class="p-4 bg-white rounded-xl border border-slate-200">
+                    <p class="text-orange-600 font-bold text-lg">15-20 min</p>
+                    <p class="text-slate-600 text-sm">Feedback (Tablero).</p>
+                </div>
+            </div>
+
+            <div class="grid gap-3" id="list-teacher"></div>
+        </div>
+
+        <!-- Panel del Estudiante -->
+        <div id="student-dashboard" class="hidden space-y-8 animate-in fade-in duration-500">
+            <div class="flex items-center justify-between">
+                <button onclick="showHome()" class="text-slate-500 hover:text-slate-800 font-medium flex items-center gap-2">← Inicio</button>
+                <div class="flex items-center gap-4">
+                    <div id="timer-display" class="bg-slate-800 text-white px-4 py-1 rounded-lg font-mono font-bold text-lg">20:00</div>
+                    <button id="timer-ctrl" onclick="toggleTimer()" class="bg-indigo-600 text-white px-3 py-1 rounded-lg text-sm font-bold">INICIAR</button>
+                </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4" id="list-student"></div>
+        </div>
+
+        <!-- Detalle del Booster -->
+        <div id="booster-view" class="hidden space-y-6">
+            <button onclick="backToDashboard()" class="text-slate-500 hover:text-slate-800 font-medium flex items-center gap-2">← Volver al Panel</button>
+            <div id="booster-content" class="bg-white p-6 md:p-10 rounded-3xl shadow-xl border border-slate-200"></div>
+        </div>
+
+    </div>
+
+    <script>
+        const boosters = [
+            { id: 1, title: "The Celebrity Interview", units: "Units 1-2", icon: "🎤", mission: "Promover interacción mediante preguntas personales.", tRole: "Monitorear Presente Simple y Wh-questions.", vocab: ["get up", "work", "study", "doctor", "early"], writing: "Hi! I'm [Name]. I am a [Job]. I work at [Place]...", speaking: ["What is your name?", "What do you do?", "What time do you study?"] },
+            { id: 2, title: "The VIP Shopping Trip", units: "Units 3-4", icon: "🛍️", mission: "Simular compra de ropa con comparativos.", tRole: "Monitorear Demonstratives (this/these) y Comparatives.", vocab: ["Jacket", "Sneakers", "Dress", "Cheaper", "Expensive"], writing: "I want to buy a [item]. It is $[price]. It's [comparative] than...", speaking: ["Would you like to go to a party?", "How much is that?", "Is it more expensive than...?"] },
+            { id: 3, title: "The Family Fitness Profile", units: "Units 5-6", icon: "🏃‍♂️", mission: "Preguntar sobre rutinas familiares.", tRole: "Tercera persona del singular (s/es).", vocab: ["Mother", "Brother", "Yoga", "Gym", "Exercises"], writing: "My [member] is active. He/She plays [sport] every week...", speaking: ["Does your brother play sports?", "How often do you exercise?", "What does your family do?"] },
+            { id: 4, title: "The Apartment Hunter", units: "Units 7-8", icon: "🏠", mission: "Describir vecindario y buscar casa.", tRole: "There is/There are y cuantificadores.", vocab: ["Sofa", "Kitchen", "Quiet", "Park", "Supermarket"], writing: "I live in a [house]. There is a [furniture]. My neighborhood is...", speaking: ["What kind of apartment do you want?", "Is there a park nearby?", "Are there any stores?"] },
+            { id: 5, title: "The Casting Call", units: "Units 9-10", icon: "🎬", mission: "Describir apariencia y experiencias.", tRole: "Present Perfect (Have you ever...?).", vocab: ["Tall", "Curly hair", "Handsome", "Experience", "Ever"], writing: "My character has [hair/eyes]. He/She has [experience]...", speaking: ["What does your character look like?", "Have you ever traveled to...?"] },
+            { id: 6, title: "The Travel Advisor", units: "Units 11-12", icon: "✈️", mission: "Dar consejos de viaje y salud.", tRole: "Should/Shouldn't e infinitivos.", vocab: ["Crowded", "Beautiful", "Medicine", "Rest", "Should"], writing: "[City] is [adjective]. You should [advice] when you travel...", speaking: ["Tell me about the city.", "What should I do there?", "What shouldn't I do?"] },
+            { id: 7, title: "The Food Critic", units: "Units 13-14", icon: "🍽️", mission: "Pedir comida en un restaurante.", tRole: "Uso de So/Too y Neither/Either.", vocab: ["Spicy", "Waiter", "Order", "Delicious", "Menu"], writing: "My favorite dish is [food]. You can eat it at [place]...", speaking: ["Are you ready to order?", "I love [food]. (So do I / I don't)"] },
+            { id: 8, title: "The Reunion Message", units: "Units 15-16", icon: "📱", mission: "Discutir planes futuros y dejar mensajes.", tRole: "Futuro (Going to / Present Continuous).", vocab: ["Call", "Meet", "Message", "Tell", "Next month"], writing: "Hi [Friend]! Next month I am going to [Plan]...", speaking: ["Please tell [Name] that I am going to...", "Can you ask him/her to call me?"] }
+        ];
+
+        let role = '';
+        let timer = 1200;
+        let interval = null;
+
+        function setRole(r) {
+            role = r;
+            document.getElementById('role-selector').style.display = 'none';
+            if(r === 'teacher') {
+                document.getElementById('teacher-dashboard').classList.remove('hidden');
+                renderTeacher();
+            } else {
+                document.getElementById('student-dashboard').classList.remove('hidden');
+                renderStudent();
+            }
+        }
+
+        function showHome() {
+            location.reload(); // Forma sencilla de resetear
+        }
+
+        function renderTeacher() {
+            const container = document.getElementById('list-teacher');
+            container.innerHTML = boosters.map(b => `
+                <div class="bg-white p-4 rounded-xl border border-slate-200 flex items-center justify-between hover:border-blue-500 cursor-pointer" onclick="view(${b.id})">
+                    <div class="flex items-center gap-4">
+                        <span class="text-2xl">${b.icon}</span>
+                        <div>
+                            <p class="text-xs font-bold text-blue-600 uppercase">${b.units}</p>
+                            <h4 class="font-bold text-slate-800">${b.title}</h4>
+                        </div>
+                    </div>
+                    <span class="text-slate-300">→</span>
+                </div>
+            `).join('');
+        }
+
+        function renderStudent() {
+            const container = document.getElementById('list-student');
+            container.innerHTML = boosters.map(b => `
+                <div class="booster-card bg-white p-6 rounded-2xl border border-slate-200 text-center shadow-sm cursor-pointer" onclick="view(${b.id})">
+                    <div class="text-4xl mb-3">${b.icon}</div>
+                    <p class="text-[10px] font-bold text-indigo-500 uppercase mb-1">${b.units}</p>
+                    <h4 class="font-bold text-slate-800 text-sm leading-tight">${b.title}</h4>
+                </div>
+            `).join('');
+        }
+
+        function view(id) {
+            const b = boosters.find(x => x.id === id);
+            const content = document.getElementById('booster-content');
+            document.getElementById('teacher-dashboard').classList.add('hidden');
+            document.getElementById('student-dashboard').classList.add('hidden');
+            document.getElementById('booster-view').classList.remove('hidden');
+
+            if(role === 'teacher') {
+                content.innerHTML = `
+                    <h2 class="text-2xl font-black text-slate-800 mb-2">${b.icon} ${b.title}</h2>
+                    <p class="text-blue-600 font-bold mb-6">${b.units}</p>
+                    <div class="space-y-6 text-slate-700">
+                        <div class="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
+                            <p class="font-bold text-blue-800 mb-1">MISIÓN:</p>
+                            <p>${b.mission}</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border-l-4 border-slate-400">
+                            <p class="font-bold text-slate-800 mb-1">TU ROL:</p>
+                            <p>${b.tRole}</p>
+                        </div>
+                    </div>
+                `;
+            } else {
+                content.innerHTML = `
+                    <h2 class="text-2xl font-black text-slate-800 mb-6">${b.icon} ${b.title}</h2>
+                    <div class="space-y-8">
+                        <div>
+                            <p class="text-xs font-bold text-slate-400 uppercase mb-3 tracking-widest">1. Vocabulary</p>
+                            <div class="flex flex-wrap gap-2">
+                                ${b.vocab.map(v => `<span class="px-3 py-1 bg-slate-100 rounded-lg text-sm text-slate-600 border border-slate-200"># ${v}</span>`).join('')}
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-xs font-bold text-indigo-500 uppercase mb-3 tracking-widest">2. Writing (The Script)</p>
+                            <textarea class="w-full p-4 bg-indigo-50/30 border-2 border-indigo-100 rounded-xl focus:outline-none focus:border-indigo-300 text-slate-700" rows="3" placeholder="${b.writing}"></textarea>
+                        </div>
+                        <div class="bg-slate-900 p-6 rounded-2xl text-white shadow-lg">
+                            <p class="text-xs font-bold text-indigo-400 uppercase mb-4">3. Speaking Mission</p>
+                            <ul class="space-y-3">
+                                ${b.speaking.map(s => `<li class="flex items-start gap-3"><span class="text-indigo-500 mt-1">●</span><span class="opacity-90 italic">"${s}"</span></li>`).join('')}
+                            </ul>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        function backToDashboard() {
+            document.getElementById('booster-view').classList.add('hidden');
+            if(role === 'teacher') document.getElementById('teacher-dashboard').classList.remove('hidden');
+            else document.getElementById('student-dashboard').classList.remove('hidden');
+        }
+
+        function toggleTimer() {
+            const btn = document.getElementById('timer-ctrl');
+            if(interval) {
+                clearInterval(interval);
+                interval = null;
+                btn.textContent = "CONTINUAR";
+                btn.className = "bg-green-600 text-white px-3 py-1 rounded-lg text-sm font-bold";
+            } else {
+                interval = setInterval(() => {
+                    timer--;
+                    if(timer <= 0) { clearInterval(interval); document.getElementById('timer-display').textContent = "FIN"; return; }
+                    const m = Math.floor(timer/60);
+                    const s = timer%60;
+                    document.getElementById('timer-display').textContent = `${m}:${s.toString().padStart(2, '0')}`;
+                }, 1000);
+                btn.textContent = "PAUSAR";
+                btn.className = "bg-red-500 text-white px-3 py-1 rounded-lg text-sm font-bold";
+            }
+        }
+    </script>
+</body>
+</html>
