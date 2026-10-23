@@ -1,0 +1,37 @@
+# Configuración de Netlify para Smart Boosters.
+# El sitio es estático: no hay paso de compilación. Netlify publica esta misma carpeta.
+# Los encabezados de seguridad y de caché están en el archivo _headers.
+
+[build]
+  publish = "."
+
+# Carpetas internas del proyecto: existen en el repositorio, pero no se muestran en el sitio publicado.
+[[redirects]]
+  from = "/tools/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/build/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/tests/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/review/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/data/respaldo/*"
+  to = "/404.html"
+  status = 404
+  force = true

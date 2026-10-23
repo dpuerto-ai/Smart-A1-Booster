@@ -1,0 +1,1955 @@
+{
+  "_leeme": "Contenido del nivel A1 (Interchange 1). No cambie los nombres de los campos (a la izquierda de los dos puntos), solo los textos. Antes de publicar ejecute tools/validate-data.py. Guia: data/LEEME.md",
+  "level": "a1",
+  "boosters": [
+    {
+      "id": 1,
+      "units": "1-2",
+      "title": "The Celebrity Interview",
+      "badgeEmoji": "🎤",
+      "imageUrl": "https://images.unsplash.com/photo-1598550880863-4e8aa3d0edb4?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Rutinas y Wh-questions.",
+        "focus": "Introducing oneself, work/routines, Verb TO BE, Simple present, Time Expressions.",
+        "speakingTasks": [
+          "Ask personal information and daily routine.",
+          "Answer questions about a partner's personal information and routine.",
+          "Keep an active record of partner routines."
+        ],
+        "interaccion": "\"Excuse me, are you Shakira? What time do you wake up?\""
+      },
+      "student": {
+        "handoutTitle": "THE PROFESSIONAL PROFILE",
+        "diagOptions": [
+          "Verbo TO BE (Afirmaciones y Preguntas)", "Pronombres Sujeto y Adjetivos Posesivos",
+          "Presente Simple (Rutinas y Hábitos)", "Preguntas en Presente Simple (Do/Does)",
+          "La Hora y Expresiones de Tiempo"
+        ],
+        "vocabWords": ["get up", "work", "start", "finish", "every day", "routine"],
+        "step1Goal": "25-35 words",
+        "step1Text": "Write a quick entry for a work forum:",
+        "freeWriteMin": 25,
+        "freeWriteMax": 35,
+        "freeWritePrompt": "Imagine you are a celebrity. Write about your job, your daily routine, and one interesting fact about you.",
+        "step1Template": "Hi! I'm [Name]. I am a [Job].<br>I get up at [Time 1] on weekdays. I work at [Place] from [Time 2] to [Time 3].<br>I usually have lunch at [Time 4] and I go to bed [Time 5]. I am a [Adjective] person.<br><br>**Sentence Starter Extension:** [[When I have an unexpected free afternoon without meetings, I love to...]]",
+        "roles": [
+          {
+            "title": "Rol A",
+            "name": "Journalist",
+            "avatar": "🎙️",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Rol B",
+            "name": "Celebrity",
+            "avatar": "🌟",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "Estás muy cansado/a y con sueño.", "Estás súper emocionado/a y hablas rápido.",
+          "Estás apurado/a, tienes muy poco tiempo.", "Eres muy tímido/a y respondes corto."
+        ],
+        "step2Questions": [
+          "Task 1: Ask personal information and daily routine using the information above.",
+          "Task 2: Answer questions about a partner's personal information and routine.",
+          "► Who is your partner? [Partner's Name]",
+          "► Partner's Routine: [Partner's Daily Routine Details]"
+        ],
+        "correctAnswers": {
+          "Time 1": ["(^|[^a-z])a\\.?m(?![a-z])", "(^|[^a-z])p\\.?m(?![a-z])", "o'clock", ":"],
+          "Time 2": ["(^|[^a-z])a\\.?m(?![a-z])", "(^|[^a-z])p\\.?m(?![a-z])", "o'clock", ":"],
+          "Time 3": ["(^|[^a-z])a\\.?m(?![a-z])", "(^|[^a-z])p\\.?m(?![a-z])", "o'clock", ":"],
+          "Time 4": ["(^|[^a-z])a\\.?m(?![a-z])", "(^|[^a-z])p\\.?m(?![a-z])", "o'clock", ":"],
+          "Time 5": [
+            "(^|[^a-z])a\\.?m(?![a-z])", "(^|[^a-z])p\\.?m(?![a-z])", "o'clock", ":", "late",
+            "early"
+          ]
+        },
+        "step2Opener": "A: \"Excuse me! Are you famous? What do you do?\"<br>B: \"Yes! I'm an actor. I work at a studio every day.\"<br>A: \"What time do you start work?\"<br>B: \"I usually start at 8 a.m. It's a busy routine!\"",
+        "commonErrors": [
+          "Usar <em>I am work</em> → lo correcto es <strong>I work</strong>",
+          "Olvidar la <em>-s</em> de tercera persona: <em>She work</em> → <strong>She works</strong>",
+          "Confundir <em>What time is it?</em> con <em>What time do you...?</em>",
+          "Decir <em>I am have</em> → <strong>have</strong> no necesita <em>be</em>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Time expressions",
+          "words": [
+            "at 7:00", "around 7:00", "early", "late", "until midnight", "in the morning",
+            "in the afternoon", "on weekdays", "on weekends"
+          ]
+        },
+        {
+          "category": "Jobs",
+          "words": [
+            "Accountant", "Architect", "Chef", "Doctor", "Engineer", "Musician", "Nurse",
+            "Photographer", "Pilot", "Teacher", "Web designer"
+          ]
+        },
+        {
+          "category": "School subjects",
+          "words": [
+            "biology", "business", "chemistry", "English", "geography", "history", "literature",
+            "math", "physical education", "physics"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "actor", "birthday", "brother", "city", "class", "classmate", "college", "family",
+            "friend", "hobby", "moon", "name", "parents", "person", "planet", "semester",
+            "sister", "space", "star", "student", "vacation", "app", "clothes", "dessert",
+            "dinner", "fabrics", "fashion design", "food", "job", "lunch", "meeting", "music",
+            "phone", "piano", "posts", "schedule", "snack", "social media", "thing", "time",
+            "work"
+          ]
+        },
+        {
+          "category": "Subject pronouns",
+          "words": ["I", "you", "he", "she", "it", "we", "they"]
+        },
+        {
+          "category": "Titles",
+          "words": ["Mr.", "Mrs."]
+        },
+        {
+          "category": "Possessive adjectives",
+          "words": ["my", "your", "his", "her", "its", "our", "their"]
+        },
+        {
+          "category": "Other adjectives",
+          "words": [
+            "beautiful", "cool", "exciting", "famous", "favorite", "friendly", "good", "great",
+            "interesting", "next", "nice", "old", "popular", "same", "trendy", "unique",
+            "unusual", "boring", "different", "difficult", "fantastic", "full-time",
+            "incredible", "part-time"
+          ]
+        },
+        {
+          "category": "Articles",
+          "words": ["a", "an", "the"]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "am", "are", "has", "is", "love", "spell", "answer", "behave", "do", "exercise",
+            "get (home/up/fit)", "go (to bed/to school/to work)", "have (a job/lunch)", "know",
+            "leave (work/for work)", "like", "sleep", "start", "stay up", "study",
+            "take (care of)", "teach", "track", "wake up", "wear",
+            "work (in a hospital/in the afternoon)", "write"
+          ]
+        },
+        {
+          "category": "Responses",
+          "words": ["no", "yes", "yeah"]
+        },
+        {
+          "category": "Other adverbs",
+          "words": [
+            "actually", "here", "(over) there", "not", "now", "pretty/really/very (+ adjective)",
+            "a lot", "exactly", "home", "usually"
+          ]
+        },
+        {
+          "category": "Prepositions",
+          "words": [
+            "at (2:00/City College)", "from (Seoul/South Korea)",
+            "in (the morning/the same class)", "after (midnight)", "around/about (10:00/noon)",
+            "at (6:00/night/midnight)", "at (a school)", "before (noon)", "in (a restaurant)",
+            "in (the morning/the afternoon/the evening)", "like (= for example)",
+            "on (weekdays/Fridays)", "until (midnight)"
+          ]
+        },
+        {
+          "category": "Conjunctions",
+          "words": ["and", "but", "or"]
+        },
+        {
+          "category": "Jobs/Professions",
+          "words": [
+            "babysitter", "carpenter", "cashier", "cook", "dancer", "dentist",
+            "fashion designer", "firefighter", "fitness instructor", "flight attendant",
+            "front desk clerk", "graphic designer", "lawyer", "mechanic", "office assistant",
+            "office manager", "police officer", "receptionist", "reporter", "restaurant host",
+            "sales associate", "salesperson", "security guard", "server", "singer",
+            "social media assistant", "social media manager", "sociologist", "software engineer",
+            "taxi driver", "tour guide", "tutor", "vendor"
+          ]
+        },
+        {
+          "category": "Types of jobs",
+          "words": ["entertainment business", "food service", "office work", "travel industry"]
+        },
+        {
+          "category": "Workplaces",
+          "words": [
+            "(computer) company", "hospital", "office", "restaurant", "school", "store",
+            "university"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Saying hello",
+          "phrases": [
+            "Good afternoon", "Good evening", "Good morning", "Hello", "Hi", "How are you?",
+            "How's it going?", "Hey.", "(I'm) fine, thanks.", "Great.", "Pretty good.", "OK.",
+            "What's up?"
+          ]
+        },
+        {
+          "category": "Saying good-bye",
+          "phrases": [
+            "Bye.", "Good-bye.", "Good night.", "Have a good day.", "See you later.",
+            "See you tomorrow.", "Talk to you later."
+          ]
+        },
+        {
+          "category": "Exchanging personal information",
+          "phrases": [
+            "What's your name?", "I'm ...", "My name is ...", "What's your first/last name?",
+            "It's ...", "When's your birthday?", "What's ... like?", "He's/She's/It's ...",
+            "What are ... like?", "They're ...", "Where are you from?", "I'm/We're from ..."
+          ]
+        },
+        {
+          "category": "Asking about someone",
+          "phrases": [
+            "Who's that?", "That's ...", "His/Her name is ...", "Who are they?",
+            "Their names are ... and ...", "Where's your friend?", "He's/She's ..."
+          ]
+        },
+        {
+          "category": "Introducing someone",
+          "phrases": ["This is ...", "These are ...", "Nice to meet you."]
+        },
+        {
+          "category": "Thanking someone",
+          "phrases": ["Thanks.", "Thank you."]
+        },
+        {
+          "category": "Checking information",
+          "phrases": [
+            "How do you spell ...?", "Sorry, what's your (first/last) name again?",
+            "What do people call you?", "Everyone calls me ...", "Please call me ..."
+          ]
+        },
+        {
+          "category": "Making suggestions",
+          "phrases": ["Let's ..."]
+        },
+        {
+          "category": "Apologizing",
+          "phrases": ["(I'm) sorry."]
+        },
+        {
+          "category": "Agreeing",
+          "phrases": ["Sure.", "That's right."]
+        },
+        {
+          "category": "Talking about school/work",
+          "phrases": [
+            "What do you do (exactly/there)?", "I'm a/an ...", "Where does he work?",
+            "He works in/at/for ...", "How do you like your job/classes?",
+            "I like it/them a lot.", "I love it/them.", "Where do you go to school?",
+            "I go to ...", "What's your favorite ...?", "My favorite ... is ..."
+          ]
+        },
+        {
+          "category": "Asking for more information",
+          "phrases": ["What time ...?", "Which ...?", "Why?"]
+        },
+        {
+          "category": "Talking about daily schedules",
+          "phrases": [
+            "What time do you go to work?", "I start work at ...", "When do you get home?",
+            "I usually get home at ..."
+          ]
+        },
+        {
+          "category": "Expressing interest",
+          "phrases": ["That's cool.", "Really?"]
+        },
+        {
+          "category": "Expressing surprise",
+          "phrases": ["Wow!"]
+        },
+        {
+          "category": "Starting a sentence",
+          "phrases": ["Well, ...", "Oh, ...", "So, ..."]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "units": "3-4",
+      "title": "The Smart Shopper",
+      "badgeEmoji": "🛍️",
+      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Comparativos y Precios.",
+        "focus": "Describing prices, comparisons, Demonstratives, Would like + to + verb.",
+        "speakingTasks": [
+          "Ask about options and compare characteristics.",
+          "Invite to potential weekend activities.",
+          "State shopping choice and weekend agenda preference."
+        ],
+        "interaccion": "\"Which computer is better?\" \"This one is cheaper.\""
+      },
+      "student": {
+        "handoutTitle": "GADGET STORE & WEEKEND PLANS",
+        "diagOptions": [
+          "Demostrativos (This, That, These, Those)", "Preguntar por Precios (How much is/are)",
+          "Adjetivos Comparativos (-er / more)", "Gustos y Preferencias (Object Pronouns)",
+          "Estructura 'Would Like' para Invitaciones"
+        ],
+        "vocabWords": ["gadget", "cheaper", "expensive", "better", "price"],
+        "step1Goal": "20-35 words",
+        "step1Text": "Create a short advertisement for an item that is for sale:",
+        "freeWriteMin": 20,
+        "freeWriteMax": 35,
+        "freeWritePrompt": "Write about your last shopping trip: what did you buy, where, and how much did it cost?",
+        "step1Template": "**FOR SALE!**<br><br>**Item:** [This / That / These / Those] [Name of item].<br>**Characteristics:** It is [Adjective 1] and [Adjective 2].<br>**Benefit:** It is [Better Adjective] than [Comparison]. It is made of [Material].<br>**Price:** Only $[Price]! It's a great deal!<br><br>**Your Opinion:** I love this [Item 2]. I want to buy [Object Pronoun: it/them] because [Reason].<br><br>**Sentence Starter Extension:** [[If I had an unlimited budget to shop today, the first thing I would buy is...]]",
+        "roles": [
+          {
+            "title": "Rol A",
+            "name": "Shopper",
+            "avatar": "🛒",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Rol B",
+            "name": "Store Seller",
+            "avatar": "🏷️",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "Tienes un presupuesto muy ajustado.", "El dinero no es problema, quieres lo mejor.",
+          "Eres un cliente muy exigente.", "Solo compras cosas de moda."
+        ],
+        "step2Questions": [
+          "Task 1: Ask questions about two computer options (faster, more memory) and express a preference.",
+          "► Shopping Decision: I want to buy the [Item Name] from [Seller Partner] because [Brief Reason].",
+          "Task 2: Ask questions about two potential weekend activities (events, when, price).",
+          "► Weekend Plan: We agree to go to [Event Name] on [Day/Time]."
+        ],
+        "correctAnswers": {
+          "Price": ["\\d"]
+        },
+        "step2Opener": "A: \"Excuse me, how much is this jacket?\"<br>B: \"It's $45. It's cheaper than that one.\"<br>A: \"Is it better quality?\"<br>B: \"Yes! It's made of cotton and looks great.\"",
+        "commonErrors": [
+          "Comparativos cortos sin <em>-er</em>: <em>more cheap</em> → <strong>cheaper</strong>",
+          "Comparativos largos con <em>-er</em>: <em>expensiver</em> → <strong>more expensive</strong>",
+          "Confundir <em>this</em> y <em>that</em>",
+          "Decir <em>I would like go</em> → <strong>I would like to go</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Pointing & choosing",
+          "words": [
+            "this", "that", "these", "those", "the long one", "Which one?",
+            "Which do you prefer?", "I prefer…"
+          ]
+        },
+        {
+          "category": "Clothes & Materials",
+          "words": ["Boots", "Jacket", "Jeans", "Cotton", "Gold", "Leather", "Silk", "Wool", "Sneakers"]
+        },
+        {
+          "category": "Clothes and jewelry",
+          "words": [
+            "backpack", "bag", "belt", "bracelet", "dress", "earrings", "flip-flops", "ring",
+            "shirt", "socks", "suit", "sunglasses", "sweater", "tie", "T-shirt", "watch"
+          ]
+        },
+        {
+          "category": "Materials",
+          "words": ["plastic", "rubber", "silver"]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "acre", "armchair", "bid", "birthday", "cent(s)", "certificate", "(sales) clerk",
+            "customer", "design", "dollar", "electric guitar", "flea market", "headphones",
+            "item", "land", "mug", "notebook", "opinions", "pet rock", "phone", "present",
+            "price", "printer", "skateboard", "style", "tablet", "(price) tag", "treadmill",
+            "album", "award", "clothing designer", "concert", "contract", "date", "fan",
+            "hurricane", "inauguration", "(musical) instrument", "kind (of)", "(text) message",
+            "platinum", "record", "ticket", "victim", "video game"
+          ]
+        },
+        {
+          "category": "Pronouns",
+          "words": ["one", "ones"]
+        },
+        {
+          "category": "Colors",
+          "words": [
+            "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red",
+            "white", "yellow"
+          ]
+        },
+        {
+          "category": "Other adjectives",
+          "words": [
+            "attractive", "boring", "cheap", "confident", "crazy", "creative", "digital", "each",
+            "expensive", "extraordinary", "friendly", "happy", "hopeful", "huge", "jealous",
+            "light", "loving", "nice", "online", "perfect", "powerful", "pretty", "reasonable",
+            "sad", "stylish", "truthful", "free (= not have plans)", "million"
+          ]
+        },
+        {
+          "category": "Modal verb",
+          "words": ["can", "would"]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "ask", "buy", "compare", "cost", "help", "look (= seem)", "look (at/for)", "mean",
+            "pay (for)", "prefer", "say", "try (it on)", "chill out", "come",
+            "go (out/platinum)", "have (+ verb)", "know", "meet", "need (+ verb)",
+            "play (an instrument)", "visit", "want (+ verb)", "win"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["more", "(shop) online", "just", "never", "tomorrow", "(not) very much"]
+        },
+        {
+          "category": "Movies",
+          "words": ["action", "horror", "musical", "science fiction"]
+        },
+        {
+          "category": "TV programs",
+          "words": ["game show", "reality show", "soap opera", "talk show"]
+        },
+        {
+          "category": "Music",
+          "words": [
+            "classical", "country", "electronic", "funk", "hip-hop", "jazz", "Latin", "pop",
+            "rap", "R&B (rhythm and blues)", "reggae", "rock", "salsa", "soul"
+          ]
+        },
+        {
+          "category": "Musical instruments",
+          "words": ["guitar", "piano", "violin"]
+        },
+        {
+          "category": "Entertainers",
+          "words": [
+            "actor", "actress", "athlete", "band", "group", "musician", "performer", "rapper",
+            "singer", "songwriter"
+          ]
+        },
+        {
+          "category": "Object pronouns",
+          "words": ["me", "you", "him", "her", "it", "us", "them"]
+        },
+        {
+          "category": "Prepositions",
+          "words": ["about", "for (dinner)", "from ... to ...", "with (me)"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Talking about prices",
+          "phrases": [
+            "How much is this/that T-shirt?", "It's ...", "That's not bad.",
+            "How much are these/those sneakers?", "They're ...", "That's expensive."
+          ]
+        },
+        {
+          "category": "Comparing",
+          "phrases": ["It's nicer/more stylish than the black one."]
+        },
+        {
+          "category": "Getting someone's attention",
+          "phrases": ["Excuse me."]
+        },
+        {
+          "category": "Offering help",
+          "phrases": ["Can I help you?"]
+        },
+        {
+          "category": "Identifying things",
+          "phrases": ["The blue one.", "Which ones?", "The gray ones."]
+        },
+        {
+          "category": "Talking about preferences",
+          "phrases": [
+            "Which one do you prefer?", "I prefer the ... one.",
+            "Which ones do you like better/more?", "I like the ... ones better/more."
+          ]
+        },
+        {
+          "category": "Making and declining an offer",
+          "phrases": ["Would you like to ...?", "Oh, no. That's OK."]
+        },
+        {
+          "category": "Thanking someone",
+          "phrases": ["Thanks anyway.", "You're welcome."]
+        },
+        {
+          "category": "Expressing doubt",
+          "phrases": ["Hmm."]
+        },
+        {
+          "category": "Pausing to think",
+          "phrases": ["Let's see ..."]
+        },
+        {
+          "category": "Talking about likes and dislikes",
+          "phrases": [
+            "Do you like ...?", "Yes, I do. I like ... a lot.", "I love ...",
+            "No, I don't. I don't like ... very much.", "What kind of ... do you like?",
+            "Who's/What's your favorite ...?"
+          ]
+        },
+        {
+          "category": "Inviting someone",
+          "phrases": ["Do you want to ...?", "Let's ..."]
+        },
+        {
+          "category": "Accepting an invitation",
+          "phrases": ["Yes, I would.", "Thanks. I'd love to."]
+        },
+        {
+          "category": "Refusing an invitation",
+          "phrases": [
+            "I'd like to, but I have to ...", "I'd like to, but I need to ...",
+            "I'd like to, but I want to ..."
+          ]
+        },
+        {
+          "category": "Asking about events",
+          "phrases": ["When is it?", "Where is it?", "What time does it start/end?"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "units": "5-6",
+      "title": "The Family Fitness Profile",
+      "badgeEmoji": "🏃",
+      "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Hábitos y Frecuencia.",
+        "focus": "Describing families, habitual/current activities, frequency, Present continuous, Adverbs of frequency.",
+        "speakingTasks": [
+          "Ask about family and lifestyle habits.", "Explain family characteristics.",
+          "As a coach, verify client and family physical activities."
+        ],
+        "interaccion": "\"Does your father exercise?\" \"How often do you eat pizza?\""
+      },
+      "student": {
+        "handoutTitle": "HEALTHY HABITS CHECK-UP",
+        "diagOptions": [
+          "Presente Continuo (Acciones del Momento)",
+          "Adverbios de Frecuencia (always, never, etc.)",
+          "Cuantificadores (All, most, some, no)", "Preguntas con How (often, long, well)"
+        ],
+        "vocabWords": ["Mother", "Brother", "Yoga", "Tennis", "Gym"],
+        "step1Goal": "25-35 words",
+        "step1Text": "Write about your own fitness routine and one of your family members:",
+        "freeWriteMin": 25,
+        "freeWriteMax": 35,
+        "freeWritePrompt": "Describe your fitness routine and compare it with a family member's routine.",
+        "step1Template": "My favorite activity is [Activity]. I [Adverb of frequency] do it on [Day] for [How long].<br>I sometimes [Other activity] with my [Family Member] at [Time], but I never [Activity 2].<br>Right now, I am [Verb+ing] at [Place].<br><br>**Sentence Starter Extension:** [[The healthiest habit I practice every week is...]]",
+        "roles": [
+          {
+            "title": "Rol A",
+            "name": "Health Coach",
+            "avatar": "🧘",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Rol B",
+            "name": "Client",
+            "avatar": "👟",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "Odias hacer ejercicio, prefieres dormir.",
+          "Eres un fanático/a extremo/a del fitness.",
+          "Solo te gustan los deportes al aire libre.", "No tienes tiempo libre."
+        ],
+        "step2Questions": [
+          "Task 1: Ask questions about your partner's family and lifestyle (members, jobs, studies, exercise frequency, sleep, healthy food, TV). You can also play a doctor.",
+          "Task 2: Answer questions about your family characteristics and activities.",
+          "► Coach's verdict: Is the client active? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Adverb of frequency": ["always", "usually", "often", "sometimes", "never", "hardly ever"],
+          "Verb+ing": ["ing"]
+        },
+        "step2Opener": "A: \"Do you exercise every day?\"<br>B: \"Yes, I usually go running in the morning.\"<br>A: \"How often does your brother work out?\"<br>B: \"He hardly ever goes to the gym.\"",
+        "commonErrors": [
+          "Olvidar auxiliar en negaciones: <em>He not exercise</em> → <strong>He doesn't exercise</strong>",
+          "Confundir tiempos: <em>I am go to gym every day</em> → <strong>I go to gym</strong>",
+          "Posición del adverbio: <em>I go always</em> → <strong>I always go</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Frequency",
+          "words": [
+            "always", "usually", "often", "sometimes", "hardly ever", "never", "every day",
+            "once a week"
+          ]
+        },
+        {
+          "category": "Sports & Exercise",
+          "words": [
+            "Do yoga", "Go running", "Go swimming", "Go to the gym", "Play soccer",
+            "Play tennis", "Work out"
+          ]
+        },
+        {
+          "category": "Family/Relatives",
+          "words": [
+            "aunt", "brother", "children", "cousin", "dad", "daughter", "father", "grandfather",
+            "grandmother", "husband", "mom", "mother", "nephew", "niece", "sister",
+            "sister-in-law", "son", "uncle", "wife"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "age", "attention", "barbecue", "college", "couple", "effort", "email", "fact",
+            "family tree", "foreign language", "housework", "only child",
+            "(medical aid) organization", "people", "percent", "population",
+            "(birthday) present", "women", "athlete", "couch potato", "country", "energy",
+            "fitness", "fitness freak", "free time", "fundraiser", "gym", "gym rat", "junk food",
+            "serving (= portion of food)", "sports nut", "talent", "teen (= teenager)", "tip",
+            "treadmill", "vitamin"
+          ]
+        },
+        {
+          "category": "Pronouns",
+          "words": ["no one", "nothing"]
+        },
+        {
+          "category": "Quantifiers",
+          "words": ["a lot of", "all", "few", "many", "most", "nearly all", "not many", "some"]
+        },
+        {
+          "category": "Other adjectives",
+          "words": [
+            "dear (+ name)", "lonely", "married", "old", "only (child)", "related", "rural",
+            "stay-at-home (dad)", "active", "average", "fit", "good at (something)", "healthy",
+            "middle-aged", "real", "regular", "tired"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "enjoy", "get (married)", "raise (money)", "spend (time)", "tell", "travel", "vote",
+            "wait", "chat", "do (yoga/card tricks)", "eat", "exercise", "keep (fit)",
+            "lift weights", "play (a sport)", "relax", "sing"
+          ]
+        },
+        {
+          "category": "Time expressions",
+          "words": ["regularly", "right now", "these days", "this year"]
+        },
+        {
+          "category": "Other adverbs",
+          "words": ["alone", "together", "well"]
+        },
+        {
+          "category": "Prepositions",
+          "words": ["of", "in (my free time/great shape)", "like (that)"]
+        },
+        {
+          "category": "Conjunctions",
+          "words": ["because"]
+        },
+        {
+          "category": "Sports and fitness activities",
+          "words": [
+            "baseball", "basketball", "bike riding", "bowling", "football", "golf", "ice hockey",
+            "jogging", "martial arts", "Pilates", "running", "soccer", "swimming", "tennis",
+            "volleyball", "walking", "weight training/lifting", "yoga"
+          ]
+        },
+        {
+          "category": "Frequency adverbs",
+          "words": [
+            "almost always", "almost never", "every ...", "not very often/much", "once a ...",
+            "three times a ...", "twice a ..."
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Asking about family",
+          "phrases": [
+            "Do you have any brothers and sisters?", "I have ... brother(s) and ... sister(s).",
+            "I'm an only child.", "How old is your brother?"
+          ]
+        },
+        {
+          "category": "Exchanging information about the present",
+          "phrases": [
+            "Are you living at home?", "Yes, I am.", "No, I'm not.",
+            "What is your brother doing?", "He's traveling in ...",
+            "What are you/your friends doing these days?", "I'm ...", "They're ..."
+          ]
+        },
+        {
+          "category": "Expressing interest",
+          "phrases": ["What an interesting ..."]
+        },
+        {
+          "category": "Expressing sincerity",
+          "phrases": ["I'm serious!"]
+        },
+        {
+          "category": "Talking about routines",
+          "phrases": [
+            "How often do you ...?", "Once/Twice/Three times a ...", "Not very often.",
+            "Do you ever ...?", "Yes, I often/sometimes ...", "No, I never/hardly ever ...",
+            "How long do you spend ...?", "Thirty minutes a day.", "Two hours a week."
+          ]
+        },
+        {
+          "category": "Talking about abilities",
+          "phrases": [
+            "How well do you ...?", "Pretty well.", "About average.", "Not very well.",
+            "How good are you at ...?", "Pretty good.", "OK.", "Not so good."
+          ]
+        },
+        {
+          "category": "Asking for more information",
+          "phrases": ["What else ...?"]
+        },
+        {
+          "category": "Expressing surprise/disbelief",
+          "phrases": ["Seriously?"]
+        },
+        {
+          "category": "Agreeing",
+          "phrases": ["All right.", "No problem."]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "units": "7-8",
+      "title": "The Vacation Critic",
+      "badgeEmoji": "🏖️",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Pasado Simple (Opiniones).",
+        "focus": "Talking about past events, Simple Past, Past of be, There is/are.",
+        "speakingTasks": [
+          "Ask about partner's last vacation details and the conditions of the place (noise, pollution, crime, museums).",
+          "Answer vacation inquiries with details.",
+          "Ask questions about partner's destination experience."
+        ],
+        "interaccion": "\"Was the hotel clean?\" \"No! It was noisy.\""
+      },
+      "student": {
+        "handoutTitle": "TRIP ADVISOR REVIEW",
+        "diagOptions": [
+          "Pasado del Verbo Be (Was / Were)", "Pasado Simple (Verbos Regulares e Irregulares)",
+          "Pasado Simple (Negativos y Preguntas)", "There was / There were",
+          "Preposiciones de Lugar y Tiempo"
+        ],
+        "vocabWords": ["Trip", "Weather", "Food", "Activities"],
+        "step1Goal": "30-40 words",
+        "step1Text": "Write an email to a friend about your last trip/weekend:",
+        "freeWriteMin": 30,
+        "freeWriteMax": 40,
+        "freeWritePrompt": "Write about your last vacation: where you went, what you did, and how it was.",
+        "step1Template": "Hi [Name],<br><br>I just came back from [Place]! The vacation was [Adjective 1] and [Adjective 2].<br><br>I arrived on [Day] with [Person]. There were [Quantity + noun: a lot of tourists / few parks]. We [Past Verb 1] and [Past Verb 2] together. On the last day, I also [Past Verb 3] on my own.<br><br>**Sentence Starter Extension:** [[The most memorable place I explored during that trip was...]]",
+        "roles": [
+          {
+            "title": "Rol A",
+            "name": "Travel Critic",
+            "avatar": "🧳",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Rol B",
+            "name": "Listener",
+            "avatar": "👂",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "Llovió todos los días.", "Perdiste tu equipaje el primer día.",
+          "Fueron las mejores vacaciones de tu vida.", "Te enfermaste de la comida."
+        ],
+        "step2Questions": [
+          "Task 1: Ask about your partner's last vacation (places visited, activities, duration, weather) and about the place's services and conditions: How much / many…? Was it noisy? Was there a lot of crime or pollution?",
+          "Task 2: Answer questions about your vacation experience.",
+          "► Would you visit your partner's place? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Past Verb 1": ["ed", "went", "ate", "saw", "had", "bought", "took", "visited"],
+          "Past Verb 2": ["ed", "went", "ate", "saw", "had", "bought", "took", "visited"],
+          "Past Verb 3": ["ed", "went", "ate", "saw", "had", "bought", "took", "visited"]
+        },
+        "step2Opener": "A: \"Where did you go on vacation?\"<br>B: \"I went to Cartagena! It was amazing.\"<br>A: \"Was the hotel clean?\"<br>B: \"Yes, but it was a little noisy at night.\"",
+        "commonErrors": [
+          "Usar presente por pasado: <em>Yesterday I go</em> → <strong>Yesterday I went</strong>",
+          "Doble pasado: <em>I didn't went</em> → <strong>I didn't go</strong>",
+          "Confundir <em>was</em> y <em>were</em>: <em>They was</em> → <strong>They were</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Past Expressions",
+          "words": ["yesterday", "last night", "last week", "last weekend", "two days ago", "in 2023"]
+        },
+        {
+          "category": "Vacation Activities",
+          "words": [
+            "went to the beach", "visited museums", "took photos", "ate local food",
+            "went sightseeing", "bought souvenirs"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "architect", "building", "cable car", "chore", "cloud", "desert", "engineer",
+            "guide", "homework", "lake", "land art", "laundry", "(open) market", "monument",
+            "mountain", "neighbor", "noise", "party", "satellite", "snorkeling", "spaghetti",
+            "surfing", "swimming", "test", "tour", "town", "trip", "vacation", "waves",
+            "weather"
+          ]
+        },
+        {
+          "category": "Pronouns",
+          "words": ["anything", "something"]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "amazing", "breathtaking", "broke", "ceramic", "cloudy", "cold", "cool", "excellent",
+            "free-time", "giant", "handmade", "incredible", "lucky", "manmade", "prehistoric",
+            "special", "spectacular", "tiring", "whole", "windy", "convenient", "creative",
+            "expensive", "hip", "indie (music/movies)", "industrial", "live (music)",
+            "locally made", "narrow", "perfect", "safe"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "call", "cook", "disappear", "drive", "forget", "happen", "invite",
+            "make (a phone call)", "read", "stay (home)", "stop", "take (a day off/photos)",
+            "worry", "check out", "dry", "wash"
+          ]
+        },
+        {
+          "category": "Time expressions",
+          "words": ["all day/weekend", "as usual", "last night/week/weekend", "the whole time", "today"]
+        },
+        {
+          "category": "Other adverbs",
+          "words": ["also", "anywhere", "downtown", "unfortunately"]
+        },
+        {
+          "category": "Prepositions",
+          "words": [
+            "on (business/vacation)", "over (the weekend)", "across from/opposite",
+            "around (the world)", "between", "in back of/behind", "in front of", "near/close to",
+            "next to", "on", "on the corner of"
+          ]
+        },
+        {
+          "category": "Neighborhood/Recreational facilities",
+          "words": [
+            "airport", "apartment (building)", "ATM", "avenue", "bank", "bookstore", "boutique",
+            "café", "(college) campus", "clothing store", "coffee shop", "concert hall",
+            "department store", "district", "drugstore", "electronics store", "gas station",
+            "grocery store", "hair salon", "hospital", "hotel", "laundromat", "library",
+            "(shopping) mall", "(outdoor) market", "movie theater", "museum", "newsstand",
+            "park", "post office", "school", "shopping center", "stadium", "suburbs", "theater",
+            "(public) transportation", "venue", "Wi-Fi hot spot", "zoo"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "crime", "fashion", "festival", "haircut", "(traffic) light", "nightlife", "parking",
+            "pollution", "price", "traffic", "trash"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["too (= also)"]
+        },
+        {
+          "category": "Conjunctions",
+          "words": ["so"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Asking about past activities",
+          "phrases": [
+            "Did you go anywhere last weekend?", "Yes, I did. I ...", "No, I didn't.",
+            "How did you spend ...?", "How long were you ...?", "What did you do ...?",
+            "What time did you ...?", "Where did you ...?", "Who did you ... with?"
+          ]
+        },
+        {
+          "category": "Giving opinions about past experiences",
+          "phrases": [
+            "How did you like ...?", "How was ...?", "It was ...",
+            "What was the best thing about ...?", "Was the ... OK?"
+          ]
+        },
+        {
+          "category": "Asking for and giving locations",
+          "phrases": [
+            "Is there a/an ... near here?", "No, there isn't, but there's one ...",
+            "Are there any ... around here?", "Yes, there are. There are some ...",
+            "No, there aren't, but there are some ...", "No, there aren't any ... around here."
+          ]
+        },
+        {
+          "category": "Asking about quantities",
+          "phrases": [
+            "Are there many ...?", "Yes, there are a lot.", "Yes, there are a few.",
+            "No, there aren't many.", "No, there aren't any.", "No, there are none.",
+            "Is there much ...?", "Yes, there's a lot.", "Yes, there's a little.",
+            "No, there isn't much.", "No, there isn't any.", "No, there's none.",
+            "How many ... are there?", "There are ..."
+          ]
+        },
+        {
+          "category": "Adding information",
+          "phrases": ["By the way, ..."]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "units": "9-10",
+      "title": "The Casting Call",
+      "badgeEmoji": "🎬",
+      "imageUrl": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Present Perfect vs Simple Past & Apariencia Física.",
+        "focus": "Inquiring about life experiences (have you ever), contrast with definite past time (when did you), for vs since, describing people.",
+        "speakingTasks": [
+          "Ask and answer questions about physical appearance.",
+          "Inquire about partner's life accomplishments using Present Perfect.",
+          "Contrast life experiences with specific past occasions.",
+          "Evaluate candidate qualifications and make a casting decision."
+        ],
+        "interaccion": "\"Have you ever acted in a movie?\" \"Yes, I have. I played a small role in 2022.\""
+      },
+      "student": {
+        "handoutTitle": "MOVIE CASTING PROFILE & RESUME",
+        "diagOptions": [
+          "Presente Perfecto con 'Have/Has' + Participio",
+          "Preguntas con 'Have you ever...?' y respuestas cortas",
+          "Contraste: Present Perfect (general) vs Simple Past (fecha exacta)",
+          "Uso de 'For' (duración) y 'Since' (punto de inicio)",
+          "Vocabulario de Apariencia Física (estatura, cabello, ojos)"
+        ],
+        "vocabWords": ["accomplishment", "never", "already", "since", "performed", "appearance"],
+        "step1Goal": "30-45 words",
+        "step1Text": "Create your casting resume profile describing your look and experiences:",
+        "freeWriteMin": 30,
+        "freeWriteMax": 45,
+        "freeWritePrompt": "Write your actor bio: describe your physical appearance, two things you have accomplished with Present Perfect, and one specific past experience.",
+        "step1Template": "Hello casting team! I am [Adjective: tall / medium height] with [Adjective: curly / dark] hair and [Eye Color] eyes. I have been an actor for [Number] years, and I have already [Past Participle: acted / performed / worked] in [Type of Show]. I have lived here since [Year]. Last year, I [Past Verb: played / participated] in a big production and I [Past Verb 2: loved / learned] a lot!<br><br>**Sentence Starter Extension:** [[The most exciting role I have ever prepared for was...]]",
+        "roles": [
+          {
+            "title": "Rol A",
+            "name": "Casting Director",
+            "avatar": "🎬",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Rol B",
+            "name": "Auditioning Actor",
+            "avatar": "🎭",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "Estás muy seguro/a y presumes tus logros.",
+          "Estás nervioso/a porque es tu primera audición.",
+          "Hablas de forma excesivamente dramática.", "Eres un actor veterano exigente."
+        ],
+        "step2Questions": [
+          "Task 1: Ask your partner about physical appearance: eyes, height, age, hair, beard/moustache, glasses.",
+          "Task 2: Inquire about life experiences: 'Have you ever acted / traveled abroad / eaten exotic food / bought a pet / seen an accident / gone to a forest?'",
+          "► Candidate Audit: Have you ever [Experience Asked]? Candidate: ( ) YES  ( ) NO",
+          "► Final Casting Decision: Candidate is ( ) HIRED  ( ) CALL BACK  ( ) NOT HIRED"
+        ],
+        "correctAnswers": {
+          "Past Participle": ["acted", "performed", "sung", "worked", "done", "been", "seen", "won", "ed"],
+          "Past Verb": ["played", "won", "loved", "learned", "starred", "worked", "went", "ed"]
+        },
+        "step2Opener": "A: \"Welcome! What do you look like and what roles do you play?\"<br>B: \"I'm medium height with curly hair. I have acted in theater for 3 years.\"<br>A: \"Have you ever performed in front of a big audience?\"<br>B: \"Yes! Last summer I performed in the city theater.\"",
+        "commonErrors": [
+          "Doble error en participios: <em>I have went</em> → <strong>I have gone</strong>",
+          "Confundir <em>since</em> y <em>for</em>: <em>since three years</em> → <strong>for three years</strong>",
+          "Usar Present Perfect con fecha fija: <em>I have acted yesterday</em> → <strong>I acted yesterday</strong>",
+          "Omitir el auxiliar: <em>I already seen that</em> → <strong>I have already seen that</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Already, Yet, Ever & Never",
+          "words": [
+            "already", "yet", "ever", "never", "Have you ever...?", "I have already...", "once",
+            "twice", "many times"
+          ]
+        },
+        {
+          "category": "For vs. Since",
+          "words": [
+            "for two years", "for six months", "since 2020", "since last year",
+            "since I was a child", "since March"
+          ]
+        },
+        {
+          "category": "Physical Appearance",
+          "words": [
+            "Tall", "Short", "Medium height", "Slim", "Athletic", "Long hair", "Short hair",
+            "Curly hair", "Straight hair", "Blond hair", "Dark hair", "Beard", "Glasses",
+            "Brown eyes", "Blue eyes"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "appearance", "app/application", "astronaut", "belt", "(baseball) cap", "celebrity",
+            "centimeter", "contact lenses", "couple", "eye(s)", "fashion", "foot", "girlfriend",
+            "hair", "height", "hipster", "inch", "(basketball) jersey", "length", "logo",
+            "looks", "meter", "mustache", "outfit", "picture", "print", "psychologist", "selfie",
+            "streetwear", "window", "alligator", "bathtub", "blue cheese", "burglar alarm",
+            "charity", "costume", "donation", "engine", "event", "hairstyle", "iced coffee",
+            "ID (= identification)", "jazz club", "lines", "motorcycle", "octopus", "shopping",
+            "sleepwalk", "space center", "sports car", "sushi", "theme park", "(traffic) ticket",
+            "truck", "truffle", "uniform", "wedding"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "baggy", "bald", "blond", "boho", "casual", "classic", "comfortable", "curly",
+            "dark", "elderly", "flattering", "floral", "flowy", "good-looking", "handsome",
+            "khaki", "leather", "long", "medium", "middle-aged", "pastel", "physical", "preppy",
+            "pretty", "rude", "skinny", "straight", "trendy", "young", "asleep", "awake",
+            "current", "important", "live (concert)", "several", "valuable"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "control", "describe", "learn", "orbit", "sit", "wear", "be engaged (to someone)",
+            "bet", "clean", "cut", "hear", "invent", "kill", "lose", "raise", "ride", "sail",
+            "show", "take it easy", "taste", "try"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": [
+            "fairly (+ adjective)", "pretty (+ adjective)", "so (+ adjective)", "ago",
+            "extremely", "in the past (week)", "recently", "underground"
+          ]
+        },
+        {
+          "category": "Prepositions",
+          "words": [
+            "behind", "in (a T-shirt/jeans/her thirties)", "next to", "on (the couch)",
+            "to the left/right of", "with (brown hair)", "for (six months/two years)",
+            "since (6:45/last weekend/elementary school)"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Asking about appearance",
+          "phrases": [
+            "What does she look like?", "She's tall.", "She has brown hair.", "How old is she?",
+            "She's about 32.", "She's in her thirties.", "How tall is she?", "She's 1 meter 78.",
+            "About 5 foot 10, I suppose.", "How long is her hair?", "It's pretty short.",
+            "What color is his hair?", "It's dark/light brown.", "Does he wear glasses?",
+            "Yes, he does.", "No, he wears contacts."
+          ]
+        },
+        {
+          "category": "Identifying someone",
+          "phrases": [
+            "Who's Diego?", "He's the man wearing a blue shirt/talking to Brooke.",
+            "Which one is Paula?", "She's the one in jeans/near the window.",
+            "Which ones are the Harrisons?", "They're the people/the ones on the couch."
+          ]
+        },
+        {
+          "category": "Talking about past experiences",
+          "phrases": [
+            "Have you ever ...?", "Have you ... recently/this week?", "Yes, I have.",
+            "No, I haven't.", "Have you/they ... yet?", "Yes, I have. I've (already) ...",
+            "No, they haven't. They haven't ... (yet).", "How many times have you ...?",
+            "I've ... once/a couple of times.", "How long have you lived here?",
+            "I've lived here for/since ...", "How long did you live there?",
+            "I lived there for ..."
+          ]
+        },
+        {
+          "category": "Expressing uncertainty",
+          "phrases": ["I can't decide."]
+        },
+        {
+          "category": "Apologizing",
+          "phrases": ["I'm sorry (I'm late)."]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "units": "11-12",
+      "title": "The Trip",
+      "badgeEmoji": "✈️",
+      "imageUrl": "https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Modals (Advice).",
+        "focus": "Travel suggestions, health problems, CAN and SHOULD.",
+        "speakingTasks": [
+          "Act as tourist/pharmacist to check symptoms and advise.",
+          "As travel agent, suggest logistics for Brazil.",
+          "Take roleplay decisions based on advice received."
+        ],
+        "interaccion": "\"What should I pack?\" \"You should take sunscreen.\""
+      },
+      "student": {
+        "handoutTitle": "HEALTH AND TRAVEL TIPS",
+        "diagOptions": [
+          "Modales Can/Should para sugerencias",
+          "Adjetivo/Sustantivo + Infinitivo para consejos", "Can, Could, May para Peticiones",
+          "Conectores de contraste (and, but, however)"
+        ],
+        "vocabWords": ["Problem", "Important", "Should", "Advice"],
+        "step1Goal": "30-40 words",
+        "step1Text": "Write 3 health tips for your partner's problem:",
+        "freeWriteMin": 30,
+        "freeWriteMax": 40,
+        "freeWritePrompt": "Write three pieces of health advice for someone who is about to travel.",
+        "step1Template": "**Problem:** I have a [Health Problem]. I feel [Symptom Adjective] because I [Reason].<br><br>**Tips:**<br>1. It is important to [Advice 1].<br>2. You should [Advice 2] in the morning.<br>3. You shouldn't [Advice 3].<br><br>**At drugstore:** Could I have [Product], please?<br><br>**Sentence Starter Extension:** [[Whenever I travel to a humid or tropical place, I make sure to...]]",
+        "roles": [
+          {
+            "title": "Rol A",
+            "name": "Tourist",
+            "avatar": "🌴",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Rol B",
+            "name": "Pharmacist / Agent",
+            "avatar": "💊",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "Tienes fobia a volar.", "Eres alérgico/a a casi todo.", "Buscas aventuras extremas.",
+          "Viajas con niños traviesos."
+        ],
+        "step2Questions": [
+          "Task 1: As a pharmacist, ask about symptoms and offer recommendations.",
+          "Task 2: As a travel agent, answer questions about destination weather and security.",
+          "► Did the tourist accept your advice? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Advice 1": ["rest", "drink", "take", "sleep", "eat", "avoid"],
+          "Advice 2": ["rest", "drink", "take", "sleep", "eat", "walk"]
+        },
+        "step2Opener": "A: \"I have a sore throat and a headache.\"<br>B: \"You should take some pain medication.\"<br>A: \"Should I stay home?\"<br>B: \"Yes, you shouldn't go outside in the cold.\"",
+        "commonErrors": [
+          "Decir <em>You should to rest</em> → <strong>You should rest</strong> (sin <em>to</em>)",
+          "Negación incorrecta: <em>You shouldn't to go</em> → <strong>You shouldn't go</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Advice & drugstore",
+          "words": [
+            "it's important to", "it's useful to", "You should try this…", "Could I have…?",
+            "Here you go."
+          ]
+        },
+        {
+          "category": "Opposite Adjectives",
+          "words": [
+            "Cheap / Expensive", "Clean / Polluted", "Exciting / Peaceful", "Hot / Cold",
+            "Safe / Dangerous"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "bargain", "beach", "bike path", "canoe", "capital", "church", "crafts", "district",
+            "(city) guide", "harbor", "hometown", "island", "landmark", "mangrove", "nightclub",
+            "plaza", "pyramid", "salsa (steps)", "scenery", "subway", "tapas", "taxi", "tourist",
+            "town", "visitor"
+          ]
+        },
+        {
+          "category": "Pronouns",
+          "words": ["you (= anyone)"]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "best", "clear", "crowded", "dangerous", "delicious", "historic", "lively", "noisy",
+            "polluted", "reasonable", "safe", "spacious", "stressful", "ugly",
+            "walled (city/area)", "effective", "helpful", "hungry", "itchy", "powerful", "sick",
+            "sore", "stressed", "terrible", "useful"
+          ]
+        },
+        {
+          "category": "Modal verb",
+          "words": ["should"]
+        },
+        {
+          "category": "Other verbs",
+          "words": [
+            "miss", "move away", "plan to (+ verb)", "recommend", "rent",
+            "tell (someone) about (something)", "use", "boil", "chop up", "concentrate",
+            "disappear", "get (some rest)", "put (= apply directly, as ointment)",
+            "see (a doctor/dentist)", "suggest", "take (medicine/something for ...)", "treat",
+            "work (= succeed)"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": [
+            "all year", "anytime", "definitely", "easily", "extremely (+ adjective)",
+            "fairly (+ adjective)", "pretty (+ adjective)", "really (+ adjective)",
+            "somewhat (+ adjective)", "too (+ adjective)", "very (+ adjective)"
+          ]
+        },
+        {
+          "category": "Prepositions",
+          "words": ["in (town)", "in (bed)", "under (cold water)"]
+        },
+        {
+          "category": "Conjunctions",
+          "words": ["however", "though"]
+        },
+        {
+          "category": "Health problems",
+          "words": [
+            "backache", "burn", "cold", "cough", "dry skin", "earache", "fever", "(the) flu",
+            "headache", "(the) hiccups", "insect bite", "insomnia", "itchy eyes", "nosebleed",
+            "sore muscles/throat", "stomachache", "sunburn", "toothache", "upset stomach"
+          ]
+        },
+        {
+          "category": "Containers",
+          "words": ["bag", "bottle", "box", "can", "jar", "pack", "stick", "tube"]
+        },
+        {
+          "category": "Pharmacy items",
+          "words": [
+            "bandages", "breath mints", "cough drops", "cream", "deodorant", "eyedrops",
+            "face cream", "heating pad", "lotion", "medication", "(pain) medicine", "pills",
+            "shaving cream", "tissues", "toothpaste", "vitamin C"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "advice", "anthropologist", "appointment", "chamomile (tea)", "community", "dentist",
+            "energy", "garlic (tea)", "gel", "idea", "liquid", "medicine cabinet", "muscle",
+            "plant", "rain forest", "remedy", "research", "rest", "throat", "village"
+          ]
+        },
+        {
+          "category": "Modal verbs",
+          "words": ["could", "may"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Describing something",
+          "phrases": [
+            "What's ... like?", "It's ... and ...", "It's ..., but (it's not) ...",
+            "It's ... It's not (too) ..., though.", "It's ... It's not (too) ..., however."
+          ]
+        },
+        {
+          "category": "Asking for information",
+          "phrases": ["Can you tell me about ...?"]
+        },
+        {
+          "category": "Talking about advisability",
+          "phrases": ["What can I do ...?", "You can ...", "You can't ..."]
+        },
+        {
+          "category": "Asking for and giving suggestions",
+          "phrases": ["What should I ...?", "You should ...", "You shouldn't ..."]
+        },
+        {
+          "category": "Talking about health problems",
+          "phrases": ["Are you all right?", "Not really.", "That's too bad."]
+        },
+        {
+          "category": "Offering and accepting assistance",
+          "phrases": ["Can/May I help you?", "Yes, please.", "Can/Could/May I have ...?"]
+        },
+        {
+          "category": "Asking for and giving advice",
+          "phrases": [
+            "What should you do ...?", "It's important/helpful/a good idea to ...",
+            "What do you suggest/have for ...?", "Try ...", "I suggest ...", "You could ..."
+          ]
+        },
+        {
+          "category": "Expressing dislike",
+          "phrases": ["Yuck!"]
+        },
+        {
+          "category": "Agreeing",
+          "phrases": ["You're right."]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "units": "13-14",
+      "title": "The Food Critic",
+      "badgeEmoji": "🍽️",
+      "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Superlativos.",
+        "focus": "Agreeing/disagreeing, ordering food, Superlatives, So/Neither.",
+        "speakingTasks": [
+          "Discuss personal culinary tastes.", "Order dishes as customer/waiter.",
+          "Query partner about potential city itineraries."
+        ],
+        "interaccion": "\"My dish is the most delicious.\""
+      },
+      "student": {
+        "handoutTitle": "RESTAURANT GUIDE",
+        "diagOptions": [
+          "Adjetivos Comparativos & Superlativos",
+          "Coincidir y Disentir (So, Neither, Too, Either)",
+          "Uso de 'Will' y 'Would' para Pedidos", "Preguntas con How (big, long, far)"
+        ],
+        "vocabWords": ["Visit", "Place", "Located", "Delicious"],
+        "step1Goal": "25-35 words",
+        "step1Text": "Describe a restaurant or tourist spot:",
+        "freeWriteMin": 25,
+        "freeWriteMax": 35,
+        "freeWritePrompt": "Describe your favorite restaurant or place you like to visit in your city.",
+        "step1Template": "**Visit [Name of Place]!**<br><br>It is one of the [Superlative] places in the city. You can see [Attraction 1]. It is located in [Location] and is open from [Time 1] to [Time 2]. The food is [Adjective 1]. My order is [Dish] and [Drink].<br><br>**Sentence Starter Extension:** [[If you want to taste authentic local flavors without overspending, you must order...]]",
+        "roles": [
+          {
+            "title": "Rol A",
+            "name": "Food Critic",
+            "avatar": "✍️",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Rol B",
+            "name": "Waiter / Chef",
+            "avatar": "👨‍🍳",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "Eres vegetariano/a.", "Amas la comida picante.", "Odias los dulces.",
+          "Tienes muchísima hambre."
+        ],
+        "step2Questions": [
+          "Task 1: Ask questions about your partner's taste in food and agree or disagree. Then ask about three cities to visit and compare them (bigger, safer, more expensive).",
+          "Task 2: As a waiter, ask your customer questions and offer dishes and drinks.",
+          "► Decision: We choose to eat at [Name]'s restaurant."
+        ],
+        "correctAnswers": {
+          "Superlative": ["est", "most", "best"]
+        },
+        "step2Opener": "A: \"What's the most popular dish here?\"<br>B: \"The pasta is the most delicious in the city!\"<br>A: \"I love pasta too!\"<br>B: \"So do I! Would you like to try it?\"",
+        "commonErrors": [
+          "Superlativos sin <em>the</em>: <em>It's most delicious</em> → <strong>It's the most delicious</strong>",
+          "Superlativo corto con <em>most</em>: <em>the most fast</em> → <strong>the fastest</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Ordering & agreeing",
+          "words": [
+            "I'll have…", "I'd like…", "What would you like to order?", "So do I.",
+            "Neither do I."
+          ]
+        },
+        {
+          "category": "Food & Drinks",
+          "words": [
+            "Chicken", "Chocolate", "Coffee", "Pasta", "Pizza", "Salad", "Sandwich", "Sushi",
+            "Tea"
+          ]
+        },
+        {
+          "category": "Food and beverages",
+          "words": [
+            "bread", "(veggie) burger", "cake", "cheeseburger", "corn", "curry", "dessert",
+            "dressing", "fish", "flavor", "french fries", "fruit", "grains", "grapes",
+            "hamburger", "ice cream", "ice-cream cone", "lamb", "lemon", "lemonade", "mangoes",
+            "meat", "miso", "octopus", "onion (rings/soup)", "peas", "(apple) pie", "potatoes",
+            "rice", "seafood", "shrimp", "soup", "strawberries", "turkey", "vegetable", "water"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "bellhop", "coffee shop", "custom", "hairstylist", "menu", "order", "review",
+            "server", "service", "slang", "tip", "wages", "waitress", "airport", "auction",
+            "feather", "fine", "million", "planet", "(air) pollution", "population", "quiz",
+            "tower", "winter"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "bland", "confusing", "crispy", "customary", "delicious", "fresh", "generous",
+            "greasy", "healthy", "rich", "salty", "spicy", "vegetarian", "clean", "cold",
+            "crowded", "deep", "dry", "far", "high", "hot", "pure", "strict"
+          ]
+        },
+        {
+          "category": "Modal verbs",
+          "words": ["will", "would"]
+        },
+        {
+          "category": "Other verbs",
+          "words": ["rely on", "take (an order)", "vary"]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["a bit (+ adjective)", "either", "neither", "too"]
+        },
+        {
+          "category": "Geography",
+          "words": [
+            "beach", "canal", "continent", "desert", "Earth", "(the) falls", "forest", "hill",
+            "island", "lake", "mountain", "ocean", "river", "valley", "volcano", "waterfall",
+            "world"
+          ]
+        },
+        {
+          "category": "Distance and measurements",
+          "words": [
+            "degree (Celsius/Fahrenheit)", "(square) kilometer", "meter", "(square) mile",
+            "pound"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": ["exist", "get down (to)", "get up (to)", "respect"]
+        },
+        {
+          "category": "Prepositions",
+          "words": ["in (the summer/the world/the Americas)", "on (the planet/sidewalks)"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Expressing feelings",
+          "phrases": ["I'm (not) crazy about ...", "I'm (not) in the mood for ...", "I can't stand ..."]
+        },
+        {
+          "category": "Agreeing and disagreeing",
+          "phrases": [
+            "So am I.", "I am, too.", "Oh, I'm not.", "So can I.", "I can, too.",
+            "Really? I can't.", "Oh, I don't (like it very much).", "Neither am I.",
+            "I'm not either.", "Really? I am.", "Neither can I.", "I can't either.",
+            "Oh, I love it.", "I don't either.", "Oh, I like it a lot."
+          ]
+        },
+        {
+          "category": "Ordering in a restaurant",
+          "phrases": [
+            "May I take your order?", "What would you like (to ...)?",
+            "I'd like/I'll have a/an/the ...", "What kind of ... would you like?",
+            "I'd like/I'll have ..., please.", "Would you like anything else?",
+            "Yes, please. I'd like ...", "No, thank you.", "That's all, thanks."
+          ]
+        },
+        {
+          "category": "Talking about distances and measurements",
+          "phrases": [
+            "How cold is ... in the winter?", "It gets down to ... degrees.",
+            "How hot is ... in the summer?", "It gets up to ... degrees.",
+            "How far is ... from ...?", "It's about ... kilometers.", "How big is ...?",
+            "It's ... square kilometers.", "How high is (are) ...?",
+            "It's (They're) ... meters high.", "How long is ...?", "It's ... kilometers long.",
+            "How deep is ...?", "It's ... meters deep."
+          ]
+        },
+        {
+          "category": "Making comparisons",
+          "phrases": [
+            "Which country is larger, ... or ...?", "... is larger than ...",
+            "Which country is the largest in the world?", "Russia is the largest country.",
+            "Which country is more crowded, ... or ...?", "... is more crowded than ...",
+            "... is the most crowded country in ..."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "units": "15-16",
+      "title": "The Reunion Message",
+      "badgeEmoji": "📬",
+      "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Futuro y Mensajes.",
+        "focus": "Future plans (be going to), leaving messages (tell/ask).",
+        "speakingTasks": [
+          "Inquire about life changes and future plans.",
+          "Leave an active message for a sibling.", "Log sibling communication details."
+        ],
+        "interaccion": "\"Can you tell Maria that...?\""
+      },
+      "student": {
+        "handoutTitle": "URGENT MESSAGE",
+        "diagOptions": [
+          "Futuro con 'Going To' y Presente Continuo", "Mensajes Indirectos con 'Tell' y 'Ask'",
+          "Describir Cambios Personales (Pasado vs Presente)",
+          "Planes y Esperanzas (Verb + to-infinitive)"
+        ],
+        "vocabWords": ["Call", "Plan", "Message", "Tell"],
+        "step1Goal": "25-35 words",
+        "step1Text": "Write an email telling a friend about your plans:",
+        "freeWriteMin": 25,
+        "freeWriteMax": 35,
+        "freeWritePrompt": "Write a short message to an old friend telling them about your recent plans.",
+        "step1Template": "Hi [Friend],<br><br>Next month, I am going to [Plan 1] in [Place 1]. I also [Plan Phrase: hope to / plan to] [Plan 2].<br><br>I have changed my [Habit/Style] in the last few months. My life is [Comparative Adjective] than it was [Time Frame] ago. Are you going to [Question]?<br><br>**Sentence Starter Extension:** [[Before this year ends, the personal goal I want to complete is...]]",
+        "roles": [
+          {
+            "title": "Rol A",
+            "name": "Friend's Sibling",
+            "avatar": "📞",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Rol B",
+            "name": "Course Alumnus",
+            "avatar": "🎒",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "Ganaste la lotería.", "Te mudas a otro país.", "Te vas a casar pronto.",
+          "Dejaste la ciudad para vivir en el campo."
+        ],
+        "step2Questions": [
+          "Task 1: Ask about life changes in the last years and future plans (Have you…? What / when / where did / do / are you…?).",
+          "Task 2: Leave a message for your partner's sibling about meeting next week: Can you tell…? Could you ask…? Please tell…",
+          "► Message Box: Write down the message left for sibling: [Message Details]"
+        ],
+        "correctAnswers": {
+          "Comparative Adjective": ["er", "more", "better"]
+        },
+        "step2Opener": "A: \"What are you going to do after the course?\"<br>B: \"I'm going to travel next month.\"<br>A: \"Can you tell Maria that I called?\"<br>B: \"Sure! I'll tell her you called.\"",
+        "commonErrors": [
+          "Omitir <em>be</em>: <em>I going to travel</em> → <strong>I am going to travel</strong>",
+          "Mensaje indirecto: <em>He said me</em> → <strong>He told me</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Plans & wishes",
+          "words": ["I hope to…", "I'd like to…", "I plan to…", "Could you ask…?", "Would you tell…?"]
+        },
+        {
+          "category": "Life Changes",
+          "words": [
+            "Change hairstyle", "Get a job", "Get married", "Graduate", "Make new friends",
+            "Travel abroad"
+          ]
+        },
+        {
+          "category": "Leisure activities",
+          "words": [
+            "barbecue", "(rock) concert", "(film) festival", "(baseball/soccer) game", "musical",
+            "(dance) performance", "picnic", "play", "(car) race", "(class) reunion",
+            "(video game) tournament"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "accident", "address", "cell (phone)", "excuse", "invitation", "lamppost", "meeting",
+            "message", "motherboard", "reaction", "request", "security camera", "smartphone",
+            "statement", "track"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "embarrassing", "fancy", "late", "extraordinary", "outgoing", "own", "personal",
+            "possible"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "accept", "capture", "give", "refuse", "return", "speak", "throw", "accomplish",
+            "achieve", "become", "benefit", "bring about", "catch", "donate", "dress", "dye",
+            "fall (in love)", "get (engaged/married)", "hope (+ verb)", "improve", "join",
+            "pierce", "plan (+ verb)", "retire"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["afterward", "on time", "abroad", "differently", "less"]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "(savings) account", "(photo) album", "century", "change", "contacts/contact lenses",
+            "course", "credit card", "drama", "experience", "garbage", "goal", "hairstyle",
+            "(driver's) license", "life", "(bank) loan", "plastic", "(pay) raise", "resolution",
+            "subtitle", "vocabulary"
+          ]
+        },
+        {
+          "category": "Prepositions",
+          "words": ["in (ages/a few years)", "into (my own apartment)"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Talking about plans",
+          "phrases": [
+            "What are you doing tonight?", "I'm going ...", "Are you doing anything tomorrow?",
+            "No, I'm not (doing anything).", "What is she going to do tomorrow?",
+            "She's going to ...", "Are they going to ...?", "Yes, they are (going to ...)."
+          ]
+        },
+        {
+          "category": "Apologizing and giving reasons",
+          "phrases": ["Thanks for asking me, but I can't. I ...", "Sorry, but I already have plans."]
+        },
+        {
+          "category": "Making a call",
+          "phrases": [
+            "May I speak to ...?", "Sorry, but ... isn't here.", "Can I take/leave a message?",
+            "I'll give ... the message."
+          ]
+        },
+        {
+          "category": "Leaving a message",
+          "phrases": [
+            "Can I take a message?", "Please tell ... (that) ...", "Please ask ... to ...",
+            "Could you tell ... (that) ...?", "Could you ask ... to ...?",
+            "Would you tell ... (that) ...?", "Would you ask ... to ...?"
+          ]
+        },
+        {
+          "category": "Describing changes",
+          "phrases": [
+            "I'm not in school anymore.", "I wear contacts now.",
+            "I majored in business administration.", "I got engaged.",
+            "I've just started a new job.", "I've bought a new apartment.",
+            "It's less noisy than downtown.", "My hair is longer now."
+          ]
+        },
+        {
+          "category": "Talking about future plans",
+          "phrases": [
+            "What are you going to do?", "I'm (not) going to ...", "I (don't) plan/want to ...",
+            "I hope to ...", "I'd like/love to ..."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "units": "FINAL",
+      "title": "The Final Interview",
+      "badgeEmoji": "🎓",
+      "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Integración Total (Nivel A1).",
+        "focus": "Simple present/past/continuous, future, modals, comparatives, superlatives.",
+        "speakingTasks": [
+          "Personal info, family, and daily routines.", "Past life experiences and travel.",
+          "Plans for the future and asking interviewer questions."
+        ],
+        "interaccion": "\"I have visited many places. Next year, I am going to study more.\""
+      },
+      "student": {
+        "handoutTitle": "THE CANDIDATE PROFILE",
+        "diagOptions": [
+          "Repaso General de Tiempos (Present, Past, Perfect)",
+          "Modales de Solicitudes y Consejos (Can, Should)",
+          "Comparativos y Superlativos (Repaso Completo)", "Descripción Física y Personalidad"
+        ],
+        "vocabWords": ["experience", "routine", "future", "change", "plan"],
+        "step1Goal": "30-45 words",
+        "step1Text": "Write a summary about your life, experiences, and plans:",
+        "freeWriteMin": 30,
+        "freeWriteMax": 45,
+        "freeWritePrompt": "Write a paragraph about yourself: describe your routine, one past experience, and one future plan.",
+        "step1Template": "Hello! My name is [Name], and I am a [Job or Status]. Every day I wake up at [Time] and I [Routine]. Last year, I went to [Place] and I [Past verb] with my family. I have already [Past Participle], which was a great achievement. After this course, I am going to [Future Plan] in [Time Frame]!<br><br>**Sentence Starter Extension:** [[What I am most proud of learning during this level is...]]",
+        "roles": [
+          {
+            "title": "Rol A",
+            "name": "Interviewer",
+            "avatar": "📋",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Rol B",
+            "name": "Candidate",
+            "avatar": "👩‍🎓",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "Eres muy formal.", "Eres muy relajado/a.", "Eres muy ambicioso/a.",
+          "Estás indeciso/a."
+        ],
+        "step2Questions": [
+          "Task 1: Ask about personal information, routines, and family.",
+          "Task 2: Discuss past life experiences, travel, and future plans.",
+          "► Verdict: Is the candidate ready for A2? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Past verb": ["ed", "went", "visited", "ate", "saw", "had", "bought"],
+          "Time": [":", "(^|[^a-z])a\\.?m(?![a-z])", "(^|[^a-z])p\\.?m(?![a-z])", "o'clock"]
+        },
+        "step2Opener": "A: \"Tell me about yourself.\"<br>B: \"I'm a student. I wake up at 7 a.m. every day.\"<br>A: \"Have you ever traveled abroad?\"<br>B: \"Yes! Last year I went to Spain.\"",
+        "commonErrors": [
+          "Olvidar auxiliar en preguntas: <em>You have traveled?</em> → <strong>Have you traveled?</strong>",
+          "Mezclar comparativo y superlativo: <em>the more better</em> → <strong>the best</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Greatest Hits: Units 1-4",
+          "words": [
+            "Accountant", "classmate", "wake up", "stay up", "usually", "part-time", "favorite",
+            "trendy", "earrings", "sweater", "fit", "cheap", "expensive", "comfortable"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 5-8",
+          "words": [
+            "brother", "aunt", "exercise", "work out", "often", "never", "relax", "weather",
+            "neighborhood", "vacation", "crowded", "beach", "sightseeing", "delicious"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 9-12",
+          "words": [
+            "tall", "slim", "curly", "already", "yet", "ever", "headache", "fever", "cough",
+            "medicine", "sore throat", "advice"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 13-16",
+          "words": [
+            "hungry", "spicy", "salty", "would like", "dessert", "mountain", "graduate",
+            "get married", "goal", "hope", "travel", "plan"
+          ]
+        },
+        {
+          "category": "Connectors & Fluency",
+          "words": [
+            "Because", "However", "Also", "In addition", "For example", "First of all",
+            "Finally"
+          ]
+        },
+        {
+          "category": "Personality",
+          "words": ["Hardworking", "Responsible", "Creative", "Organized", "Punctual", "Team player"]
+        }
+      ]
+    }
+  ],
+  "speakingCards": {
+    "1": [
+      {
+        "chips": [
+          "Name? Last name?", "Nationality?", "Age?", "Profession?", "Hobbies?",
+          "Activities / morning?", "Time / have lunch?", "Activities / night?",
+          "Time / go to bed?"
+        ],
+        "t1": "Use the information in the list to ask me questions about my personal information and daily routine.",
+        "t2": "Now I ask some questions about one of your friends' personal information and routine. Answer the questions."
+      },
+      {
+        "chips": [
+          "Name? Last name?", "Nationality?", "Age?", "Profession?", "Hobbies?",
+          "Activities / morning?", "Time / have lunch?", "Activities / night?",
+          "Time / go to bed?"
+        ],
+        "t1": "You want to know about my favorite celebrity. Use the list to ask questions about this person's life and routine.",
+        "t2": "Now I ask some questions about one of your friends' personal information and routine. Answer the questions."
+      }
+    ],
+    "2": [
+      {
+        "chips": [
+          "What / events?", "When?", "Where?", "Time?", "Price / tickets?",
+          "Kind of / music / program / movie?", "Time / start?", "Time / finish?"
+        ],
+        "t1": "There are two interesting activities this next weekend and you don't have information. Use the list to ask questions about them. For example: What kind of events are they?",
+        "t2": "Tell me which one you would like to go to and why. Then invite me to go with you."
+      },
+      {
+        "chips": [
+          "What kind / computers?", "Price?", "Which / fast?", "Which / more memory?",
+          "Which / practical?"
+        ],
+        "t1": "You want to buy a new computer and the store has two options. Use the list to ask questions about their characteristics.",
+        "t2": "Now tell me which one you like better and why."
+      }
+    ],
+    "3": [
+      {
+        "chips": [
+          "Members / family?", "What / do / these days?", "Father / Mother / working?",
+          "Brother / Sister / studying?", "What / activities / free time?",
+          "Frequency? / exercise / go to the gym?", "Talents?"
+        ],
+        "t1": "You are investigating the lifestyle of the typical Colombian family. Use the chart to ask questions about my family.",
+        "t2": "Now I ask some questions about your family characteristics and activities. Answer the questions."
+      },
+      {
+        "chips": [
+          "Time / sleep?", "Eat / healthy food?", "Time / work?",
+          "Frequency or time / watch TV?", "Frequency or time / exercise?",
+          "What / activities / free time?"
+        ],
+        "t1": "You are a doctor and you want to know about my family and my lifestyle and current activities. Use the chart to ask questions.",
+        "t2": "Now I ask about your family and lifestyle activities. Answer the questions."
+      }
+    ],
+    "4": [
+      {
+        "chips": [
+          "Where / last vacation?", "Activities / do?", "How long?", "Weather?",
+          "What / places / like?", "Crime?", "Restaurants / hotels?", "Pollution?", "Noise?",
+          "Museums?", "Many / much / shopping / drugstores?"
+        ],
+        "t1": "You and I are good friends and went to different places on our last vacation. Ask about my vacation: places, activities, and also services and conditions like noise, pollution and crime.",
+        "t2": "Now I ask about your vacation. Answer the questions."
+      },
+      {
+        "chips": [
+          "Where / last vacation?", "Activities / do?", "How long?", "Weather?",
+          "What / places / like?", "Crime?", "Restaurants / hotels?", "Pollution?", "Noise?",
+          "Museums?", "Many / much / shopping / drugstores?"
+        ],
+        "t1": "You want to visit a place on your next vacation and I went there last month. Ask about my experience and activities: restaurants, shopping, transportation, etc.",
+        "t2": "Now I ask about your vacation. Answer the questions."
+      }
+    ],
+    "5": [
+      {
+        "chips": [
+          "Color / eyes?", "How / tall?", "Age?", "Long / hair?", "Beard / moustache?",
+          "Glasses?", "Travel / abroad?", "Eat / exotic food?", "Buy / pet?", "See / accident?",
+          "Go / forest?"
+        ],
+        "t1": "I have a new girlfriend/boyfriend and you want to know about him/her. Ask about physical appearance, and about the experiences this person has and hasn't had.",
+        "t2": "Now I ask you about some experiences in your life. Answer the questions."
+      },
+      {
+        "chips": [
+          "Color / eyes?", "How / tall?", "Age?", "Long / hair?", "Beard / moustache?",
+          "Glasses?", "Travel / abroad?", "Eat / exotic food?", "Buy / pet?", "See / accident?",
+          "Go / forest?"
+        ],
+        "t1": "I am a famous actor/actress and you are a fan. Ask if I look like my father or my mother (physical appearance), and about the experiences I have lived.",
+        "t2": "Now I ask you about some experiences in your life. Answer the questions."
+      }
+    ],
+    "6": [
+      {
+        "chips": [
+          "Weather", "Shopping", "Expensive / Cheap", "Activities / Recommendations",
+          "Positive / Negative characteristics", "Places", "Security",
+          "Health problems / suggestions"
+        ],
+        "t1": "I work at a travel agency. You are planning your next vacation in Brazil. Ask about characteristics of the country, recommendations and suggestions for possible health problems.",
+        "t2": "Now I am interested in visiting your hometown and I have some questions for you. Answer them."
+      },
+      {
+        "chips": ["Symptoms?", "Medicine?", "Recommendations?", "Places to visit", "Describe the city"],
+        "t1": "I am a tourist in your city (Bogota / Medellin / Santander) and I don't feel well. You are a pharmacist: ask about my symptoms and give me recommendations.",
+        "t2": "I don't know the city very well. Describe the city and give me recommendations to enjoy my visit."
+      }
+    ],
+    "7": [
+      {
+        "chips": [
+          "What / food / like?", "What / food / don't like?", "What / drink?",
+          "Favorite restaurants?", "Which places?", "Which / big / small?", "Which / better?",
+          "Safe, expensive, etc.?"
+        ],
+        "t1": "We don't know each other. Ask me about my favorite food and how similar our preferences are; agree or disagree with me.",
+        "t2": "I would like to visit 3 cities. Ask questions about the places, then answer my questions about places you like."
+      },
+      {
+        "chips": [
+          "What / food / like?", "What / food / don't like?", "What / drink?",
+          "Favorite restaurants?", "Which places?", "Which / big / small?", "Which / better?",
+          "Safe, expensive, etc.?"
+        ],
+        "t1": "We are at a restaurant: you are the waiter/waitress and I am the customer. I can't decide what to order. Ask me questions and offer different dishes and drinks.",
+        "t2": "Let's talk about places we would like to visit someday. Ask questions about interesting facts about our favorite places and compare them."
+      }
+    ],
+    "8": [
+      {
+        "chips": [
+          "Have you… / school?", "What / when / where did you…?", "What / when / where do you…?",
+          "What / when / where are you…?", "Can / tell?", "Could / ask?", "Please tell / ask?"
+        ],
+        "t1": "I am your friend and you haven't seen me in a long time. Ask about my life in the last few years, how things have changed and our plans for the future.",
+        "t2": "My sister is also your friend. Leave some messages for her about a plan to meet next week."
+      },
+      {
+        "chips": [
+          "Have you… / school?", "What / when / where did you…?", "What / when / where do you…?",
+          "What / when / where are you…?", "Can / tell?", "Could / ask?", "Please tell / ask?"
+        ],
+        "t1": "You and I are cousins and haven't seen each other for a long time. Discuss our changes during this time and our plans for the future.",
+        "t2": "You want to send some messages to my mother, your aunt. Leave the messages with me."
+      }
+    ],
+    "9": [
+      {
+        "chips": [
+          "Personal information", "Family", "Personal interests", "Activities and routines",
+          "Where you live", "Life experiences", "Life changes", "Travel experiences",
+          "Plans for the future"
+        ],
+        "t1": "You want to work in my company, so I need to know you well. Let's have a conversation about your personal information, family, interests, routines, place where you live, life experiences, changes, travel and plans.",
+        "t2": "Now ask me some questions about me and my job at the company."
+      },
+      {
+        "chips": [
+          "Personal information", "Physical appearance", "Personal interests", "Places visited",
+          "Life experiences", "Significant changes", "Plans for the future"
+        ],
+        "t1": "Talk to me about a person you admire a lot: personal information, physical appearance, interests, places visited, experiences, significant changes and plans.",
+        "t2": "Now ask me questions about my personal information."
+      }
+    ]
+  }
+}

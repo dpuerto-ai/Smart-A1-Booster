@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Check Boosters A2 | Smart Academia de Idiomas</title>
+    <meta name="description" content="Guided writing, paired speaking and a final review for every Interchange 2 unit.">
+    <meta name="theme-color" content="#0A8BEF">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Smart Academia de Idiomas">
+    <meta property="og:title" content="Progress Check Boosters A2 | Smart Academia de Idiomas">
+    <meta property="og:description" content="Guided writing, paired speaking and a final review for every Interchange 2 unit.">
+    <meta property="og:url" content="https://smartquizboosters.netlify.app/a2">
+    <meta property="og:image" content="https://smartquizboosters.netlify.app/images/og-card.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://smartquizboosters.netlify.app/a2">
+    
+    
+    <style>
+        
+        :root {
+            --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+            --font-body: 'Inter', system-ui, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: #F8FAFD;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(10, 139, 239, 0.08) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(107, 70, 193, 0.08) 0px, transparent 50%),
+                radial-gradient(at 50% 100%, rgba(2, 132, 199, 0.07) 0px, transparent 50%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            color: #1B2C73;
+        }
+
+        h1, h2, h3, h4, .font-heading {
+            font-family: var(--font-display);
+        }
+
+        .icon-svg {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.125em;
+            flex-shrink: 0;
+        }
+
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+        /* Glassmorphism & Depth */
+        .glass-shell {
+            background: rgba(255, 255, 255, 0.94);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.85);
+            box-shadow: 0 12px 35px -8px rgba(27, 44, 115, 0.08), 0 4px 12px -2px rgba(27, 44, 115, 0.03);
+        }
+
+        .glass-card {
+            background: #ffffff;
+            border: 1.5px solid #EDF2F7;
+            transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .glass-card:hover {
+            transform: translateY(-5px) scale(1.015);
+            border-color: #0A8BEF;
+            box-shadow: 0 20px 30px -10px rgba(10, 139, 239, 0.18), 0 8px 16px -4px rgba(27, 44, 115, 0.05);
+        }
+
+        /* Pill Inputs & Sentence Starters */
+        .fill-in-blank {
+            border: 2px solid #CBD5E1;
+            background-color: #F8FAFC;
+            outline: none;
+            text-align: center;
+            color: #0B4E8A;
+            font-weight: 700;
+            padding: 8px 16px;
+            margin: 4px;
+            border-radius: 9999px;
+            transition: all 0.2s ease;
+            min-width: 130px;
+            font-size: 0.95rem;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .fill-in-blank:focus {
+            border-color: #0A8BEF;
+            background-color: #EFF6FF;
+            box-shadow: 0 0 0 4px rgba(10, 139, 239, 0.15);
+            transform: translateY(-1px);
+        }
+        .sentence-starter-textarea {
+            display: block;
+            width: 100%;
+            min-width: 100%;
+            min-height: 75px;
+            border-radius: 1rem !important;
+            text-align: left !important;
+            font-weight: 500 !important;
+            padding: 12px 16px !important;
+            margin: 10px 0 !important;
+            line-height: 1.6;
+        }
+        .filled-input {
+            border-color: #10B981 !important;
+            background-color: #ECFDF5 !important;
+            color: #065F46 !important;
+        }
+        .empty-input {
+            border-color: #F59E0B !important;
+            background-color: #FFFBEB !important;
+        }
+
+        .freewrite-textarea {
+            width: 100%;
+            min-height: 130px;
+            border-radius: 1rem;
+            padding: 1rem;
+            border: 2px solid #CBD5E1;
+            font-family: inherit;
+            outline: none;
+            transition: all 0.2s;
+        }
+        .freewrite-textarea:focus {
+            border-color: #0A8BEF;
+            background: #fff;
+            box-shadow: 0 0 0 4px rgba(10, 139, 239, 0.12);
+        }
+
+        .step-accordion-grid {
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        [data-step][data-active] .step-accordion-grid {
+            grid-template-rows: 1fr;
+        }
+
+        .word-count-badge { font-size: 0.8rem; font-weight: 800; margin-top: 6px; text-align: right; color: #64748B; }
+        .word-count-under { color: #f59e0b; }
+        .word-count-over { color: #ef4444; }
+        .word-count-ok { color: #10b981; }
+
+        .tw-step1-tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+        .tw-step1-tab { 
+            flex: 1; 
+            text-align: center; 
+            padding: 10px 14px; 
+            border-radius: 12px; 
+            font-size: 12px; 
+            font-weight: 800; 
+            text-transform: uppercase; 
+            letter-spacing: .05em; 
+            border: 2px solid #E2E8F0; 
+            background: #fff; 
+            color: #64748B; 
+            cursor: pointer; 
+            transition: all .2s ease; 
+        }
+        .tw-step1-tab.active { 
+            border-color: #0A8BEF; 
+            color: #0A8BEF; 
+            background: #EFF6FF; 
+            box-shadow: 0 4px 10px rgba(10, 139, 239, 0.12);
+        }
+
+        /* Dialogue bubbles */
+        .bubble-a {
+            background-color: #F0F9FF;
+            border: 1.5px solid #BAE6FD;
+            border-bottom-left-radius: 4px;
+        }
+        .bubble-b {
+            background-color: #F5F3FF;
+            border: 1.5px solid #DDD6FE;
+            border-bottom-right-radius: 4px;
+        }
+
+        /* Survival & quick phrases chips */
+        .phrase-chip {
+            background: #ffffff;
+            border: 1.5px solid #E2E8F0;
+            border-radius: 9999px;
+            padding: 5px 12px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #1B2C73;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .phrase-chip:hover {
+            border-color: #0A8BEF;
+            color: #0A8BEF;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(10, 139, 239, 0.12);
+        }
+
+        /* Toast notification */
+        #quick-toast {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            opacity: 0;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            z-index: 9999;
+        }
+        #quick-toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        /* Presentation Mode */
+        body.presentation-mode #app { font-size: 1.22em; }
+        body.presentation-mode .tw-back-nav { display: none !important; }
+        body.presentation-mode .fill-in-blank { font-size: 1.1em; }
+
+        /* Vocabulary Slide-Over Dock Drawer */
+        #vocab-drawer-backdrop {
+            transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        #vocab-drawer {
+            transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+            box-shadow: -10px 0 35px -5px rgba(27, 44, 115, 0.18);
+        }
+        #vocab-drawer.drawer-open {
+            transform: translateX(0);
+        }
+        #vocab-drawer.drawer-closed {
+            transform: translateX(100%);
+        }
+        .vocab-category-chip {
+            padding: 5px 12px;
+            font-size: 11px;
+            font-weight: 800;
+            border-radius: 9999px;
+            border: 1.5px solid #E2E8F0;
+            background: #fff;
+            color: #64748B;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .vocab-category-chip:hover {
+            border-color: #0A8BEF;
+            color: #0A8BEF;
+        }
+        .vocab-category-chip.active {
+            background: #0A8BEF;
+            border-color: #0A8BEF;
+            color: #fff;
+            box-shadow: 0 4px 10px rgba(10, 139, 239, 0.25);
+        }
+        .vocab-word-card {
+            background: #F8FAFC;
+            border: 1.5px solid #E2E8F0;
+            border-radius: 14px;
+            padding: 8px 12px;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .vocab-word-card:hover {
+            border-color: #0A8BEF;
+            background: #ffffff;
+            box-shadow: 0 4px 12px rgba(10, 139, 239, 0.1);
+            transform: translateY(-1px);
+        }
+
+        /* Frosted Island Teacher Controller */
+        .teacher-frosted-island {
+            background: rgba(27, 44, 115, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            box-shadow: 0 20px 40px -10px rgba(11, 78, 138, 0.45), 0 0 20px rgba(10, 139, 239, 0.2);
+        }
+        .phase-jump-chip {
+            padding: 5px 8px;
+            border-radius: 8px;
+            font-size: 9px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: .05em;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.05);
+            color: #CBD5E1;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+        .phase-jump-chip:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+        .phase-jump-chip.active {
+            background: #0A8BEF;
+            border-color: #0A8BEF;
+            color: #fff;
+            box-shadow: 0 0 10px rgba(10, 139, 239, 0.4);
+        }
+    </style>
+    <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/a2.css">
+    <link rel="stylesheet" href="css/a11y.css">
+</head>
+<body class="antialiased flex flex-col min-h-screen">
+    <!-- Confetti canvas overlay -->
+    <canvas id="confetti-canvas" class="fixed inset-0 pointer-events-none z-50"></canvas>
+
+    <!-- Quick Toast Alert -->
+    <div id="quick-toast" class="bg-brand-midnight text-white text-xs font-bold px-4 py-2 rounded-full shadow-2xl border border-brand-coral/30 flex items-center gap-2">
+        <span id="quick-toast-icon">✓</span>
+        <span id="quick-toast-msg">Message</span>
+    </div>
+
+    <!-- Top Navigation -->
+    <header class="sticky top-0 z-50 bg-[#1B2C73]/95 backdrop-blur-md border-b border-brand-magenta/50 text-white">
+      <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3">
+          <img src="/images/logo.png" alt="Smart Academia de Idiomas" class="h-9 sm:h-10 w-auto object-contain rounded" data-onerr="swap" />
+          <div class="hidden w-9 h-9 rounded-xl bg-white/20 flex items-center justify-center font-black text-white text-base shadow-md" aria-hidden="true">S</div>
+          <span class="font-extrabold text-base tracking-tight">Smart Boosters <span class="text-xs bg-brand-coral px-2 py-0.5 rounded-full ml-1 font-bold">A2</span></span>
+        </a>
+        <nav class="hidden md:flex items-center gap-1 text-sm font-semibold">
+          <a href="index.html" class="px-3 py-1.5 rounded-lg text-brand-peach hover:text-white hover:bg-white/10 transition">Inicio</a>
+          <a href="a1.html" class="px-3 py-1.5 rounded-lg text-brand-peach hover:text-white hover:bg-white/10 transition">A1</a>
+          <a href="a2.html" class="px-3 py-1.5 rounded-lg text-white bg-black/20 border-b-2 border-brand-coral font-bold">A2 (Low Intermediate)</a>
+          <a href="b1.html" class="px-3 py-1.5 rounded-lg text-brand-peach hover:text-white hover:bg-white/10 transition">B1</a>
+          <a href="b2.html" class="px-3 py-1.5 rounded-lg text-brand-peach hover:text-white hover:bg-white/10 transition">B2</a>
+          <a href="c1.html" class="px-3 py-1.5 rounded-lg text-brand-peach hover:text-white hover:bg-white/10 transition">C1</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Container -->
+    <main id="app" class="max-w-4xl w-full mx-auto p-4 md:p-6 flex-1 flex flex-col"></main>
+    <div id="teacher-widget-root"></div>
+
+    <!-- Vocab Slide-Over Dock Drawer -->
+    <div id="vocab-drawer-backdrop" class="fixed inset-0 bg-brand-midnight/40 backdrop-blur-sm z-50 hidden opacity-0 transition-opacity duration-300" data-act="closeVocabDrawer"></div>
+    <aside id="vocab-drawer" class="fixed top-0 right-0 h-full w-full sm:w-[440px] max-w-full bg-white z-[55] flex flex-col drawer-closed border-l border-gray-100" role="dialog" aria-modal="true" aria-label="Helpful Vocabulary">
+        <!-- Drawer Header -->
+        <div class="bg-gradient-to-r from-brand-coral via-brand-coral to-brand-sunsetdeep p-5 text-white shrink-0">
+            <div class="flex items-center justify-between mb-3">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-8 h-8 rounded-xl bg-black/20 flex items-center justify-center text-sm shadow-xs">
+                        <svg viewBox="0 0 576 512" class="icon-svg" fill="currentColor"><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5l0-377.4c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8L0 454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5l0-370.3c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11L304 456c0 11.4 11.7 19.3 22.4 15.5z"/></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-black uppercase tracking-wider leading-none">Vocabulary Bank</h3>
+                        <span id="vocab-drawer-unit-badge" class="text-[10px] text-white font-bold uppercase tracking-widest mt-0.5 inline-block">Active Unit</span>
+                    </div>
+                </div>
+                <button data-act="closeVocabDrawer" aria-label="Close vocabulary" class="w-8 h-8 rounded-full bg-black/20 hover:bg-white/25 flex items-center justify-center text-lg leading-none transition-colors active:scale-95">
+                    &times;
+                </button>
+            </div>
+            
+            <!-- Live Instant Search Bar -->
+            <div class="relative mt-2">
+                <input id="vocab-search-input" type="text" placeholder="Search word or phrase..." aria-label="Search word or phrase..." data-in="handleVocabSearch" class="w-full bg-black/20 placeholder-white/70 text-white text-xs font-semibold rounded-xl px-9 py-2.5 outline-none focus:bg-white focus:text-brand-midnight focus:placeholder-gray-400 transition-all shadow-inner border border-white/20">
+                <svg viewBox="0 0 512 512" class="w-3.5 h-3.5 fill-white/80 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                <button id="vocab-clear-btn" type="button" aria-label="Clear search" data-act="clearVocabSearch" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-xs text-gray-400 hover:text-brand-coral font-bold">&times;</button>
+            </div>
+        </div>
+
+        <!-- Category Filter Pills Bar -->
+        <div id="vocab-categories-bar" class="px-4 py-2.5 bg-gray-50 border-b border-gray-100 flex items-center gap-1.5 overflow-x-auto hide-scrollbar shrink-0"></div>
+
+        <!-- Vocab Content List (Scrollable) -->
+        <div id="vocab-drawer-content" class="flex-1 p-4 overflow-y-auto space-y-4 hide-scrollbar"></div>
+
+        <!-- Drawer Footer Quick Tip -->
+        <div class="p-3 bg-gray-50 border-t border-gray-100 text-center shrink-0 flex items-center justify-between text-[11px] font-semibold text-gray-500">
+            <span>Tap <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg> to pronounce</span>
+            <span class="text-brand-coral font-bold">Click to copy phrase</span>
+        </div>
+    </aside>
+
+    <!-- Alert Modal -->
+    <div id="app-alert-modal" aria-modal="true" aria-label="Notice" aria-describedby="app-alert-message" class="fixed inset-0 bg-brand-midnight/60 backdrop-blur-sm z-[60] hidden flex items-center justify-center px-4" role="alertdialog">
+        <div class="bg-white p-7 rounded-3xl shadow-2xl w-full max-w-sm border border-gray-100 text-center">
+            <div class="w-12 h-12 bg-brand-peach/30 text-brand-coral rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-black">!</div>
+            <p id="app-alert-message" class="text-brand-midnight font-medium text-sm leading-relaxed"></p>
+            <div class="mt-6">
+                <button data-act="closeAppAlert" class="bg-brand-coral hover:bg-brand-magenta text-white font-black uppercase tracking-wide rounded-xl py-2.5 px-8 transition text-xs shadow-md">Got it</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirm Modal -->
+    <div id="app-confirm-modal" aria-modal="true" aria-label="Confirmation" aria-describedby="app-confirm-message" class="fixed inset-0 bg-brand-midnight/60 backdrop-blur-sm z-[60] hidden flex items-center justify-center px-4" role="alertdialog">
+        <div class="bg-white p-7 rounded-3xl shadow-2xl w-full max-w-sm border border-gray-100 text-center">
+            <div class="w-12 h-12 bg-brand-peach/30 text-brand-coral rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-black">?</div>
+            <p id="app-confirm-message" class="text-brand-midnight font-medium text-sm leading-relaxed"></p>
+            <div class="flex gap-3 justify-center mt-6">
+                <button data-act="closeAppConfirm" data-a0="false" class="bg-white border-2 border-gray-200 text-gray-600 font-black uppercase tracking-wide rounded-xl py-2 px-5 text-xs hover:border-gray-300">Cancel</button>
+                <button data-act="closeAppConfirm" data-a0="true" class="bg-brand-coral hover:bg-brand-magenta text-white font-black uppercase tracking-wide rounded-xl py-2 px-5 text-xs shadow-md">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/sw-register.js"></script>
+    <script src="js/img-fallback.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/a2.js"></script>
+</body>
+</html>

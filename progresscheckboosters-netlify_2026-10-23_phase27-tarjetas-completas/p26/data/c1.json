@@ -1,0 +1,1547 @@
+{
+  "_leeme": "Contenido del nivel C1 (Passages 2). No cambie los nombres de los campos (a la izquierda de los dos puntos), solo los textos. Antes de publicar ejecute tools/validate-data.py. Guia: data/LEEME.md",
+  "level": "c1",
+  "boosters": [
+    {
+      "id": 1,
+      "units": "1",
+      "title": "Relationships",
+      "badgeEmoji": "🤝",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Phrasal verbs; Gerund and infinitive constructions; re- verbs.",
+        "focus": "Monitor correct application of gerund/infinitive patterns and re- verb formation."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (RELATIONSHIPS)",
+        "diagOptions": [
+          "🔗 Phrasal verbs (drift apart, run into)", "🎯 Gerund and infinitive constructions",
+          "🔄 Verbs with prefix re- (rebuild, redefine)",
+          "💼 Friendship adjectives (supportive, compassionate)"
+        ],
+        "vocabWords": ["drift apart", "supportive", "re-establish", "clashing", "harmonious", "rekindle"],
+        "step1Goal": "90-110 words",
+        "step1Text": "Draft your functional coaching outline using target C1 structures:",
+        "freeWriteMin": 90,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Write a professional reflection describing a long-term working partnership or friendship that suffered due to misalignment or conflict. Explain how you handled the situation.",
+        "step1Template": "In my professional career, I have noticed that even when colleagues are exceptionally [Friendship adjective], they can easily start to [Phrasal verb] if communication fails. When facing major interpersonal friction, I usually prefer [Gerund / infinitive construction] rather than risk damaging long-term trust. It is vital for executive partners to [Re- verb] their common vision whenever disagreements arise.<br><br>**Sentence Starter Extension:** [[Whenever partners realize that differing work ethics begin to fracture collaboration, the decisive move is to...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Senior Consultant",
+            "avatar": "👔",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Relationship Coach",
+            "avatar": "🧠",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are reluctant to admit fault in the breakdown.",
+          "You hedge every statement and over-qualify claims.",
+          "You are blunt and direct about personality clashes.",
+          "You keep giving abstract management advice.",
+          "You are nostalgic about past team successes.",
+          "You get distracted talking about company politics."
+        ],
+        "step2Questions": [
+          "Task 1 (Consultant): Present a professional relationship that has deteriorated due to drifting apart or conflicting priorities.",
+          "Task 2 (Coach): Ask probing questions, disagree politely where necessary, and offer constructive advice.",
+          "► Joint Mission: Negotiate a 3-step action plan to reconnect and restore partnership efficiency.",
+          "► Executive Assessment: Is partnership salvageable under new terms? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Friendship adjective": ["supportive", "compassionate", "reliable", "admirable", "empathetic"],
+          "Phrasal verb": ["drift apart", "grow apart", "run into conflict"],
+          "Gerund / infinitive construction": [
+            "addressing the issue directly", "to address the issue directly",
+            "discussing concerns openly"
+          ],
+          "Re- verb": ["re-establish", "reconsider", "rebuild", "redefine", "rekindle"]
+        },
+        "step2Opener": "A: \"My co-founder and I used to be supportive, but recently we have begun to drift apart.\"<br>B: \"I prefer addressing conflicts directly. It is essential that you sit down to re-evaluate your common goals.\"",
+        "commonErrors": [
+          "Gerund vs infinitive after prefer: *I prefer to addressing...* → <strong>I prefer addressing... / I prefer to address...</strong>.",
+          "re- verb spelling: <strong>re-establish</strong> or <strong>rebuild</strong> without hyphen."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Describing Friendship (Adjectives)",
+          "words": [
+            "admirable", "beneficial", "clashing", "empathetic", "enduring", "harmonious",
+            "supportive", "compassionate"
+          ]
+        },
+        {
+          "category": "Describing Friendship (Verbs)",
+          "words": [
+            "admire", "benefit", "clash", "empathize", "endure", "harmonize", "drift apart",
+            "grow apart"
+          ]
+        },
+        {
+          "category": "Verbs with Prefix re-",
+          "words": [
+            "rebuild", "recall", "reconnect", "redefine", "rehash", "rekindle", "replace",
+            "resurface", "re-establish"
+          ]
+        },
+        {
+          "category": "Interpersonal Interaction",
+          "words": [
+            "connection", "extroverted", "face-to-face", "interaction", "introverted",
+            "social media", "virtual", "rapport"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Expressing opinions",
+          "phrases": [
+            "I have to say that ...", "In my opinion, ...", "Personally, I (don't) think ...",
+            "The way I see it, ..."
+          ]
+        },
+        {
+          "category": "Disagreeing politely",
+          "phrases": [
+            "I see what you mean, but ...", "I see your point, but ...", "I'm not sure I agree.",
+            "Do you think so?"
+          ]
+        },
+        {
+          "category": "Agreeing on importance",
+          "phrases": [
+            "And let's not forget ...", "Well, I think it's important ...",
+            "Yeah, that's true, but even more important is ...",
+            "You're right ... is also quite important."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "units": "2",
+      "title": "Clothes and Appearance",
+      "badgeEmoji": "👔",
+      "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Review of verb patterns; Cleft sentences with what.",
+        "focus": "Ensure correct use of 'What concerns me is...' cleft structures."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (CLOTHES & APPEARANCE)",
+        "diagOptions": [
+          "✨ Cleft sentences with What (What matters most is...)",
+          "👔 Review of verb patterns (Verb + object + infinitive)",
+          "🎨 Style adjectives (chic, retro, quirky)",
+          "👤 Outward appearance descriptors (dignified, trustworthy)"
+        ],
+        "vocabWords": [
+          "chic", "dignified", "cleft", "quirky", "dress code", "retro", "trustworthy",
+          "aesthetic"
+        ],
+        "step1Goal": "90-110 words",
+        "step1Text": "Draft a corporate brand policy update and HR objections:",
+        "freeWriteMin": 90,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Discuss the impact of appearance and clothing choices in the modern workplace.",
+        "step1Template": "What [Cleft sentence with What] when representing an executive firm is maintaining an impeccable and dignified personal brand. We actively encourage team members [Verb + object + infinitive] a modern, chic aesthetic without feeling constrained. What concerns HR officers about strict dress codes is [Cleft structure] that employees may resist overly formal expectations.<br><br>**Sentence Starter Extension:** [[In an era dominated by casual and remote cultures, the visual element that continues to command respect is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Brand Strategy Specialist",
+            "avatar": "🎨",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "VP of Human Resources",
+            "avatar": "📋",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You believe formality strictly correlates with competence.",
+          "You champion total aesthetic freedom for workers.",
+          "You are skeptical of high-end corporate posturing.",
+          "You are detail-oriented about fabric and styling.",
+          "You keep citing personal fashion icons as precedents.",
+          "You worry about employee pushback on every change."
+        ],
+        "step2Questions": [
+          "Task 1 (Brand Strategist): Pitch an updated corporate dress code. Use cleft sentences (What matters most is...) and verb patterns.",
+          "Task 2 (HR VP): Challenge the proposal, raising concerns about employee comfort and individuality.",
+          "► Joint Mission: Draft a compromised, flexible dress-code charter.",
+          "► Policy Verdict: Is charter ready for executive rollout? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Cleft sentence with What": ["matters most", "truly counts", "really matters", "is essential"],
+          "Verb + object + infinitive": ["to embrace", "to adopt", "to cultivate", "to project"],
+          "Cleft structure": ["the possibility", "the likelihood", "the risk", "the concern"]
+        },
+        "step2Opener": "A: \"What matters most is that our brand looks impeccable, so we encourage staff to embrace a chic aesthetic.\"<br>B: \"What concerns me is the risk that employees may resist overly rigid expectations.\"",
+        "commonErrors": [
+          "Cleft word order: *What matters most it is...* → <strong>What matters most is...</strong>.",
+          "Verb pattern: *encourage team members embracing...* → <strong>encourage team members to embrace...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Describing Styles (Adjectives)",
+          "words": [
+            "chic", "classic", "conservative", "elegant", "fashionable", "flashy", "formal",
+            "frumpy", "functional", "funky", "quirky", "retro", "sloppy", "stuffy", "stylish",
+            "trendy"
+          ]
+        },
+        {
+          "category": "Outward Appearance (Adjectives)",
+          "words": [
+            "arrogant", "dignified", "eccentric", "innocent", "intellectual", "intense",
+            "sinister", "smug", "sympathetic", "trustworthy"
+          ]
+        },
+        {
+          "category": "Image & Perception",
+          "words": [
+            "acknowledge", "apology", "assumption", "overcome", "perceive", "reassure",
+            "recover", "self-deprecating"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "units": "3",
+      "title": "Science and Technology",
+      "badgeEmoji": "🔬",
+      "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Indefinite and definite articles; -ing clauses.",
+        "focus": "Listen for precision in participle clauses (Having launched...)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (SCIENCE & TECH)",
+        "diagOptions": [
+          "⚙️ Participle -ing clauses (By automating...)", "📜 Having + past participle clauses",
+          "🔤 Definite and indefinite articles",
+          "🛡️ Technological risk adjectives (hazardous, unethical)"
+        ],
+        "vocabWords": [
+          "audacious", "frivolous", "hazardous", "prudent", "unethical", "diagnostics",
+          "vulnerabilities", "safeguard"
+        ],
+        "step1Goal": "90-110 words",
+        "step1Text": "Formulate an innovation statement and regulatory interrogation:",
+        "freeWriteMin": 90,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Evaluate a groundbreaking technological or scientific advancement.",
+        "step1Template": "Leveraging [-ing clause starting sentence], engineering teams can significantly reduce operational vulnerabilities. While many tech pioneers [Attitude collocation], regulators continue to voice concerns regarding data privacy. Having [Participle clause with Having + past participle], the ethics committee demanded strict testing protocols for [Correct article usage] artificial intelligence.<br><br>**Sentence Starter Extension:** [[Whenever autonomous systems make high-stakes determinations, the core ethical safeguard must be...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Lead Robotics Engineer",
+            "avatar": "🤖",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Ethics & Regulatory Officer",
+            "avatar": "⚖️",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You dismiss safety concerns as anti-progress paranoia.",
+          "You are cautious to the point of slowing every deployment.",
+          "You keep citing theoretical sci-fi disasters.",
+          "You are eager to commercialize before competitors catch up.",
+          "You question the validity of experimental testing.",
+          "You are defensive about algorithm transparency."
+        ],
+        "step2Questions": [
+          "Task 1 (Engineer): Pitch a groundbreaking technological innovation to the board. Highlight societal benefits.",
+          "Task 2 (Ethics Officer): Express skepticism, citing security bugs, vulnerable systems, and privacy.",
+          "► Joint Mission: Establish a mandatory safety protocol before approving market rollout.",
+          "► Approval Status: Is prototype approved for field trials? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "-ing clause starting sentence": [
+            "automating routine diagnostics", "integrating predictive analytics",
+            "deploying neural networks"
+          ],
+          "Attitude collocation": ["embrace innovation", "champion disruptive change", "welcome transformation"],
+          "Participle clause with Having + past participle": [
+            "reviewed the initial trial data", "identified critical vulnerabilities",
+            "examined the telemetry"
+          ],
+          "Correct article usage": ["an", "the", "emerging"]
+        },
+        "step2Opener": "A: \"By automating routine diagnostics, we can eliminate most operational vulnerabilities.\"<br>B: \"Having reviewed the initial trial data, I still voice concerns about data privacy.\"",
+        "commonErrors": [
+          "Participle clause dangling: *Leveraging automating...* → <strong>Leveraging automated diagnostics...</strong>.",
+          "Article precision: *for the artificial intelligence* → <strong>for artificial intelligence</strong> (general) or <strong>for an emerging AI model</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Tech Issues & Ethics (Adjectives)",
+          "words": [
+            "audacious", "confidential", "frivolous", "hazardous", "problematic", "prudent",
+            "unethical"
+          ]
+        },
+        {
+          "category": "Attitude Expressions",
+          "words": [
+            "aware of", "crazy about", "curious about", "familiar with", "fed up with",
+            "grateful for", "intimidated by", "knowledgeable about", "leery of", "reliant on",
+            "sick of", "suspicious of"
+          ]
+        },
+        {
+          "category": "Innovation & Regulation",
+          "words": [
+            "ban", "boredom", "expectation", "experiment", "offline", "struggle", "succumb",
+            "transform"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Expressing caution and confidence",
+          "phrases": [
+            "I have every confidence that ...", "I'm a bit leery of ...", "I'm all for ...",
+            "You should think twice about ..."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "units": "4",
+      "title": "Superstitions and Beliefs",
+      "badgeEmoji": "🔮",
+      "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Reporting clauses; Reporting clauses in the passive.",
+        "focus": "Ensure accurate passive reporting structures for unverified claims."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (SUPERSTITIONS & BELIEFS)",
+        "diagOptions": [
+          "📜 Passive reporting clauses (It is reported that...)",
+          "🔮 Verbs of belief and truth (plausible, far-fetched)",
+          "🍀 Expressions with luck (beginner's luck, lucky break)", "💭 Active reporting clauses"
+        ],
+        "vocabWords": [
+          "plausible", "far-fetched", "dubious", "lucky streak", "hoax", "unverified",
+          "superstition", "ritual"
+        ],
+        "step1Goal": "90-110 words",
+        "step1Text": "Draft an investigative hypothesis and a skeptical refutation:",
+        "freeWriteMin": 90,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Narrate a well-known urban legend or historical mystery.",
+        "step1Template": "It is widely [Passive reporting clause] historical figures relied on superstitions to avoid bad fortune. Although the eyewitness claims sound entirely [Truth/fabrication adjective], recent investigative evidence suggests the myth was fabricated. Skeptics argue that attributing dramatic successes to anything beyond [Expression with luck] is logically unsound.<br><br>**Sentence Starter Extension:** [[The psychological explanation for why educated individuals still fall for irrational rituals is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Cultural Researcher",
+            "avatar": "📜",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Skeptical Journalist",
+            "avatar": "🎙️",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You believe coincidences are signs of deeper cosmic order.",
+          "You reject all claims that lack empirical proof.",
+          "You keep contradicting your own narrative timeline.",
+          "You are dramatic about ancient omens.",
+          "You are condescending toward people who believe in charms.",
+          "You get sidetracked debating a famous historical coincidence."
+        ],
+        "step2Questions": [
+          "Task 1 (Researcher): Present an intriguing mystery, making a case for its authenticity.",
+          "Task 2 (Journalist): Debunk the claims, pointing out dubious sources and fabricated evidence.",
+          "► Joint Mission: Reach a final podcast verdict: Plausible Reality vs. Elaborate Hoax.",
+          "► Editorial Verdict: Story cleared for publication? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Passive reporting clause": ["believed that", "reported that", "rumored that", "alleged that"],
+          "Truth/fabrication adjective": ["plausible", "far-fetched", "dubious", "fishy", "convincing"],
+          "Expression with luck": ["beginner's luck", "pure chance", "a lucky streak", "the luck of the draw"]
+        },
+        "step2Opener": "A: \"It is widely believed that this ritual brought the village good fortune.\"<br>B: \"The claims sound far-fetched to me — I suspect it was nothing more than a lucky streak.\"",
+        "commonErrors": [
+          "Passive reporting form: *It is widely believe that...* → <strong>It is widely believed that...</strong>.",
+          "Confusing dubious (doubtful) with doubtless (certainly)."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Expressions with Luck",
+          "words": [
+            "bad luck", "beginner's luck", "best of luck", "luck of the draw", "no such luck",
+            "out of luck", "push your luck", "lucky break"
+          ]
+        },
+        {
+          "category": "Truth & Fabrication (Adjectives)",
+          "words": [
+            "believable", "conceivable", "convincing", "credible", "dubious", "far-fetched",
+            "fishy", "iffy", "misleading", "phony", "plausible", "well-founded"
+          ]
+        },
+        {
+          "category": "Psychology of Belief",
+          "words": [
+            "boost", "effectiveness", "enhance", "good luck charm", "jinx", "mindset", "ritual",
+            "trigger"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Reporting something surprising",
+          "phrases": ["Believe it or not, ...", "Did you hear what happened?", "Get this - ..."]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "units": "5",
+      "title": "Movies and Television",
+      "badgeEmoji": "🎬",
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Sentence adverbs; Such... that and so... that.",
+        "focus": "Correct application of 'so + adj + that' vs 'such + noun phrase + that'."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (MOVIES & TELEVISION)",
+        "diagOptions": [
+          "📽️ Such... that (with noun phrase)", "⚡ So... that (with adjective)",
+          "🗣️ Sentence adverbs (Undeniably, Predictably)",
+          "🎭 Film and TV adjectives (engrossing, formulaic)"
+        ],
+        "vocabWords": [
+          "engrossing", "formulaic", "riveting", "clichéd", "captivating", "predictably",
+          "undeniably", "pilot"
+        ],
+        "step1Goal": "90-110 words",
+        "step1Text": "Create a pitch outline and executive evaluation notes:",
+        "freeWriteMin": 90,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Pitch a concept for a groundbreaking TV show or film.",
+        "step1Template": "Undeniably, modern streaming audiences prefer [Media adjective] narratives over predictable storylines. The new docuseries features [Such + noun phrase + that] compelling storytelling that viewers become immediately hooked. Predictably, network executives rejected the script because the plot was [So + adjective + that] formulaic that it lacked commercial appeal.<br><br>**Sentence Starter Extension:** [[The fatal mistake that most contemporary streaming series make when pacing a season is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Screenwriter / Producer",
+            "avatar": "✍️",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Network Executive",
+            "avatar": "💼",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You refuse to compromise on your artsy vision.",
+          "You care strictly about viewer retention algorithms.",
+          "You keep comparing every idea to existing hit series.",
+          "You are dramatic about script notes ruining your story.",
+          "You are nostalgic for 90s cinema pacing.",
+          "You are enthusiastic about everything but commit to nothing."
+        ],
+        "step2Questions": [
+          "Task 1 (Writer): Pitch an original series concept. Use sentence adverbs and so/such... that structures.",
+          "Task 2 (Executive): Critique the concept, challenging clichéd tropes and formulaic elements.",
+          "► Joint Mission: Negotiate script and production revisions to greenlight a pilot episode.",
+          "► Greenlight Status: Pilot production approved? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Media adjective": ["thought-provoking", "captivating", "riveting", "engrossing"],
+          "Such + noun phrase + that": ["such", "such rich and", "such dynamic"],
+          "So + adjective + that": ["so", "so overly", "so completely"]
+        },
+        "step2Opener": "A: \"Surprisingly, this concept features such compelling storytelling that viewers become hooked instantly.\"<br>B: \"Regrettably, the plot is so formulaic that I doubt it will attract new audiences.\"",
+        "commonErrors": [
+          "Such vs so: *so compelling storytelling* → <strong>such compelling storytelling</strong> (noun phrase requires 'such').",
+          "So vs such: *such formulaic* → <strong>so formulaic</strong> (adjective alone requires 'so')."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Critiquing Movies & Shows (Adjectives)",
+          "words": [
+            "clichéd", "engrossing", "formulaic", "inspiring", "mediocre", "moving",
+            "predictable", "riveting", "touching"
+          ]
+        },
+        {
+          "category": "TV Formats & Genres (Nouns)",
+          "words": [
+            "cartoon", "cooking show", "documentary", "drama series", "game show",
+            "news program", "reality TV show", "sitcom", "sketch comedy show", "soap opera",
+            "sports program", "talk show", "sitcom (situational comedy)"
+          ]
+        },
+        {
+          "category": "Film Production",
+          "words": [
+            "attempt", "capture", "feature-length film", "film clip", "footage", "star",
+            "time capsule", "star (v)"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Suggesting improvements",
+          "phrases": [
+            "I think what it needs is ...", "It might be better if you ...",
+            "It'd be even better if ...", "You might want to ..."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "units": "6",
+      "title": "Musicians and Music",
+      "badgeEmoji": "🎵",
+      "imageUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Double comparatives; Will and would for habits and general truths.",
+        "focus": "Ensure symmetry in double comparatives (The more X, the more Y)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (MUSICIANS & MUSIC)",
+        "diagOptions": [
+          "📈 Double comparatives (The more... the easier...)",
+          "🔄 Would for past repeated habits", "🎸 Will for present characteristic truths",
+          "🎼 Music industry idioms (strike a chord, pay your dues)"
+        ],
+        "vocabWords": [
+          "haunting", "mellow", "evocative", "strike a chord", "pay your dues", "has-been",
+          "one-hit wonder", "break into"
+        ],
+        "step1Goal": "90-110 words",
+        "step1Text": "Draft a career crossroads statement and executive coaching brief:",
+        "freeWriteMin": 90,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Share your perspectives on what constitutes true musical talent versus commercial marketing.",
+        "step1Template": "The more [Double comparative], the easier it is for an artist to capture global attention. In the early days of their career, independent bands would [Would for past habits] tour in small vans and perform for free just to gain exposure. A truly exceptional musician will [Will for present habits/truths] spend countless hours refining their craft to write haunting lyrics that strike a chord with audiences.<br><br>**Sentence Starter Extension:** [[In an age saturated by synthetic algorithmically produced tracks, the quality that distinguishes genuine musicianship is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Independent Artist",
+            "avatar": "🎸",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Veteran Record Executive",
+            "avatar": "🎙️",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You refuse to write radio-friendly hooks.",
+          "You care only about viral TikTok virality.",
+          "You keep recounting how hard you worked in the past.",
+          "You are cynical about the music business.",
+          "You want total creative control with massive label funding.",
+          "You get defensive when asked about commercial viability."
+        ],
+        "step2Questions": [
+          "Task 1 (Artist): Explain your creative vision and career dilemmas, reflecting on past habits (would).",
+          "Task 2 (Executive): Provide realistic career guidance using double comparatives and general truths (will).",
+          "► Joint Mission: Co-create a release and strategy roadmap for an upcoming album.",
+          "► Contract Verdict: Record label signing completed? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Double comparative": [
+            "unique an artist's sound is", "authentic their music sounds",
+            "innovative the melody is"
+          ],
+          "Would for past habits": ["often", "regularly", "frequently", "tirelessly"],
+          "Will for present habits/truths": ["invariably", "inevitably", "always", "consistently"]
+        },
+        "step2Opener": "A: \"When I was starting out, I would often tour in a small van just to gain exposure.\"<br>B: \"The more authentic your sound is, the easier it will be to strike a chord with a global audience.\"",
+        "commonErrors": [
+          "Double comparative asymmetry: *The more unique, easier it is* → <strong>The more unique..., the easier it is...</strong>.",
+          "Would for state vs habit: *I would live in Paris* (state) → <strong>used to live</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Describing Music (Adjectives)",
+          "words": [
+            "catchy", "evocative", "exhilarating", "frenetic", "haunting", "mellow",
+            "monotonous", "soothing"
+          ]
+        },
+        {
+          "category": "Music Industry Idioms",
+          "words": [
+            "be a big hit", "be a has-been", "be a one-hit wonder", "be discovered",
+            "be washed up", "break into the business", "get your big break",
+            "get your foot in the door", "make a comeback", "make a name for yourself",
+            "make it big", "pay your dues"
+          ]
+        },
+        {
+          "category": "Performance & Career",
+          "words": [
+            "astonishing", "bootleg copy", "long-forgotten", "popularity", "release",
+            "reputation", "reveal", "strike a chord", "construction worker"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Asking about opinions",
+          "phrases": ["Are you into ...?", "How do you feel about ...?", "What do you think of/about ...?"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "units": "7",
+      "title": "Changing Times",
+      "badgeEmoji": "⏳",
+      "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Optional and required relative pronouns; As if, as though, as, the way, and like.",
+        "focus": "Check that students distinguish when relative pronouns are strictly required."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (CHANGING TIMES)",
+        "diagOptions": [
+          "👥 Required vs optional relative pronouns",
+          "🎭 As if / as though with subjunctive past",
+          "🔄 Collocations with change (bring about, resist)",
+          "⚖️ Manner connectors (as, the way, like)"
+        ],
+        "vocabWords": [
+          "bring about", "sweeping", "as if", "as though", "resistance", "irreversible",
+          "restructuring", "transition"
+        ],
+        "step1Goal": "90-110 words",
+        "step1Text": "Write a transformation plan brief and operations impact note:",
+        "freeWriteMin": 90,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Describe a major societal or workplace change you have witnessed.",
+        "step1Template": "Traditional organizational structures operate as if [As if / as though manner clause] hybrid workplace models were temporary. Executive leaders who [Required relative pronoun case] fail to embrace technological evolution risk falling behind. To bring about [Collocation with change], companies must engage employees rather than enforce irreversible decisions.<br><br>**Sentence Starter Extension:** [[Whenever corporate leadership pushes rapid systemic changes onto frontline personnel, the primary source of friction is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Change Management Consultant",
+            "avatar": "📊",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Operations Director",
+            "avatar": "⚙️",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You demand instant compliance with the new policy.",
+          "You are protective of staff who resist automation.",
+          "You cite historical precedents for why the plan will fail.",
+          "You keep modifying the implementation milestones.",
+          "You are overly clinical about layoffs and cost cuts.",
+          "You worry about morale collapse during the transition."
+        ],
+        "step2Questions": [
+          "Task 1 (Consultant): Present a sweeping organizational restructuring plan using manner comparisons.",
+          "Task 2 (Director): Raise concerns about employee resistance and unpredictable disruptions.",
+          "► Joint Mission: Negotiate a phased rollout schedule to ease transition.",
+          "► Transition Sign-Off: Is phased rollout roadmap adopted? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "As if / as though manner clause": [
+            "nothing had changed", "the market would never shift",
+            "remote work were unsustainable"
+          ],
+          "Required relative pronoun case": ["consistently", "repeatedly", "persistently", "refuse to adapt and"],
+          "Collocation with change": ["sweeping change", "meaningful change", "lasting change", "positive change"]
+        },
+        "step2Opener": "A: \"Some departments act as if nothing had changed, but we need sweeping change now.\"<br>B: \"Leaders who consistently resist evolution risk falling behind, but employees still need time to adjust.\"",
+        "commonErrors": [
+          "As if + subjunctive: *as if it is temporary* → <strong>as if it were temporary</strong>.",
+          "Dropping required subject relative pronouns: *Leaders fail to adapt...* → <strong>Leaders who fail to adapt...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Collocations with Change",
+          "words": [
+            "anticipate a change", "avoid a change", "bring about a change",
+            "cope with a change", "go through a change", "resist a change", "welcome a change"
+          ]
+        },
+        {
+          "category": "Negative Prefix Antonyms (Adjectives)",
+          "words": [
+            "illogical", "immature", "improper", "inconsiderate", "inconsistent", "indecisive",
+            "intolerant", "irresponsible"
+          ]
+        },
+        {
+          "category": "Societal Transformation",
+          "words": [
+            "advocate", "consumption", "deprivation", "phenomenon", "poverty", "precious",
+            "re-evaluate", "valuable", "widespread"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Asking for more specific information",
+          "phrases": ["In what way(s)?", "What makes you say that?", "Why do you think that?"]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "units": "8",
+      "title": "Consumer Culture",
+      "badgeEmoji": "🛍️",
+      "imageUrl": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Placement of direct and indirect objects; Verbs in the subjunctive.",
+        "focus": "Ensure correct form of subjunctive (base verb, e.g., 'insist that he be...')."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (CONSUMER CULTURE)",
+        "diagOptions": [
+          "⚖️ Verbs in the subjunctive mood (demand that companies disclose)",
+          "📦 Placement of direct and indirect objects",
+          "🛒 Shopping experience expressions (buyer's remorse, impulse buy)",
+          "🎯 Marketing strategies (covert, product placement)"
+        ],
+        "vocabWords": [
+          "buyer's remorse", "impulse buy", "covert", "subjunctive", "compulsive", "endorsement",
+          "loyalty program", "disclose"
+        ],
+        "step1Goal": "90-110 words",
+        "step1Text": "Formulate a formal consumer complaint and a marketing defense:",
+        "freeWriteMin": 90,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Critique a modern marketing strategy (e.g., influencer endorsements, stealth advertising).",
+        "step1Template": "Consumer advocate groups demand that companies [Subjunctive structure] disclose all covert marketing strategies. Retailers frequently offer consumers [Direct and indirect object placement] targeted promotions to encourage impulse buying. It is essential that regulators be [Subjunctive] vigilant against misleading viral campaigns.<br><br>**Sentence Starter Extension:** [[When advertising algorithms anticipate consumer impulses with uncanny accuracy, the line between helpful customization and manipulation is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Consumer Rights Advocate",
+            "avatar": "🛡️",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Marketing Agency Director",
+            "avatar": "📢",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You treat every marketing tactic as predatory deception.",
+          "You defend behavioral targeting as giving consumers what they want.",
+          "You are apologetic about covert influencer campaigns.",
+          "You keep quoting consumer protection statutes.",
+          "You admit to being an impulse buyer yourself.",
+          "You are aggressive about protecting corporate ad revenue."
+        ],
+        "step2Questions": [
+          "Task 1 (Advocate): Challenge unethical commercial practices. Express formal demands using the subjunctive mood.",
+          "Task 2 (Director): Defend brand strategies, explaining object-verb relationships and value.",
+          "► Joint Mission: Draft new mandatory advertising ethics guidelines.",
+          "► Consumer Audit Verdict: Campaign declared compliant? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Subjunctive structure": ["fully", "immediately", "publicly", "transparently"],
+          "Direct and indirect object placement": ["personalized", "exclusive", "tailored", "highly tempting"],
+          "Subjunctive": ["extremely", "consistently", "constantly", "proactively"]
+        },
+        "step2Opener": "A: \"We demand that companies fully disclose all covert marketing strategies.\"<br>B: \"We already offer consumers personalized promotions in full transparency.\"",
+        "commonErrors": [
+          "Subjunctive inflection error: *demand that companies discloses* → <strong>demand that companies disclose</strong> (base verb).",
+          "Indirect object inversion: *offer targeted promotions consumers* → <strong>offer consumers targeted promotions</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Shopping Experiences",
+          "words": [
+            "be a bargain hunter", "be a compulsive shopper", "bid on an item",
+            "go on a shopping spree", "go over your credit limit", "go window-shopping",
+            "have buyer's remorse", "make an impulse buy"
+          ]
+        },
+        {
+          "category": "Marketing Strategies (Nouns)",
+          "words": [
+            "celebrity endorsement", "comparative marketing", "coupon codes", "free sample",
+            "loyalty program", "product placement", "search-engine marketing",
+            "word-of-mouth marketing", "a celebrity endorsement", "a free sample",
+            "a loyalty program"
+          ]
+        },
+        {
+          "category": "Commercial Practices",
+          "words": [
+            "amplify", "clandestine", "covert", "hyperconnected", "peddle", "persuasive",
+            "pervasive", "unsuspecting"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Asking for advice",
+          "phrases": [
+            "What do you think I should do?", "What would you do if you were in my position?",
+            "What would you do if you were me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "units": "9",
+      "title": "Nature",
+      "badgeEmoji": "🌿",
+      "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Whenever/wherever vs when/where; Noun clauses with whoever/whatever.",
+        "focus": "Verify noun clause structure as subject/object."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (NATURE & CONSERVATION)",
+        "diagOptions": [
+          "🗺️ Whenever and wherever clauses", "👤 Noun clauses with whoever and whatever",
+          "🐾 Animal physical features (claws, fangs, tusks)",
+          "🌲 Nature idioms (tip of the iceberg, walk in the park)"
+        ],
+        "vocabWords": [
+          "wherever", "whoever", "whatever", "camouflage", "ecosystem", "sanctuary",
+          "barking up the wrong tree", "biodiversity"
+        ],
+        "step1Goal": "90-110 words",
+        "step1Text": "Draft an eco-development proposal and a conservationist assessment:",
+        "freeWriteMin": 90,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Discuss an environmental conservation project or sanctuary effort.",
+        "step1Template": "Wherever [Whenever / wherever clause] developers construct commercial resorts, strict environmental protections must safeguard delicate ecosystems. Whoever [Noun clause with Whoever / Whatever] manages wildlife preserves must ensure species that depend on natural camouflage remain undisturbed. Assuming eco-tourism has zero ecological impact on wildlife habitats is [Nature idiom].<br><br>**Sentence Starter Extension:** [[If global environmental policies fail to protect apex predators and biodiversity hotspots, the subsequent collapse will...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Eco-Resort Developer",
+            "avatar": "🏗️",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Wildlife Conservationist",
+            "avatar": "🦁",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You believe economic development should take priority in impoverished zones.",
+          "You oppose any human footprint near nature reserves.",
+          "You keep romanticizing wilderness survival.",
+          "You claim your development is net-positive without showing data.",
+          "You are skeptical of corporate greenwashing.",
+          "You get sidetracked talking about a specific endangered animal."
+        ],
+        "step2Questions": [
+          "Task 1 (Developer): Pitch a sustainable luxury development project. Use whenever/wherever and whoever/whatever clauses.",
+          "Task 2 (Conservationist): Question the developer, highlighting risks to animal features, habitats, and natural behaviors.",
+          "► Joint Mission: Establish 3 non-negotiable eco-compliance clauses for project approval.",
+          "► Conservation Clearance: Eco-resort permits granted? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Whenever / wherever clause": ["they choose to build", "resorts are planned", "commercial projects expand"],
+          "Noun clause with Whoever / Whatever": ["is appointed to oversee", "currently directs", "manages the park"],
+          "Nature idiom": ["barking up the wrong tree", "just the tip of the iceberg", "wishful thinking"]
+        },
+        "step2Opener": "A: \"Wherever we choose to build, strict environmental protections will safeguard the ecosystem.\"<br>B: \"Assuming eco-tourism has zero impact is barking up the wrong tree — whoever manages this preserve must prove it first.\"",
+        "commonErrors": [
+          "Wherever vs where: prefer <strong>Wherever developers build...</strong> when expressing 'anywhere without exception'.",
+          "Double subject with whoever: *Whoever him manages...* → <strong>Whoever manages...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Physical Features of Animals (Nouns)",
+          "words": [
+            "beaks", "claws", "fangs", "feathers", "fins", "fur", "gills", "hooves", "horns",
+            "paws", "scales", "tails", "tusks", "wings"
+          ]
+        },
+        {
+          "category": "Nature Idioms",
+          "words": [
+            "a breath of fresh air", "a drop in the ocean", "a walk in the park",
+            "as clear as mud", "set in stone", "the tip of the iceberg", "under the weather",
+            "up in the air"
+          ]
+        },
+        {
+          "category": "Environmental Ecology",
+          "words": [
+            "amiable", "dump", "infiltrate", "park ranger", "therapeutic", "unnerved", "vexed",
+            "year-round", "yield", "field (v)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "units": "10",
+      "title": "Language",
+      "badgeEmoji": "💬",
+      "imageUrl": "https://images.unsplash.com/photo-1543165796-5426273eaab3?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Overview of passives; Subject-verb agreement with quantifiers.",
+        "focus": "Listen for advanced passive accuracy ('is being evaluated') and singular verbs with 'neither/each'."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (LANGUAGE & RHETORIC)",
+        "diagOptions": [
+          "⚙️ Passive voice variations (are currently being delivered)",
+          "📊 Subject-verb agreement with quantifiers (A majority of...)",
+          "🗣️ Discourse markers (Furthermore, To begin with)",
+          "💡 Language idioms (sharp tongue, beat around the bush)"
+        ],
+        "vocabWords": [
+          "discourse", "quantifier", "sharp tongue", "beat around the bush", "jargon",
+          "articulate", "eloquent", "rhetoric"
+        ],
+        "step1Goal": "90-110 words",
+        "step1Text": "Compose a communication audit note and an executive stance brief:",
+        "freeWriteMin": 90,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Reflect on how digital communication and social media are changing formal language standards.",
+        "step1Template": "A majority of communications experts [Subject-verb agreement with quantifiers] feel that authentic speech resonates better than scripted jargon. Critical corporate announcements are currently being [Continuous or modal passive] delivered through digital channels. Having said that, [Discourse marker], leaders must learn to speak their minds without beating around the bush.<br><br>**Sentence Starter Extension:** [[When public speakers rely excessively on rehearsed corporate clichés rather than plain speaking, audiences immediately...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Communications Director",
+            "avatar": "🎙️",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Executive Candidate",
+            "avatar": "👔",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You speak in dense academic jargon.",
+          "You prefer hyper-casual slang even in high-stakes meetings.",
+          "You are blunt and offend listeners without realizing it.",
+          "You keep hedging every statement to avoid accountability.",
+          "You are passionate about grammatical purism.",
+          "You get flustered when pressed to summarize your point."
+        ],
+        "step2Questions": [
+          "Task 1 (Director): Evaluate an executive's speaking style. Point out issues using passives and quantifier subject-verb agreement.",
+          "Task 2 (Executive): Defend a direct, informal style using discourse markers and language idioms.",
+          "► Joint Mission: Formalize public speaking guidelines for an upcoming press conference.",
+          "► Media Readiness Check: Candidate certified for live broadcast? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Subject-verb agreement with quantifiers": ["genuinely", "increasingly", "strongly", "nowadays"],
+          "Continuous or modal passive": ["carefully", "strategically", "seamlessly"],
+          "Discourse marker": ["furthermore", "on the whole", "to begin with", "in addition"]
+        },
+        "step2Opener": "A: \"A majority of experts genuinely feel that authentic speech resonates better than scripted jargon.\"<br>B: \"On the whole, I prefer to speak my mind rather than beat around the bush.\"",
+        "commonErrors": [
+          "Quantifier agreement mismatch: *A majority of experts feels...* → <strong>A majority of experts feel...</strong>.",
+          "Passive auxiliary omission: *are currently deliver* → <strong>are currently being delivered</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Discourse Markers (Adverbs & Phrases)",
+          "words": [
+            "first / second / third", "first of all", "furthermore", "in addition",
+            "in conclusion", "likewise", "nevertheless", "next", "similarly", "to begin",
+            "to sum up", "yet"
+          ]
+        },
+        {
+          "category": "Language-Related Idioms",
+          "words": [
+            "have a sharp tongue", "have a way with words", "love to hear oneself talk",
+            "stick to the point", "talk around a point", "talk behind someone's back",
+            "talk someone into something", "talk someone's ear off"
+          ]
+        },
+        {
+          "category": "Rhetoric & Communication",
+          "words": [
+            "belonging", "casual", "common ground", "credibility", "muster", "superficial",
+            "eloquence", "plain-speaking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "units": "11",
+      "title": "Exceptional People",
+      "badgeEmoji": "🌟",
+      "imageUrl": "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Compound adjectives; Superlative compound adjectives.",
+        "focus": "Ensure precise use of compound adjective hyphens and superlative structures."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (EXCEPTIONAL PEOPLE)",
+        "diagOptions": [
+          "⭐ Superlative compound adjectives (the most quick-witted)",
+          "👤 Compound adjectives related to the body (cool-headed, warm-hearted)",
+          "🤝 Phrasal verbs (stand up for, look after, live up to)",
+          "🏆 Qualities of leadership (perseverance, integrity)"
+        ],
+        "vocabWords": [
+          "quick-witted", "warm-hearted", "cool-headed", "open-minded", "hard-headed",
+          "stand up for", "live up to", "perseverance"
+        ],
+        "step1Goal": "90-110 words",
+        "step1Text": "Draft a nomination dossier and panel review sheet:",
+        "freeWriteMin": 90,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Write a tribute or nomination profile for an exceptional historical or modern figure whom you deeply admire.",
+        "step1Template": "She is undeniably the most [Superlative compound adjective] leader our organization has ever nominated. Being cool-headed [Body-related compound adjective] under extreme pressure allowed the humanitarian team to carry out critical relief operations. For over two decades, he has [Preposition after work + gerund] communities around the world.<br><br>**Sentence Starter Extension:** [[What truly distinguishes an exceptional visionary from someone who is merely ambitious is their ability to...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Nomination Advocate",
+            "avatar": "🎖️",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Committee Selection Chair",
+            "avatar": "📋",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You treat your nominee as completely flawless.",
+          "You are deeply skeptical of every nominee's public reputation.",
+          "You keep comparing nominees to your own personal mentor.",
+          "You demand measurable proof for every act of generosity.",
+          "You are emotional when recalling humanitarian achievements.",
+          "You argue that true leaders never seek public awards."
+        ],
+        "step2Questions": [
+          "Task 1 (Advocate): Pitch an exceptional visionary leader for an award. Use compound adjectives, superlatives, and phrasal verbs.",
+          "Task 2 (Chair): Stress-test the candidate's achievements, probing how they worked under pressure.",
+          "► Joint Mission: Cast the committee vote and draft the official award dedication citation.",
+          "► Committee Award Decision: Medal of Excellence awarded? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Superlative compound adjective": ["quick-witted", "warm-hearted", "level-headed", "open-minded"],
+          "Body-related compound adjective": ["and warm-hearted", "and open-minded", "and soft-hearted"],
+          "Preposition after work + gerund": ["tirelessly championed", "relentlessly defended", "dedicated his life to supporting"]
+        },
+        "step2Opener": "A: \"She is undeniably the most quick-witted leader our organization has ever nominated.\"<br>B: \"Being cool-headed and warm-hearted is admirable, but how did she perform under real pressure?\"",
+        "commonErrors": [
+          "Hyphenation in compound adjectives: *the most quick witted* → <strong>the most quick-witted</strong>.",
+          "Compound adjective form: *warm-heart* → <strong>warm-hearted</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Body-Related Compound Adjectives",
+          "words": [
+            "absent-minded", "cold-blooded", "cold-hearted", "coolheaded", "empty-headed",
+            "hard-hearted", "hardheaded", "hot-blooded", "hotheaded", "narrow-minded",
+            "open-minded", "openhearted", "soft-hearted", "warm-blooded", "warm-hearted"
+          ]
+        },
+        {
+          "category": "Phrasal Verbs",
+          "words": [
+            "check on", "face up to", "get through", "live up to", "look after", "look to",
+            "side with", "take after", "stand up for"
+          ]
+        },
+        {
+          "category": "Leadership & Humanitarian Work",
+          "words": [
+            "beneficiary", "compel", "dogged", "enriched", "gut feeling", "intuition", "NGO",
+            "social entrepreneur", "perseverance", "NGO (nongovernmental organization)"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Describing what something means",
+          "phrases": [
+            "I interpret this to mean ...", "My understanding of this is that ...",
+            "What this means to me is that ..."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "units": "12",
+      "title": "Business Matters",
+      "badgeEmoji": "💼",
+      "imageUrl": "https://images.unsplash.com/photo-1752159400890-d906038f1b35?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Subject-verb inversion in conditional sentences; Adverb clauses of condition.",
+        "focus": "Monitor strict adherence to inverted syntax (no 'if') and conditional logic."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (BUSINESS MATTERS)",
+        "diagOptions": [
+          "🔄 Inverted past conditional (Had we not taken...)",
+          "⚖️ Inverted present hypothetical (Were the board to approve...)",
+          "🤝 Inverted conditional with Should (Should you require...)",
+          "📊 Adverb clauses of condition (provided that, unless)"
+        ],
+        "vocabWords": [
+          "Had we not", "Were the board", "Should you", "provided that", "valuation", "equity",
+          "corner the market", "calculated risk"
+        ],
+        "step1Goal": "95-115 words",
+        "step1Text": "Create an investment pitch brief and an investor term sheet note:",
+        "freeWriteMin": 95,
+        "freeWriteMax": 115,
+        "freeWritePrompt": "Present a business proposal or startup concept. Outline the strategic risks taken and conditions required.",
+        "step1Template": "Had we not [Inverted past unreal conditional] taken a calculated risk early on, our product would never have gained traction. Were the board to [Inverted hypothetical conditional] approve additional capital, our enterprise could corner the market. Should you still [Inverted conditional with Should] require further operational guarantees, we will accept those terms provided that equity remains untouched.<br><br>**Sentence Starter Extension:** [[If venture capital markets were to enter a prolonged contraction, the survival strategy for young tech firms would be...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Tech Startup Founder",
+            "avatar": "🚀",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Angel Investor",
+            "avatar": "💎",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You overestimate your startup valuation aggressively.",
+          "You demand 51% controlling equity for any capital investment.",
+          "You are skeptical of user acquisition metrics.",
+          "You keep pivoting the business model during negotiations.",
+          "You are overly protective of your founding team.",
+          "You threaten to walk away unless deal terms are signed immediately."
+        ],
+        "step2Questions": [
+          "Task 1 (Founder): Pitch a high-growth startup. Demonstrate strategic foresight using inverted conditionals.",
+          "Task 2 (Investor): Drive a hard bargain, placing strict conditional clauses (provided that, unless) and scrutinizing the bottom line.",
+          "► Joint Mission: Negotiate company valuation and equity split until a deal is signed or abandoned.",
+          "► Deal Closure: Term sheet executed and funding committed? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Inverted past unreal conditional": ["decisively", "boldly", "courageously", "swiftly"],
+          "Inverted hypothetical conditional": ["unanimously", "swiftly", "favorably", "officially"],
+          "Inverted conditional with Should": ["nonetheless", "regardless", "in fact", "actually"]
+        },
+        "step2Opener": "A: \"Had we not decisively taken a calculated risk early on, we would never have gained traction.\"<br>B: \"Were the board to unanimously approve more capital, provided that equity remains untouched, we could proceed.\"",
+        "commonErrors": [
+          "Keeping 'if' during inversion: *If had we not taken...* → <strong>Had we not taken...</strong>.",
+          "Inverted hypothetical form: *Were the board approved...* → <strong>Were the board to approve...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Prepositions Following Work (Verbs)",
+          "words": ["work against", "work around", "work for", "work off", "work on", "work toward"]
+        },
+        {
+          "category": "Workplace Success Expressions",
+          "words": [
+            "be adaptable", "be conscientious", "be innovative", "be optimistic",
+            "be trustworthy", "have charisma", "have good communication skills",
+            "have influence", "have initiative", "have leadership ability",
+            "have self-discipline", "have specialized training"
+          ]
+        },
+        {
+          "category": "Corporate & Entrepreneurial Terms",
+          "words": [
+            "autonomy", "diversity", "futurist", "humanist", "idealist", "integrity", "loyalty",
+            "optimist", "pragmatist", "realist", "self-critical", "temperament",
+            "traditionalist"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Expressing suspicion",
+          "phrases": [
+            "It sounds fishy to me.", "It sounds too good to be true.",
+            "That's a little hard to believe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "units": "FINAL",
+      "title": "CUMULATIVE MASTERY EXAM",
+      "badgeEmoji": "🎓",
+      "imageUrl": "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objective": "Comprehensive synthesis of Passages 2 C1 structures: Inverted Conditionals, Subjunctive, Cleft Sentences, Passive Reporting.",
+        "focus": "Monitor pair simulation and evaluate using the C1 Peer Rubric. No grading logic required."
+      },
+      "student": {
+        "handoutTitle": "FINAL EXAM SIMULATION (PREPARATION ONLY)",
+        "diagOptions": [
+          "🎯 Cleft Sentences (What I value most is...)",
+          "🔀 Inverted Conditionals (Had we known... / Were we to...)",
+          "📜 Subjunctive Mood (We insist that...)", "🌐 Passive Reporting & Sentence Adverbs"
+        ],
+        "vocabWords": [
+          "impeccable", "groundbreaking", "plausible", "formulaic", "strike a chord",
+          "sweeping changes", "killer bargain", "beat around the bush"
+        ],
+        "step1Goal": "155-185 words",
+        "step1Text": "Compose your C1 Master Portfolio outline incorporating target grammar:",
+        "freeWriteMin": 155,
+        "freeWriteMax": 185,
+        "freeWritePrompt": "Compose a comprehensive C1 professional profile. Detail your professional philosophy, reflect on a past turning point, evaluate a current global issue, and present a blueprint for future success.",
+        "step1Template": "What I consider [Cleft sentence] most essential for professional excellence is a combination of adaptability and integrity. Had I not [Inverted conditional] embraced challenging opportunities earlier in my path, I would not have developed my current capabilities. It is widely reported that modern industries [Passive reporting] are facing unprecedented disruption. Whoever [Noun clause with Whoever] will discover that [Double comparative: the more you practice, the more confident you become]. Therefore, future leaders must be [Subjunctive] prepared for rapid transformation.<br><br>**Sentence Starter Extension:** [[When synthesising complex discourse across multi-disciplinary environments, the single quality that ensures persuasive impact is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "C1 Candidate",
+            "avatar": "👩‍🎓",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "C1 Peer Examiner",
+            "avatar": "👨‍🏫",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are calm and strictly professional throughout.",
+          "You are nervous about the time limit.",
+          "You mix up complex structures under pressure.",
+          "You are overly confident about your command of English.",
+          "You get reflective about your entire learning journey.",
+          "You try to extend your speaking time past the boundary."
+        ],
+        "step2Questions": [
+          "Task 1 (Milestone - 2.5 Mins): Describe a major career or academic milestone. Explain its impact using Cleft Sentences and double comparatives.",
+          "Task 2 (Global Issue - 2.5 Mins): Debate a controversial trend in technology or corporate ethics. Negotiate solutions using Inverted Conditionals and Subjunctives.",
+          "► Joint Mission: Swap roles after 5 minutes so both candidates complete Task 1 and Task 2.",
+          "► Peer Feedback Rubric: Discuss Grammatical Accuracy, Lexical Precision, and Discourse Cohesion with your partner."
+        ],
+        "correctAnswers": {
+          "Cleft sentence": ["to be", "as", "truly to be"],
+          "Inverted conditional": ["actively", "consistently", "boldly"],
+          "Passive reporting": ["today", "currently", "globally"],
+          "Subjunctive": ["fully", "adequately", "comprehensively"]
+        },
+        "step2Opener": "A: \"What I consider to be most essential for professional excellence is a mix of adaptability and integrity.\"<br>B: \"Had you not actively embraced challenging opportunities, would you have developed these capabilities at all?\"",
+        "commonErrors": [
+          "Cleft sentence error: *What I consider most essential is to be...* → <strong>What I consider to be most essential is...</strong>.",
+          "Subjunctive base verb: *must be fully prepared* (not 'must being')."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Greatest Hits: Units 1-4",
+          "words": [
+            "admirable", "empathetic", "rekindle", "chic", "dignified", "eccentric", "audacious",
+            "prudent", "far-fetched", "plausible", "good luck charm", "jinx"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 5-8",
+          "words": [
+            "formulaic", "riveting", "mediocre", "evocative", "catchy", "make a comeback",
+            "pay your dues", "cope with a change", "intolerant", "a celebrity endorsement",
+            "go on a shopping spree", "pervasive"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 9-12",
+          "words": [
+            "a drop in the ocean", "the tip of the iceberg", "under the weather",
+            "have a way with words", "stick to the point", "furthermore", "nevertheless",
+            "open-minded", "hotheaded", "gut feeling", "integrity", "pragmatist"
+          ]
+        },
+        {
+          "category": "C1 Mastery Vocabulary (Units 1-6)",
+          "words": ["impeccable", "groundbreaking", "strike a chord", "dubious", "clashing"]
+        },
+        {
+          "category": "C1 Mastery Vocabulary (Units 7-12)",
+          "words": [
+            "sweeping changes", "killer bargain", "beat around the bush", "quick-witted",
+            "bottom line", "buyer's remorse", "provided that", "cool-headed"
+          ]
+        },
+        {
+          "category": "Advanced Rhetoric & Discourse Markers",
+          "words": [
+            "having said that", "on the whole", "to put it bluntly", "invariably", "undeniably",
+            "predictably", "mind you"
+          ]
+        }
+      ]
+    }
+  ],
+  "speakingCards": {
+    "1": [
+      {
+        "chips": [
+          "Closest friend", "Common traits", "Memorable moment", "Personality contrast",
+          "Evolution of trust"
+        ],
+        "t1": "Talk about your best or closest friend: what kind of friends they are, what you have in common, and a defining memory with them.",
+        "t2": "Tell about a person you initially thought you would never be friends with, explaining what shifted your perspective over time."
+      },
+      {
+        "chips": [
+          "Friendships over time", "Challenges", "Keeping in touch", "Meeting someone new",
+          "First impression"
+        ],
+        "t1": "Talk about how friendships evolve throughout life: how your friendships have changed since childhood or school, the challenges that can affect friendships over time, and how you keep in touch with old friends.",
+        "t2": "Talk about a time when you met someone new: where and how you met, your first impression, and how the relationship developed over time."
+      }
+    ],
+    "2": [
+      {
+        "chips": [
+          "Fashion choices", "Disliked trends", "Buying criteria", "First impressions",
+          "Style vs trends"
+        ],
+        "t1": "Describe what you like to wear and the fashion trends you follow or reject, explaining what is crucial whenever you buy clothes.",
+        "t2": "Discuss how first impressions based on clothing influence how people are perceived and treated in professional settings."
+      },
+      {
+        "chips": [
+          "Dislike: fashion trends", "Bad first impression", "Change in your style",
+          "Outfit that represents you", "Self-expression vs trends"
+        ],
+        "t1": "Talk about the kind of fashion trends you dislike, one time someone made a bad impression on you because of what they were wearing, and what you would change about your style.",
+        "t2": "Talk about how clothing style reflects personality and influences social perceptions: an outfit you love and why it represents you, a time someone's clothing choice surprised you, and whether fashion should be self-expression or following trends."
+      }
+    ],
+    "3": [
+      {
+        "chips": [
+          "Rapid adaptation", "Resisting change", "Multitasking", "Face-to-face loss",
+          "Tech dilemmas"
+        ],
+        "t1": "Discuss how rapid adaptation to technology impacts work and daily routines, and in what ways resisting change creates friction in society.",
+        "t2": "Evaluate whether digital communication tools have weakened interpersonal face-to-face connections or enhanced collaborative power."
+      },
+      {
+        "chips": [
+          "Multitasking", "Skills", "Story from an image", "Solution",
+          "What would you have done?"
+        ],
+        "t1": "Multitasking (noun): a person's or product's ability to do more than one thing at a time. What is your opinion about a person who multitasks? What activities are performed simultaneously? Can all people be multitaskers?",
+        "t2": "Look at the image and recreate the story in your own words: the beginning, the climax and the end; the solution they came up with; and what you would have done in the same situation."
+      }
+    ],
+    "4": [
+      {
+        "chips": [
+          "Lucky charms", "Friday the 13th", "Cultural superstitions", "Coincidences",
+          "Rational thinking"
+        ],
+        "t1": "Discuss common superstitions around the world, how they influence daily choices, and advice you would give to someone to overcome them.",
+        "t2": "Talk about an astonishing coincidence you experienced or read about, exploring whether such events happen for a reason or by pure chance."
+      },
+      {
+        "chips": [
+          "Superstitions in Colombia", "Origin", "Belief in your family", "Coincidences",
+          "Same name and university"
+        ],
+        "t1": "Colombia is a country with a lot of superstitions. Choose two superstitions and talk about what they are about, how you think they were created, whether you or your family believe in them and how widespread they are.",
+        "t2": "You find that your interviewer for a startup job has your identical name and studied at your university. Discuss your family's perception, how believable the scenario is and similar coincidences in your life."
+      }
+    ],
+    "5": [
+      {
+        "chips": [
+          "Sound & visual effects", "Immersive cinema", "Reality TV impact",
+          "Social media influencers", "Binge-watching"
+        ],
+        "t1": "Describe the role of sound and visual effects in movies and how they shape your personal engagement with a story.",
+        "t2": "Evaluate the societal impact of reality TV and social media influencers: do they offer productive value or promote unrealistic lifestyles?"
+      },
+      {
+        "chips": [
+          "Reality shows", "Popularity", "Recommendations", "Movie genres",
+          "Mood and preferences"
+        ],
+        "t1": "Competition-based reality shows offer entertainment and opportunities to display talent. Express your attitude toward them, their impact on participants, why some TV programs become extremely popular while others fade, and what matters to you when someone recommends one.",
+        "t2": "There is a huge variety of movies and genres. Say whether you prefer one genre or several and why, your favorite genre, how trends influence your choices and how your mood or experiences affect your preferences."
+      }
+    ],
+    "6": [
+      {
+        "chips": [
+          "Natural talent vs practice", "Overcoming setbacks", "Music preferences",
+          "Identity & emotion", "Industry changes"
+        ],
+        "t1": "Debate whether musical success stems primarily from natural talent or relentless practice, citing examples of artists who paid their dues.",
+        "t2": "Reflect on how music influences personal identity, emotional well-being, and relationships, and how your tastes have evolved over time."
+      },
+      {
+        "chips": ["Shakira", "Setbacks", "Criticism", "Music preferences", "Music and relationships"],
+        "t1": "Shakira was once rejected in second grade because her voice 'sounded like a goat', yet she became one of the most influential artists of the century. Say what helped her overcome setbacks, the qualities needed to succeed in music and a time you or someone you know faced criticism.",
+        "t2": "Talk about your music preferences: the genres, artists or bands you listen to, the platforms or devices you use, the influence of music on your social life and how your preferences have changed over time."
+      }
+    ],
+    "7": [
+      {
+        "chips": [
+          "Digital banking apps", "Instant loans", "WhatsApp AI features", "Consumer finance",
+          "Streaming vs physical"
+        ],
+        "t1": "Analyze how digital banking and instant payment apps (such as Nequi or Daviplata) have transformed consumer commerce and financial habits.",
+        "t2": "Evaluate user attitudes toward constant app feature updates (video notes, AI chatbots) and how people cope with rapid technical shifts."
+      },
+      {
+        "chips": ["Virtual credits", "Loans", "Streaming vs CDs", "Emotions about technology"],
+        "t1": "Apps like ADDI or Credity can approve credits in seconds. Describe the people who usually ask for a loan and those to whom approval is denied, and discuss the advantages and risks of virtual credit.",
+        "t2": "Look at the images of music streaming platforms vs CDs. Describe the type of people who use each, how you felt (or would have felt) when CDs disappeared in the 2000s, and who you would be if you were the music you listen to."
+      }
+    ],
+    "8": [
+      {
+        "chips": [
+          "Social media algorithms", "Pop-up ads", "Compulsive shopping", "Buyer's remorse",
+          "Product warnings"
+        ],
+        "t1": "Evaluate whether modern social media platforms should restrict behavioral advertising, discussing essential requirements for an app to succeed.",
+        "t2": "Examine why shopping events like Black Friday trigger compulsive buying and discuss how product regulations raise consumer awareness."
+      },
+      {
+        "chips": ["Warning labels", "Buyer's remorse", "Black Friday", "Footwear", "Compulsive shopping"],
+        "t1": "Warning labels on products were created to encourage awareness of ingredients. Explain the public the information is aimed at, the products that carry regulations, whether you would have buyer's remorse and whether paying attention to these labels is crucial.",
+        "t2": "Look at the images and mention to whom both types of products are offered and why, why people become compulsive shoppers on Black Friday, and whether casual and sporty footwear is essential in everyday life."
+      }
+    ],
+    "9": [
+      {
+        "chips": [
+          "Animal adoption", "Informal labor", "Personal boundaries", "Travel essentials",
+          "Eco-balance"
+        ],
+        "t1": "Discuss actions that communities should adopt when witnessing stray animals or informal street vendors, exploring practical ethical responses.",
+        "t2": "Talk about human personal boundaries: which types of personalities are easy to tolerate and which are as clear as mud?"
+      },
+      {
+        "chips": [
+          "Informal workers", "People's reactions", "Helping", "Travel bag",
+          "Personal boundaries"
+        ],
+        "t1": "In our day to day we find informal workers on public transportation selling snacks or showing a talent. Talk about people's immediate reactions, whether helping them is okay, and whether they would be accepted in other jobs.",
+        "t2": "Some people carry plenty of things in their bags when they travel. What objects do you carry and why? Do you carry something if you feel under the weather? Do people take extra or unnecessary things?"
+      }
+    ],
+    "10": [
+      {
+        "chips": [
+          "Professional communicators", "Public speaking anxiety", "Language barriers",
+          "Grammar vs fluency", "Slang in culture"
+        ],
+        "t1": "Analyze qualities that make people great communicators in law, psychology, and journalism, and whether eloquence is innate or learned.",
+        "t2": "Explore effective techniques for overcoming stage fright when public speaking and debate whether perfect grammar outweighs fluid communication."
+      },
+      {
+        "chips": [
+          "Learning languages", "Cultural awareness", "Challenges", "Grammar vs fluency",
+          "Slang"
+        ],
+        "t1": "Learning a new language benefits memory and brain strength. Talk about how cultural awareness improves, the challenges people face when learning a language and how to overcome them.",
+        "t2": "When learning a language, is it more important to focus on perfect grammar or on being understood? Discuss how attitudes to correct language vary between native and non-native speakers, how context affects it and whether slang creates barriers."
+      }
+    ],
+    "11": [
+      {
+        "chips": [
+          "Impactful mentors", "Everyday heroism", "Resilience in crisis", "Values education",
+          "Inspiring others"
+        ],
+        "t1": "Describe a person who has exerted a transformative influence on your life, speculating how things might be different had you never met them.",
+        "t2": "Examine what values define exceptional historical figures (e.g., Mandela, Gandhi) and how society can encourage everyday acts of heroism."
+      },
+      {
+        "chips": [
+          "Everyday heroism", "Resilience", "Rebuilding communities", "Values",
+          "Attitudes today"
+        ],
+        "t1": "Discuss an act of heroism in everyday life that you witnessed or heard about: what the event was like and why it resonated with you, the qualities essential to act heroically, and how small acts of heroism impact a community.",
+        "t2": "After losing their husbands and sons to wars, many women played crucial roles in rebuilding countries. Discuss the values they showed, how individual efforts can positively affect communities and the key attitudes needed today to make a difference."
+      }
+    ],
+    "12": [
+      {
+        "chips": [
+          "Startup founders", "Work-life balance", "Teamwork vs autonomy",
+          "Bottom line vs ethics", "Strategic pivots"
+        ],
+        "t1": "Analyze the qualities that make high-growth entrepreneurs successful and hypothesize what would have happened if social networks had never been invented.",
+        "t2": "Debate whether businesses should prioritize employee satisfaction or company profit, contrasting independent work with collaborative team models."
+      },
+      {
+        "chips": [
+          "Own business", "Major problem", "Values for success", "Team vs independent work",
+          "Efficiency and satisfaction"
+        ],
+        "t1": "You have the possibility of starting your own business. Talk about the kind of business, what you would do if it faced a major problem like a lack of customers, the values needed to succeed and how your life would change if it became very successful.",
+        "t2": "Some people prefer working in a team, others independently. Discuss the benefits and challenges of both, how they affect efficiency, adaptability and satisfaction, which style gets better results and what conditions you would look for if you worked alone."
+      }
+    ],
+    "13": [
+      {
+        "chips": [
+          "Technology in schools", "Screen time", "Early use of devices",
+          "Education in the next decade", "Animals: pets, ethics, protection"
+        ],
+        "t1": "In recent years, many schools have integrated technology into the classroom, but some educators argue that excessive screen time has hurt students' skills. Discuss the challenges, whether children should use devices from an early age, and how technology has affected education and communication.",
+        "t2": "Animals have been essential to human life for centuries. Discuss the benefits and challenges of having a pet, adopting vs buying, how animals are viewed in different cultures, whether using animals for marketing, entertainment or research is ethical, and which laws you would enforce to protect them."
+      },
+      {
+        "chips": ["Role models", "Admiration", "Art and culture", "Artists", "Identity"],
+        "t1": "Some people have a role model because of their achievements. Talk about someone you will probably admire, what you highlight about them, whether a role model is a necessity, and how you would feel if someone told you that you are theirs.",
+        "t2": "Art reinforces culture and creates a distinctive identity. Talk about who gets involved in the art world, what may discourage an artist, what you would do differently as an artist, and whether 'the more you practice, the better you get'."
+      }
+    ]
+  }
+}

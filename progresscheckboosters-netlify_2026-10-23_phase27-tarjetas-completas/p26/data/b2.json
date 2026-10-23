@@ -1,0 +1,1870 @@
+{
+  "_leeme": "Contenido del nivel B2 (Passages 1). No cambie los nombres de los campos (a la izquierda de los dos puntos), solo los textos. Antes de publicar ejecute tools/validate-data.py. Guia: data/LEEME.md",
+  "level": "b2",
+  "boosters": [
+    {
+      "id": 1,
+      "units": "1",
+      "title": "Friends and Family",
+      "badgeEmoji": "👥",
+      "imageUrl": "https://images.unsplash.com/photo-1529518152792-d08317b26e22?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Relative / noun clauses after 'be'; Gerund phrases as subjects/objects; Describing personalities and family dynamics.",
+        "focus": "Ensure students accurately structure noun clauses after 'be' (e.g., 'What I enjoy most is that...') and gerunds as subjects during team discussions.",
+        "speakingTasks": [
+          "Describe a colleague, partner, or classmate with whom you have a good relationship.",
+          "Evaluate personality traits, changes over time, and the positive/negative sides of differing mindsets."
+        ],
+        "interaccion": "Role A presents a Colleague Mindset Brief while Role B probes for resolution strategies using gerunds."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (FRIENDS & FAMILY)",
+        "diagOptions": [
+          "👥 Relative / noun clause after 'be'", "🎯 Gerund phrase as subject",
+          "🤝 Verb + gerund collocations", "🏡 Compound family terms"
+        ],
+        "vocabWords": [
+          "Coworker", "mindset", "outgoing", "reliable", "stepbrother", "in-laws", "get along",
+          "grow apart"
+        ],
+        "step1Goal": "50-80 words",
+        "step1Text": "Complete the functional briefing using B2 personality and relational structures:",
+        "freeWriteMin": 50,
+        "freeWriteMax": 80,
+        "freeWritePrompt": "Describe a family member or close friend and how your relationship has changed over time.",
+        "step1Template": "I'm the kind of person who [Relative / noun clause after be describing your personality]. What I enjoy most about my [Compound family term] is that [Noun clause after be]. I really admire [Verb + gerund] together on difficult projects. Honestly, the hardest part of working with someone who has a different mindset is [Gerund phrase as subject].<br><br>**Sentence Starter Extension:** [[One personality trait that has really helped me navigate complex relationships is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Senior Professional",
+            "avatar": "👔",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "HR Consultant",
+            "avatar": "💼",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are overly sentimental about family relationships.",
+          "You are guarded and reluctant to open up.",
+          "You keep comparing your coworkers to family members.",
+          "You are blunt about a family conflict.",
+          "You are proud and slightly boastful about close relationships.",
+          "You get distracted talking about an in-law."
+        ],
+        "step2Questions": [
+          "Task 1 (Relational Dynamics): Describe a coworker or partner with whom you have a good relationship. Mention personality traits and how they've changed since you met.",
+          "Task 2 (Mindset Contrast): Discuss one situation where you had to work together, highlighting the positive and negative sides of having a different mindset. Use gerunds and noun clauses after 'be'.",
+          "► Personality Profile Card: Main Trait Identified: [Main Trait] | Positive Side of Mindset: What's great is that [Positive Side]",
+          "► Relationship Verdict: Can differing mindsets achieve high performance? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Relative / noun clause after be describing your personality": [
+            "is always reliable under pressure", "values open communication above all else",
+            "values mutual trust", "strives for excellence"
+          ],
+          "Compound family term": ["stepbrother", "brother-in-law", "sister-in-law", "father-in-law", "great-uncle"],
+          "Noun clause after be": [
+            "that we always support each other", "that they respect my boundaries",
+            "that we communicate openly"
+          ],
+          "Verb + gerund": ["collaborating", "working closely", "brainstorming ideas", "cooperating"],
+          "Gerund phrase as subject": [
+            "handling conflicting priorities", "navigating subtle misunderstandings",
+            "balancing opposing viewpoints"
+          ]
+        },
+        "step2Opener": "A: \"I'm the kind of person who values open dialogue. What I enjoy most about my stepbrother is that we respect each other's opinions.\"<br>B: \"That's great! How do you handle working with someone who has a completely different mindset?\"<br>A: \"Honestly, navigating conflicting priorities requires patience, but what's great is that it forces us to innovate.\"",
+        "commonErrors": [
+          "Noun clause word order: *What I like is how does he work...* → <strong>What I like is that he works...</strong>.",
+          "Gerund subject mismatch: *Work with different mindsets are hard...* → <strong>Working with different mindsets is hard...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Attitude Adverbs & Collocations",
+          "words": [
+            "frankly speaking", "inevitably", "remarkably", "arguably", "undoubtedly",
+            "to make matters worse", "to put it bluntly", "come up with", "put up with",
+            "look forward to"
+          ]
+        },
+        {
+          "category": "Personality Traits (Adjectives)",
+          "words": [
+            "calm and cool", "friendly and outgoing", "honest and sincere", "kind and generous",
+            "laid-back and relaxed", "neat and tidy", "shy and reserved",
+            "strong and independent", "wild and crazy"
+          ]
+        },
+        {
+          "category": "Compound Family Terms (Nouns)",
+          "words": [
+            "brother-in-law", "daughter-in-law", "father-in-law", "mother-in-law",
+            "sister-in-law", "son-in-law", "grandaunt", "granddaughter", "grandfather",
+            "grandmother", "grandnephew", "grandniece", "grandson", "granduncle", "great-aunt",
+            "great-granddaughter", "great-grandfather", "great-grandmother", "great-grandson",
+            "great-nephew", "great-niece", "great-uncle"
+          ]
+        },
+        {
+          "category": "Relational Vocabulary",
+          "words": [
+            "centerpiece", "close-knit", "cultivate", "matchmaker", "shelter", "support",
+            "well-being", "grow apart", "get along with"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Describing the same traits",
+          "phrases": [
+            "I am, too.", "I do, too.", "I don't either.", "I'm the same way.", "Neither do I.",
+            "So am I.", "So do I."
+          ]
+        },
+        {
+          "category": "Describing different traits",
+          "phrases": [
+            "I'd say I'm more ...", "I'm not like that.", "Really? I don't.",
+            "That's not true for me."
+          ]
+        },
+        {
+          "category": "Describing how you've changed",
+          "phrases": ["I think I've become more ...", "I used to ..., but now I ..."]
+        },
+        {
+          "category": "Describing how you'd like to change",
+          "phrases": ["I'd like to be more ...", "I'm interested in ..."]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "units": "2",
+      "title": "Mistakes and Mysteries",
+      "badgeEmoji": "🔍",
+      "imageUrl": "https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Past modals of obligation/regret (should have); Past modals of speculation (might/could have); Verbs of belief; Historical analysis.",
+        "focus": "Listen closely for correct past modal structures (Modal + Have + V3) and enforce clear distinctions between past speculation and past regret.",
+        "speakingTasks": [
+          "Analyze a historical or social crisis (e.g., La Violencia or Gaitán's era).",
+          "Speculate about alternative historical outcomes and explain what leaders should have done."
+        ],
+        "interaccion": "Role A acts as Lead Historical Analyst while Role B moderates a live historical symposium."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (MISTAKES & MYSTERIES)",
+        "diagOptions": [
+          "📜 Past modal of obligation/regret (should have)",
+          "🔮 Past modal of speculation (might/could have)",
+          "💭 Verbs of belief (believe, suspect)", "⚖️ Historical crisis collocations"
+        ],
+        "vocabWords": [
+          "Assassination", "ideology", "suspect", "evidence", "era", "uprising", "leader",
+          "unrest"
+        ],
+        "step1Goal": "60-90 words",
+        "step1Text": "Draft your historical analysis report using B2 past modals:",
+        "freeWriteMin": 60,
+        "freeWriteMax": 90,
+        "freeWritePrompt": "Choose a historical event or personal mystery and speculate about what really happened, using past modals.",
+        "step1Template": "Considering a major historical or social crisis, leaders [Past modal of obligation/regret, e.g. 'should have']. Things might have turned out differently if the situation [Past modal of speculation]. Personally, I [Verb of belief] that other powers were involved, because there's still no clear explanation about the [Collocation with 'problem'].<br><br>**Sentence Starter Extension:** [[If historians had investigated earlier reports more thoroughly, they might have found that...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Lead Historical Analyst",
+            "avatar": "🏛️",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Symposium Moderator",
+            "avatar": "🎙️",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are convinced of an unlikely conspiracy theory.",
+          "You are cautious and hedge every claim.", "You keep contradicting your own timeline.",
+          "You are dramatic about historical regrets.",
+          "You are skeptical of every alternative theory.",
+          "You get sidetracked with irrelevant historical trivia."
+        ],
+        "step2Questions": [
+          "Task 1 (Crisis Analysis): Choose a historical or social crisis. Explain what leaders could or should have done differently using past modals.",
+          "Task 2 (Speculative History): Speculate about how things might have turned out and share personal beliefs with verbs of belief.",
+          "► Historical Analyst's Notes: Alternative Outcome Speculated: Things might have been different if [Alternative Outcome] | Personal Belief Stated: I believe that [Personal Belief]",
+          "► Symposium Consensus: Was the crisis preventable through diplomatic intervention? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Past modal of obligation/regret, e.g. 'should have'": [
+            "should have initiated direct dialogue earlier",
+            "could have implemented peaceful measures",
+            "should have addressed social inequality"
+          ],
+          "Past modal of speculation": [
+            "had been handled with greater diplomacy", "might have been defused quickly",
+            "could have resolved peacefully"
+          ],
+          "Verb of belief": ["firmly suspect", "strongly believe", "am inclined to think", "have a hunch"],
+          "Collocation with 'problem'": ["underlying problem", "unresolved problem", "systemic problem", "pressing problem"]
+        },
+        "step2Opener": "A: \"Considering the socio-political crisis during that era, leaders should have initiated direct talks much earlier.\"<br>B: \"Do you think things might have turned out differently if foreign powers hadn't intervened?\"<br>A: \"I strongly suspect that the violence would have been reduced significantly had diplomacy prevailed.\"",
+        "commonErrors": [
+          "Past modal form error: *They should had done...* → <strong>They should have done...</strong>.",
+          "Speculation mismatch: *Things might turned out...* → <strong>Things might have turned out...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Collocations with Problem (Verbs)",
+          "words": [
+            "aggravate a problem", "avoid a problem", "cause a problem", "deal with a problem",
+            "identify a problem", "ignore a problem", "run into a problem", "solve a problem"
+          ]
+        },
+        {
+          "category": "Verbs of Belief",
+          "words": [
+            "assume", "be certain", "be positive", "be sure", "bet", "doubt", "figure", "guess",
+            "have a hunch", "know for a fact", "suppose", "suspect"
+          ]
+        },
+        {
+          "category": "Historical Analysis & Mystery",
+          "words": [
+            "amnesia", "courtship", "ideology", "uprising", "assassination", "unrest",
+            "forensic evidence"
+          ]
+        },
+        {
+          "category": "Additional vocabulary",
+          "words": ["blind date", "coma", "groom", "honeymoon"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Disagreeing",
+          "phrases": [
+            "I don't know.", "I know what you mean, but ...", "I'm not so sure.",
+            "Well, maybe, but ..."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "units": "3",
+      "title": "Exploring New Cities",
+      "badgeEmoji": "🏙️",
+      "imageUrl": "https://images.unsplash.com/photo-1447849337510-5c3220ad9aa1?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Defining and non-defining relative clauses; Order of modifiers (adjective + noun phrase); Contrast connectors (whereas, unlike).",
+        "focus": "Check for correct comma usage and intonation in non-defining relative clauses during luxury destination pitches.",
+        "speakingTasks": [
+          "Pitch an exclusive destination while setting travel standards.",
+          "Warn against tourist traps and contrast high-end getaway features with crowded conditions."
+        ],
+        "interaccion": "Role A (Senior Destination Consultant) negotiates with Role B (Discerning Luxury Client)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (EXPLORING NEW CITIES)",
+        "diagOptions": [
+          "🗺️ Non-defining relative clause with commas",
+          "📍 Defining relative clause identifying places",
+          "🎨 Order of modifiers (adjective + noun)", "⚖️ Contrast connectors (unlike, whereas)"
+        ],
+        "vocabWords": [
+          "Skyline", "landmark", "high-class", "budget-friendly", "crowded",
+          "off the beaten path", "downtown", "getaway"
+        ],
+        "step1Goal": "60-90 words",
+        "step1Text": "Draft your luxury travel pitch using relative clauses and contrast markers:",
+        "freeWriteMin": 60,
+        "freeWriteMax": 90,
+        "freeWritePrompt": "Describe your dream travel destination and contrast it with an overrated tourist spot.",
+        "step1Template": "My dream vacation spot is [Place], [Non-defining relative clause]. It's known for its [Order of modifiers: adjective + noun phrase]. Unlike crowded tourist traps, this place [Connecting contrasting idea]. I wouldn't recommend a destination that [Defining relative clause].<br><br>**Sentence Starter Extension:** [[What truly sets an extraordinary travel destination apart from ordinary tourist hubs is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Destination Consultant",
+            "avatar": "🧭",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Luxury Client",
+            "avatar": "💎",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are extremely picky about every detail.",
+          "You exaggerate how amazing a destination is.",
+          "You are budget-conscious despite claiming to want luxury.",
+          "You are dismissive of popular tourist spots.",
+          "You keep changing your travel preferences.",
+          "You are overly formal and businesslike."
+        ],
+        "step2Questions": [
+          "Task 1 (Destination Highlights): Describe key features of your dream getaway. Mention what makes it special using non-defining relative clauses.",
+          "Task 2 (Travel Standards): Contrast luxury standards with undesirable tourist traps. Use defining relative clauses and contrast connectors.",
+          "► Travel Consultant's Pitch Sheet: Destination Highlight: [Destination], which [Highlight] | Feature Not Recommended: A place that [Feature] isn't worth visiting.",
+          "► Client Booking Decision: Is destination approved for booking? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Place": ["Kyoto", "Zurich", "Cape Town", "Reykjavik", "Florence", "Cartagena"],
+          "Non-defining relative clause": [
+            "which is renowned for its historic landmarks",
+            "which offers breathtaking skyline views",
+            "which is situated near serene alpine lakes"
+          ],
+          "Order of modifiers: adjective + noun phrase": [
+            "charming ancient stone architecture", "pristine quiet coastal resorts",
+            "luxurious contemporary boutique hotels"
+          ],
+          "Connecting contrasting idea": [
+            "guarantees total seclusion and peace", "offers authentic cultural experiences",
+            "provides peaceful scenic trails"
+          ],
+          "Defining relative clause": [
+            "caters only to commercial mass tourism", "lacks proper security measures",
+            "overcharges visitors for mediocre amenities"
+          ]
+        },
+        "step2Opener": "A: \"Kyoto, which is renowned for its quiet heritage estates, is my ideal getaway.\"<br>B: \"What kind of destination would you advise me to avoid?\"<br>A: \"Unlike secluded resorts, commercial spots are crowded. I wouldn't recommend any hotel that caters strictly to mass tourism.\"",
+        "commonErrors": [
+          "Relative clause comma error: *Kyoto that is historic is nice...* → <strong>Kyoto, which is historic, is...</strong>.",
+          "Defining relative pronoun error: *A place where isn't safe...* → <strong>A place that/which isn't safe...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Features of Cities (Nouns)",
+          "words": [
+            "climate", "cost of living", "crime rate", "cuisine", "green spaces", "hotels",
+            "job market", "landmarks", "neighborhoods", "nightlife", "shopping",
+            "transportation system"
+          ]
+        },
+        {
+          "category": "Compound Terms for Towns",
+          "words": [
+            "border town", "coastal town", "college town", "industrial town", "mountain town",
+            "port town", "resort town", "rural town", "suburban town", "tourist town"
+          ]
+        },
+        {
+          "category": "Urban & Cultural Descriptors",
+          "words": [
+            "cater to", "civic pride", "quaint", "resident", "rivalry", "slow-paced",
+            "stereotype", "skyline", "landmarks"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Agreeing with an opinion",
+          "phrases": ["I think so, too.", "I think you're right.", "I'm with you.", "That's true."]
+        },
+        {
+          "category": "Disagreeing with an opinion",
+          "phrases": [
+            "I know what you mean, but ...", "I'm not sure I agree.",
+            "Maybe, but don't you think ...?", "Really?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "units": "4",
+      "title": "Early Birds and Night Owls",
+      "badgeEmoji": "🦉",
+      "imageUrl": "https://images.unsplash.com/photo-1474518485748-385a1409a303?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Reduced time clauses (When feeling...); Clauses of condition (as long as, unless); Clauses of reason; Sleep and energy vocabulary.",
+        "focus": "Ensure students shorten time clauses accurately without dropping necessary main clause subjects.",
+        "speakingTasks": [
+          "Recommend daily routine habits to prevent fatigue and boost workplace energy.",
+          "Debate operational shift demands and routine feasibility with an overworked manager."
+        ],
+        "interaccion": "Role A (Wellness Specialist) delivers an energy optimization plan to Role B (Department Manager)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (ENERGY & CIRCADIAN RHYTHMS)",
+        "diagOptions": [
+          "⏰ Reduced time clause (When feeling...)", "🔋 Clause of condition (as long as)",
+          "⚠️ Negative condition (unless)", "💤 Sleep and energy phrasal verbs"
+        ],
+        "vocabWords": ["Doze off", "wind down", "drift off", "boost", "nap", "caffeine", "exhausted", "alert"],
+        "step1Goal": "60-90 words",
+        "step1Text": "Outline a wellness action plan using reduced time and conditional clauses:",
+        "freeWriteMin": 60,
+        "freeWriteMax": 90,
+        "freeWritePrompt": "Write about your sleep and energy habits, and one change you'd make if certain conditions were met.",
+        "step1Template": "[Reduced time clause, e.g. 'When feeling exhausted'], I usually try to [Phrasal verb related to energy/sleep]. As long as I [Clause of condition], I manage to stay alert throughout the day. Unless people [Clause of condition, negative], they're likely to feel dozy by mid-afternoon.<br><br>**Sentence Starter Extension:** [[The most overlooked factor when attempting to optimize peak workplace performance is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Corporate Wellness Specialist",
+            "avatar": "🧘",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Department Manager",
+            "avatar": "📊",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are skeptical that wellness advice actually works.",
+          "You are overly enthusiastic about every tip.",
+          "You keep admitting you ignore your own advice.",
+          "You are stressed and interrupt with complaints about workload.",
+          "You are defensive about your sleep habits.",
+          "You get sidetracked talking about caffeine."
+        ],
+        "step2Questions": [
+          "Task 1 (Energy Strategies): Recommend healthy habits to prevent workplace fatigue. Use reduced time clauses (e.g., 'When feeling drained...').",
+          "Task 2 (Conditional Routines): Explain the efficiency of these strategies using 'as long as' and 'unless'.",
+          "► Wellness Coach's Action Plan: Strategy Recommended: As long as [Strategy], energy levels will improve. | Habit to Avoid: Unless [Habit], people tend to feel dozy.",
+          "► Executive Sign-Off: Is action plan feasible across company shifts? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Reduced time clause, e.g. 'When feeling exhausted'": [
+            "When feeling exhausted", "While trying to wind down",
+            "Before drifting off to sleep", "When operating under stress"
+          ],
+          "Phrasal verb related to energy/sleep": [
+            "wind down properly", "doze off for 15 minutes", "cut back on caffeine",
+            "perk up with fresh air"
+          ],
+          "Clause of condition": [
+            "maintain a regular sleep schedule", "take structured micro-breaks",
+            "stay physically active"
+          ],
+          "Clause of condition, negative": [
+            "limit screen exposure before bed", "stay hydrated throughout the shift",
+            "get at least seven hours of rest"
+          ]
+        },
+        "step2Opener": "A: \"When feeling exhausted in the afternoon, I try to wind down with a 10-minute walk rather than drink caffeine.\"<br>B: \"Does that keep you alert until the end of your shift?\"<br>A: \"As long as I take structured micro-breaks, energy levels stay high. Unless people manage sleep debt, fatigue is inevitable.\"",
+        "commonErrors": [
+          "Dangling reduced clause: *When feeling exhausted, sleep is good* → <strong>When feeling exhausted, I take a nap.</strong>",
+          "Condition clause form: *Unless you don't sleep...* → <strong>Unless you sleep well...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Phrasal Verbs (Energy & Sleep)",
+          "words": [
+            "burn out", "calm down", "chill out", "doze off", "perk up", "race off",
+            "sleep over", "turn in"
+          ]
+        },
+        {
+          "category": "Expressions Related to Sleep",
+          "words": [
+            "be fast asleep", "be sound asleep", "be wide awake", "drift off", "feel drowsy",
+            "have a sleepless night", "nod off", "sleep like a log", "take a power nap",
+            "toss and turn"
+          ]
+        },
+        {
+          "category": "Wellness & Science Vocabulary",
+          "words": [
+            "breakthrough", "caffeine", "circadian rhythm", "fatigue", "gene", "pharmaceutical",
+            "melatonin"
+          ]
+        },
+        {
+          "category": "Additional vocabulary",
+          "words": ["experimental", "implication", "on the one hand", "on the other hand"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Giving advice",
+          "phrases": [
+            "Have you ever thought of (going) ...?", "It might not be a bad idea to ...",
+            "The way I see it, you ought to ...", "You might want to ..."
+          ]
+        },
+        {
+          "category": "Interpreting meaning",
+          "phrases": [
+            "I think that means ...", "It might symbolize ...", "It sounds like ...",
+            "The (balloon) probably stands for ..."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "units": "5",
+      "title": "Communication",
+      "badgeEmoji": "💬",
+      "imageUrl": "https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Infinitive and gerund phrases; Reported speech with correct backshifting; Register and social etiquette.",
+        "focus": "Check for accurate backshifting in reported speech (e.g., 'told me that I had been too direct') and natural gerund usage.",
+        "speakingTasks": [
+          "Explain how to adapt communication styles across formal and informal social settings.",
+          "Analyze a past communication breakdown and prescribe etiquette guidelines."
+        ],
+        "interaccion": "Role A (Executive Coach) provides advice to Role B (International Business Trainee)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (COMMUNICATION & REGISTER)",
+        "diagOptions": [
+          "🤝 Infinitive phrase for etiquette guidance", "🗣️ Gerund phrase as subject/object",
+          "🔄 Reported speech with backshifting", "👔 Register adjustment markers"
+        ],
+        "vocabWords": [
+          "Small talk", "formal", "informal", "blunt", "tactful", "confide", "register",
+          "rapport"
+        ],
+        "step1Goal": "60-90 words",
+        "step1Text": "Draft an etiquette guidance note using gerunds, infinitives, and reported speech:",
+        "freeWriteMin": 60,
+        "freeWriteMax": 90,
+        "freeWritePrompt": "Describe how you adjust your communication style in formal vs informal settings, including something someone once told you.",
+        "step1Template": "It's important [Infinitive phrase] when talking to people you've just met. I try to avoid [Gerund phrase] in formal settings. A friend once told me that [Reported speech, correctly backshifted]. Since then, I've made an effort [Infinitive phrase].<br><br>**Sentence Starter Extension:** [[Whenever I find myself in an unfamiliar cultural negotiation, I always make sure to...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Communication Coach",
+            "avatar": "🎯",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Business Trainee",
+            "avatar": "🧑‍💼",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are overly formal even in casual moments.",
+          "You are nervous about offending someone.",
+          "You keep interrupting despite the topic being about listening.",
+          "You are blunt when you shouldn't be.",
+          "You are eager to apply every tip immediately.",
+          "You get flustered recalling a past miscommunication."
+        ],
+        "step2Questions": [
+          "Task 1 (Communication Styles): Explain how you adapt your tone across formal and informal settings using infinitive and gerund phrases.",
+          "Task 2 (Reported Missteps): Describe a past miscommunication or mentor advice using reported speech (backshifting tenses).",
+          "► Communication Style Assessment: Adaptation Strategy: It's important [Strategy] when meeting new people. | Advice Once Received: Someone told me that [Advice]",
+          "► Etiquette Audit Verdict: Trainee exhibits professional tact? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Infinitive phrase": [
+            "to remain tactful and composed", "to build rapport through polite small talk",
+            "to adjust your register accordingly"
+          ],
+          "Gerund phrase": [
+            "being overly blunt", "interrupting senior executives",
+            "confiding personal details prematurely"
+          ],
+          "Reported speech, correctly backshifted": [
+            "active listening was the key to resolving disputes",
+            "I had been far too direct during negotiations", "diplomacy required patience"
+          ]
+        },
+        "step2Opener": "A: \"It's vital to adjust your register and maintain rapport during formal business introductions.\"<br>B: \"My former director mentioned that I had been far too direct in my previous presentation.\"<br>A: \"Using tactful language helps build trust, especially when confiding in international clients.\"",
+        "commonErrors": [
+          "Reported speech backshifting: *He told me that he is busy yesterday* → <strong>...that he was busy.</strong>",
+          "Infinitive vs gerund: *It is important avoiding...* → <strong>It is important to avoid...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Behavior & Etiquette Terms",
+          "words": [
+            "a compliment", "an insult", "bad form", "appropriate", "inappropriate", "offensive",
+            "polite", "rude", "tactful", "blunt"
+          ]
+        },
+        {
+          "category": "Terms to describe behavior (adjectives)",
+          "words": ["normal", "strange", "typical", "unusual"]
+        },
+        {
+          "category": "Additional vocabulary",
+          "words": [
+            "amplify", "distracted", "exasperating", "infuriating", "pompous", "trademark",
+            "trivial"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Reported Speech Verbs",
+          "phrases": [
+            "advised me to", "asked me to", "claimed that", "encouraged me to", "explained that",
+            "promised to", "told me that", "warned me not to", "wondered whether"
+          ]
+        },
+        {
+          "category": "Conversation Starters & Closers",
+          "phrases": [
+            "Can you believe this weather?", "Do you know many people here?",
+            "That's a great insight.", "I should get going.", "It was great to meet you.",
+            "Sorry, I've got to run."
+          ]
+        },
+        {
+          "category": "Reported speech: statements",
+          "phrases": [
+            "He claimed that ...", "He explained that ...", "He promised to ...",
+            "He told me that ..."
+          ]
+        },
+        {
+          "category": "Reported speech: commands or advice",
+          "phrases": [
+            "He advised me to ...", "He asked me to ...", "He encouraged me to ...",
+            "He told me to ...", "He warned me not to ..."
+          ]
+        },
+        {
+          "category": "Reported speech: questions",
+          "phrases": ["He asked me ...", "He wanted to know ...", "He wondered ..."]
+        },
+        {
+          "category": "Conversation openers",
+          "phrases": [
+            "Can you believe this weather? It's (awful)!", "How's it going?",
+            "That's a great (jacket)."
+          ]
+        },
+        {
+          "category": "Conversation closers",
+          "phrases": [
+            "I should get going. I'll call you later.", "See you later.",
+            "Sorry, I've got to run. Talk to you soon."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "units": "6",
+      "title": "What's the Real Story?",
+      "badgeEmoji": "📰",
+      "imageUrl": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Present perfect continuous; Simple past vs Past perfect with adverbs; Reconstructing historical/news timelines.",
+        "focus": "Enforce strict contrast between Past Perfect (prior event) and Simple Past (subsequent timeline baseline).",
+        "speakingTasks": [
+          "Reconstruct a personal and community timeline during a global event (e.g., COVID-19 pandemic).",
+          "Describe initial reactions, government measures, and long-term societal changes."
+        ],
+        "interaccion": "Role B (Podcast Host) interviews Role A (Eyewitness Guest) for a documentary retrospective."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (MEDIA NARRATIVES & TIMELINES)",
+        "diagOptions": [
+          "⏳ Present Perfect Continuous for duration",
+          "⚡ Simple Past for baseline timeline actions",
+          "📜 Past Perfect with adverbs (barely, already)",
+          "🌐 Present Perfect for cumulative impact"
+        ],
+        "vocabWords": [
+          "Lockdown", "outbreak", "measures", "adapt", "unprecedented", "isolation", "recover",
+          "impact"
+        ],
+        "step1Goal": "70-100 words",
+        "step1Text": "Compose a retrospective event narrative using past narrative tenses:",
+        "freeWriteMin": 70,
+        "freeWriteMax": 100,
+        "freeWritePrompt": "Narrate your personal experience during a major recent event, using different past tenses to show the timeline.",
+        "step1Template": "Since the pandemic began, my community [Present perfect continuous]. I still remember exactly how I [Simple past] when I first realized what was happening. By the time the government announced new measures, we [Past perfect]. Looking back, the changes we [Present perfect] have been significant at a personal and global level.<br><br>**Sentence Starter Extension:** [[Looking back at the historical news events of the past decade, the one that altered our daily habits the most was...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Eyewitness / Guest",
+            "avatar": "🎙️",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Documentary Host",
+            "avatar": "📹",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are emotional recalling the event.",
+          "You are matter-of-fact and unemotional about a dramatic event.",
+          "You keep forgetting the order of events.", "You are skeptical of your own memory.",
+          "You add exaggerated details for effect.",
+          "You are eager to move the conversation forward quickly."
+        ],
+        "step2Questions": [
+          "Task 1 (Event Timeline): Describe your timeline during a world-changing event. Contrast initial reactions with past perfect prior events.",
+          "Task 2 (Long-Term Reflection): Discuss how your community has been adapting using Present Perfect Continuous.",
+          "► News Report Timeline: Initial Reaction Described: When I first realized what was happening, I [Reaction] | Long-term Change Identified: Since then, I [Change]",
+          "► Investigative Audit: Did witness maintain clear chronology? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Present perfect continuous": [
+            "has been adapting to unprecedented challenges",
+            "has been adjusting to hybrid workflows", "has been evolving rapidly"
+          ],
+          "Simple past": [
+            "felt completely stunned", "realized the severity of the outbreak",
+            "witnessed panic buying across town"
+          ],
+          "Past perfect": [
+            "had already stocked up on essentials", "had barely understood the lockdown order",
+            "had never seen empty city streets before"
+          ],
+          "Present perfect": [
+            "have experienced", "have implemented across institutions",
+            "have adopted in our daily lives"
+          ]
+        },
+        "step2Opener": "A: \"Since the pandemic began, my community has been adapting to hybrid working models.\"<br>B: \"What were you doing when the lockdown mandate was announced?\"<br>A: \"We had barely understood the health alerts when schools officially closed.\"",
+        "commonErrors": [
+          "Past perfect confusion: *When I arrived, they already left* → <strong>...they had already left.</strong>",
+          "Present perfect continuous duration: *I am working here since 2020* → <strong>I have been working here since 2020.</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "News Events (Nouns)",
+          "words": [
+            "epidemic", "famine", "hijacking", "kidnapping", "natural disaster",
+            "political crisis", "rebellion", "recession", "robbery", "scandal"
+          ]
+        },
+        {
+          "category": "Crisis & Recovery",
+          "words": [
+            "outbreak", "quarantine", "lockdown", "unprecedented", "isolation", "curfew",
+            "stimulus package"
+          ]
+        },
+        {
+          "category": "Additional vocabulary",
+          "words": [
+            "burnt to a crisp", "defiant", "get away with something", "slam", "smoke detector",
+            "sunburn"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Storytelling Connectors",
+          "phrases": [
+            "I'll never forget the time...", "It all started when...",
+            "That reminds me of when...", "The next thing we knew...", "What happened was...",
+            "I forgot to mention that...", "Meanwhile...", "To make a long story short..."
+          ]
+        },
+        {
+          "category": "Beginning a story",
+          "phrases": ["I've got to tell you about ..."]
+        },
+        {
+          "category": "Continuing a story",
+          "phrases": ["So later on ..."]
+        },
+        {
+          "category": "Going back in a story",
+          "phrases": ["The other thing is ...", "The thing you have to know is ..."]
+        },
+        {
+          "category": "Ending a story",
+          "phrases": ["And in the end ...", "So finally ..."]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "units": "7",
+      "title": "The Information Age",
+      "badgeEmoji": "💻",
+      "imageUrl": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Present continuous passive; Future passive; Tag questions and negative questions for opinion persuasion.",
+        "focus": "Listen for dynamic passives (e.g., 'are being replaced') and persuasive intonation in tag questions.",
+        "speakingTasks": [
+          "Debate the role of IT in modern classrooms.",
+          "Highlight EdTech advantages versus digital distraction drawbacks using passives and tag questions."
+        ],
+        "interaccion": "Role A (EdTech Analyst) debates Role B (Traditional Pedagogy Advocate)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (TECH & PERSUASION)",
+        "diagOptions": [
+          "⚙️ Present continuous passive (is being changed)",
+          "🔮 Future passive (will be replaced)", "❓ Tag questions for validation",
+          "💡 Negative questions for persuasive opinions"
+        ],
+        "vocabWords": [
+          "Algorithm", "notification", "screen time", "digitalize", "overload", "integrate",
+          "drawback", "upside"
+        ],
+        "step1Goal": "75-105 words",
+        "step1Text": "Draft an EdTech debate stance using passives and tag questions:",
+        "freeWriteMin": 75,
+        "freeWriteMax": 105,
+        "freeWritePrompt": "Take a position on how technology is changing education, and describe both benefits and drawbacks.",
+        "step1Template": "Nowadays, traditional teaching methods [Passive, present continuous] by digital tools, aren't they? In the future, most classroom tasks [Passive, future]. Technology has definitely improved access to information, hasn't it? In recent years, many jobs [Passive, present perfect]. However, there are also drawbacks, such as [Noun phrase describing a challenge].<br><br>**Sentence Starter Extension:** [[Although automation creates incredible efficiencies, one cognitive skill that must be preserved is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "EdTech Analyst",
+            "avatar": "🤖",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Pedagogy Advocate",
+            "avatar": "📚",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are overly optimistic about technology in classrooms.",
+          "You are nostalgic for traditional teaching methods.",
+          "You keep citing statistics you can't quite remember.",
+          "You are skeptical of every EdTech claim.",
+          "You are passionate to the point of being repetitive.",
+          "You get distracted talking about your own gadgets."
+        ],
+        "step2Questions": [
+          "Task 1 (Digital Trends): Evaluate modern technology in education. Express current trends using Present Continuous Passive.",
+          "Task 2 (Persuasive Challenge): Present drawbacks and future projections using Future Passive and Tag/Negative questions.",
+          "► EdTech Opinion Survey: Passive Trend Identified: [Trend], isn't it? | Drawback Mentioned: One challenge is that [Drawback]",
+          "► Debate Verdict: Should schools mandate screen-free hours? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Passive, present continuous": [
+            "are currently being transformed", "are being replaced by AI platforms",
+            "are being enhanced continuously"
+          ],
+          "Passive, future": [
+            "will be managed through digital portals", "will be tailored automatically",
+            "will be delivered through virtual headsets"
+          ],
+          "Passive, present perfect": ["have been eliminated by automation", "have been created in computer science"],
+          "Noun phrase describing a challenge": [
+            "information overload and short attention spans",
+            "excessive screen time and lack of focus",
+            "cybersecurity threats and academic distraction"
+          ]
+        },
+        "step2Opener": "A: \"Traditional textbooks are currently being replaced by interactive digital platforms, aren't they?\"<br>B: \"Yes, but don't you think excessive screen time damages student attention spans?\"<br>A: \"In the future, customized paths will be generated by AI, though information overload remains a challenge.\"",
+        "commonErrors": [
+          "Continuous passive auxiliary omission: *Books are replacing by iPads* → <strong>are being replaced by...</strong>.",
+          "Tag question polarity mismatch: *Technology has improved, doesn't it?* → <strong>hasn't it?</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Technology Buzzwords (Nouns)",
+          "words": [
+            "app", "blog", "the cloud", "download", "podcast", "post", "spyware", "text",
+            "virus", "Wi-Fi", "algorithm", "digital footprint"
+          ]
+        },
+        {
+          "category": "Forms of Advertising & Media",
+          "words": [
+            "banner ads", "billboards", "bumper stickers", "bus wraps", "infomercials",
+            "pop-up ads", "spam", "telemarketing", "voice mail"
+          ]
+        },
+        {
+          "category": "Forms of communication",
+          "words": ["crawls", "fliers", "text messages"]
+        },
+        {
+          "category": "Additional vocabulary",
+          "words": ["broke", "donor", "hate mail", "scold", "sob story", "subscription"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Formal Transition Connectors",
+          "phrases": [
+            "additionally", "furthermore", "likewise", "nevertheless", "on the other hand",
+            "similarly", "as a matter of fact", "for instance", "therefore"
+          ]
+        },
+        {
+          "category": "Connecting ideas formally: emphasizing",
+          "phrases": ["in fact"]
+        },
+        {
+          "category": "Connecting ideas formally: giving an example",
+          "phrases": ["for example"]
+        },
+        {
+          "category": "Connecting ideas formally: showing a result",
+          "phrases": ["as a result"]
+        },
+        {
+          "category": "Expressing opinions",
+          "phrases": ["If you ask me, ...", "The way I see it, ..."]
+        },
+        {
+          "category": "Disagreeing",
+          "phrases": ["I see your point, but ...", "That may be true, but ..."]
+        },
+        {
+          "category": "Giving reasons",
+          "phrases": ["That's why ...", "The reason for that is ..."]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "units": "8",
+      "title": "Putting the Mind to Work",
+      "badgeEmoji": "🧠",
+      "imageUrl": "https://images.unsplash.com/photo-1644648479153-2a3dbee76212?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Reduced relative clauses; Non-defining relative clauses as sentence modifiers (..., which allows...); Problem-solving under pressure.",
+        "focus": "Check that students correctly drop relative pronouns and 'be' verbs in reduced clauses (e.g., 'People facing stress...').",
+        "speakingTasks": [
+          "Compare how different people handle high-stress operational emergencies.",
+          "Define essential mental qualities for remaining composed under pressure."
+        ],
+        "interaccion": "Role A (Crisis Management Trainer) reviews scenarios with Role B (HR Director)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (PROBLEM-SOLVING & RESILIENCE)",
+        "diagOptions": [
+          "📉 Reduced relative clause (participle)", "🔗 Sentence modifier clause (which + verb)",
+          "🎯 Gerund/noun phrase as subject", "🧘 Stress management adjectives"
+        ],
+        "vocabWords": [
+          "Resourceful", "composed", "panic", "react", "calm down", "stressful", "cope",
+          "handle"
+        ],
+        "step1Goal": "70-100 words",
+        "step1Text": "Formulate a crisis response assessment using relative clause modifiers:",
+        "freeWriteMin": 70,
+        "freeWriteMax": 100,
+        "freeWritePrompt": "Describe how you or someone you know handles high-pressure situations.",
+        "step1Template": "People [Reduced relative clause] tend to handle stressful situations better. My friend, [Non-defining relative clause as sentence modifier], always stays composed under pressure. What it takes to face serious problems is [Gerund phrase / noun phrase].<br><br>**Sentence Starter Extension:** [[When sudden operational failures hit an organization, the quality that distinguishes true leaders is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Crisis Management Trainer",
+            "avatar": "🛡️",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Corporate HR Director",
+            "avatar": "📋",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are calm and clinical about high-stress scenarios.",
+          "You are anxious just discussing hypothetical crises.",
+          "You keep bringing up a specific past incident.",
+          "You are overly confident about your own composure.",
+          "You question whether the training is realistic.",
+          "You get sidetracked with unrelated HR policies."
+        ],
+        "step2Questions": [
+          "Task 1 (Behavior Under Pressure): Compare two reactions to a high-stress crisis using reduced relative clauses.",
+          "Task 2 (Mental Resilience): Describe qualities needed during emergencies using sentence-modifier relative clauses ('..., which helps...').",
+          "► Crisis Behavior Assessment: Contrasting Attitudes Observed: People [Attitude 1] react differently from those who [Attitude 2] | Key Quality Identified: What it takes to handle stress is [Quality]",
+          "► Protocol Verdict: Ready for high-stakes operational deployment? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Reduced relative clause": [
+            "facing high-pressure deadlines", "confronted with sudden operational failures",
+            "dealing with emergencies"
+          ],
+          "Non-defining relative clause as sentence modifier": [
+            "which always inspires confidence among colleagues",
+            "which enables rational decision-making", "which prevents collective panic"
+          ],
+          "Gerund phrase / noun phrase": [
+            "maintaining emotional composure and adaptability",
+            "having a resourceful and pragmatic mindset", "staying calm under severe pressure"
+          ]
+        },
+        "step2Opener": "A: \"People facing high-stress operational emergencies must remain composed.\"<br>B: \"How does your team handle sudden system failures under pressure?\"<br>A: \"My colleague stays calm, which inspires confidence. What it takes to overcome crisis is pragmatic focus.\"",
+        "commonErrors": [
+          "Reduced relative clause verb form: *People face stress react...* → <strong>People facing stress react...</strong>.",
+          "Sentence modifier placement: *He remained calm, that helped* → <strong>..., which helped us.</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Creative Qualities (Nouns/Adjectives)",
+          "words": [
+            "curiosity / curious", "decisiveness / decisive", "determination / determined",
+            "discipline / disciplined", "innovation / innovative", "knowledge / knowledgeable",
+            "motivation / motivated", "originality / original", "passion / passionate",
+            "patience / patient", "perceptiveness / perceptive", "resourcefulness / resourceful"
+          ]
+        },
+        {
+          "category": "Problem-Solving Collocations",
+          "words": [
+            "analyze a situation", "explore alternatives", "explore possibilities",
+            "find a solution", "make a tough decision", "organize vital information",
+            "resolve a conflict"
+          ]
+        },
+        {
+          "category": "Crisis Management Idioms",
+          "words": [
+            "take something in stride", "keep your cool", "think on your feet", "under the gun",
+            "weather the storm"
+          ]
+        },
+        {
+          "category": "Qualities of creative people (nouns)",
+          "words": [
+            "curiosity", "decisiveness", "determination", "discipline", "innovation",
+            "knowledge", "motivation", "originality", "passion", "patience", "perceptiveness",
+            "resourcefulness", "curious", "decisive", "determined", "disciplined", "innovative",
+            "knowledgeable", "motivated", "original", "passionate", "patient", "perceptive",
+            "resourceful"
+          ]
+        },
+        {
+          "category": "Collocations for problem solving",
+          "words": [
+            "analyze a decision", "analyze a mistake", "analyze a problem",
+            "analyze information", "find a mistake", "find a problem", "find alternatives",
+            "find information", "make a decision", "make a mistake", "organize information",
+            "solve a problem"
+          ]
+        },
+        {
+          "category": "Additional vocabulary",
+          "words": ["get-together", "in tune", "karaoke", "obscurity", "patent"]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "units": "9",
+      "title": "Generally Speaking",
+      "badgeEmoji": "🌍",
+      "imageUrl": "https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Past habitual 'would' vs 'used to'; Clauses showing contrast and exception (unlike, except for, while); Cultural customs.",
+        "focus": "Ensure 'would' is used strictly for repeated past actions, not state verbs (use 'used to' for states).",
+        "speakingTasks": [
+          "Describe traditional family or cultural customs.",
+          "Explain how personal perspectives have evolved regarding conventional rituals."
+        ],
+        "interaccion": "Role A (Sociological Researcher) presents findings to Role B (Podcast Host)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (GENERALIZATIONS & CUSTOMS)",
+        "diagOptions": [
+          "🔄 Past habitual 'would' (repeated actions)",
+          "🏛️ Past habitual 'used to' (past states)", "⚖️ Clause of contrast (unlike, while)",
+          "🚫 Clause of exception (except for)"
+        ],
+        "vocabWords": [
+          "Custom", "generation", "gathering", "ritual", "conventional", "mandatory", "evolve",
+          "flexible"
+        ],
+        "step1Goal": "70-100 words",
+        "step1Text": "Draft a cultural tradition survey using past habituals and contrast clauses:",
+        "freeWriteMin": 70,
+        "freeWriteMax": 100,
+        "freeWritePrompt": "Write about a cultural generalization you've heard and whether you think it's accurate.",
+        "step1Template": "When I was a child, my family [Past habitual 'would']. I [Past habitual 'used to'] believe that these customs couldn't change. Unlike older generations, my generation [Clause of contrast/exception]. Except for a few traditions, I try to [Expression related to accepting/changing things].<br><br>**Sentence Starter Extension:** [[One societal convention that younger generations are completely rewriting is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Sociological Researcher",
+            "avatar": "📊",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Anthropology Host",
+            "avatar": "🎙️",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are quick to generalize about entire cultures.",
+          "You are cautious and qualify every generalization.",
+          "You keep citing your own travel experiences as proof.",
+          "You are skeptical of stereotypes in general.",
+          "You are enthusiastic about cultural comparisons.",
+          "You get sidetracked with a personal anecdote."
+        ],
+        "step2Questions": [
+          "Task 1 (Family Customs): Describe conventional customs in your family or culture using past habitual 'would' and 'used to'.",
+          "Task 2 (Generational Contrast): Explain how your views have changed using contrast connectors ('unlike', 'except for').",
+          "► Cultural Tradition Survey: Family Custom Described: Every year, my family would [Custom] | Attitude Toward Change: Unlike before, now I [Attitude]",
+          "► Sociological Poll: Are traditional conventions evolving fast enough? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Past habitual 'would'": [
+            "would gather every Sunday for formal dinners",
+            "would travel to our hometown every holiday",
+            "would celebrate with huge family reunions"
+          ],
+          "Past habitual 'used to'": [
+            "used to believe that traditions were unchangeable",
+            "used to think authority shouldn't be questioned",
+            "used to live in a very traditional community"
+          ],
+          "Clause of contrast/exception": [
+            "values flexibility and open dialogue", "questions rigid social expectations",
+            "prioritizes work-life harmony"
+          ],
+          "Expression related to accepting/changing things": [
+            "embrace cultural evolution while respecting core roots",
+            "adapt traditions to modern lifestyle demands", "stand up for progressive values"
+          ]
+        },
+        "step2Opener": "A: \"When I was young, my family would gather every Sunday for formal dinners.\"<br>B: \"Do you still follow those conventional family rituals?\"<br>A: \"Unlike older generations, my generation prefers flexible gatherings, except for major holiday celebrations.\"",
+        "commonErrors": [
+          "Using 'would' for past states: *My family would be rich...* → <strong>My family used to be rich...</strong>.",
+          "Contrast connector placement: *Unlike, my generation values freedom* → <strong>Unlike older generations, my generation values...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Accepting or Changing Things",
+          "words": [
+            "amenable", "conservative", "rebellious", "unconventional", "conform to", "confront",
+            "stand up for", "be your own person", "fit in", "follow the crowd", "make waves"
+          ]
+        },
+        {
+          "category": "Expressions with Keep and Stay",
+          "words": [
+            "keep connected", "keep expenses down", "keep in touch", "keep out of trouble",
+            "keep things in perspective", "keep up with current events", "stay awake",
+            "stay connected", "stay in touch", "stay out of trouble", "keep (expenses) down",
+            "keep up with (current events)"
+          ]
+        },
+        {
+          "category": "Sociological Terms",
+          "words": [
+            "cluttered", "collaborate", "detract from", "dynamics", "focal point", "landscape",
+            "line of sight", "perspective"
+          ]
+        },
+        {
+          "category": "Adjectives related to accepting or changing things",
+          "words": ["(un)conventional"]
+        },
+        {
+          "category": "Verbs related to accepting or changing things",
+          "words": ["accept", "conform (to)", "stand up (to/for)"]
+        },
+        {
+          "category": "Additional vocabulary",
+          "words": ["detract (from)"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Giving advice",
+          "phrases": ["Here's an idea ...", "If I were you, I'd ..."]
+        },
+        {
+          "category": "Receiving advice",
+          "phrases": ["I guess I could try that.", "I just might try that."]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "units": "10",
+      "title": "The Art of Complaining",
+      "badgeEmoji": "⚖️",
+      "imageUrl": "https://images.unsplash.com/photo-1560264280-88b68371db39?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Expressions with drive/get/make; Noun clauses (What frustrates me is...); Complex indirect questions; Diplomatic complaints.",
+        "focus": "Enforce correct word order in complex indirect questions (no auxiliary inversion after 'if/could you tell me').",
+        "speakingTasks": [
+          "Formulate a diplomatic complaint regarding bank service delays or card blocks.",
+          "Express customer dissatisfaction politely and negotiate immediate resolutions."
+        ],
+        "interaccion": "Role A (Agitated Customer) negotiates with Role B (Bank Customer Relations Manager)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (DIPLOMATIC COMPLAINTS)",
+        "diagOptions": [
+          "😤 Expression with drive/get/make (gets on my nerves)",
+          "💬 Noun clause (What frustrates me most is that...)",
+          "❓ Complex indirect question without inversion",
+          "👤 Relative clause identifying staff personnel"
+        ],
+        "vocabWords": [
+          "Queue", "block", "refund", "frustrated", "annoyed", "resolve", "representative",
+          "complaint"
+        ],
+        "step1Goal": "70-100 words",
+        "step1Text": "Write a formal customer grievance note using noun clauses and indirect inquiries:",
+        "freeWriteMin": 70,
+        "freeWriteMax": 100,
+        "freeWritePrompt": "Describe a time you had to complain about a product or service, and how it was resolved.",
+        "step1Template": "Waiting in a long queue really [Expression with drive/get/make]. What frustrates me most is that [Noun clause]. I was wondering if you could tell me [Complex indirect question]. The representative [Relative clause] was unable to solve my problem.<br><br>**Sentence Starter Extension:** [[When handling an irate consumer, the single most effective de-escalation technique is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Agitated Customer",
+            "avatar": "📱",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Relations Manager",
+            "avatar": "👔",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are extremely dramatic about a minor issue.",
+          "You stay calm no matter how upset the customer is.",
+          "You keep escalating your demands.",
+          "You are apologetic to the point of over-explaining.",
+          "You are suspicious that the company is lying to you.",
+          "You try to de-escalate with humor."
+        ],
+        "step2Questions": [
+          "Task 1 (Customer Grievance): State a complaint regarding a blocked debit card and long queue delays using 'drive/get/make' and noun clauses.",
+          "Task 2 (Diplomatic Inquiry): Ask complex indirect questions to resolve the issue without using aggressive language.",
+          "► Customer Complaint Form: Main Frustration Stated: What annoys me most is that [Frustration] | Polite Inquiry Made: I was wondering if you could tell me [Inquiry]",
+          "► Bank Mediation Resolution: Compensation or replacement approved? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Expression with drive/get/make": [
+            "drives me crazy", "gets on my nerves", "makes me feel incredibly frustrated",
+            "makes my blood boil"
+          ],
+          "Noun clause": [
+            "nobody notified me prior to blocking my account",
+            "there is no clear explanation for the delay",
+            "the customer support hotline was unresponsive"
+          ],
+          "Complex indirect question": [
+            "why my card was blocked without prior notice",
+            "when my account will be fully unblocked", "how this dispute will be escalated"
+          ],
+          "Relative clause": [
+            "who attended to me at window 3", "that handled my initial request",
+            "who answered the customer helpline"
+          ]
+        },
+        "step2Opener": "A: \"Waiting in a long queue really gets on my nerves!\"<br>B: \"Good afternoon. How may I assist you with your banking request today?\"<br>A: \"What frustrates me most is that my debit card was blocked. I was wondering if you could explain why this happened without prior notice.\"",
+        "commonErrors": [
+          "Indirect question auxiliary inversion: *Could you tell me why was my card blocked?* → <strong>...why my card was blocked.</strong>",
+          "Noun clause lead-in: *What frustrates me is because...* → <strong>What frustrates me is that...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Annoyance (Drive, Get, Make)",
+          "words": [
+            "drive someone crazy", "drive someone mad", "drive someone up the wall",
+            "get on someone's nerves", "get someone down", "get someone upset",
+            "make someone's blood boil", "make someone sick"
+          ]
+        },
+        {
+          "category": "Feelings & Reactions (-ed Words)",
+          "words": [
+            "annoyed", "baffled", "confused", "demoralized", "discouraged", "enraged",
+            "frustrated", "humiliated", "infuriated", "insulted", "irritated", "mystified",
+            "stunned"
+          ]
+        },
+        {
+          "category": "Diplomatic Negotiation",
+          "words": [
+            "air a complaint", "compensation", "disgruntled", "negotiation", "ordeal", "refund",
+            "voucher", "escalate"
+          ]
+        },
+        {
+          "category": "Expressions of annoyance with drive, get, and make",
+          "words": [
+            "get someone mad", "get under someone's skin", "make someone crazy",
+            "make someone mad", "make someone upset"
+          ]
+        },
+        {
+          "category": "-ed words that describe feelings",
+          "words": ["depressed", "saddened"]
+        },
+        {
+          "category": "Additional vocabulary",
+          "words": ["air a complaint/problem", "budge", "sue"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Complaining to strangers",
+          "phrases": ["Excuse me, but ...", "I'm sorry, but ..."]
+        },
+        {
+          "category": "Complaining to friends/neighbors",
+          "phrases": ["I hate to mention this, but ...", "I'm sorry to bring this up, but ..."]
+        },
+        {
+          "category": "Agreeing and showing sympathy",
+          "phrases": [
+            "I know (exactly) what you mean.", "Yeah, I hate that too.",
+            "You can say that again."
+          ]
+        },
+        {
+          "category": "Sympathizing",
+          "phrases": ["Oh, you're kidding.", "That's ridiculous.", "What a pain."]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "units": "11",
+      "title": "Values",
+      "badgeEmoji": "💎",
+      "imageUrl": "https://images.unsplash.com/photo-1630068846062-3ffe78aa5049?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Present unreal conditionals (unless, even if, only if); Wishes and regrets; Evaluating career ethics and personal trade-offs.",
+        "focus": "Check for accurate unreal conditional structures (Past Simple in if-clause, Would + V1 in main clause).",
+        "speakingTasks": [
+          "Evaluate a life-changing job offer abroad versus staying near family.",
+          "Discuss personal values, long-term trade-offs, and ethical priorities."
+        ],
+        "interaccion": "Role A (Executive Candidate) consults Role B (Executive Career Advisor)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (VALUES & ETHICAL DILEMMAS)",
+        "diagOptions": [
+          "🛑 Unreal conditional with 'unless'", "🛡️ Unreal conditional with 'even if'",
+          "🔑 Unreal conditional with 'only if' (inversion)",
+          "💭 Wish / regret structure (wish I had...)"
+        ],
+        "vocabWords": [
+          "Integrity", "honest", "dishonest", "unreliable", "sacrifice", "prioritize", "upside",
+          "downside"
+        ],
+        "step1Goal": "75-105 words",
+        "step1Text": "Draft an executive decision matrix using unreal conditionals and wishes:",
+        "freeWriteMin": 75,
+        "freeWriteMax": 105,
+        "freeWritePrompt": "Reflect on what you value most in life and how your priorities have shifted over time.",
+        "step1Template": "I wouldn't accept a job offer abroad unless [Unreal conditional with 'unless']. Even if the salary [Unreal conditional with 'even if'], I would still consider my personal life. I wish I [Wish/regret]. Only if my family [Unreal conditional with 'only if'] would I make such a big decision.<br><br>**Sentence Starter Extension:** [[When faced with a lucrative career offer that compromises your core values, the right move is to...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Executive Candidate",
+            "avatar": "💼",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Career Advisor",
+            "avatar": "🧭",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are overly focused on career success over anything else.",
+          "You are reflective about work-life balance.",
+          "You question whether ambition is really a virtue.",
+          "You are defensive about your priorities.",
+          "You are inspired to reconsider your values.",
+          "You get sidetracked talking about a mentor."
+        ],
+        "step2Questions": [
+          "Task 1 (Career Dilemma): Discuss accepting a dream job abroad. Weigh upsides/downsides using 'unless' and 'even if'.",
+          "Task 2 (Ethical Priorities): Express regrets or long-term priorities using 'I wish' and 'only if'.",
+          "► Career Ethics Dilemma Sheet: Conditional Decision: I wouldn't accept unless [Condition] | Value Prioritized: What matters most to me is [Value]",
+          "► Advisor's Final Verdict: Should candidate take the relocation package? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Unreal conditional with 'unless'": [
+            "they provided comprehensive support for my family",
+            "the company guaranteed long-term stability",
+            "it aligned with my personal integrity"
+          ],
+          "Unreal conditional with 'even if'": [
+            "were doubled", "included an extraordinary relocation bonus",
+            "came with a high-profile title"
+          ],
+          "Wish/regret": [
+            "had established clearer work-life boundaries earlier",
+            "had more time to deliberate", "had consulted my family sooner"
+          ],
+          "Unreal conditional with 'only if'": [
+            "were fully supportive of the move", "agreed to relocate with me",
+            "felt excited about the opportunity"
+          ]
+        },
+        "step2Opener": "A: \"I wouldn't accept an executive job offer abroad unless the firm provided full relocation support.\"<br>B: \"Would you hesitate even if they doubled your current salary?\"<br>A: \"I wish I had clearer family boundaries. Only if my family agreed would I make such a major move.\"",
+        "commonErrors": [
+          "Unreal conditional double 'would': *If I would accept, I would move...* → <strong>If I accepted, I would move...</strong>.",
+          "Wish structure tense: *I wish I know this before...* → <strong>I wish I had known this before.</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Personal Values (Adjectives/Nouns)",
+          "words": [
+            "compassionate / compassion", "discreet / discretion", "generous / generosity",
+            "honest / honesty", "indifferent / indifference", "kind / kindness",
+            "resilient / resilience", "respectful / respect", "selfish / selfishness",
+            "sensitive / sensitivity", "tender / tenderness", "tolerant / tolerance"
+          ]
+        },
+        {
+          "category": "Ethics and Moral Attitudes",
+          "words": [
+            "acceptable / unacceptable", "ethical / unethical", "fair / unfair",
+            "honest / dishonest", "legal / illegal", "rational / irrational",
+            "responsible / irresponsible", "trustworthy / untrustworthy"
+          ]
+        },
+        {
+          "category": "Executive Dilemma Terms",
+          "words": [
+            "integrity", "trade-off", "prioritize", "relocation bonus", "sacrifice",
+            "work-life balance", "compromise"
+          ]
+        },
+        {
+          "category": "Adjectives referring to personal values",
+          "words": [
+            "compassionate", "discreet", "generous", "honest", "indifferent", "kind",
+            "resilient", "respectful", "selfish", "sensitive", "tender", "tolerant"
+          ]
+        },
+        {
+          "category": "Adjectives describing ethics and attitudes",
+          "words": [
+            "agreeable / disagreeable", "approving / disapproving", "logical / illogical",
+            "scrupulous / unscrupulous"
+          ]
+        },
+        {
+          "category": "Nouns referring to personal values",
+          "words": [
+            "compassion", "discretion", "generosity", "honesty", "indifference", "kindness",
+            "resilience", "respect", "selfishness", "sensitivity", "tenderness", "tolerance"
+          ]
+        },
+        {
+          "category": "Additional vocabulary",
+          "words": [
+            "collapse", "convulsion", "heroic", "onlooker", "overnight sensation", "spectacular",
+            "stumble"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "units": "12",
+      "title": "Moving Around",
+      "badgeEmoji": "✈️",
+      "imageUrl": "https://images.unsplash.com/photo-1730154838368-c37b1fdebcf6?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Future perfect; Future perfect continuous; Mixed conditionals (Past condition -> Present result); Expatriate relocation.",
+        "focus": "Verify that Future Perfect Continuous includes duration ('will have been living... for 2 years') and mixed conditionals blend past and present correctly.",
+        "speakingTasks": [
+          "Project future relocation milestones when moving to a new country or city.",
+          "Discuss cultural adaptation, homesickness, and contingency plans using mixed conditionals."
+        ],
+        "interaccion": "Role A (Expatriate) works through a relocation roadmap with Role B (Global Relocation Consultant)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (GLOBAL RELOCATION)",
+        "diagOptions": [
+          "🚀 Future Perfect (will have completed)", "⏳ Future Perfect Continuous with duration",
+          "🔀 Mixed Conditional (past condition, present result)",
+          "🌍 Compound adjectives (well-traveled, jet-lagged)"
+        ],
+        "vocabWords": [
+          "Homesick", "settle down", "admitted", "immigrant", "adapt", "culture shock",
+          "well-traveled", "jet-lagged"
+        ],
+        "step1Goal": "75-105 words",
+        "step1Text": "Draft an expat relocation roadmap using future perfect tenses and mixed conditionals:",
+        "freeWriteMin": 75,
+        "freeWriteMax": 105,
+        "freeWritePrompt": "Describe what it would be like to move to a new city or country, and what would be hardest to adjust to.",
+        "step1Template": "By this time next year, I [Future perfect]. By then, I [Future perfect continuous]. If I hadn't decided to move abroad, I [Mixed conditional]. I imagine I'll feel [Compound adjective] during the first few months.<br><br>**Sentence Starter Extension:** [[The most demanding psychological hurdle for any expatriate settling into a new country is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Expatriate Professional",
+            "avatar": "🧳",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Relocation Consultant",
+            "avatar": "🌍",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are anxious about the move.",
+          "You are excited to the point of overlooking real challenges.",
+          "You keep comparing the new place to home.",
+          "You are practical and detail-oriented about logistics.",
+          "You are nostalgic about leaving your current city.",
+          "You get sidetracked with visa paperwork worries."
+        ],
+        "step2Questions": [
+          "Task 1 (Future Milestones): Project your achievements one year after moving using Future Perfect and Future Perfect Continuous.",
+          "Task 2 (Contingency Analysis): Discuss alternative outcomes using mixed conditionals and compound adjectives.",
+          "► Relocation Planning Sheet: Future Milestone Projected: By [Time], I will have [Milestone] | Contingency Plan: If I hadn't [Past action], I would [Present result] now.",
+          "► Expat Readiness Check: Is candidate prepared for culture shock? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Future perfect": [
+            "will have settled into my new apartment",
+            "will have completed my international orientation", "will have secured residency"
+          ],
+          "Future perfect continuous": [
+            "will have been working abroad for over six months",
+            "will have been adapting to the new culture",
+            "will have been living in New York for a year"
+          ],
+          "Mixed conditional": [
+            "would still be working at my old firm today",
+            "wouldn't feel so confident about my global career",
+            "would still be living with my parents"
+          ],
+          "Compound adjective": [
+            "somewhat jet-lagged and culture-shocked", "well-traveled yet slightly homesick",
+            "culturally aware and open-minded"
+          ]
+        },
+        "step2Opener": "A: \"By this time next year, I will have settled into my new position in New York.\"<br>B: \"How long will you have been living abroad by the time your visa undergoes renewal?\"<br>A: \"I will have been working there for two years. If I hadn't taken this opportunity, I would still be in my old job.\"",
+        "commonErrors": [
+          "Future Perfect aspect error: *By next year I will complete...* → <strong>...I will have completed.</strong>",
+          "Mixed conditional timeframe mismatch: *If I didn't move past, I won't be here now* → <strong>If I hadn't moved, I wouldn't be here now.</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Verbs Ending with Prepositions",
+          "words": [
+            "adjust to", "be excited about", "be familiar with", "be scared of",
+            "become aware of", "get accustomed to", "look forward to", "participate in",
+            "take advantage of"
+          ]
+        },
+        {
+          "category": "Compound Adjectives for Travelers",
+          "words": [
+            "culturally aware", "culturally sensitive", "nonconforming", "nonjudgmental",
+            "openhearted", "open-minded", "self-assured", "self-aware", "self-motivated",
+            "self-reliant"
+          ]
+        },
+        {
+          "category": "Global Mobility Vocabulary",
+          "words": [
+            "authentic", "culture shock", "dynamic", "enhance", "expatriate", "homesick",
+            "jet-lagged", "residency permit", "settle down"
+          ]
+        },
+        {
+          "category": "Expressions ending with prepositions",
+          "words": ["be scared of / about"]
+        },
+        {
+          "category": "Additional vocabulary",
+          "words": ["captivate", "contemporary", "plunge", "sanitized", "savvy", "wander", "witness"]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "units": "FINAL",
+      "title": "CUMULATIVE MASTERY REVIEW",
+      "badgeEmoji": "🎓",
+      "imageUrl": "https://images.unsplash.com/photo-1578269174936-2709b6aeb913?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Comprehensive synthesis of Passages 1 (Units 1-12): Passives, Past modals, Conditionals, Relative clauses, Future Perfect.",
+        "focus": "Maintain a strictly passive evaluator role. Chronometer 10 minutes of speaking per pair to assess fluency, coherence, and B2 grammatical precision.",
+        "speakingTasks": [
+          "Evaluate Sweden's digital rollback policy in schools (moving from screens back to print textbooks).",
+          "Analyze pros/cons of classroom tech, personal experiences, and future projections using 3+ B2 structures."
+        ],
+        "interaccion": "Role A (Senior Educational Strategist) presents policy brief to Role B (Ministry Inspector)."
+      },
+      "student": {
+        "handoutTitle": "FINAL EXAM PREP (CUMULATIVE B2)",
+        "diagOptions": [
+          "🌐 Passive voice (present/future)", "📜 Past modal of regret/judgment (should have)",
+          "🔀 Unreal / mixed conditional", "🔗 Non-defining relative clause",
+          "🔮 Future perfect milestone"
+        ],
+        "vocabWords": [
+          "Digitalization", "policy", "handwriting", "screen time", "tradition", "milestone",
+          "integrity", "generation"
+        ],
+        "step1Goal": "110-150 words",
+        "step1Text": "Compose your policy analysis executive brief integrating target B2 structures:",
+        "freeWriteMin": 110,
+        "freeWriteMax": 150,
+        "freeWriteNote": "This is a shorter practice goal, calibrated for the time available in a single class session — check with your teacher for the real final exam's word count requirement.",
+        "freeWritePrompt": "Write a comprehensive personal reflection: who you are, a story from your past, an opinion on a current issue, and a value or goal that matters to you.",
+        "step1Template": "Recently, traditional classrooms [Passive voice] due to the rise of screen-based learning. Critics argue that schools should have [Past modal of regret/judgment] before adopting full digitalization. If policies [Unreal / mixed conditional], students today [Conditional outcome]. My own learning style, [Non-defining relative clause], has changed significantly since childhood. As a child, I [Past habitual: used to / would + verb], and a teacher once told me that [Reported speech, correctly backshifted]. Looking ahead, by the time this generation graduates, they will have [Future perfect milestone], even if technology continues to [Passive, future].<br><br>**Sentence Starter Extension:** [[If education ministries were to strike the ideal balance between screen technology and print literacy, the key would be...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Educational Strategist",
+            "avatar": "👨‍🏫",
+            "color": "brand-green"
+          },
+          {
+            "title": "Role B",
+            "name": "Ministry Inspector",
+            "avatar": "📋",
+            "color": "brand-burgundy"
+          }
+        ],
+        "scenarios": [
+          "You are calm and strictly professional throughout.",
+          "You are nervous about the final evaluation.", "You mix up structures under pressure.",
+          "You are overly confident about your performance.",
+          "You get reflective about the whole course.",
+          "You try to extend your speaking time past the limit."
+        ],
+        "step2Questions": [
+          "Task 1 (Policy Evaluation): Evaluate shifting from digital screens back to print books. Discuss causes, pros, and cons using passives and past modals.",
+          "Task 2 (Personal & Future Outlook): Reflect on personal digital habits and project future milestones using conditionals, relative clauses, and Future Perfect.",
+          "► Mock Exam B2 Verdict Checklist: [ ] Modals & Speculation | [ ] Passive Voice & Conditionals | [ ] Relative Clauses & Reported Speech | [ ] Future Perfect & Wishes | Examiner's Tip: [Tip]",
+          "► Final Qualification: Candidate is ( ) READY FOR C1! ( ) NEEDS MORE PRACTICE | Examiner's Verdict: [Verdict]"
+        ],
+        "correctAnswers": {
+          "Passive voice": [
+            "have been overwhelmed by digital screen time", "are being transformed by AI tools",
+            "are being redesigned globally"
+          ],
+          "Past modal of regret/judgment": [
+            "evaluated the long-term impact on handwriting",
+            "considered the risks before discarding print books",
+            "consulted cognitive developmental specialists"
+          ],
+          "Unreal / mixed conditional": [
+            "had balanced print and screen tools earlier",
+            "were updated to protect student focus", "had incorporated digital safeguards"
+          ],
+          "Conditional outcome": [
+            "would possess much stronger reading comprehension skills",
+            "would be far better prepared today", "would enjoy greater mental focus"
+          ],
+          "Non-defining relative clause": [
+            "which was shaped by traditional handwriting",
+            "which relies heavily on visual focus", "which values deep reading"
+          ],
+          "Future perfect milestone": [
+            "mastered both digital efficiency and deep focus",
+            "re-established essential cognitive skills", "integrated both modalities seamlessly"
+          ],
+          "Passive, future": [
+            "be integrated into every aspect of learning", "be regulated by national guidelines",
+            "be automated through neural platforms"
+          ]
+        },
+        "step2Opener": "A: \"Traditional classrooms have been transformed due to the rapid rise of screen-based learning tools.\"<br>B: \"Should schools have evaluated the loss of handwriting skills before eliminating print books?\"<br>A: \"If policies had balanced digital and print formats, students today would possess stronger reading focus. By 2030, this generation will have integrated both modalities.\"",
+        "commonErrors": [
+          "Combining multiple complex clause errors across tenses.",
+          "Failing to backshift or maintain aspect consistency during continuous discourse."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Greatest Hits: Units 1-4",
+          "words": [
+            "laid-back and relaxed", "well-being", "have a hunch", "cost of living", "quaint",
+            "chill out", "take a power nap", "mindset"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 5-8",
+          "words": [
+            "inappropriate", "political crisis", "resourcefulness", "explore alternatives",
+            "banner ads", "take something in stride", "spam", "the cloud"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 9-12",
+          "words": [
+            "unconventional", "keep things in perspective", "discouraged", "trustworthy",
+            "self-reliant", "look forward to", "authentic", "prioritize"
+          ]
+        },
+        {
+          "category": "Units 1-4 Synthesis",
+          "words": ["great-grandmother", "suburban town"]
+        },
+        {
+          "category": "Units 5-8 Synthesis",
+          "words": ["He warned me not to..."]
+        },
+        {
+          "category": "Units 9-12 Synthesis",
+          "words": ["frustrated", "culture shock"]
+        }
+      ]
+    }
+  ],
+  "speakingCards": {
+    "1": [
+      {
+        "chips": [
+          "Coworker / partner", "Main traits", "Changes over time", "Challenging situation",
+          "Different mindset"
+        ],
+        "t1": "Describe a coworker/partner/classmate with whom you have a good relationship. Mention main traits and how they have changed.",
+        "t2": "Talk about one situation where you had to work together. State the positive/negative aspects of working with someone with a different mindset."
+      }
+    ],
+    "2": [
+      {
+        "chips": [
+          "La Violencia", "El Bogotazo", "Gaitán assassination", "Alternative outcome",
+          "Foreign suspicions"
+        ],
+        "t1": "Considering historical crises of the past, what could leaders have done differently to avert civil conflict?",
+        "t2": "How might things have been different if historical trajectories had shifted? Do you think foreign powers suspected the outcome?"
+      }
+    ],
+    "3": [
+      {
+        "chips": [
+          "Dream destination", "High-class features", "Avoid tourist traps", "Key aspects",
+          "Travel standards"
+        ],
+        "t1": "Describe key features of your dream vacation spot. Mention aspects you and other discerning travelers prioritize.",
+        "t2": "Describe traveling conditions or traps that you would never recommend to visitors. Explain your reasoning."
+      }
+    ],
+    "4": [
+      {
+        "chips": [
+          "Healthy habits", "Prevent feeling dozy", "Technique efficiency", "Boost energy",
+          "Midday fatigue"
+        ],
+        "t1": "Name healthy habits people can incorporate into their daily routine to prevent feeling drowsy or exhausted.",
+        "t2": "Evaluate how efficient these techniques are and explain what advice you would give an overworked manager to boost daily stamina."
+      }
+    ],
+    "5": [
+      {
+        "chips": [
+          "Communication styles", "Social occasions", "Modifying tone", "Key factors",
+          "Formality levels"
+        ],
+        "t1": "Explain how you adapt your communication style when interacting with different groups on professional and social occasions.",
+        "t2": "What factors are essential to take into account when determining appropriate formality or informality with strangers?"
+      }
+    ],
+    "6": [
+      {
+        "chips": [
+          "Pandemic outbreak", "Initial reactions", "Government measures", "Community shifts",
+          "Long-term impact"
+        ],
+        "t1": "Discuss relevant aspects of the COVID-19 pandemic. How did you realize it was happening and what were your initial thoughts?",
+        "t2": "Evaluate preliminary government measures and contrast personal and community changes experienced since."
+      }
+    ],
+    "7": [
+      {
+        "chips": [
+          "IT in education", "Modern technology", "Learning shifts", "Drawbacks & challenges",
+          "Future AI tasks"
+        ],
+        "t1": "Give your opinion on how modern information technology has transformed how students learn and teachers instruct.",
+        "t2": "Discuss major drawbacks or challenges associated with integrating hyper-technology into educational spaces."
+      }
+    ],
+    "8": [
+      {
+        "chips": [
+          "Car crash scenario", "Stressful situation", "Different attitudes",
+          "Dealing with crisis", "Essential mental traits"
+        ],
+        "t1": "Imagine two people dealing with a serious car crash. Compare how their attitudes and behaviors differ under pressure.",
+        "t2": "What psychological attitudes and mental resilience does it take for people to face acute emergencies calmly?"
+      }
+    ],
+    "9": [
+      {
+        "chips": [
+          "Conventional habits", "Family circle", "Attitudes toward change",
+          "Cultural conventions", "Generational gap"
+        ],
+        "t1": "Describe customs and rituals that are conventional in your culture or family circle, and how your attitude has evolved.",
+        "t2": "Explain how easy or difficult it is for you to accept or make waves when you disagree with rigid cultural conventions."
+      }
+    ],
+    "10": [
+      {
+        "chips": [
+          "Long bank queues", "Blocked debit card", "Bank staff response",
+          "Typical bank complaints", "Diplomatic tone"
+        ],
+        "t1": "Imagine waiting in a long queue to unblock your card. What drives you crazy, and how do you state your complaint politely?",
+        "t2": "What is an acceptable response from bank management, and what aspects of customer service do consumers complain about most?"
+      }
+    ],
+    "11": [
+      {
+        "chips": [
+          "Dream job in Nordic country", "Upsides vs downsides", "Long-term plans",
+          "Cultural expectations", "Personal values"
+        ],
+        "t1": "You were offered a dream job in Sweden or Norway, but it meant leaving your life behind. Weigh the upsides and downsides.",
+        "t2": "How would this decision impact your long-term goals, and what ethical or familial values guide your final choice?"
+      }
+    ],
+    "12": [
+      {
+        "chips": [
+          "Moving to New York", "Immigrant challenges", "Settle down", "Homesickness",
+          "Contingency plans"
+        ],
+        "t1": "Imagine planning a major relocation to New York next year. How will you adjust, and will you be feeling homesick?",
+        "t2": "If after a few months you had to leave that city, where would you move to and what mixed conditions would you face?"
+      }
+    ],
+    "13": [
+      {
+        "chips": [
+          "Sweden digital rollback", "Screens back to books", "Handwriting decline",
+          "Classroom tech pros/cons", "Cognitive balance"
+        ],
+        "t1": "Evaluate Sweden's policy moving students back from screens to printed books. What alerted educators about the learning process?",
+        "t2": "How would you balance the implementation of advanced digital tools with essential cognitive skills in your own context?"
+      }
+    ]
+  }
+}

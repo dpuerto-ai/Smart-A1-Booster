@@ -1,0 +1,5 @@
+{
+  "name": "progress-check-boosters-css",
+  "private": true,
+  "devDependencies": { "tailwindcss": "3.4.17" }
+}

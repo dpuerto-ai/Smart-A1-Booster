@@ -1,0 +1,1850 @@
+{
+  "_leeme": "Contenido del nivel A2 (Interchange 2). No cambie los nombres de los campos (a la izquierda de los dos puntos), solo los textos. Antes de publicar ejecute tools/validate-data.py. Guia: data/LEEME.md",
+  "level": "a2",
+  "boosters": [
+    {
+      "id": 1,
+      "units": "1-2",
+      "title": "Childhood & The City",
+      "badgeEmoji": "🏙️",
+      "imageUrl": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Past habits (used to), Quantity expressions, and Indirect questions.",
+        "focus": "Introducing childhood memories, quantity of city facilities, and polite indirect inquiries.",
+        "speakingTasks": [
+          "Ask about childhood games, routines, and school.",
+          "Inquire about city facilities using indirect questions.",
+          "Compare life in the city in the past versus today."
+        ],
+        "interaccion": "\"When I was a kid, I used to play soccer... Could you tell me where the nearest subway station is?\""
+      },
+      "student": {
+        "handoutTitle": "CHILDHOOD & THE CITY PROFILE",
+        "diagOptions": [
+          "⏰ Used to (Past Habits vs Now)", "📜 Simple Past (Regular & Irregular)",
+          "📊 Quantifiers (too much, too many, not enough)",
+          "❓ Indirect Questions (Could you tell me... / Do you know if...)"
+        ],
+        "vocabWords": ["used to", "didn't use to", "too much", "not enough", "could you tell me"],
+        "step1Goal": "35-50 words",
+        "step1Text": "Complete your personal profile with childhood and city details:",
+        "freeWriteMin": 35,
+        "freeWriteMax": 50,
+        "freeWritePrompt": "Write about a favorite childhood memory and describe one thing you wish was different about your city today.",
+        "step1Template": "I was born in [Birthplace] and I grew up in [City you grew up in]. When I was a kid, I used to [Childhood activity] a lot with my friends, but I didn't use to [Activity you didn't do]. One of my best memories was when I [Past simple action]. Today, my city has changed. There is too much [Noncount noun, e.g., traffic] and there are not enough [Count noun, e.g., parks]. If I could change one thing about my city, I would [Action].<br><br>**Sentence Starter Extension:** [[When I compare the neighborhood where I grew up with how it looks today, the most noticeable change is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Examiner",
+            "avatar": "📋",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Student",
+            "avatar": "🎓",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are extremely nervous and speak very slowly.",
+          "You are overconfident and exaggerate your childhood stories.",
+          "You keep changing the subject back to your favorite sport.",
+          "You answer every question with short, shy replies."
+        ],
+        "step2Questions": [
+          "Task 1 (Childhood): Where did you grow up? What games or food did you use to enjoy? Were you a good student?",
+          "Task 2 (City Info): Ask 3 indirect questions to get around (transport, pollution, security): 'Could you tell me where...' | 'Do you know if...'",
+          "► Visitor's City Log: Partner's Hometown: [Hometown] | Partner's Childhood Habit: [Past Habit]",
+          "► Follow-up Verdict: Do you prefer the city now or in the past? Why? [Answer & Reason]"
+        ],
+        "correctAnswers": {
+          "Childhood activity": ["play", "ride", "go", "watch", "read", "swim", "climb"],
+          "Activity you didn't do": ["play", "eat", "go", "study", "watch"],
+          "Past simple action": ["went", "played", "visited", "got", "had", "saw", "was"],
+          "Noncount noun, e.g., traffic": ["traffic", "pollution", "noise", "garbage", "smog"],
+          "Count noun, e.g., parks": ["parks", "trees", "subway stations", "bus stops", "lanes", "gardens"]
+        },
+        "step2Opener": "A: \"Where did you grow up?\"<br>B: \"I grew up in Bogotá. I used to play soccer every afternoon with my friends.\"<br>A: \"Could you tell me if there are enough parks in your neighborhood?\"<br>B: \"No, there's too much traffic and not enough green spaces. I wish it were different!\"",
+        "commonErrors": [
+          "Using <em>use to</em> instead of <em>used to</em>: <em>I use to play</em> → <strong>I used to play</strong>",
+          "Negative form: <em>I didn't used to sleep</em> → <strong>I didn't use to sleep</strong> (no <em>-d</em> after <em>didn't</em>)",
+          "Enough position: <em>parks enough</em> → <strong>enough parks</strong> (before nouns) / <em>not big enough</em> (after adjectives)",
+          "Indirect question word order: <em>Could you tell me where is the station?</em> → <strong>where the station is</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Childhood Memories",
+          "words": [
+            "Beach", "Bicycle", "Chess", "Comic book", "Crayons", "Doll", "Hobby", "Nickname",
+            "Playground", "Scrapbook", "Soccer ball", "Summer camp", "Teddy bear", "Tree house",
+            "Video game"
+          ]
+        },
+        {
+          "category": "City & Transport",
+          "words": [
+            "Bicycle lane", "Bus station", "Bus stop", "Fire station", "Newsstand",
+            "Parking lot", "Police station", "Streetlight", "Subway station", "Taxi driver",
+            "Traffic jam", "Traffic light", "Train station"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "achievement", "award", "(summer) camp", "(body) cast", "childhood",
+            "contact information", "courage", "headline", "hide-and-seek", "hometown", "illness",
+            "immigrant", "interest", "memory", "outdoors", "pet", "politics", "possession",
+            "profile", "recreation", "relatives", "role", "scary movies", "self-portrait",
+            "social networking", "specialist", "stickers", "superhero", "taste", "thriller",
+            "toy car", "ATM", "bicyclist", "birthplace", "block", "campaign", "capacity",
+            "certificate", "CO2 (= carbon dioxide)", "commute", "crowd", "daycare", "downtown",
+            "facilities", "fare", "government", "healthcare", "issue", "marvel", "message board",
+            "nature", "paradise", "passenger", "pedestrian", "pollution", "post", "restroom",
+            "resident", "rush", "service", "shopping mall", "sign", "slogan", "speed", "tip",
+            "theme", "tourism", "traffic", "recycling center", "recycling system", "rush hour",
+            "subway line", "subway stop", "subway system", "taxi lane", "taxi service",
+            "taxi stand", "train stop", "train system", "Wi-Fi hotspots"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "basic", "current", "far", "fit", "good (at)", "messy", "neat", "online", "outdoor",
+            "affordable", "colorful", "cheerful", "duty-free", "eco-friendly", "family-friendly",
+            "healthy", "inexpensive", "live", "memorable", "pre-paid (phone)", "silly"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "argue", "collect", "direct (a movie)", "donate", "follow", "get (in trouble)",
+            "keep fit", "produce (a movie)", "refer", "remember", "skate", "take up", "notice",
+            "urge", "worry (about something)", "apply (for something)", "appreciate", "attract",
+            "catch (a bus)", "cause", "earn", "improve", "lend", "provide", "run (= operate)",
+            "stay (open)", "take (forever)"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["afterwards", "regularly"]
+        },
+        {
+          "category": "Compound nouns",
+          "words": [
+            "bicycle stand", "bus lane", "bus system", "green space", "parking garage",
+            "parking space", "police officer", "public transportation"
+          ]
+        },
+        {
+          "category": "Adverbs of quantity",
+          "words": ["fewer", "less", "more", "not enough", "too many", "too much"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Life story & quantity",
+          "phrases": [
+            "was born in", "grew up in", "moved to", "went to college", "studied",
+            "when I was five", "too much", "too many", "not enough", "less", "fewer", "more"
+          ]
+        },
+        {
+          "category": "Introducing yourself",
+          "phrases": ["My name is ...", "I'm ...", "Nice to meet you."]
+        },
+        {
+          "category": "Exchanging personal information",
+          "phrases": [
+            "Could you tell me (a little) about yourself?", "Are you from ...?", "Yes, I am.",
+            "No, I'm not.", "Where were you born?", "I was born in ...",
+            "Did you grow up there?", "Yes, I did.", "No, I didn't."
+          ]
+        },
+        {
+          "category": "Talking about past activities",
+          "phrases": [
+            "Where did you learn to ...?", "What/Where did you use to ...?",
+            "When I was a kid, I used to ...", "Did you use to ...?", "Yes, I used to ...",
+            "No, I didn't use to ..., but now ..."
+          ]
+        },
+        {
+          "category": "Apologizing",
+          "phrases": ["I'm (really) sorry."]
+        },
+        {
+          "category": "Asking for and agreeing to a favor",
+          "phrases": ["Can you ...?", "Sure.", "It's a deal!"]
+        },
+        {
+          "category": "Expressing concern",
+          "phrases": [
+            "There are too many ...", "There is too much ...", "There should be fewer ...",
+            "There should be less ...", "We need more ...", "There aren't enough ...",
+            "There isn't enough ..."
+          ]
+        },
+        {
+          "category": "Getting someone's attention",
+          "phrases": ["Excuse me."]
+        },
+        {
+          "category": "Asking for information",
+          "phrases": [
+            "Could you tell me where ...?", "Can you tell me how often ...?",
+            "Do you know what time/when ...?", "Just one more thing.", "What time does ...?"
+          ]
+        },
+        {
+          "category": "Thanking someone",
+          "phrases": ["Thanks (a lot)."]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "units": "3-4",
+      "title": "Houses & Food Experiences",
+      "badgeEmoji": "🏡",
+      "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Evaluations & comparisons (as... as, not enough, too) and Present Perfect vs Simple Past.",
+        "focus": "Comparing accommodations, evaluating living spaces, and narrating lifetime culinary experiences.",
+        "speakingTasks": [
+          "Compare your current bedroom with your partner's using as... as.",
+          "Ask and answer about lifetime exotic food experiences.",
+          "Describe the characteristics of your dream house."
+        ],
+        "interaccion": "\"Have you ever eaten insect tacos?\" \"Yes, I tried them in Mexico, but my apartment isn't as big as yours!\""
+      },
+      "student": {
+        "handoutTitle": "HOUSING & CULINARY PROFILE",
+        "diagOptions": [
+          "⚖️ Comparatives with 'as... as'", "📏 Evaluations with 'too' and 'not... enough'",
+          "🍽️ Present Perfect for Lifetime Experiences", "📅 Simple Past for Specific Occasions"
+        ],
+        "vocabWords": ["not as bright as", "too noisy", "wish I had", "have you ever", "delicious"],
+        "step1Goal": "35-50 words",
+        "step1Text": "Complete your housing and exotic food profile:",
+        "freeWriteMin": 35,
+        "freeWriteMax": 50,
+        "freeWritePrompt": "Describe your dream house and write about the most unusual or memorable meal you have ever eaten.",
+        "step1Template": "My current bedroom is [too small / too dark / not big enough]. I wish I had a [Wish, e.g., larger desk] because [Reason]. I am a good cook. I have eaten [Name of unusual food] before, but the best meal I have ever cooked is [Meal name]. To make it, first I [First step], and after that I [Next step].<br><br>**Sentence Starter Extension:** [[If I could remodel any room in my home without worrying about the cost, the first upgrade would be...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Examiner",
+            "avatar": "🧐",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Student",
+            "avatar": "👩‍🍳",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are extremely picky about food and criticize everything.",
+          "You exaggerate how luxurious your house is.",
+          "You are in a huge hurry and answer very quickly.",
+          "You get emotional talking about your grandmother's cooking."
+        ],
+        "step2Questions": [
+          "Task 1 (Housing): Compare your room or apartment with your partner's (rooms, windows, noise, brightness): 'My place isn't as... as yours.'",
+          "Task 2 (Food): Ask: 'Have you ever eaten unusual food? Did you like it? Where did you eat it?'",
+          "► Partner's Housing Record: Partner's Biggest Room Complaint: [Complaint] | One Wish for their Home: [Wish]",
+          "► Culinary Audit: Has your partner tried exotic dishes? ( ) YES  ( ) NO | Dish Name: [Dish]"
+        ],
+        "correctAnswers": {
+          "Wish, e.g., larger desk": ["larger", "bigger", "desk", "window", "closet", "bed", "balcony"],
+          "Name of unusual food": ["insect", "sushi", "caviar", "taco", "octopus", "snail", "snake"],
+          "Meal name": ["pasta", "rice", "chicken", "salad", "pizza", "steak", "lasagna"]
+        },
+        "step2Opener": "A: \"Have you ever eaten something unusual?\"<br>B: \"Yes! I tried insect tacos in Mexico two years ago. It was an unforgettable experience.\"<br>A: \"Is your apartment as spacious as your previous one?\"<br>B: \"No, it isn't as big as my last place. It's too small and way too dark!\"",
+        "commonErrors": [
+          "Double comparison: <em>more bigger</em> → <strong>bigger</strong> (never combine <em>more</em> and <em>-er</em>)",
+          "As…as structure: <em>My room is as big that yours</em> → <strong>as big as yours</strong>",
+          "Present Perfect with a specific past time: <em>I have eaten there yesterday</em> → <strong>I ate there yesterday</strong>",
+          "Have you ever + past participle: <em>Have you ever ate?</em> → <strong>Have you ever eaten?</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Housing Adjectives",
+          "words": [
+            "Bright", "Comfortable", "Convenient", "Cramped", "Dangerous", "Dark", "Dingy",
+            "Expensive", "Huge", "Messy", "Modern", "Noisy", "Private", "Quiet", "Run-down",
+            "Safe", "Spacious", "Tiny", "Uncomfortable"
+          ]
+        },
+        {
+          "category": "Cooking",
+          "words": [
+            "Avocado", "Bake", "Barbecue", "Beef", "Boil", "Chicken", "Comfort food", "Eggplant",
+            "French toast", "Fry", "Grill", "Guacamole", "Marinate", "Peanut butter", "Popcorn",
+            "Recipe", "Roast", "Shrimp", "Steam"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "(room and) board", "contact lenses", "damage", "evaluation", "expense", "housework",
+            "(musical) instrument", "mobile home", "personality", "PIN", "privacy", "progress",
+            "questionnaire", "reminder", "rent", "reunion", "safari", "seaweed", "seeds",
+            "(closet) space", "suburb", "vegetable", "wish", "wish list", "wishful thinking"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "afraid", "average", "common", "inconvenient", "separate", "two-car/2-car (garage)",
+            "wild"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "achieve", "add", "expect", "grow (one's own)", "make (changes)", "move (out/away)",
+            "park (a car)", "waste"
+          ]
+        },
+        {
+          "category": "Adverb",
+          "words": ["abroad"]
+        },
+        {
+          "category": "Preposition",
+          "words": ["per"]
+        },
+        {
+          "category": "Food and beverages",
+          "words": [
+            "check", "cilantro", "coconut", "comfort foods", "curry", "fish", "garlic",
+            "knowledge", "lamb", "lime", "lobster", "meat", "oil", "onion", "(an) order",
+            "(chili) pepper", "pork", "ramen", "salt", "sauce", "shellfish", "snail", "soda",
+            "soy sauce", "spice", "squid", "takeout", "tuna", "topping"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "appetizer", "(the) blues", "bowl", "brain", "bunch", "competition", "cookbook",
+            "diet", "dish", "dough", "driver's license", "free time", "mixture",
+            "model (= example)", "order", "pan", "password", "plate", "server", "side", "slice",
+            "stew", "survey", "tablespoon"
+          ]
+        },
+        {
+          "category": "Adjectives for food and beverages",
+          "words": [
+            "delicious", "ethnic", "juicy", "lean", "marinated", "melted", "rich", "soothing",
+            "strange", "tempting", "tough"
+          ]
+        },
+        {
+          "category": "Other adjectives",
+          "words": ["anxious", "clay", "depressed", "irritable", "low (= unhappy)", "secure", "stressed"]
+        },
+        {
+          "category": "Cooking methods",
+          "words": ["toast"]
+        },
+        {
+          "category": "Other verbs",
+          "words": [
+            "calm down", "cheer up", "chop", "close", "contain", "cool", "cover", "cry",
+            "cut up", "fit", "heat", "influence", "mash", "mix", "not care for (= not like)",
+            "outsmart", "pop", "pour", "refrigerate", "relieve (stress)", "roll out", "shake",
+            "spread", "squeeze", "stand up", "stir", "turn over"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["from time to time", "lightly", "powerfully"]
+        },
+        {
+          "category": "Conjunction",
+          "words": ["as well as"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Sequence & comparing",
+          "phrases": [
+            "first", "next", "then", "after that", "finally", "until", "not as … as",
+            "not enough", "too", "I wish I had…"
+          ]
+        },
+        {
+          "category": "Giving an opinion",
+          "phrases": [
+            "The ... isn't ... enough.", "The ... is too ...", "There aren't enough ...",
+            "There isn't enough ...", "It's not as ... as ...",
+            "It doesn't have as many ... as ...", "It has just as many ... as ...",
+            "There is too much ..."
+          ]
+        },
+        {
+          "category": "Expressing regret about a present situation",
+          "phrases": [
+            "I'm afraid so.", "I wish (that) I could ...", "I wish I didn't ...",
+            "I wish life were easier."
+          ]
+        },
+        {
+          "category": "Agreeing",
+          "phrases": ["Me, too."]
+        },
+        {
+          "category": "Talking about food and beverages",
+          "phrases": [
+            "Have you ever eaten ...?", "Yes, I have.", "No, I haven't.",
+            "It was/They were ...!", "This/It sounds ...", "They sound ..."
+          ]
+        },
+        {
+          "category": "Ordering in a restaurant",
+          "phrases": ["Have you decided yet?", "Yes. I'll have ...", "And you?", "I think I'll have ..."]
+        },
+        {
+          "category": "Making and declining an offer",
+          "phrases": ["Why don't you try some?", "No, thanks.", "No, I don't think so."]
+        },
+        {
+          "category": "Describing a procedure",
+          "phrases": ["First, ...", "Next, ...", "After that, ...", "Finally, ..."]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "units": "5-6",
+      "title": "Travel Plans & Requests",
+      "badgeEmoji": "✈️",
+      "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Future with be going to / will, Modals for requests (Would you mind...?).",
+        "focus": "Confirming travel plans, giving advice with ought to / should, and making polite requests to neighbors and roommates.",
+        "speakingTasks": [
+          "Inquire about upcoming vacation plans and give travel recommendations.",
+          "Make polite requests to a noisy neighbor using 'Would you mind…?'",
+          "Make polite requests to a roommate about shared habits (dishes, TV, lights)."
+        ],
+        "interaccion": "\"Next summer I'm going to travel… Would you mind turning down the music, please?\""
+      },
+      "student": {
+        "handoutTitle": "VACATION & POLITE REQUESTS PROFILE",
+        "diagOptions": [
+          "🧳 Be going to for Confirmed Plans", "💡 Ought to & Should for Travel Advice",
+          "🛎️ Would you mind + -ing for Polite Requests",
+          "🔌 Two-part phrasal verbs (clean up, turn off, put away)"
+        ],
+        "vocabWords": ["going to visit", "ought to pack", "would you mind", "clean up", "turn down"],
+        "step1Goal": "35-50 words",
+        "step1Text": "Complete your travel plan and your polite requests:",
+        "freeWriteMin": 35,
+        "freeWriteMax": 50,
+        "freeWritePrompt": "Write about your next vacation plans and about a polite request you would make to a neighbor or roommate.",
+        "step1Template": "Next vacation, I am going to visit [Destination]. I am traveling with [Person/People]. I know I ought to pack [Items] because the weather there is [Weather adjective]. If it is nice, I will probably [Plan: go sailing / rent a car]. At home, my [Neighbor / Roommate] [Annoying habit: plays loud music / leaves dishes in the sink]. Would you mind [Gerund: turning down the music / washing the dishes], please? Also, could you [Request: take out the garbage / turn off the lights], please?<br><br>**Sentence Starter Extension:** [[Whenever a neighbor or roommate keeps doing something that bothers me, the way I usually bring it up politely is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Travel Agent / Neighbor",
+            "avatar": "🧳",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Traveler / Roommate",
+            "avatar": "🏠",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are a neighbor who plays loud music on weekdays and doesn't realize it bothers anyone.",
+          "You are a roommate who leaves dishes in the sink and watches TV until late.",
+          "You are overly polite and apologize for everything.",
+          "You are calm but refuse to change your habits until you hear a good reason."
+        ],
+        "step2Questions": [
+          "Task 1 (Travel Agent): Ask: 'Where are you going to travel? Who with? What will you do there?' Then give recommendations with ought to / should.",
+          "Task 2 (Neighbor / Roommate): Make polite requests: 'Would you mind turning down the music / taking out the garbage / washing the dishes?'",
+          "► Negotiation Challenge: The neighbor/roommate must first resist; the other student must persuade them politely.",
+          "► Request Log: Was the problem solved? ( ) YES ( ) NO | Request made: [Request]"
+        ],
+        "correctAnswers": {
+          "Destination": [
+            "Colombia", "Bogota", "Medellin", "Cartagena", "Paris", "London", "Miami",
+            "New York", "Spain", "Tokyo", "Rome"
+          ],
+          "Items": ["clothes", "umbrella", "passport", "jacket", "sunglasses", "swimsuit", "boots"],
+          "Weather adjective": ["sunny", "cold", "hot", "rainy", "cloudy", "warm", "humid"]
+        },
+        "step2Opener": "A: \"Where are you going to travel next vacation?\"<br>B: \"I'm going to visit Colombia. I'm traveling with my sister.\"<br>A: \"Excuse me — would you mind turning down the music? It's really loud.\"<br>B: \"Oh, sorry! I'll turn it down right away.\"",
+        "commonErrors": [
+          "Forgetting <em>be</em> in going to: <em>I going to travel</em> → <strong>I am going to travel</strong>",
+          "Would you mind + gerund: <em>Would you mind turn it off?</em> → <strong>Would you mind turning it off?</strong>",
+          "Two-part verb pronoun position: <em>Turn off it</em> → <strong>Turn it off</strong> (pronoun goes in the middle)",
+          "Ought to vs. should: both express advice — <em>ought to</em> is slightly more formal"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Travel Planning",
+          "words": [
+            "Backpack", "Camping", "Carry-on bag", "Credit card", "First-aid kit", "Fishing rod",
+            "Hiking boots", "Hotel reservation", "Medication", "National park", "Passport",
+            "Plane ticket", "Round-trip", "Sandals", "Student ID", "Suitcase", "Swimsuit",
+            "Tent", "Vaccination", "Visa"
+          ]
+        },
+        {
+          "category": "At Home — Two-Part Verbs",
+          "words": [
+            "Clean up", "Hang up", "Let out", "Pick up", "Put away", "Take off", "Take out",
+            "Throw out", "Turn down", "Turn off", "Turn on", "Garbage", "Groceries", "Laptop",
+            "Mess", "Microwave", "Towels", "Trash"
+          ]
+        },
+        {
+          "category": "Activities",
+          "words": [
+            "bike tour", "cruise", "eat at stalls (on the street)", "hang out", "hula",
+            "rafting", "sightseeing", "sing-along", "stargazing", "surfing", "take the train"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "accommodations", "ATM card", "brochure", "camper", "catamaran", "condition", "copy",
+            "danger", "document", "double room", "health", "identification", "lodge", "luggage",
+            "money belt", "opportunity", "reindeer", "rental", "safety", "single room",
+            "specialty", "stall", "sub-zero", "surfboard", "tap", "tour", "wildlife"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "beachfront", "checked", "excited", "foreign", "necessary", "pleasant", "whole",
+            "clumsy", "embarrassed", "loud", "(un)reasonable", "sure", "tasty"
+          ]
+        },
+        {
+          "category": "Modal verbs",
+          "words": ["had better", "must", "ought to", "should"]
+        },
+        {
+          "category": "Other verbs",
+          "words": [
+            "avoid", "bring back", "carry", "check out", "discover", "pick (someone) up", "rent",
+            "sunbathe", "admit", "apologize", "bother", "criticize", "gain (weight)", "lend",
+            "lock", "make", "mind", "promise", "realize", "refuse", "respect", "text"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": [
+            "by myself", "fairly", "in advance", "right away", "almost", "as soon as", "quietly",
+            "sincerely"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "chore", "expense", "guest", "magazine", "noise", "parking space", "staff",
+            "stranger", "survey"
+          ]
+        },
+        {
+          "category": "Two-part verbs",
+          "words": [
+            "drive (someone) crazy", "go through", "keep (something) clean",
+            "let (something or someone) out", "look after", "make sure",
+            "pick up (after yourself)"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Plans & polite requests",
+          "phrases": [
+            "I'm going to…", "I will probably…", "Maybe we will…", "Can you…?", "Could you…?",
+            "Would you please…?", "Would you mind…?", "turn down", "turn off", "take out",
+            "pick up", "put away", "clean up"
+          ]
+        },
+        {
+          "category": "Talking about definite plans",
+          "phrases": ["Have you made any plans?", "I'm going to ...", "How are you going to spend ...?"]
+        },
+        {
+          "category": "Talking about possible plans",
+          "phrases": ["I guess I'll ...", "Maybe I'll ...", "I think I'll ...", "I probably won't ..."]
+        },
+        {
+          "category": "Asking about length of time",
+          "phrases": ["For how long?", "How long are you going to ...?"]
+        },
+        {
+          "category": "Describing necessity",
+          "phrases": ["You must/You need to/You (don't) have to ..."]
+        },
+        {
+          "category": "Giving suggestions",
+          "phrases": ["You'd better/You ought to/You should/You shouldn't ..."]
+        },
+        {
+          "category": "Making and accepting an offer",
+          "phrases": [
+            "Why don't you ...?", "Do you mean it? I'd love to!", "The more the merrier!",
+            "That sounds like fun."
+          ]
+        },
+        {
+          "category": "Making and agreeing/objecting to a request",
+          "phrases": [
+            "Please ...", "..., please.", "In a minute.", "OK. No problem!", "Oh, but ...",
+            "All right. I'll ...", "Can/Could you ...?", "Sure, no problem. I'd be glad to.",
+            "Would you please ...?", "OK. I'll ...", "Would you mind ...?",
+            "Sorry. I'll ... right away."
+          ]
+        },
+        {
+          "category": "Giving an excuse",
+          "phrases": ["I'm sorry. I didn't realize ..."]
+        },
+        {
+          "category": "Admitting a mistake",
+          "phrases": ["I'm sorry. I forgot.", "You're right.", "I was wrong."]
+        },
+        {
+          "category": "Making an offer",
+          "phrases": ["I'll ... right away.", "Feel free to ..."]
+        },
+        {
+          "category": "Making a promise",
+          "phrases": ["I promise I'll ...", "I'll make sure to ..."]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "units": "7-8",
+      "title": "Tech & Traditions",
+      "badgeEmoji": "📱",
+      "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Infinitives and gerunds of purpose, Time clauses with when, before, after.",
+        "focus": "Describing holiday rituals and identifying technological devices and their specific purposes.",
+        "speakingTasks": [
+          "Describe favorite holiday customs using time clauses.",
+          "Explain the purpose of tech gadgets using 'used to' and 'used for'.",
+          "Evaluate how tech changes modern celebrations."
+        ],
+        "interaccion": "\"We use our smartphones for sharing photos when we celebrate New Year's.\""
+      },
+      "student": {
+        "handoutTitle": "TECH GADGETS & CULTURAL TRADITIONS",
+        "diagOptions": [
+          "🎯 Infinitives of Purpose (is used to + verb)",
+          "⚙️ Gerunds of Purpose (is used for + -ing)",
+          "⏳ Time Clauses (when, before, after + present tense)",
+          "🎉 Relative Clauses of Time (is the day when...)"
+        ],
+        "vocabWords": ["holiday", "celebrate", "used for", "used to", "when we gather"],
+        "step1Goal": "40-60 words",
+        "step1Text": "Complete your cultural and tech profile using correct purpose structures:",
+        "freeWriteMin": 40,
+        "freeWriteMax": 60,
+        "freeWritePrompt": "Write about your favorite holiday tradition and explain how technology helps you celebrate it today.",
+        "step1Template": "My favorite holiday is [Name of holiday]. I love it because [Reason]. It is the day when [What people do]. Before people celebrate, they usually [Custom]. After the celebration, [After action: e.g., families share a meal]. For this holiday, my smartphone is used for [Gerund of purpose, e.g., sharing photos] and to [Infinitive of purpose, e.g., stay in touch] so I don't miss anything important during the celebration.<br><br>**Sentence Starter Extension:** [[If digital screens and smartphones were banned during major holiday gatherings, the atmosphere would...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Quiz Host",
+            "avatar": "🎙️",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Contestant",
+            "avatar": "📱",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are addicted to your smartphone and mention it constantly.",
+          "You are nostalgic and prefer old-school traditions without gadgets.",
+          "You speak at high speed because you're overly excited.",
+          "You keep forgetting the name of your favorite app."
+        ],
+        "step2Questions": [
+          "Task 1 (Traditions): What is your favorite holiday? What do people do before and after it starts? What traditional food is eaten?",
+          "Task 2 (Tech): What do you use your phone for most? What gadget could you absolutely not live without?",
+          "► Traditions Record: Partner's Favorite Celebration: [Holiday] | Key Custom: [Custom]",
+          "► Tech Purpose Audit: Indispensable Device: [Device] | Primary Purpose: [Purpose]"
+        ],
+        "correctAnswers": {
+          "Name of holiday": ["Christmas", "New Year", "Thanksgiving", "Easter", "Halloween", "Birthday"],
+          "Custom": ["decorate", "cook", "buy", "clean", "gather", "visit", "make"],
+          "Gerund of purpose, e.g., sharing photos": ["sharing", "taking", "sending", "talking", "calling", "recording"],
+          "Infinitive of purpose, e.g., stay in touch": ["stay", "talk", "keep", "call", "connect", "chat", "send"]
+        },
+        "step2Opener": "A: \"What do you use your smartphone for?\"<br>B: \"I use it for sharing photos and to stay connected with my family during celebrations.\"<br>A: \"What do you do before you celebrate a holiday?\"<br>B: \"Before we celebrate, we usually cook traditional food and decorate the house.\"",
+        "commonErrors": [
+          "Infinitive vs gerund of purpose: <em>I use it to sharing</em> → <strong>I use it for sharing</strong> or <strong>to share</strong>",
+          "Time clause tense: <em>When I will arrive, I'll call you</em> → <strong>When I arrive</strong> (no future auxiliary in time clauses)",
+          "<em>Used for + -ing</em> vs <em>used to + verb</em>: <em>My phone is used to taking photos</em> → <strong>used for taking photos</strong>",
+          "After <em>before / after / when</em>, always use simple present: <em>Before I will eat</em> → <strong>Before I eat</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Technology",
+          "words": [
+            "App", "Browse", "Create", "Cut and paste", "Document", "Double-click",
+            "Drag and drop", "Edit", "Flash drive", "Format", "Highlight", "Icon", "Keyboard",
+            "Monitor", "Mouse", "Recharge", "Save", "Screen", "Store", "Website"
+          ]
+        },
+        {
+          "category": "Special Occasions",
+          "words": [
+            "Anniversary", "Bride", "Candy", "Card", "Celebration", "Ceremony", "Decorations",
+            "Dress up", "Engagement", "Fireworks", "Flowers", "Gift", "Groom", "Honeymoon",
+            "Mother's Day", "New Year's Eve", "Parade", "Reception", "Resolution", "Speech",
+            "Thanksgiving", "Traditional clothes", "Valentine's Day", "Wedding"
+          ]
+        },
+        {
+          "category": "Machines/Appliances/Technology",
+          "words": [
+            "computer crash", "drone", "gadget", "GPS system", "identity theft", "passcode",
+            "robot", "smartphone", "smart device", "tablet", "touchscreen", "video call"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "assignment", "burglar", "computer whiz", "digital native", "directions", "doubt",
+            "employee", "early adopter", "fee", "hacker", "invention", "task", "technology",
+            "ancestor", "barbecue", "boyfriend", "candles", "costumes", "custom", "doll", "fall",
+            "get-together", "loaf of bread", "(good/bad) luck", "marriage", "mask", "picnic",
+            "relatives", "(engagement) ring", "samba", "sari", "sculpture", "skeleton", "spring",
+            "summer", "tradition", "trick", "winter"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "frozen", "strict", "worth", "lunar", "messy", "national", "romantic", "surprise",
+            "traditional"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "back up", "entertain", "freeze", "influence", "lend", "perform", "post", "protect",
+            "rent", "(get a) ride", "set", "understand", "(be) like", "book", "date", "destroy",
+            "dress", "explode", "fill", "get engaged/married", "get lost", "get together",
+            "look forward to", "occur", "put on", "strike"
+          ]
+        },
+        {
+          "category": "Holidays, festivals, and celebrations",
+          "words": [
+            "April Fool's Day", "Carnival", "Children's Day", "Chinese New Year",
+            "Day of the Dead", "Labor Day", "Saint Patrick's Day", "wedding anniversary"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Special days & sequence",
+          "phrases": [
+            "is the day when", "is a time of year when", "before", "when", "after",
+            "is used to…", "is used for…", "a ceremony", "a celebration"
+          ]
+        },
+        {
+          "category": "Describing a use or purpose",
+          "phrases": ["How do you use ...?", "I use it for ..."]
+        },
+        {
+          "category": "Giving advice",
+          "phrases": [
+            "Be sure (not) to ...", "Don't forget to ...", "Make sure (not) to ...",
+            "Remember to ...", "Try (not) to ..."
+          ]
+        },
+        {
+          "category": "Describing holidays, festivals, and celebrations",
+          "phrases": [
+            "... is a day/a night when ...", "... is the day when ...",
+            "... is the month when ...", "... is the season when ...",
+            "A/An ... is a time when ...", "After ..., ...", "Before ..., ...", "When ..., ..."
+          ]
+        },
+        {
+          "category": "Asking about customs",
+          "phrases": [
+            "How long does it last?", "Is/Are there ...?", "What do people wear?",
+            "What happens?", "What happens during the ...?", "What kind of food is served?",
+            "When is it?", "Why do they do that?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "units": "9-10",
+      "title": "The Job Candidate",
+      "badgeEmoji": "💼",
+      "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Past habits vs present (used to), gerunds after prepositions, because clauses.",
+        "focus": "Contrasting habits in the past and now, explaining skills and job requirements with gerunds, and deciding if a candidate is suitable.",
+        "speakingTasks": [
+          "Interview a reporter-style partner about how people studied or ate in the past and now.",
+          "Explain how your own habits have changed over time using used to.",
+          "Ask about skills (work with people, creative, under pressure) and decide if the person is a good candidate, giving reasons."
+        ],
+        "interaccion": "\"In the past I used to study at night, but now I study in the morning because I concentrate better. I like working with people.\""
+      },
+      "student": {
+        "handoutTitle": "HABITS & JOB CANDIDATE PROFILE",
+        "diagOptions": [
+          "🔄 Used to vs Simple Present (Changing Habits)",
+          "🧠 Gerunds after Verbs and Prepositions (like working, good at)",
+          "💬 Because Clauses (giving reasons)", "👔 Job Skills and Personality Adjectives"
+        ],
+        "vocabWords": ["used to", "now I", "good at", "because", "work under pressure"],
+        "step1Goal": "45-65 words",
+        "step1Text": "Prepare your profile: how your habits changed and why you could be a good candidate:",
+        "freeWriteMin": 45,
+        "freeWriteMax": 65,
+        "freeWritePrompt": "Write about how your study or eating habits have changed over time and why you would be a good candidate for a job.",
+        "step1Template": "In the past, I used to [Past habit, e.g., study at night], but now I [Present habit, e.g., study in the morning] because [Reason]. For a job, I am good at [Gerund, e.g., solving problems] and I like [Gerund, e.g., working with people]. I am [Adjective, e.g., creative / patient], and I can work under pressure. I don't mind [Gerund, e.g., working long hours] because [Reason]. I think I would be a good candidate because [Reason].<br><br>**Sentence Starter Extension:** [[The habit I changed that has helped me most in my studies or work is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Reporter / Employer",
+            "avatar": "🎤",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Expert / Candidate",
+            "avatar": "💼",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are overly confident and boast about all your skills.",
+          "You are extremely nervous and your hands shake.",
+          "You are brutally honest about minor weaknesses.",
+          "You are very experienced and speak with certainty about how things used to be."
+        ],
+        "step2Questions": [
+          "Task 1 (Reporter): Ask how people studied or ate in the past and now. Then tell your partner how your own habits have changed over time.",
+          "Task 2 (Job Candidate): Ask about skills: 'Do you like working with people? Are you creative? Can you work long hours / under pressure?' Then say if the person is a good candidate and why.",
+          "► Candidate Evaluation: Candidate Name: [Name] | Primary Strengths: [Strengths]",
+          "► Final Hiring Decision: Candidate is ( ) HIRED  ( ) CALL BACK  ( ) NOT HIRED"
+        ],
+        "correctAnswers": {
+          "Gerund, e.g., solving problems": [
+            "solving", "managing", "working", "communicating", "creating", "designing",
+            "listening"
+          ]
+        },
+        "step2Opener": "A: \"How did people study in the past, and how do they study now?\"<br>B: \"People used to study with books only. Now they use apps because they are faster.\"<br>A: \"Are you good at working with people?\"<br>B: \"Yes, I like working with people, and I don't mind working long hours because I enjoy it.\"",
+        "commonErrors": [
+          "Used to: <em>I use to study at night</em> → <strong>I used to study at night</strong>",
+          "Gerund after prepositions: <em>I'm good at solve problems</em> → <strong>good at solving problems</strong>",
+          "Gerund after like / don't mind: <em>I like work with people</em> → <strong>I like working with people</strong>",
+          "Because + clause: <em>I changed because is easier</em> → <strong>because it is easier</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Events & Consequences",
+          "words": [
+            "Communicate in a different language", "Earn your own spending money",
+            "Experience culture shock", "Fall in love", "Feel better about yourself",
+            "Get a part-time job", "Get in shape", "Get into a good college",
+            "Get valuable work experience", "Have a lot more free time", "Improve your grades",
+            "Join a gym", "Learn a new language", "Move to a foreign country", "Start a new job",
+            "Study very hard"
+          ]
+        },
+        {
+          "category": "Jobs & Personality Traits",
+          "words": [
+            "Accountant", "Architect", "Banker", "Flight attendant", "Journalist", "Lawyer",
+            "Marine biologist", "Songwriter", "Stockbroker", "Creative", "Disorganized",
+            "Efficient", "Forgetful", "Generous", "Hardworking", "Impatient", "Level-headed",
+            "Moody", "Punctual", "Reliable", "Short-tempered", "Strict"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "advantage", "advertisement", "assembly line", "builder", "bunch", "(common) cold",
+            "communication", "consequence", "cure", "degree", "disadvantage", "entertainment",
+            "environment", "fashion", "grocery store", "gym", "healthcare", "housing", "loan",
+            "meal", "national team", "neighborhood", "ocean liner", "office tower", "pupil",
+            "shame", "situation", "steam train", "takeout", "tax", "teleportation"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "attracted to", "bright", "brilliant", "dark", "driverless", "embarrassed", "empty",
+            "falling down", "high-paying", "in shape", "intelligent", "jealous", "multiple",
+            "non-polluting", "popular", "serious", "shy", "two-hour", "virtual", "attentive",
+            "broke", "critical", "cross-cultural", "developing (country)", "lazy",
+            "nine-to-five", "organized", "patient", "rude", "unfriendly"
+          ]
+        },
+        {
+          "category": "Modal verbs",
+          "words": ["can", "may", "might", "would"]
+        },
+        {
+          "category": "Other verbs",
+          "words": [
+            "admit", "be able to", "become", "begin", "consider", "die", "earn", "exist", "feel",
+            "fight", "fly", "get", "hang out", "improve", "join", "look after", "meet", "miss",
+            "move", "offer", "order", "receive", "shout", "spend", "tear down", "travel"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["anymore", "anywhere", "nowadays", "sadly", "soon", "still"]
+        },
+        {
+          "category": "Conjunction",
+          "words": ["so"]
+        },
+        {
+          "category": "Jobs/Occupations",
+          "words": ["activities director", "agent", "artist", "reporter", "teacher", "video game tester"]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "agreement", "applicant", "article", "bug", "career", "co-worker", "deadline",
+            "(business) deal", "decision", "device", "employee", "experience", "honesty",
+            "overseas", "overtime", "personality trait", "pressure", "public speaking",
+            "relationship", "résumé", "(special) skills", "stock market", "straight talk",
+            "timetable"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "agree", "analyze", "apply", "be fed up (with something/someone)", "chat",
+            "check (something) out", "design", "develop", "do for a living", "draw", "enjoy",
+            "evaluate", "go over", "hire", "interview", "laugh", "lighten up", "make a decision",
+            "make up (your mind)", "manage", "place (one's trust in)", "realize", "release",
+            "sell", "sign"
+          ]
+        },
+        {
+          "category": "Preposition",
+          "words": ["besides"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "If-clauses & agreeing",
+          "phrases": [
+            "If I…, I'll…", "If I…, I might…", "In the past…", "Now…", "In the future…",
+            "I think… will…", "So do I.", "Neither do I.", "I don't mind.", "because"
+          ]
+        },
+        {
+          "category": "Talking about the past",
+          "phrases": ["In the past, ...", "People used to ...", "... years ago, ..."]
+        },
+        {
+          "category": "Talking about the present",
+          "phrases": ["These days, ...", "Today, people ...", "Nowadays, people ..."]
+        },
+        {
+          "category": "Talking about the future",
+          "phrases": [
+            "Soon, there will be ...", "In ... years, people might/may ...",
+            "In the future, people are going to ..."
+          ]
+        },
+        {
+          "category": "Describing situations and possible consequences",
+          "phrases": [
+            "If I ..., I won't be able to ...", "If you don't ..., you'll have to ...",
+            "If they ..., they might ...", "If you ..., you may have to ..."
+          ]
+        },
+        {
+          "category": "Talking about possible occupations",
+          "phrases": [
+            "I'd make a good/bad ...", "I wouldn't want to be a/an ... because ...",
+            "I could (never) be a/an ... because ...",
+            "I wouldn't mind working as a/an ... because ...",
+            "The best job for me is ... because ..."
+          ]
+        },
+        {
+          "category": "Expressing feelings and opinions",
+          "phrases": [
+            "I like/hate/enjoy ...", "I'm (not) interested in ...", "I'm (not) good at ...",
+            "I can't stand ..."
+          ]
+        },
+        {
+          "category": "Agreeing with feelings and opinions",
+          "phrases": ["So am I.", "Neither am I.", "Neither can I."]
+        },
+        {
+          "category": "Disagreeing with feelings and opinions",
+          "phrases": [
+            "I don't.", "Really? I ...", "Oh, I'm not.", "I am!", "Well, I am.",
+            "Oh, I don't mind."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "units": "11-12",
+      "title": "Country Quiz & Alibis",
+      "badgeEmoji": "🗺️",
+      "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Passive without by (present) for countries, Past Continuous vs Simple Past for alibis.",
+        "focus": "Describing countries (language, products, location) and explaining what you were doing when an event happened.",
+        "speakingTasks": [
+          "Ask about a country: location, language, currency and products (quiz format, correcting mistakes).",
+          "Answer police-style questions about what you were doing yesterday using Past Continuous.",
+          "Ask about a recent trip using Present Perfect Continuous (What have you been doing lately?)."
+        ],
+        "interaccion": "\"Coffee is grown in Colombia.\" \"At 8 p.m. I was cooking when I heard a noise.\""
+      },
+      "student": {
+        "handoutTitle": "COUNTRY QUIZ & ALIBI REPORT",
+        "diagOptions": [
+          "🌍 Passive without by (is spoken, is grown, is exported)",
+          "⚡ Past Continuous vs Simple Past (was cooking when…)",
+          "🔎 Asking About a Country (location, language, currency, products)",
+          "⏳ Present Perfect Continuous (What have you been doing lately?)"
+        ],
+        "vocabWords": ["is spoken", "is grown", "is exported", "was cooking when", "have been + -ing"],
+        "step1Goal": "45-65 words",
+        "step1Text": "Prepare your country description and your alibi:",
+        "freeWriteMin": 45,
+        "freeWriteMax": 65,
+        "freeWritePrompt": "Describe a country you know and explain what you were doing yesterday when something unexpected happened.",
+        "step1Template": "[Country] is located in [Location]. [Language] is spoken there and the currency is the [Currency]. [Product 1] and [Product 2] are produced there, and [Product 1] is exported to other countries. Yesterday at [Time], I was [Past continuous action, e.g., cooking dinner] when suddenly [Unexpected simple past event]. My family was [Past continuous action] at that moment. Lately, I have been [Activity in -ing] more.<br><br>**Sentence Starter Extension:** [[When I think about the most surprising fact I have learned about another country, I remember that...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Teacher / Police Officer",
+            "avatar": "👮",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Student / Witness",
+            "avatar": "🧭",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are convinced you saw something suspicious but can't explain it clearly.",
+          "You are extremely nervous because you think you are a suspect.",
+          "You are suspicious and think no one believes your alibi.",
+          "You add unbelievable details to make the story thrilling."
+        ],
+        "step2Questions": [
+          "Task 1 (Country Quiz): Ask about a country: 'What language is spoken? What currency is used? What products are exported? Where is it located?' Correct your partner's mistakes.",
+          "Task 2 (Police Interview): 'What were you doing at 8 p.m. yesterday? Who was with you? What happened next?'",
+          "► Country Record: Country discussed: [Country] | Main products: [Products]",
+          "► Alibi Audit: What was the witness doing when the incident occurred? [Action Details]"
+        ],
+        "correctAnswers": {
+          "Country": ["Colombia", "Brazil", "Mexico", "Spain", "Peru", "Argentina", "Japan"],
+          "Language": ["Spanish", "Portuguese", "English", "French", "Italian"],
+          "Past continuous action, e.g., cooking dinner": ["cooking", "walking", "watching", "sleeping", "studying", "eating", "working"],
+          "Unexpected simple past event": ["heard", "saw", "rang", "fell", "started", "arrived", "happened"]
+        },
+        "step2Opener": "A: \"What language is spoken in Brazil?\"<br>B: \"Portuguese is spoken there. The currency is the real.\"<br>A: \"What were you doing yesterday at eight?\"<br>B: \"I was cooking dinner with my family when I heard a loud noise.\"",
+        "commonErrors": [
+          "Passive form: <em>Spanish speaks in Colombia</em> → <strong>Spanish is spoken in Colombia</strong>",
+          "Past continuous + simple past: <em>While I walked, I was falling</em> → <strong>While I was walking, I fell</strong>",
+          "Missing <em>be</em>: <em>Coffee grown in Colombia</em> → <strong>Coffee is grown in Colombia</strong>",
+          "Present perfect continuous: <em>I am studying for two years</em> → <strong>I have been studying for two years</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Industries",
+          "words": [
+            "Cattle", "Cultivate", "Dialects", "Ecotourism", "Electronics", "Employ", "Export",
+            "Grow", "Handicrafts", "Jungle", "Lobster", "Manufacture", "Raise", "Sheep",
+            "Souvenirs", "Soybeans", "Textiles", "Tulips"
+          ]
+        },
+        {
+          "category": "Time Expressions",
+          "words": [
+            "When I was little", "Last month", "Last week", "Last year", "Many years ago",
+            "Two years ago", "On my first day of school", "When I was in elementary school",
+            "For ten years", "For the last six months", "In ages", "Lately", "Recently",
+            "Since I graduated", "Since yesterday", "These days", "This year"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "B.C.E. (Before the Common Era)", "canal", "chess set", "clue", "construction",
+            "crop", "currency", "drawing", "euro", "exhibit", "feta cheese", "Flemish",
+            "handicraft", "microscope", "needle", "northwest", "novel", "pin", "revolution",
+            "rice", "seabed", "souvenir", "variety", "wheat", "World Heritage City", "wonder",
+            "audience", "audition", "bunch", "celebrity", "childhood", "classical music", "deaf",
+            "disability", "effect", "ending", "flat tire", "fork", "headphones", "hearing aid",
+            "influence", "knife", "luck", "nightmare", "selfie", "sign language", "vibration",
+            "wallet"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "agricultural", "amazing", "corrupt", "digital", "food-processing", "life-size",
+            "manual (typewriter)", "medieval", "official", "tiny", "traditional", "unique",
+            "warm", "wide", "accidental", "amazed", "brilliant", "calm", "normal", "powerful",
+            "quiet", "spectacular", "surprising", "worth"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "catch", "consume", "direct", "feature", "film", "preserve", "produce", "record",
+            "achieve", "act", "break", "burn", "compare", "crash", "drive (someone) crazy",
+            "drum", "hear", "pick up", "realize", "recognize", "reply", "save (money)", "ski",
+            "slip", "spend (money)", "spill"
+          ]
+        },
+        {
+          "category": "Adverb",
+          "words": ["officially"]
+        },
+        {
+          "category": "Adverbs",
+          "words": [
+            "accidentally", "coincidentally", "fortunately", "immediately", "luckily",
+            "miraculously", "obviously", "sadly", "strangely", "suddenly", "surprisingly",
+            "unexpectedly", "unfortunately"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Passive, past & lately",
+          "phrases": [
+            "was built by", "was designed by", "was named", "was sold to", "while", "when",
+            "suddenly", "have been + -ing", "lately", "recently", "a wonderful surprise",
+            "embarrassing", "scary"
+          ]
+        },
+        {
+          "category": "Describing works of art, inventions, and discoveries",
+          "phrases": [
+            "... was/were built/composed/created/designed/directed/painted/recorded/written by ...",
+            "... was/were developed/discovered/invented/produced by ..."
+          ]
+        },
+        {
+          "category": "Asking about a country",
+          "phrases": [
+            "Where is it located?", "What languages are spoken?", "What currency is used?",
+            "What famous tourist attraction is found there?", "What products are exported?",
+            "What cities are found there?", "Is English spoken (much) there?",
+            "Are credit cards accepted (everywhere)?"
+          ]
+        },
+        {
+          "category": "Talking about past events",
+          "phrases": ["I was ..., but I ...", "I was ... when I ...", "While I was ..., ..."]
+        },
+        {
+          "category": "Exchanging personal information",
+          "phrases": [
+            "What have you been doing lately?", "I've been ...",
+            "How long have you been doing that?", "For ...", "Since I graduated."
+          ]
+        },
+        {
+          "category": "Greeting someone after a long time",
+          "phrases": ["I haven't seen you in ages. What have you been up to?"]
+        },
+        {
+          "category": "Expressing interest and surprise",
+          "phrases": [
+            "Wow! Tell me more.", "Oh, really?", "Really? I didn't know that!", "Oh, I see.",
+            "I had no idea.", "Well, that's exciting."
+          ]
+        },
+        {
+          "category": "Asking for a reason",
+          "phrases": ["How come?"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "units": "13-14",
+      "title": "Entertainment & Rules",
+      "badgeEmoji": "🎬",
+      "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Participial adjectives (-ed vs -ing) and Modals of permission and prohibition.",
+        "focus": "Reviewing films, expressing emotional reactions, and stating public space rules with must not and allowed to.",
+        "speakingTasks": [
+          "Describe recent movies using participial adjectives (bored/boring, amused/amusing).",
+          "State what is permitted and prohibited in public spaces (cinemas, museums).",
+          "Shift grammar to describe childhood rules in the past (had to, wasn't allowed to)."
+        ],
+        "interaccion": "\"I saw a fascinating show. In the cinema, you are not allowed to record...\""
+      },
+      "student": {
+        "handoutTitle": "ENTERTAINMENT & PUBLIC REGULATIONS",
+        "diagOptions": [
+          "🎭 Participial Adjectives (-ed feelings vs -ing causes)",
+          "✅ Modals of Permission (be allowed to / can)",
+          "🚫 Modals of Prohibition (must not / can't)",
+          "📜 Past Rules & Obligations (had to / wasn't allowed to)"
+        ],
+        "vocabWords": ["fascinating", "boring", "allowed to", "must not", "was shocked"],
+        "step1Goal": "45-65 words",
+        "step1Text": "Complete your entertainment review and public space rules:",
+        "freeWriteMin": 45,
+        "freeWriteMax": 65,
+        "freeWritePrompt": "Write a review of a movie or show you saw recently, and describe a rule you had to follow when you were younger.",
+        "step1Template": "I recently saw [Movie/Show]. I think it was [fascinating/boring/exciting] because [Reason], so I was not bored at all. I would recommend it to people who like [Genre/Style]. I usually prefer movies that [Description: have a surprising ending]. In a cinema, you are allowed to [Permission], but you must not [Prohibition] under any circumstances because it annoys others. Also, you have to [Obligation: turn off your phone] before the film starts.<br><br>**Sentence Starter Extension:** [[Whenever cinema audiences break theater etiquette by speaking or using screens, the best way to respond is to...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Film Critic",
+            "avatar": "🍿",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Curator / Staff",
+            "avatar": "🏛️",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are an overly harsh critic who dislikes popular movies.",
+          "You are obsessed with sci-fi movies and compare everything to aliens.",
+          "You are strict about rules and correct people constantly.",
+          "You easily get distracted and lose your train of thought."
+        ],
+        "step2Questions": [
+          "Task 1 (Entertainment): What was the last movie you watched? Was it amusing, boring, exciting, or shocking? Why?",
+          "Task 2 (Regulations): What are the strict rules in a museum or cinema? What are you allowed to do? What is prohibited?",
+          "► Entertainment Review: Partner's Film Recommendation: [Movie] | Reaction: ( ) AMUSED ( ) BORED ( ) FASCINATED",
+          "► Rules Log: One strict rule they had to follow when younger: [Past Rule]"
+        ],
+        "correctAnswers": {
+          "Genre/Style": ["action", "comedy", "drama", "terror", "horror", "romance", "sci-fi", "thrillers"],
+          "Permission": ["eat", "drink", "sit", "laugh", "watch"],
+          "Prohibition": ["talk", "record", "shout", "use the phone", "take photos"]
+        },
+        "step2Opener": "A: \"What's the last movie you watched?\"<br>B: \"I saw a thriller last weekend. It was absolutely fascinating — I was not bored for a single second.\"<br>A: \"What are the rules in a movie theater?\"<br>B: \"You are allowed to eat popcorn, but you must not use your phone or record anything during the film.\"",
+        "commonErrors": [
+          "<em>-ed</em> vs <em>-ing</em>: <em>The movie was boring</em> (cause) vs <em>I was bored</em> (feeling)",
+          "Allowed to + infinitive: <em>You are allowed eating</em> → <strong>You are allowed to eat</strong>",
+          "<em>Must not</em> (prohibition) ≠ <em>don't have to</em> (lack of obligation)",
+          "<em>I was interesting in the film</em> → <strong>I was interested in the film</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Descriptive Adjectives",
+          "words": [
+            "Amazing", "Amusing", "Annoying", "Awful", "Bizarre", "Boring", "Confusing",
+            "Disgusting", "Entertaining", "Fantastic", "Fascinating", "Hilarious", "Horrible",
+            "Hysterical", "Incredible", "Odd", "Outstanding", "Ridiculous", "Silly", "Strange",
+            "Surprising", "Terrible", "Weird", "Wonderful"
+          ]
+        },
+        {
+          "category": "Feelings & Gestures",
+          "words": [
+            "Annoyed", "Bite your nails", "Bored", "Confused", "Cross your arms", "Disgusted",
+            "Embarrassed", "Exhausted", "Frustrated", "Impatient", "Irritated", "Nervous",
+            "Pull your hair out", "Roll your eyes", "Scratch your head", "Shrug your shoulders",
+            "Surprised", "Tap your foot", "Twirl your hair", "Wrinkle your nose"
+          ]
+        },
+        {
+          "category": "Movie types",
+          "words": [
+            "action", "adventure", "animated", "(romantic) comedy", "documentary", "drama",
+            "horror", "musical", "science fiction", "thriller"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "acting", "audience", "bill", "boot camp", "character", "critic", "director",
+            "lines", "motion picture", "producer", "rib", "special effects", "story", "studio",
+            "thumb", "trivia"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "blockbuster", "choosy", "dumb", "excellent", "main", "stupid", "talented",
+            "terrifying", "unpleasant", "broke", "flushed", "heart-shaped", "late", "polite",
+            "reserved", "rude"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "amaze", "amuse", "annoy", "be based (on)", "bore", "confuse", "disgust", "dress up",
+            "embarrass", "excite", "fascinate", "interest", "laugh", "put through", "rate",
+            "shock", "surprise", "terrify", "argue", "bite", "break", "clap", "exist", "fasten",
+            "nod", "park", "pull out", "raise", "roll", "scratch", "scream", "tap", "turn off",
+            "wink"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": [
+            "by mistake", "mentally", "physically", "absolutely", "definitely", "maybe",
+            "perhaps", "possibly", "quickly"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "body language", "garbage can", "gesture", "lane", "nail", "obligation",
+            "permission", "prohibition", "regulation", "rule", "sailor", "seat belt",
+            "speed limit", "stairs", "trash", "thumbs up"
+          ]
+        },
+        {
+          "category": "Preposition",
+          "words": ["side to side"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Likes, rules & -ed/-ing",
+          "phrases": [
+            "boring / bored", "fascinating / fascinated", "amazing / amazed",
+            "surprising / surprised", "that", "which", "who", "are allowed to",
+            "aren't allowed to", "have to", "have got to", "can't"
+          ]
+        },
+        {
+          "category": "Giving opinions about movies, books, and people",
+          "phrases": [
+            "I'm (not) interested in ...", "I thought ...", "I'm fascinated by ...",
+            "I (don't) think ...", "I (don't) find ...", "I was bored by ..."
+          ]
+        },
+        {
+          "category": "Describing movies, books, and people",
+          "phrases": [
+            "It's the movie which/that ...", "It was a great book which/that ...",
+            "It's about a man/woman who/that ...", "He's/She's ... who/that ..."
+          ]
+        },
+        {
+          "category": "Hypothesizing",
+          "phrases": [
+            "It might/may mean ...", "It could mean ...", "Maybe/Perhaps it means ...",
+            "It possibly means ..."
+          ]
+        },
+        {
+          "category": "Making a logical assumption",
+          "phrases": ["That must mean ...", "That probably means ...", "That definitely means ..."]
+        },
+        {
+          "category": "Disagreeing",
+          "phrases": ["I don't think so."]
+        },
+        {
+          "category": "Expressing permission",
+          "phrases": ["You can ...", "You're allowed to ..."]
+        },
+        {
+          "category": "Expressing prohibition",
+          "phrases": ["You can't ...", "You aren't allowed to ..."]
+        },
+        {
+          "category": "Expressing obligation",
+          "phrases": ["You have to ...", "You've got to ..."]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "units": "15-16",
+      "title": "Lost Opportunities & Hypotheticals",
+      "badgeEmoji": "💡",
+      "imageUrl": "https://images.unsplash.com/photo-1554177255-61502b352de3?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Past Modals (should have / would have), Second Conditional, and Reported Speech for what others told you.",
+        "focus": "Talking about lost opportunities, reacting to hypothetical difficult situations, and reporting what people told you to do.",
+        "speakingTasks": [
+          "Describe a lost opportunity (job, travel, love, study, money) and what you should/would have done.",
+          "Say how you would react in difficult situations using the Second Conditional.",
+          "Report what parents or friends have told you to do or not to do."
+        ],
+        "interaccion": "\"I should have studied abroad. If my phone fell in the toilet, I would try to dry it. My dad told me to always carry cash.\""
+      },
+      "student": {
+        "handoutTitle": "LOST OPPORTUNITIES & DIFFICULT SITUATIONS",
+        "diagOptions": [
+          "⚖️ Past Modals (should have / would have + participle)",
+          "💭 Second Conditional (If + Past Simple, would + verb)",
+          "🗣️ Reported Speech (told me to / said that)",
+          "🤷 Vocabulary for Predicaments and Advice"
+        ],
+        "vocabWords": ["should have", "would have", "if my phone fell", "told me to", "said that"],
+        "step1Goal": "50-70 words",
+        "step1Text": "Reflect on a lost opportunity and imagine how you would react in a difficult situation:",
+        "freeWriteMin": 50,
+        "freeWriteMax": 70,
+        "freeWritePrompt": "Write about an opportunity you lost, what you should have done, and how you would react if something bad happened.",
+        "step1Template": "A lost opportunity in my life was [Opportunity: a job / a trip / a chance to study] because I [Reason]. I should have [Past participle action: applied / traveled / studied] and I would have [Past participle result]. If my phone fell in the toilet, I would [Second conditional action]. If I had no money for transportation, I would [Action]. My parents told me to [Reported advice: always carry cash] and they said that [Reported statement, e.g., I should be careful]. I hope I won't lose another opportunity.<br><br>**Sentence Starter Extension:** [[If I were granted a single opportunity to reverse a choice made in the past year, I would...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Advisor / Interviewer",
+            "avatar": "👩‍🏫",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Friend / Respondent",
+            "avatar": "🎒",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You regret a missed chance and keep repeating 'I should have...'.",
+          "You are overly dramatic about a minor mishap.",
+          "You stay calm despite a chaotic situation.",
+          "You have received a lot of advice from relatives and report all of it."
+        ],
+        "step2Questions": [
+          "Task 1 (Lost Opportunities): Tell me about a lost opportunity (job, travel, love, study, money): what it was and what you would / should have done.",
+          "Task 2 (Difficult Situations): What would you do if your phone fell in the toilet / you had a car accident / you had no money for transport? What have your parents or friends told you to do or not to do?",
+          "► Dilemma Decision: In an emergency, partner would: [Hypothetical Choice]",
+          "► Advice Log: Advice reported by partner: [Reported Advice]"
+        ],
+        "correctAnswers": {
+          "Second conditional action": ["buy", "dry", "call", "ask", "take", "borrow", "fix"],
+          "Past participle action: applied / traveled / studied": ["applied", "traveled", "studied", "accepted", "asked", "tried", "taken"]
+        },
+        "step2Opener": "A: \"What opportunity did you lose?\"<br>B: \"I should have applied for a scholarship. I would have studied abroad.\"<br>A: \"What would you do if you dropped your phone in the toilet?\"<br>B: \"I would take out the battery. My dad always told me to carry a backup.\"",
+        "commonErrors": [
+          "Past modal form: <em>I should have went</em> → <strong>I should have gone</strong>",
+          "Second conditional tense: <em>If I find money, I would buy...</em> → <strong>If I found money, I would buy...</strong>",
+          "Reported speech: <em>He told me to don't go</em> → <strong>He told me not to go</strong>",
+          "Reported tense shift: <em>She said she can come</em> → <strong>She said she could come</strong>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Antonyms",
+          "words": [
+            "Accept ≠ Refuse", "Admit ≠ Deny", "Agree ≠ Disagree", "Borrow ≠ Lend",
+            "Connect ≠ Disconnect", "Enjoy ≠ Dislike", "Fasten ≠ Unfasten", "Find ≠ Lose",
+            "Increase ≠ Decrease", "Marry ≠ Divorce", "Forget ≠ Remember", "Save ≠ Spend"
+          ]
+        },
+        {
+          "category": "Verb & Noun Pairs",
+          "words": [
+            "Accept an apology", "Accept an offer", "Give a compliment", "Give a reason",
+            "Give advice", "Give an excuse", "Give an explanation", "Make a complaint",
+            "Make a criticism", "Make a request", "Make a suggestion", "Make an apology",
+            "Make an excuse", "Refuse an invitation", "Refuse help", "Tell a joke", "Tell a lie",
+            "Tell a story", "Tell the truth"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "campsite", "cashier", "comb", "diet", "fundraising", "honesty", "jail", "owner",
+            "predicament", "problem", "repair shop", "reward", "trash", "truth", "apology",
+            "assignment", "coach", "complaint", "day off", "employee", "excuse", "guy",
+            "hallway", "highway", "houseguest", "(good/bad) intentions", "invitation", "joke",
+            "lie", "request", "stomachache", "suggestion", "sympathy"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "honest", "overweight", "selfish", "strict", "valuable", "average", "due",
+            "flat (tire)", "funny", "household"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "accept", "admit", "agree", "borrow", "catch", "cheat", "complain", "confess",
+            "demand", "deny", "dislike", "disqualify", "divorce", "enjoy", "exchange", "find",
+            "fit (something) in", "forget", "ignore", "lend", "lose", "marry", "oversleep",
+            "pay off", "refuse", "reply", "save", "spend", "spill", "text", "trust", "warn",
+            "bounce", "donate", "fire", "hide", "lose track", "make up", "pick up", "slip",
+            "sympathize", "take care"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["meanwhile", "straight", "quickly", "out of town", "past (= later than)"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Conditionals & reported speech",
+          "phrases": [
+            "If I were…, I would…", "If I had…, I would have…", "I wouldn't have…", "told me to",
+            "asked me to", "said (that)", "an excuse", "What would you do?"
+          ]
+        },
+        {
+          "category": "Describing imaginary situations and consequences in the present",
+          "phrases": ["What would you do if ...?", "If I ..., I'd/I could/I might/I wouldn't ..."]
+        },
+        {
+          "category": "Saying someone is right",
+          "phrases": ["Hmm. You've got a point there."]
+        },
+        {
+          "category": "Expressing disbelief",
+          "phrases": ["You're kidding!"]
+        },
+        {
+          "category": "Giving opinions or suggestions about actions in the past",
+          "phrases": [
+            "What should I have done?", "You should have ...", "You shouldn't have ...",
+            "What would you have done?", "I would have ...", "I wouldn't have ..."
+          ]
+        },
+        {
+          "category": "Reporting requests",
+          "phrases": [
+            "... asked/told me to ...", "... said to ...", "... asked/told me not to ...",
+            "... said not to ..."
+          ]
+        },
+        {
+          "category": "Reporting statements",
+          "phrases": ["... said (that) ...", "... told me (that) ..."]
+        },
+        {
+          "category": "Exchanging personal information",
+          "phrases": ["How are things?", "Just fine, thanks."]
+        },
+        {
+          "category": "Talking on the phone",
+          "phrases": ["Hi, ... This is ...", "Oh, hi."]
+        },
+        {
+          "category": "Expressing regret",
+          "phrases": ["That's too bad.", "I'm really sorry.", "I'm sorry, too."]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "units": "FINAL",
+      "title": "Final Exam Simulation",
+      "badgeEmoji": "🎓",
+      "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Comprehensive integration of Interchange Level 2 communicative skills.",
+        "focus": "Simulating high-stakes speaking interviews, integrating all major grammar targets (past, present, passive, conditionals).",
+        "speakingTasks": [
+          "Conduct a professional job interview covering experience and future goals.",
+          "Describe memorable travel experiences, landmarks, and local customs.",
+          "Deliver constructive, actionable peer feedback."
+        ],
+        "interaccion": "\"I am very good at managing teams. The most famous building was designed by... If you visit, you ought to...\""
+      },
+      "student": {
+        "handoutTitle": "CANDIDATE FINAL MOCK EXAM",
+        "diagOptions": [
+          "🌐 Integration of Past, Present, and Future Tenses",
+          "🏛️ Passive Voice & Modals (ought to, should, must not)",
+          "⚖️ Second Conditional & Gerunds after Prepositions",
+          "🗣️ Academic & Professional Interview Fluency"
+        ],
+        "vocabWords": ["professionally", "good at", "first conditional", "different from", "you ought to"],
+        "step1Goal": "60-90 words",
+        "step1Text": "Summarize your career profile, travels, and personal goals:",
+        "freeWriteMin": 60,
+        "freeWriteMax": 90,
+        "freeWriteNote": "The real exam asks for 150-200 words; this practice uses an adjusted ~20-minute goal.",
+        "freeWritePrompt": "Write a complete personal profile: describe your childhood, your life today, and your plans for the future.",
+        "step1Template": "Professionally, I am good at [Gerund] and I have experience in [Field/Duty] which helps me solve problems. If I get a good job, I will [First conditional action] to achieve my professional goals. Regarding travel, the most interesting place I have visited is [Place]. It is different from my hometown because [Comparison]. When I was a child, I used to [Used to action] in my hometown. The most famous building in that place was [Past participle: built / designed] by [Person or culture]. If you go there, you ought to [Necessity/Advice] and you should definitely try the local food.<br><br>**Sentence Starter Extension:** [[What I am most proud of accomplishing across this intermediate level is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Examiner",
+            "avatar": "👨‍🏫",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Candidate",
+            "avatar": "👩‍🎓",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are confident and articulate all your ideas clearly.",
+          "You are slightly nervous but recover using transition words.",
+          "You are formal and polite throughout the exchange.",
+          "You try to persuade the examiner you deserve a top mark."
+        ],
+        "step2Questions": [
+          "Task 1 (Job Interview): What are your academic experiences and skills? What would you do if a client is angry?",
+          "Task 2 (Travel & Culture): What is the most memorable trip you have taken? What must a tourist do there?",
+          "► Mock Candidate Audit: Academic/Work Background: [Background] | Key Skill: [Skill]",
+          "► Final Mock Verdict: Candidate is ( ) READY FOR EXAM! ( ) NEEDS PRACTICE | Examiner's Tip: [Tip]"
+        ],
+        "correctAnswers": {
+          "Gerund": ["solving", "working", "managing", "communicating", "speaking"],
+          "First conditional action": ["work", "study", "travel", "continue", "improve"],
+          "Necessity/Advice": ["visit", "try", "go", "explore", "buy", "eat", "see"]
+        },
+        "step2Opener": "A: \"Tell me about your professional background and key skills.\"<br>B: \"I am good at managing teams and I have experience in customer service. If I get this role, I will exceed all expectations.\"<br>A: \"Have you ever visited a country very different from yours?\"<br>B: \"Yes! I went to Japan last year. It is very different from my country — you ought to try the local food if you ever visit!\"",
+        "commonErrors": [
+          "Mixing tenses without time markers: anchor with <em>last year / right now / next month / since / for</em>",
+          "Auxiliary in questions: <em>You have traveled?</em> → <strong>Have you traveled?</strong>",
+          "Comparative/superlative: <em>more better</em> → <strong>better</strong>; <em>the most best</em> → <strong>the best</strong>",
+          "Gerund always follows prepositions: <em>good at solving</em>, <em>interested in learning</em>"
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Greatest Hits: Units 1-4",
+          "words": [
+            "grow up", "childhood", "public transportation", "traffic", "spacious", "noisy",
+            "recipe", "bake", "fry", "delicious", "exotic", "chop"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 5-8",
+          "words": [
+            "itinerary", "reservation", "pack", "hang up", "turn off", "gadget", "laptop",
+            "tradition", "celebrate", "festival", "costume", "wedding"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 9-12",
+          "words": [
+            "motivated", "reliable", "outgoing", "shy", "organized", "interview", "experience",
+            "resume", "invent", "manufacture", "produce", "adventure", "recently"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 13-16",
+          "words": [
+            "thrilling", "hilarious", "annoying", "terrifying", "scary", "embarrassed", "wink",
+            "shrug", "excuse", "apologize", "opportunity", "regret", "complain"
+          ]
+        },
+        {
+          "category": "Review: used to & passive",
+          "words": [
+            "I used to…", "I didn't use to…", "was built by", "was designed by",
+            "was founded in", "is known for", "is visited by"
+          ]
+        },
+        {
+          "category": "Connectors & Fluency",
+          "words": [
+            "To begin with", "In addition", "However", "On the other hand", "In conclusion",
+            "As a result", "For instance", "Basically", "To be honest", "Furthermore"
+          ]
+        },
+        {
+          "category": "Exam Expressions",
+          "words": [
+            "Highly motivated", "Professional background", "Strong team player", "Fast learner",
+            "Travel recommendations", "Constructive feedback", "Hypothetical solution",
+            "Speaking confidence"
+          ]
+        }
+      ]
+    }
+  ],
+  "speakingCards": {
+    "1": [
+      {
+        "chips": [
+          "To be born", "Where / grow up?", "Games / food / activities?", "Good / bad student?",
+          "Favorite teacher?"
+        ],
+        "t1": "Use the list to ask questions about my childhood experiences. Tell me about your childhood afterwards.",
+        "t2": "You are visiting this city for the first time. Ask me indirect questions to get the information you need to move around."
+      },
+      {
+        "chips": [
+          "To be born", "Where / grow up?", "Games / food / activities?", "Jobs",
+          "Streets / pollution / schools / security / supermarkets / restaurants"
+        ],
+        "t1": "Let's talk about our parents' childhood. Use the list to ask questions.",
+        "t2": "Ask about the characteristics of my hometown and the information you would like to know."
+      }
+    ],
+    "2": [
+      {
+        "chips": [
+          "Rooms / space / windows / noise", "Dark / bright", "As… as", "Food experiences",
+          "Have you ever…?"
+        ],
+        "t1": "Ask about the characteristics of my house and compare it with yours. For example: Your house is dark, mine is bright. Your house isn't as bright as mine.",
+        "t2": "Let's ask each other about food experiences. I begin: I ate paella some years ago and I loved it. Have you ever eaten paella? Now you ask me."
+      },
+      {
+        "chips": [
+          "House / work / friends / free time / possessions", "Do you wish you had…?",
+          "Meals / snack / dessert", "What ingredients do you use?"
+        ],
+        "t1": "Let's talk about things we don't like, don't have or can't do at the moment. For example: I want a pet, but I am too busy. Do you wish you had a pet?",
+        "t2": "Let's ask each other about food preparation. I begin: Can you make a sandwich? What ingredients do you use? Now you ask me."
+      }
+    ],
+    "3": [
+      {
+        "chips": [
+          "Destination", "Time", "Alone / company", "Activities", "Weather / pack",
+          "Recommendations"
+        ],
+        "t1": "You are a travel agent and I plan a vacation tour with your company. Ask about my plan and give me recommendations using 'going to' and 'ought to'.",
+        "t2": "I'm your neighbor. I like to play loud music on weekdays, there is a big bag of garbage by my door and my dog is always inside the apartment. What requests would you make?"
+      },
+      {
+        "chips": [
+          "Destination", "Time", "Alone / company", "Activities", "Dishes in the sink",
+          "TV until late", "Lights on"
+        ],
+        "t1": "I plan to travel to Argentina for my next vacation. Ask about my plan, tell me about your own and give me recommendations.",
+        "t2": "We are roommates and you don't like some of my habits: I leave dishes in the sink, I watch TV until late at night and I leave lights on. What requests would you make?"
+      }
+    ],
+    "4": [
+      {
+        "chips": ["At work", "At home", "Free time", "What for?"],
+        "t1": "Use the list to ask about technologies I need and talk about what we use them for.",
+        "t2": "You are a teacher and I am your student, and we are in a quiz. Ask me questions about celebrations around the world. (I might say 'I don't know, teacher. Can you tell me?')"
+      },
+      {
+        "chips": ["Transportation", "Communication", "Shopping", "In the past / now"],
+        "t1": "I am a historian. Ask about technologies people used in the past and what for. Then tell me what people use in the present and what for.",
+        "t2": "Ask me some questions about my favorite celebration and give me recommendations to enjoy it next time."
+      }
+    ],
+    "5": [
+      {
+        "chips": [
+          "Past vs now", "Work with people", "Understand customs", "Creative", "Long hours",
+          "Work under pressure"
+        ],
+        "t1": "You are a reporter and I am an experienced teacher. Ask how people learned in the past and now, then tell me how your studying habits have changed over time.",
+        "t2": "You have a company and I am looking for a job. Ask about my skills and tell me if I am a good candidate and why or why not."
+      },
+      {
+        "chips": [
+          "Food habits: past", "Food habits: now", "Food habits: future", "Work with people",
+          "Understand customs", "Creative", "Long hours", "Work under pressure"
+        ],
+        "t1": "I am a nutritionist and you are a reporter. Ask about people's food habits in the past, now and in the future. Then tell me how your eating habits have changed over time.",
+        "t2": "I want to be a chef. Ask about my skills and tell me if I can be a good chef and why or why not."
+      }
+    ],
+    "6": [
+      {
+        "chips": ["Language", "Food", "Products", "History", "Location", "Activities yesterday"],
+        "t1": "You are a teacher and I am your student in a quiz about countries. Ask about their language, currency, products and location, and correct my mistakes.",
+        "t2": "There was a robbery in our building yesterday. You are a police officer: ask me and my family what we were doing during the day."
+      },
+      {
+        "chips": [
+          "Language", "Food", "Products", "History", "Location", "Recent trip",
+          "What have you been doing?"
+        ],
+        "t1": "There is a country I want to visit in the future. Ask me questions about its characteristics until you get the name, and tell me other things you know about it.",
+        "t2": "I was in a different country and recently returned. Ask about my experience, my activities there and my activities now."
+      }
+    ],
+    "7": [
+      {
+        "chips": [
+          "Actors", "Kinds of movies", "Athletes", "Kinds of TV programs",
+          "Free time activities", "Interest / amaze / surprise / annoy / shock"
+        ],
+        "t1": "Ask about my preferences in movies and entertainment activities and tell me what you think about my answers.",
+        "t2": "You want to travel to India and I lived there for some time. Ask about cultural aspects: eating beef, kissing to say hello, clothes for temples, eating habits."
+      },
+      {
+        "chips": [
+          "Actors", "Kinds of movies", "Interest / amaze / surprise / annoy / shock",
+          "Conditions", "Possibilities"
+        ],
+        "t1": "I just returned from a trip to Hollywood: I visited Universal Studios and saw some celebrities. Ask about my experience and about conditions and possibilities when you go there.",
+        "t2": "Now I will ask you some questions about celebrities you like."
+      }
+    ],
+    "8": [
+      {
+        "chips": ["Job / Travel / Love / Study / Money", "Lost opportunity", "Would / should have"],
+        "t1": "Tell me about lost opportunities in your life (job, travel, love, study, money): what the opportunity was and what you would/should have done.",
+        "t2": "Sometimes people have the chance to study or work in another country. What have you heard about it? What would you do in relation to money, family and language?"
+      },
+      {
+        "chips": [
+          "Phone in the toilet / do? fix?", "Car accident / call? do? react?",
+          "No money for transport / ask? do? call?", "What people told you"
+        ],
+        "t1": "Using these difficult situations, ask me about my hypothetical reactions to them.",
+        "t2": "Thinking about those bad situations, what do people suggest to avoid them? What have your parents or friends told you to do or not to do?"
+      }
+    ],
+    "9": [
+      {
+        "chips": [
+          "Academic experiences", "Previous jobs", "Responsibilities", "Skills", "Traveling",
+          "Plans", "Hypothetical situations at work"
+        ],
+        "t1": "You have a company and I want to work there. This is the interview: ask about my past job experiences, current skills, plans and possible actions in some situations. React to my answers.",
+        "t2": "Now I ask you some questions to know more about you."
+      },
+      {
+        "chips": [
+          "Interesting experiences / trips", "Activities", "Differences with your hometown",
+          "Food", "Description of places", "Recommendations", "Future travel plans"
+        ],
+        "t1": "Let's talk about traveling. Ask about my interesting experiences and trips, activities, differences with my hometown, food, places, recommendations and future plans.",
+        "t2": "Now tell me about places you have been to and some experiences."
+      }
+    ]
+  }
+}

@@ -1,0 +1,2045 @@
+{
+  "_leeme": "Contenido del nivel B1 (Interchange 3). No cambie los nombres de los campos (a la izquierda de los dos puntos), solo los textos. Antes de publicar ejecute tools/validate-data.py. Guia: data/LEEME.md",
+  "level": "b1",
+  "boosters": [
+    {
+      "id": 1,
+      "units": "1-2",
+      "title": "Personalities & Career Profiles",
+      "badgeEmoji": "💼",
+      "imageUrl": "https://images.unsplash.com/photo-1758518731706-be5d5230e5a5?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Relative pronouns as subjects/objects; \"It\" clauses / adverbial clauses with \"when\"; Gerund phrases; Comparisons with adjectives, nouns, verbs, participles.",
+        "focus": "Actively monitor the use of comparison modifiers (e.g., 'significantly more... than', 'just as... as') and ensure students accurately apply Unit 1 personality adjectives and Unit 2 career structures.",
+        "speakingTasks": [
+          "Describe your ideal friend or coworker. Use relative clauses.",
+          "Discuss two different summer jobs or career choices. Compare them using modifiers."
+        ],
+        "interaccion": "Describe your ideal friend/coworker using relative clauses (e.g., 'I prefer working with people who...'). Compare summer jobs using modifiers."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (PERSONALITIES & CAREERS)",
+        "diagOptions": [
+          "👥 Relative pronouns as subjects/objects",
+          "⏰ \"It\" clauses / adverbial clauses with \"when\"", "🎯 Gerund phrases as subjects",
+          "⚖️ Comparisons with adjectives, nouns, verbs, participles"
+        ],
+        "vocabWords": [
+          "creative", "stubborn", "unreliable", "being a chef", "designing clothes",
+          "directing a TV show"
+        ],
+        "step1Goal": "55-80 words",
+        "step1Text": "Complete the paragraph using B1 personal and professional details:",
+        "freeWriteMin": 55,
+        "freeWriteMax": 80,
+        "freeWritePrompt": "Describe your ideal coworker or friend using relative clauses, then compare two possible career paths using comparison structures.",
+        "step1Template": "When it comes to relationships, I am the type of person who [Relative clause describing your personality]. Personally, it bothers me when [It clause + when describing a pet peeve in friends], but it makes me happy when [Positive when-clause]. Professionally speaking, choosing the right career path is significantly more challenging than [Comparison with gerund or noun phrase]. I would not enjoy being a [Unusual job] because [Reason]. For me, [Gerund phrase as subject] is the best way to stay productive, because my ultimate goal is to find a job that is just as [Adjective comparison] as it is financially rewarding.<br><br>**Sentence Starter Extension:** [[One personality trait that has really helped me in my career is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Examiner",
+            "avatar": "📋",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Candidate",
+            "avatar": "💼",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are overly modest and downplay all your strengths.",
+          "You are extremely competitive about every topic.",
+          "You contradict yourself about your own personality.",
+          "You are unusually blunt and direct.",
+          "You keep comparing yourself to a specific coworker.",
+          "You are indecisive about which career you actually want."
+        ],
+        "step2Questions": [
+          "Task 1 (Personalities): Describe your ideal friend or coworker. Use relative clauses (e.g., \"I prefer working with people who...\").",
+          "Task 2 (Career Match): Discuss two different summer jobs or career choices. Compare them using modifiers (e.g., \"Being a manager is far more stressful than...\").",
+          "► Candidate Assessment: Candidate's Personality Blend: [Personality] | Preferred Workplace & Reason: [Workplace & Reason]",
+          "► Final Consensus: Is candidate suited for high-pressure leadership? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Relative clause describing your personality": [
+            "values direct communication", "values open collaboration", "values mutual trust",
+            "enjoys team projects"
+          ],
+          "It clause + when describing a pet peeve in friends": [
+            "when people cancel plans", "when someone is unreliable",
+            "when friends behave stubbornly"
+          ],
+          "Comparison with gerund or noun phrase": [
+            "being a computer technician", "being an intern", "working as a software developer",
+            "being a carpenter", "being a chef", "being a flight attendant",
+            "being a politician", "being a teacher", "being a journalist"
+          ],
+          "Gerund phrase as subject": [
+            "designing clothes", "directing a TV show", "making a living as an artist",
+            "taking care of sick people", "working as a guidance counselor",
+            "working as a marketing director", "working as a model",
+            "working as a project manager", "working as a psychiatrist", "working in a lab",
+            "working with animals"
+          ],
+          "Adjective comparison": [
+            "creative", "intellectually challenging", "stimulating", "rewarding", "adventurous",
+            "outgoing", "generous"
+          ]
+        },
+        "step2Opener": "A: \"Describe your ideal coworker.\"<br>B: \"I'm the type of person who values direct communication, so I prefer working with people who are equally straightforward.\"<br>A: \"Which do you think is more challenging: choosing your career path or maintaining strong relationships?\"<br>B: \"Honestly, choosing the right career is significantly more challenging than maintaining relationships, because it affects your whole future.\"",
+        "commonErrors": [
+          "Relative Clause mismatch: <em>I am a person who like...</em> → <strong>I am a person who likes...</strong>.",
+          "It-clause structures: <em>Is bothering me when...</em> → <strong>It bothers me when...</strong>.",
+          "Gerund parallelism: <em>Choosing is harder than work...</em> → <strong>than working...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Personality Traits (Unit 1)",
+          "words": [
+            "adventurous", "aggressive", "competitive", "considerate", "creative", "easygoing",
+            "egotistical", "generous", "impatient", "inflexible", "kind", "modest", "outgoing",
+            "quiet", "self-confident", "sensitive", "serious", "sociable", "stingy", "stubborn",
+            "supportive", "temperamental", "unreliable"
+          ]
+        },
+        {
+          "category": "Interesting Careers (Unit 2)",
+          "words": [
+            "being a carpenter", "being a chef", "being a computer technician",
+            "being a flight attendant", "being an intern", "being a politician",
+            "being a software developer", "being a teacher", "being a journalist",
+            "designing clothes", "directing a TV show", "making a living as an artist",
+            "taking care of sick people", "working as a guidance counselor",
+            "working as a marketing director", "working as a model",
+            "working as a project manager", "working as a psychiatrist", "working in a lab",
+            "working with animals"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "accomplishment", "advice", "background", "belief", "entrepreneur", "marriage",
+            "play-date", "respect", "roommate", "sense of humor"
+          ]
+        },
+        {
+          "category": "Pronouns",
+          "words": ["herself", "himself", "someone", "something"]
+        },
+        {
+          "category": "Personalities",
+          "words": [
+            "direct", "encouraging", "friendly", "helpful", "(un)predictable", "(un)reliable",
+            "steady"
+          ]
+        },
+        {
+          "category": "Other adjectives",
+          "words": ["close (friend)", "endless", "ideal"]
+        },
+        {
+          "category": "Modal verbs",
+          "words": ["can", "should", "would"]
+        },
+        {
+          "category": "Other verbs",
+          "words": [
+            "accomplish", "bother", "brag", "can't stand", "find", "get (angry/annoyed)",
+            "go out (with)", "have (a sense of humor/in common/fun [with])", "hope", "improve",
+            "keep (up with)", "make (friends)", "pursue", "remove", "suit",
+            "treat (someone to dinner)"
+          ]
+        },
+        {
+          "category": "Adverb",
+          "words": ["anytime"]
+        },
+        {
+          "category": "Preposition",
+          "words": ["during (a movie)"]
+        },
+        {
+          "category": "Jobs/Occupations/Careers",
+          "words": [
+            "(guidance) counselor", "(software) developer", "(marketing) director", "doctor",
+            "environmentalist", "fashion designer", "firefighter", "flight attendant",
+            "game tester", "hairstylist", "intern", "(freelance) journalist",
+            "(project) manager", "mayor", "politician", "psychiatrist", "(news) reporter",
+            "researcher", "stockbroker", "(kindergarten) teacher", "(computer) technician",
+            "tour guide", "tycoon", "veterinarian"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "(dis)advantage", "computer wizard", "field (of research)", "greenhouse",
+            "guest list", "(job) lead", "membership", "perk", "stability", "startup",
+            "volunteer work", "widower"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "ambitious", "awful", "challenging", "demanding", "fantastic", "frustrating",
+            "luxurious", "moody", "outspoken", "rewarding", "social", "stimulating",
+            "straightforward", "stressful", "tedious", "tiny"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": ["be worth", "earn", "make up for", "picture", "seem", "sound", "train"]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["furthermore", "perhaps", "probably"]
+        },
+        {
+          "category": "Conjunctions",
+          "words": ["as", "but"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Likes, dislikes & job comparisons",
+          "phrases": [
+            "I can't stand it when…", "I like it when…", "It bothers me when…",
+            "It makes me happy when…", "It really upsets me when…", "better paid than",
+            "more tiring than", "less money than", "more hours than", "not as well paid as"
+          ]
+        },
+        {
+          "category": "Expressing likes and dislikes",
+          "phrases": [
+            "What kind of ... do you like?", "I like people who/that ...",
+            "I'd like someone who/that ...", "I like/love (it when) ...",
+            "I don't mind it when ..."
+          ]
+        },
+        {
+          "category": "Asking for more information",
+          "phrases": ["What else?"]
+        },
+        {
+          "category": "Complaining",
+          "phrases": ["It annoys/bothers/upsets me when ...", "I hate it when ..."]
+        },
+        {
+          "category": "Expressing agreement and disagreement",
+          "phrases": [
+            "For me, ...", "I think ...", "I agree.", "I'm not sure I agree.",
+            "I feel the same way."
+          ]
+        },
+        {
+          "category": "Giving an opinion",
+          "phrases": ["In my opinion, ..."]
+        },
+        {
+          "category": "Interpreting information",
+          "phrases": ["It sounds like ..."]
+        },
+        {
+          "category": "Expressing personal preferences",
+          "phrases": [
+            "I'd be interested in ...", "I'd get tired of ...", "I'm very excited by ...",
+            "I'd enjoy ...", "I think I'd be good at ...", "I wouldn't be very good at ..."
+          ]
+        },
+        {
+          "category": "Disagreeing",
+          "phrases": ["I'm not so sure.", "That's not true.", "I disagree!"]
+        },
+        {
+          "category": "Beginning a series",
+          "phrases": ["First of all, ..."]
+        },
+        {
+          "category": "Adding information",
+          "phrases": [
+            "In addition, ...", "For example, ...", "Furthermore, ...", "However, ...",
+            "On the other hand, ...", "In conclusion, ..."
+          ]
+        },
+        {
+          "category": "Expressing surprise",
+          "phrases": ["Really?"]
+        },
+        {
+          "category": "Expressing enthusiasm",
+          "phrases": ["Guess what ...", "That's great!"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "units": "3-4",
+      "title": "Requests & Media Narratives",
+      "badgeEmoji": "📰",
+      "imageUrl": "https://images.unsplash.com/photo-1653038417421-a6e93e209bb7?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Requests with modals; \"If\" clauses; Gerund clauses; Indirect requests; Past simple, continuous and perfect.",
+        "focus": "Pay close attention to narrative contrast: Past Continuous for background actions interrupted by a Past Simple event, and Past Perfect for prior events that contextualize the story.",
+        "speakingTasks": [
+          "Make an increasingly difficult or awkward request using advanced modals.",
+          "Narrate an exceptional past event or breaking news story using past continuous and past perfect."
+        ],
+        "interaccion": "Contrast what you were doing when an event occurred against what had happened beforehand."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (REQUESTS & MEDIA NARRATIVES)",
+        "diagOptions": [
+          "🛎️ Requests with modals (Would you mind, I was wondering)",
+          "🗣️ Indirect requests with if / whether",
+          "⚡ Past simple vs past continuous background actions",
+          "📜 Past perfect narrative tense for prior baselines"
+        ],
+        "vocabWords": ["do a favor", "accept a request", "lucky break", "predicament", "mishap"],
+        "step1Goal": "55-85 words",
+        "step1Text": "Draft an urgent request alongside a dramatic back-story scenario:",
+        "freeWriteMin": 55,
+        "freeWriteMax": 85,
+        "freeWritePrompt": "Make a polite request to someone, then narrate a surprising news story using past continuous and past perfect.",
+        "step1Template": "Hi! I was wondering if you could do me a huge favor. Would you mind [Request with gerund] while I am out of town? Is it OK if I [Second request with if: leave my cat with you]? Also, if you see my neighbor, could you tell them [Indirect request]? You won't believe what happened yesterday. While I was [Past continuous action], I suddenly realized that someone had [Past perfect action]! It was the most shocking thing I've seen in the media lately.<br><br>**Sentence Starter Extension:** [[If a stranger asked me for an unusual favor, I would probably...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Requester",
+            "avatar": "🙋",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Neighbor / Contact",
+            "avatar": "🏡",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are overly apologetic about every request.",
+          "You exaggerate the urgency of a minor favor.",
+          "You are suspicious of the news story you're being told.",
+          "You keep interrupting with unrelated questions.",
+          "You are extremely dramatic when narrating the story.",
+          "You forget key details and have to backtrack."
+        ],
+        "step2Questions": [
+          "Task 1 (The Favor): Make an increasingly difficult or awkward request to your partner using advanced modals (e.g., \"I'd appreciate it if you could...\").",
+          "Task 2 (The News Story): Narrate an exceptional past event or breaking news story. Clearly contrast what you *were doing* when the event *occurred*, and what *had happened* before that moment.",
+          "► Journalist's Incident Report: Nature of Urgent Favor Requested: [Favor] | What Had Happened Before Witness Arrived: [Prior Event]",
+          "► Verification: Did the witness establish clear chronological sequences? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Request with gerund": [
+            "doing a favor", "receiving a phone call", "returning a phone call", "giving a gift",
+            "making a request", "receiving a gift", "asking for a favor",
+            "accepting an invitation"
+          ],
+          "Indirect request": [
+            "to return a favor", "to offer an apology", "to make a phone call",
+            "not to turn down an invitation", "to accept a request"
+          ],
+          "Past continuous action": [
+            "celebrating", "witnessing an emergency", "encountering a mishap",
+            "going on an adventure", "helping with a predicament"
+          ],
+          "Past perfect action": [
+            "caused a disaster", "suffered a major mishap", "experienced a dilemma",
+            "encountered a strange coincidence", "found a lucky break", "solved the mystery"
+          ]
+        },
+        "step2Opener": "A: \"Would you mind keeping an eye on my pet while I am out of town next week?\"<br>B: \"Of course! Could you also tell your neighbor to expect my packages?\"<br>A: \"What were you doing when the emergency occurred?\"<br>B: \"While I was working, I realized someone had leaked our private files beforehand.\"",
+        "commonErrors": [
+          "Indirect question order: <em>Could you tell them what do I want?</em> → <strong>what I want.</strong>",
+          "Misusing Past Perfect: <em>Yesterday I had gone to class</em> → <strong>Yesterday I went to class</strong> (no earlier baseline)."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Collocations (Unit 3)",
+          "words": [
+            "accept a gift", "offer an apology", "accept a request", "owe an apology",
+            "accept an apology", "receive a compliment", "accept an invitation",
+            "receive a gift", "ask for a favor", "receive a phone call", "decline a request",
+            "receive an invitation", "do a favor", "return a compliment", "give a compliment",
+            "return a favor", "give a gift", "return a phone call", "make a phone call",
+            "turn down an invitation", "make a request"
+          ]
+        },
+        {
+          "category": "Events (Unit 4)",
+          "words": [
+            "adventure", "celebration", "coincidence", "dilemma", "lucky break", "mishap",
+            "occasion", "phenomenon", "mystery", "disaster", "emergency", "predicament",
+            "holiday", "success", "incident", "triumph"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": ["apology", "favor", "matter", "sleeping bag"]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "bored", "cool", "important", "believable", "complex", "connected", "dangerous",
+            "healthy", "inaccurate", "incredible", "puzzling", "quick", "satirical", "several",
+            "sudden", "suspicious", "trustworthy", "understandable", "unexpected"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "accept (an apology/an invitation/a request)", "act (out)", "decline (a request)",
+            "do (a favor)", "find (out)", "finish", "get along", "give (a gift)", "give up",
+            "handle", "have (a party)", "help (out)", "ignore", "keep (quiet)", "look at",
+            "lose (interest)", "make (a phone call/a request/noise)", "move (away)",
+            "offer (an apology)", "owe (an apology)", "pick up",
+            "receive (a compliment/a gift/an invitation/a phone call)",
+            "return (a favor/a phone call/a compliment)", "spend", "take care (of)",
+            "turn down (an invitation)", "worry"
+          ]
+        },
+        {
+          "category": "Adverb",
+          "words": ["almost"]
+        },
+        {
+          "category": "Events",
+          "words": ["mistake"]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "achievement", "brain", "desire", "destruction", "driver", "Earth", "elevator",
+            "(good) fortune", "\"ick\" factor", "lice", "outbreak", "package", "podcast",
+            "police", "runner", "selfies", "sidewalk", "sleep deprivation", "suffering",
+            "thrift shop", "trashcan", "trip", "weight loss"
+          ]
+        },
+        {
+          "category": "Modal verbs",
+          "words": ["be (un)able to", "might"]
+        },
+        {
+          "category": "Other verbs",
+          "words": [
+            "burn off (calories)", "gain", "interrupt", "involve", "lock up", "look for",
+            "run into", "run out (of)", "work out"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["as", "unfortunately", "while"]
+        },
+        {
+          "category": "Preposition",
+          "words": ["off"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Formal requests",
+          "phrases": [
+            "Would you mind…?", "Is it OK if I…?", "I was wondering if…", "I wonder if…",
+            "Do you mind if I…?", "Could you ask… to…?", "I'm sorry, I can't.",
+            "Sure, no problem."
+          ]
+        },
+        {
+          "category": "Talking on the telephone",
+          "phrases": ["Hi, ... This is ...", "Oh, hi, ... What's up?"]
+        },
+        {
+          "category": "Making, accepting, and declining requests",
+          "phrases": [
+            "Can I ...?", "Could you ..., please?", "Yes.", "Sorry, but ...", "Of course.",
+            "Would it be all right/OK if I ...?", "No problem.", "Would you mind if I ...?",
+            "No, I don't mind.", "I was wondering if I could ...", "Sure, that's fine."
+          ]
+        },
+        {
+          "category": "Thanking someone",
+          "phrases": ["Thanks a million.", "Thanks. I really appreciate it.", "Sure."]
+        },
+        {
+          "category": "Making indirect requests",
+          "phrases": [
+            "Could you tell ... (that) ...?", "Please tell ... (that) ...",
+            "Would you ask ... if/whether/to ...?", "Can you tell ... (not) to ...?",
+            "Can/Could you ask ... if/whether ...?", "Please ask ... if/whether ...",
+            "Can/Could you ask ... what/when ...?"
+          ]
+        },
+        {
+          "category": "Apologizing",
+          "phrases": ["I'm sorry.", "I'm really sorry.", "Sorry."]
+        },
+        {
+          "category": "Reacting to a story",
+          "phrases": ["What happened?", "That's terrible!"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "units": "5-6",
+      "title": "Global Customs & Consumer Complaints",
+      "badgeEmoji": "🌐",
+      "imageUrl": "https://images.unsplash.com/photo-1553775282-20af80779df7?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Noun phrases containing relative clauses; Describing problems with participles and nouns; Structures with \"need\" and \"keep\".",
+        "focus": "Ensure students interchangeably use both complaint forms: 'Need + Gerund' (e.g., 'the battery needs charging') and 'Need + Passive Infinitive' (e.g., 'the operating system needs to be updated').",
+        "speakingTasks": [
+          "Discuss behaviors that are deemed acceptable or unacceptable in your partner's culture.",
+          "Explain a series of electronic failures to the clerk. State exactly what needs to be fixed."
+        ],
+        "interaccion": "Practice switching between 'Need + Gerund' and 'Need + Passive Infinitive' during complaints."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (CULTURE & COMPLAINTS)",
+        "diagOptions": [
+          "🗺️ Noun phrases containing relative clauses",
+          "⚠️ Describing problems with participles and nouns",
+          "🔋 Need + Gerund structure (needs charging)",
+          "⚙️ Need + Passive Infinitive structure (needs to be charged)"
+        ],
+        "vocabWords": [
+          "anxious", "embarrassed", "uncomfortable", "worried", "computer freezes",
+          "battery dies", "printer jams", "phone drops calls"
+        ],
+        "step1Goal": "55-85 words",
+        "step1Text": "Detail your observations on international culture and technical malfunctions:",
+        "freeWriteMin": 55,
+        "freeWriteMax": 85,
+        "freeWritePrompt": "Describe a cultural custom that surprised you, then explain a technical problem you've had using need + gerund or need + passive infinitive.",
+        "step1Template": "When I first arrived in my new host city, I felt incredibly [Feeling of uncertainty or nervousness]. I was expected to adjust to how local people interact. For example, you are expected to [Cultural expectation] and it is considered custom to [Custom], which made me feel much more [Feeling of comfort or confidence]. However, my electronic devices didn't survive the trip. My computer is a mess. The screen is [Past participle as adjective], the software keeps [Keep + gerund], and my phone desperately needs [Need + gerund OR need + passive infinitive]. Without my devices, I would really miss [Thing you would miss], but I wouldn't miss [Thing you wouldn't miss].<br><br>**Sentence Starter Extension:** [[One major drawback of not knowing local customs when traveling is...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Customer",
+            "avatar": "📱",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Support Clerk",
+            "avatar": "🛠️",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are extremely picky and hard to satisfy.",
+          "You are confused about which culture's customs you're describing.",
+          "You stay calm no matter how broken the device is.",
+          "You exaggerate every technical problem.",
+          "You are impatient and want an immediate fix.",
+          "You keep bringing up unrelated past purchases."
+        ],
+        "step2Questions": [
+          "Task 1 (Culture Shock): Discuss behaviors that are deemed acceptable or unacceptable in your partner's culture compared to your own.",
+          "Task 2 (Tech Troubles): Explain a series of electronic failures to the clerk. Use nouns and past participles to detail the defects, and state exactly what needs to be fixed.",
+          "► Store Return Log: Cultural Contrast Identified: [Contrast] | Device Defect & Action Plan: [Action Plan]",
+          "► Resolution Check: Was a replacement authorized by the technician? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Feeling of uncertainty or nervousness": [
+            "anxious", "nervous", "uncertain", "worried", "homesick", "insecure", "lonely",
+            "uncomfortable"
+          ],
+          "Cultural expectation": [
+            "remove your shoes before entering", "tip the servers generously",
+            "shake hands firmly"
+          ],
+          "Custom": ["greet people with a bow", "arrive exactly on time", "use polite table manners"],
+          "Feeling of comfort or confidence": ["comfortable", "confident", "cheerful", "enthusiastic", "excited", "proud"],
+          "Past participle as adjective": ["broken", "cracked", "damaged", "scratched", "flickering", "jammed", "frozen"],
+          "Keep + gerund": [
+            "crashing unexpectedly", "freezing up", "flickering on and off", "skipping pages",
+            "sticking on the home screen", "dropping calls"
+          ],
+          "Need + gerund OR need + passive infinitive": [
+            "to be fixed", "replacing the battery", "to be repaired", "updating the apps",
+            "to be replaced"
+          ]
+        },
+        "step2Opener": "A: \"What behaviors are customary when visiting home settings in your culture?\"<br>B: \"You are expected to remove your shoes, which is different from most settings.\"<br>A: \"What's wrong with your phone?\"<br>B: \"The screen is cracked, the battery keeps shutting down, and the system desperately needs to be upgraded.\"",
+        "commonErrors": [
+          "Faulty passive: <em>My phone needs to fix</em> → <strong>needs fixing</strong> or <strong>needs to be fixed</strong>.",
+          "Wrong expectation verb: <em>I am expect to arrive...</em> → <strong>I am expected to arrive...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Feelings (Unit 5)",
+          "words": [
+            "anxious", "cheerful", "comfortable", "confident", "curious", "depressed",
+            "embarrassed", "enthusiastic", "excited", "fascinated", "grouchy", "homesick",
+            "hopeful", "insecure", "lonely", "nervous", "proud", "silly", "sleepy", "uncertain",
+            "uncomfortable", "worried"
+          ]
+        },
+        {
+          "category": "Electronics & Problems (Unit 6)",
+          "words": [
+            "app", "battery", "camera", "computer", "phone", "printer", "remote control", "TV",
+            "washing machine", "break", "crash", "die", "drop", "flicker", "freeze", "jam",
+            "jump", "skip", "stick"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "behavior", "challenge", "cheek", "chopsticks", "cooking", "concern", "culture",
+            "culture shock", "custom", "elbow", "expectation", "eye-opener", "handshake", "host",
+            "language", "meal", "outsider", "pamphlet", "taboo"
+          ]
+        },
+        {
+          "category": "Feelings",
+          "words": ["(un)comfortable"]
+        },
+        {
+          "category": "Other adjectives",
+          "words": ["lively", "passionate", "picky", "dirty", "reliable", "throwaway"]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "drop by", "feel", "get used to", "get sick", "go out (on a date)",
+            "greet (someone)", "hang out with", "have (a baby)", "hug", "miss", "plan",
+            "point out", "split (= divide evenly)", "take (photographs)", "take off", "tip",
+            "turn down", "bill", "book", "deliver", "have (an eye for)", "highlight", "leak",
+            "pick up", "pretend", "purchase", "repair", "replace", "rip", "rush", "spot",
+            "state", "work (= function)"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": [
+            "abroad", "along", "appropriately", "especially", "(the) most", "hardly ever",
+            "right away/now"
+          ]
+        },
+        {
+          "category": "Preposition",
+          "words": ["in (public)"]
+        },
+        {
+          "category": "Electronics",
+          "words": [
+            "computer (screen)", "oven", "refrigerator", "remote/temperature control",
+            "TV (screen)"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "charge", "complaint", "crack", "damage", "lens(es)", "(suitcase) lining", "mug",
+            "pick-up", "pitcher", "receipt", "refund", "scratch", "seller", "shirt", "stain",
+            "store credit", "tablecloth", "tear", "temperature", "tenant", "vase", "warranty"
+          ]
+        },
+        {
+          "category": "Pronoun",
+          "words": ["everything"]
+        },
+        {
+          "category": "Past participles",
+          "words": ["chipped", "cracked", "damaged", "dented", "made", "scratched", "stained", "torn"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Expectations & complaints",
+          "phrases": [
+            "You're expected to…", "You aren't supposed to…", "It's the custom to…",
+            "It's acceptable to…", "has a stain on it", "has a leak", "is cracked", "is torn",
+            "needs to be fixed", "needs fixing", "I'd miss…", "I wouldn't miss…",
+            "I'd worry about…"
+          ]
+        },
+        {
+          "category": "Expressing emotions",
+          "phrases": ["One thing/Something (that) I'd be (anxious/excited/...) about is ..."]
+        },
+        {
+          "category": "Asking for permission",
+          "phrases": ["Is it all right to ...?"]
+        },
+        {
+          "category": "Describing expectations",
+          "phrases": ["You're supposed to ...", "It's not acceptable to ..."]
+        },
+        {
+          "category": "Expressing an opinion/a feeling",
+          "phrases": ["Oh, how (nice/awful/...)!"]
+        },
+        {
+          "category": "Offering help",
+          "phrases": ["Can I help you?", "What can I do for you?"]
+        },
+        {
+          "category": "Describing problems",
+          "phrases": [
+            "What's wrong with it?", "It's torn/stained/damaged/scratched/cracked/chipped/worn.",
+            "What exactly is the problem?", "It has a tear/a hole/a stain/some damage.",
+            "There are a few scratches.", "There's a crack.", "It's leaking.", "It has a leak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "units": "7-8",
+      "title": "Eco-Challenges & Learning Strategies",
+      "badgeEmoji": "🌱",
+      "imageUrl": "https://images.unsplash.com/photo-1452179535021-368bb0edc3a8?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Passive voice in present continuous and present perfect; Prepositions of cause (due to, because of); Infinitive clauses and phrases; Would rather and would prefer.",
+        "focus": "Listen for the passive voice in present continuous and present perfect (e.g., 'Our rivers are being polluted', 'Many trees have been cut down'). Watch that prepositions of cause are followed by noun phrases.",
+        "speakingTasks": [
+          "Highlight a current global environmental challenge and actions being taken.",
+          "Compare personal skill learning preferences using would rather / would prefer."
+        ],
+        "interaccion": "Monitor the use of prepositions of cause (due to, because of) followed strictly by noun phrases."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (ECO-CHALLENGES & LEARNING)",
+        "diagOptions": [
+          "🏭 Present continuous passive (is being polluted)",
+          "🌲 Present perfect passive (have been destroyed)",
+          "⚠️ Prepositions of cause (due to, because of + noun)",
+          "💡 Would rather vs would prefer"
+        ],
+        "vocabWords": [
+          "Acid rain", "Pollution", "Ozone depletion", "Waste disposal", "Ocean pollution",
+          "Water scarcity", "Global warming"
+        ],
+        "step1Goal": "65-95 words",
+        "step1Text": "Analyze environmental degradation issues alongside your learning methodology preference:",
+        "freeWriteMin": 65,
+        "freeWriteMax": 95,
+        "freeWritePrompt": "Describe an environmental problem in your city using the passive voice, then explain whether you'd rather learn a new skill hands-on or through theory.",
+        "step1Template": "Lately, our local environment is being [Present continuous passive, e.g., destroyed] due to [Preposition of cause + noun phrase]. Many native species have been [Present perfect passive] because of human activity. One way to change things is to [Solution: recycle more]. To help solve these types of real-world issues, I would prefer to [Would prefer + verb] rather than study dry theory. Personally, I find that I master new life skills best by [By + gerund, e.g., practicing daily].<br><br>**Sentence Starter Extension:** [[If everyone in my city started using public transportation, I believe...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Environmental Activist",
+            "avatar": "🌍",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Academics Advisor",
+            "avatar": "📚",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are extremely passionate and slightly preachy.",
+          "You are skeptical that individual actions matter.",
+          "You prefer theory over hands-on learning, unlike your partner.",
+          "You keep citing statistics you can't quite remember.",
+          "You are optimistic about technology solving everything.",
+          "You get sidetracked talking about your own study habits."
+        ],
+        "step2Questions": [
+          "Task 1 (Environmental Solutions): Highlight a current global challenge. Discuss what initiatives *are being taken* or *have been introduced* to counteract it.",
+          "Task 2 (Learning Methods): Tell your partner about a skill you want to acquire. Compare learning preferences using *would rather* or *would prefer*.",
+          "► Student Council Assessment: Environmental Issue Highlighted: [Issue] | Partner's Preferred Learning Style: By [Style]",
+          "► Action Plan Verdict: Feasible within one academic semester? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Present continuous passive, e.g., destroyed": ["heavily degraded", "polluted continuously", "destroyed rapidly"],
+          "Preposition of cause + noun phrase": ["unchecked industrial carbon emissions", "improper plastic waste disposal"],
+          "Present perfect passive": ["driven out of their natural habitats", "threatened with extinction"],
+          "Would prefer + verb": ["collaborate on active case studies", "work on field projects"],
+          "By + gerund, e.g., practicing daily": ["practicing daily with experts", "building models directly"]
+        },
+        "step2Opener": "A: \"What environmental issues are currently worsening?\"<br>B: \"Our local ecosystems are being destroyed due to improper waste disposal.\"<br>A: \"How do you prefer to acquire practical life skills?\"<br>B: \"I would prefer to collaborate on actual cases rather than study dry theory. I learn best by practicing daily.\"",
+        "commonErrors": [
+          "Omitting 'being' in continuous passives: <em>Our air is polluted</em> → <strong>is being polluted</strong> (ongoing dynamic).",
+          "Prefer structure: <em>I would prefer study...</em> → <strong>I would prefer to study...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Global Challenges",
+          "words": [
+            "Global warming", "Ozone depletion", "Deforestation", "Acid rain", "Water scarcity",
+            "Ecosystem"
+          ]
+        },
+        {
+          "category": "Learning Preferences",
+          "words": [
+            "Would rather", "Would prefer", "Infinitive clause", "Hands-on", "Theoretical",
+            "Mastery"
+          ]
+        },
+        {
+          "category": "World problems",
+          "words": [
+            "e-waste", "extinction", "famine", "government corruption", "(the) homeless",
+            "infectious diseases", "overbuilding", "political unrest", "pollution", "poverty",
+            "unemployment", "violence"
+          ]
+        },
+        {
+          "category": "The Earth",
+          "words": [
+            "air", "birds", "coral reef", "fish", "marine life", "oil", "plant", "rain forest",
+            "river", "soil", "wildlife"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "chemical", "demonstration", "destruction", "executive", "factory", "farm(land)",
+            "health", "industry", "lack", "landfill", "law", "livestock", "management",
+            "petition", "politician", "(training) programs", "publicity", "recession",
+            "recycling", "reduction", "shelter", "sit-in", "(news) station", "(heavy) traffic",
+            "application (of skills)", "approach", "attorney", "budget", "clutter", "curriculum",
+            "daily planner", "dish", "finance", "foreign language", "martial arts", "outdoors",
+            "play", "public defender", "public speaking", "sitcom", "surrounding",
+            "volunteer activities"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "accountable", "affordable", "clear", "destructive", "hungry", "innovative",
+            "invasive", "low-income", "poisonous", "underground", "unemployed", "unforgettable",
+            "urban", "vocational", "identical", "native", "practical", "private",
+            "right (= correct)", "shy", "useful"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "boycott", "contaminate", "create", "decompose", "deplete", "displace", "dive",
+            "educate", "fight", "harm", "hunt", "ignore", "improve", "make (a living)",
+            "provide", "pump", "reduce", "run (a story)", "threaten", "trash",
+            "voice (= share/talk about)", "attend", "claim", "concentrate", "expect",
+            "get (a degree/a raise/license)", "join", "learn (about)", "manage", "prefer",
+            "set up", "sing along", "study (on your own)", "take (a class/a course [on/in])",
+            "volunteer"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["outside", "too", "correctly", "totally"]
+        },
+        {
+          "category": "Prepositions",
+          "words": ["against (the law)", "as a result of", "because of", "due to", "on (the street)"]
+        },
+        {
+          "category": "Language learning",
+          "words": ["accent", "idiom", "pronunciation", "vocabulary"]
+        },
+        {
+          "category": "Learning paths and study methods",
+          "words": [
+            "conference", "internship", "job shadowing", "language course", "lecture",
+            "online course", "professional course", "study group", "traditional course",
+            "(private) tutor"
+          ]
+        },
+        {
+          "category": "Personal qualities and skills",
+          "words": [
+            "artistic skills", "communication skills", "competitiveness", "concern for others",
+            "cooperation", "creativity", "money management", "perseverance", "problem solving",
+            "self-confidence", "self-discipline", "time management", "tolerance"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Problems & solutions",
+          "phrases": [
+            "through", "by", "because of", "due to", "as a result of", "One problem is…",
+            "What can be done?", "One way to change things is to…", "by taking every chance…",
+            "I'd rather… than…"
+          ]
+        },
+        {
+          "category": "Describing problems",
+          "phrases": [
+            "The ... are being ... by ...", "(The) ... is being ... because of/due to ...",
+            "The ... have been ... through ...", "(The) ... has been ... as a result of ..."
+          ]
+        },
+        {
+          "category": "Offering solutions",
+          "phrases": [
+            "One thing to change things is to ...", "Another way to stop them is to ...",
+            "The best way to help is to ..."
+          ]
+        },
+        {
+          "category": "Talking about what will happen",
+          "phrases": ["What if ...?", "Well, then ..."]
+        },
+        {
+          "category": "Identifying something",
+          "phrases": ["What's the name of ...?", "It's called ..."]
+        },
+        {
+          "category": "Asking about preferences",
+          "phrases": [
+            "Would you rather ... or ...?", "I'd rather (not) ...",
+            "Would you prefer to ... or ...?", "(I think) I'd prefer ... to ...",
+            "I'd prefer (to) ...", "Let's ...", "I'd rather not.", "I'd prefer not to."
+          ]
+        },
+        {
+          "category": "Asking for personal information",
+          "phrases": ["How's (your French class/...) going?", "Not bad."]
+        },
+        {
+          "category": "Talking about learning methods",
+          "phrases": [
+            "You could ... by ...", "That's a good idea.", "I ... by ...",
+            "Maybe I should try that!", "A good way to ... is by ..."
+          ]
+        },
+        {
+          "category": "Admitting something",
+          "phrases": ["To tell you the truth, ..."]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "units": "9-10",
+      "title": "Everyday Services & Future Visions",
+      "badgeEmoji": "🚀",
+      "imageUrl": "https://images.unsplash.com/photo-1757705760133-b39c479dc236?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Get or have something done (Causative); Making suggestions with modals & gerunds; Referring to time in the past & future perfect/continuous predictions.",
+        "focus": "Monitor correct usage of the causative structure: Have/Get + object + past participle (e.g., 'I got my oil changed', 'I'll have my house painted'). Validate against actual Unit 9 services and Unit 10 historic occurrences.",
+        "speakingTasks": [
+          "Discuss chores and activities you outsource to others using causative templates.",
+          "Discuss historical events and make future perfect predictions for the year 2050."
+        ],
+        "interaccion": "Listen for correct placement of past participles in causative constructions."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (SERVICES & FUTURE VISIONS)",
+        "diagOptions": [
+          "🔧 Get/Have causatives (have something repaired)",
+          "💡 Suggestions with gerunds (Why don't you try delegating...)",
+          "⏳ Past time reference connectors (since, from... to...)",
+          "🔮 Future perfect and future continuous tenses"
+        ],
+        "vocabWords": [
+          "house cleaning", "house painting", "computer repair", "discovery", "invention",
+          "natural disaster"
+        ],
+        "step1Goal": "65-95 words",
+        "step1Text": "Detail your lifestyle automation workflows alongside macro technological visions:",
+        "freeWriteMin": 65,
+        "freeWriteMax": 95,
+        "freeWritePrompt": "Describe a task you'd like to have done for you using causatives, then make a prediction about what the world will have achieved by 2050.",
+        "step1Template": "I have been very busy updating my lifestyle. This week, I am having my [Causative: object + past participle]. If you want to boost your productivity, why don't you try [Suggestion with gerund]? Looking back, history has changed drastically since [Past time marker]. I have been [Activity: studying English] for [Length of time]. By the year 2050, futurists predict that humanity will have [Future perfect milestone], and we will be [Future continuous action] daily.<br><br>**Sentence Starter Extension:** [[In the future, I think everyday services like banking or shopping will...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Interviewer",
+            "avatar": "🎙️",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Candidate",
+            "avatar": "🧑‍💻",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are overly organized and list every task in detail.",
+          "You are skeptical about technological predictions.",
+          "You are wildly optimistic about the future.",
+          "You keep outsourcing things you probably could do yourself.",
+          "You are nostalgic and prefer doing things the old way.",
+          "You lose track of your own timeline of predictions."
+        ],
+        "step2Questions": [
+          "Task 1 (Self-Improvement): Complain about things you don't have time to do yourself. Your partner must suggest causative solutions (e.g., \"You should get your financial services managed\" or \"Why don't you have your house cleaned?\").",
+          "Task 2 (History & 2050): Discuss major historical milestones and make predictions about what you *will have achieved* and *will be doing* in 10 years.",
+          "► Strategic Plan Log: Services Client Needs to Have Done: [Services] | Client's Future Vision (By 2035): [Vision]",
+          "► Audit Verdict: Are the causative milestones practical? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Causative: object + past participle": [
+            "computer repaired", "house painted", "carpets steam-cleaned", "car serviced",
+            "suit dry-cleaned", "gardening work done"
+          ],
+          "Suggestion with gerund": [
+            "delegating house cleaning", "scheduling language tutoring",
+            "hiring party planning services"
+          ],
+          "Past time marker": [
+            "the invention of the internet", "the discovery of penicillin",
+            "the launch of mainstream computing"
+          ],
+          "Future perfect milestone": [
+            "conquered another major epidemic", "overcome international conflict",
+            "achieved a historic space exploration discovery"
+          ],
+          "Future continuous action": ["using financial services online", "relying on auto-repair robots"]
+        },
+        "step2Opener": "A: \"I don't have time to clean my workspace or paint my house.\"<br>B: \"You should get your house painted and have your house cleaning done by professionals.\"<br>A: \"What will we have done by 2050?\"<br>B: \"Futurists say we will have conquered another major epidemic and we will be accessing digital workspaces daily.\"",
+        "commonErrors": [
+          "Word order in causatives: <em>I am having fixed my computer</em> → <strong>I am having my computer repaired</strong>.",
+          "Causative Participle logic: <em>Get my house clean</em> → <strong>Get my house cleaned</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Services (Unit 9)",
+          "words": [
+            "auto repair", "beauty services", "carpet cleaning", "computer repair",
+            "essay typing", "financial services", "gardening", "hair styling", "house cleaning",
+            "house painting", "language tutoring", "laundry and dry cleaning",
+            "leather cleaning", "music lessons", "party planning", "security system repair"
+          ]
+        },
+        {
+          "category": "Historic Events (Unit 10)",
+          "words": [
+            "achievement", "assassination", "catastrophe", "conflict", "discovery", "election",
+            "epidemic", "exploration", "explosion", "inauguration", "invasion", "invention",
+            "natural disaster", "revolution", "terrorist act"
+          ]
+        },
+        {
+          "category": "Services",
+          "words": ["car wash", "(carpet/house) cleaning", "dry cleaning", "laundry", "(home) repairs"]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "(home) appliance", "assignment", "belongings", "budget", "disease", "fiancée",
+            "groceries", "jogging", "perseverance", "portrait", "self-confidence", "stage",
+            "weeknight", "billion", "century", "compass", "debut", "existence", "fad", "human",
+            "humankind", "impact", "penicillin", "roof garden", "sensation", "space",
+            "speculation", "trend"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "affordable", "annual", "capable", "ground-breaking", "lethal", "optimistic",
+            "overweight", "biodegradable", "major", "overnight"
+          ]
+        },
+        {
+          "category": "Phrasal verbs",
+          "words": [
+            "break up with", "come up with", "cut down on", "get along with", "keep up with",
+            "look forward to", "put up with", "take care of"
+          ]
+        },
+        {
+          "category": "Other verbs",
+          "words": ["argue", "post", "spend (time)", "upgrade"]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["absolutely", "constantly", "deeply", "easily", "endlessly"]
+        },
+        {
+          "category": "Historic events",
+          "words": ["terrorism/terrorist act"]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "alter", "appreciate", "become", "come on", "cure", "hit", "hold", "release",
+            "retain", "rip", "set up", "spread", "steal", "take place"
+          ]
+        },
+        {
+          "category": "Adverb",
+          "words": ["quickly"]
+        },
+        {
+          "category": "Prepositions",
+          "words": [
+            "during", "for (50 years)", "in (existence/1989)", "since",
+            "within (the next 5 years)"
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Time & predictions",
+          "phrases": [
+            "for", "since", "ago", "in 1990", "from… to…", "How long have you…?",
+            "I'll have… done by…", "More people will be working…", "I don't think so.",
+            "get it done", "have it repaired", "Why don't you…?", "Have you thought about…?"
+          ]
+        },
+        {
+          "category": "Talking about things you need to have done",
+          "phrases": ["Where can I have/get ...?", "You can have/get ..."]
+        },
+        {
+          "category": "Asking for and giving advice",
+          "phrases": [
+            "What can I do?", "What about ...?", "Maybe you could ...", "One option is (to) ...",
+            "It might be a good idea to ..."
+          ]
+        },
+        {
+          "category": "Replying to advice",
+          "phrases": ["Um, I don't think so."]
+        },
+        {
+          "category": "Expressing frustration",
+          "phrases": ["This is so depressing!"]
+        },
+        {
+          "category": "Talking about historical events",
+          "phrases": [
+            "When did ... begin?", "During/In the (1910s/...).", "About ... years ago.",
+            "How long was the ...?", "From ... to ...", "For ... years.",
+            "How long has the ... been in existence?", "For about the last ... years.",
+            "For over ... years."
+          ]
+        },
+        {
+          "category": "Making a prediction",
+          "phrases": ["I guess ..."]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "units": "11-12",
+      "title": "Turning Points & Business Success",
+      "badgeEmoji": "📈",
+      "imageUrl": "https://images.unsplash.com/photo-1758518730384-be3d205838e8?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Time clauses (before, once, after, as soon as...); Past modals (should have / could have / would have) in Third Conditional; Infinitive clauses with 'for' and 'to' / Purpose connectors.",
+        "focus": "Ensure students master the transition between 'should have + past participle' for regrets and the full Third Conditional for hypothetical past results. Guide them to select attributes from the Unit 11 and 12 databases.",
+        "speakingTasks": [
+          "Share a major past turning point and discuss regrets using the third conditional.",
+          "Explain corporate branding successes using complex purpose and reason clauses."
+        ],
+        "interaccion": "Highlight past regrets (should have + V3) transitioning into hypothetical conditionals."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (TURNING POINTS & BUSINESS)",
+        "diagOptions": [
+          "⏳ Time clauses (before, once, as soon as)",
+          "💔 Past modals for regrets (should have / could have)",
+          "🔄 Third Conditional structure (If had + V3, would have + V3)",
+          "🎯 Purpose connectors (for, to, due to, since)"
+        ],
+        "vocabWords": ["wise", "carefree", "rebellious", "persuasive", "fashionable", "clever"],
+        "step1Goal": "75-105 words",
+        "step1Text": "Analyze pivotal lifecycle crossroads alongside corporate success metrics:",
+        "freeWriteMin": 75,
+        "freeWriteMax": 105,
+        "freeWritePrompt": "Describe a turning point in your life and something you should or shouldn't have done, then explain why a company you admire has been successful.",
+        "step1Template": "By the time I turned 18, I had already learned [Time clause context]. As soon as I graduated, I [Past event]. Honestly, I should have [Past regret]. If I had [Past perfect clause], I would have [Past conditional outcome]. Shifting to business, the main reason for the success of companies like Apple is [Reason clause]. They use clever marketing campaigns for [Infinitive clause with for / purpose phrase] to attract consumers. In order to [Goal verb phrase], a company has to [Requirement].<br><br>**Sentence Starter Extension:** [[If I were given the chance to start my own business, I would definitely...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Recruiter",
+            "avatar": "👔",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Candidate",
+            "avatar": "🎯",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are overly nostalgic about your past mistakes.",
+          "You are defensive when asked about regrets.",
+          "You admire a business you can't stop talking about.",
+          "You contradict your own timeline of events.",
+          "You are extremely confident about hypothetical outcomes.",
+          "You get emotional discussing a turning point."
+        ],
+        "step2Questions": [
+          "Task 1 (Regrets & Turning Points): Share a major turning point. Discuss something you should or shouldn't have done, and how things would have been different if you had acted otherwise.",
+          "Task 2 (The Pitch): Choose a famous business. Explain the secrets of its global expansion using connectors like *due to, since,* and *because of*.",
+          "► Biography & Brand Review: Major Life Regret/Hypothetical: [Regret] | Primary Factor for Brand Success: Due to [Success Factor]",
+          "► Hiring Verdict: Candidate exhibits mature reflection? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Time clause context": ["to be more dependable and wise", "the value of being pragmatic"],
+          "Past event": ["became completely independent", "accepted a highly ambitious career role"],
+          "Past regret": ["been less rebellious as a youth", "made more responsible financial choices"],
+          "Past perfect clause": ["been more mature and sensible", "been less naive about contracts"],
+          "Past conditional outcome": ["made much wiser decisions", "been more carefree during my studies"],
+          "Reason clause": [
+            "their clever and attractive branding",
+            "offering highly affordable and attractive services",
+            "having knowledgeable technicians"
+          ],
+          "Infinitive clause with for / purpose phrase": [
+            "making highly persuasive pitches", "designing gorgeous and fashionable devices",
+            "providing well written and informative guides"
+          ]
+        },
+        "step2Opener": "A: \"What was a major crossroads in your life?\"<br>B: \"Graduating was huge. I had to learn to be wise and independent. If I had been more sensible, I would have made wise financial decisions.\"<br>A: \"Why is Apple so successful?\"<br>B: \"Mainly because they design gorgeous and fashionable products that are attractive and affordable.\"",
+        "commonErrors": [
+          "Using 'would have' inside the conditional if-clause: <em>If I would have been mature...</em> → <strong>If I had been mature...</strong>.",
+          "Incorrect purpose connectors: <em>A tool used for to attract...</em> → <strong>used to attract</strong> or <strong>used for attracting</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Behavior & Personality (Unit 11)",
+          "words": [
+            "active", "ambitious", "argumentative", "carefree", "dependable", "emotional",
+            "immature", "independent", "irresponsible", "mature", "naïve", "pragmatic",
+            "rebellious", "responsible", "sensible", "sophisticated", "wise"
+          ]
+        },
+        {
+          "category": "Qualities (Unit 12)",
+          "words": [
+            "affordable", "attractive", "charming", "clever", "decisive", "entertaining",
+            "fashionable", "gorgeous", "indecisive", "industrious", "informative",
+            "knowledgeable", "muscular", "persuasive", "poorly written", "slender", "tough",
+            "unconvincing", "weak", "well written"
+          ]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "apology", "bank account", "blackmail", "crush", "driver's license", "essay",
+            "financial advisor", "grade", "high school", "importance", "internship",
+            "(student) loan", "milestone", "paycheck", "promotion", "regret", "relationship",
+            "sabotage", "sense", "sleepover", "teamwork", "turning point"
+          ]
+        },
+        {
+          "category": "Pronouns",
+          "words": ["myself", "yourself"]
+        },
+        {
+          "category": "Behavior and personality",
+          "words": ["(im)mature", "naive", "(ir)responsible", "selfish", "short-fused"]
+        },
+        {
+          "category": "Other adjectives",
+          "words": [
+            "heartfelt", "brand new", "catchy", "crowded", "ever-changing", "everlasting",
+            "flexible", "funny", "inexpensive", "packed", "profitable", "shocking", "trendy"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "blame", "borrow", "become (a parent)", "feel",
+            "get (a credit card/a paycheck/married)", "hurt", "look something up", "lose",
+            "move away", "reject", "retire", "save (money)", "spend (time)", "stay (in touch)",
+            "take care of (yourself)", "take out (a loan)", "yell", "attract", "be seen", "dive",
+            "grab", "succeed"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["not ... anymore", "seriously", "somehow", "directly", "importantly", "worldwide"]
+        },
+        {
+          "category": "Businesses",
+          "words": ["(clothing) boutique", "coffee shop", "health club", "megastore", "supermarket"]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "advertising", "barrage", "concept", "goddess", "package", "puzzle", "reason",
+            "self-discipline", "slogan", "tagline", "time-span", "(personal) trainer",
+            "upset stomach", "wait"
+          ]
+        },
+        {
+          "category": "Qualities for success",
+          "words": ["athletic", "convenient", "effective", "unforgettable"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Time clauses & purpose",
+          "phrases": [
+            "by the time", "as soon as", "once", "the moment", "before", "after", "while",
+            "In order to…", "In order for… to…", "for… to…", "If you'd been more careful…",
+            "You shouldn't have…"
+          ]
+        },
+        {
+          "category": "Describing yourself in the past",
+          "phrases": [
+            "By the time I, ...", "The moment I ...", "Before I got my first job, ...",
+            "Once I left home, ...", "After I traveled overseas, ...",
+            "As soon as I left home, ...", "Until I moved to (Alaska), ..."
+          ]
+        },
+        {
+          "category": "Describing regrets about the past",
+          "phrases": ["I should have ...", "I shouldn't have ..."]
+        },
+        {
+          "category": "Describing hypothetical situations",
+          "phrases": ["If I had ..., I would have ...", "If I had ..., I wouldn't be ..."]
+        },
+        {
+          "category": "Asking for clarification",
+          "phrases": ["How do you mean?"]
+        },
+        {
+          "category": "Describing the purpose of something",
+          "phrases": [
+            "In order to ..., you need to ...", "(In order) for a/an ... to ..., it has to ...",
+            "To ..., it's a good idea to ..."
+          ]
+        },
+        {
+          "category": "Giving reasons",
+          "phrases": [
+            "I like ... because ...", "It's so popular because of the ...",
+            "The reason people ... is to ...", "Due to ..."
+          ]
+        },
+        {
+          "category": "Hypothesizing",
+          "phrases": ["I think another reason why ... is ...", "It could be ..."]
+        },
+        {
+          "category": "Accepting an invitation",
+          "phrases": ["I thought you'd never ask!"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "units": "13-14",
+      "title": "Mysteries & Creative Operations",
+      "badgeEmoji": "🎬",
+      "imageUrl": "https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Past modals for deduction & certainty (could/must/should have); Passive voice to outline a process; Defining and non-defining relative clauses.",
+        "focus": "Check the levels of certainty in past modals (must have = almost certain, might/could have = possibility, couldn't have = impossibility). Ensure students incorporate reactions and media professions from the Unit 13 and 14 databases.",
+        "speakingTasks": [
+          "Formulate past logical speculation deductions about unresolved incidents.",
+          "Explain structural media workflow processes using linear passive voice verbs."
+        ],
+        "interaccion": "Enforce precise shifts between degrees of deductive certainty (must have vs might have)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (MYSTERIES & PROCESSES)",
+        "diagOptions": [
+          "🔍 Past modals of certainty (must have + V3)",
+          "⚖️ Past modals of judgment (should have + V3)",
+          "🎞️ Passive voice for linear processes", "👥 Non-defining relative clauses"
+        ],
+        "vocabWords": [
+          "screenwriter", "stunt person", "stunt coordinator", "complaint", "criticism",
+          "prediction", "warning"
+        ],
+        "step1Goal": "80-110 words",
+        "step1Text": "Develop explanations for mysteries and trace creative workflows:",
+        "freeWriteMin": 80,
+        "freeWriteMax": 110,
+        "freeWritePrompt": "Speculate about something strange that happened using past modals of deduction, then explain how a creative process works step by step using the passive voice.",
+        "step1Template": "Last week, a famous [Media profession, e.g., screenwriter] suddenly made an unexpected [Reaction, e.g., criticism] about the production team. Some staff claim they must have [Past modal of certainty], while others argued the directors should have [Past modal of judgment]. At our studio, which is located in New York, a typical project is managed step-by-step: first, the script is written, and then the scenes are [Passive for process] to ensure our storyboard artist [Non-defining relative clause + passive process]. A [Job title] is someone who [Responsibility].<br><br>**Sentence Starter Extension:** [[If I witnessed something strange and unexplainable, I would...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Investigator",
+            "avatar": "🕵️",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Creative Producer",
+            "avatar": "🎥",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are convinced of a wild, unlikely theory.",
+          "You are overly cautious about jumping to conclusions.",
+          "You get the steps of the process out of order.",
+          "You are dramatic and treat this like a real investigation.",
+          "You keep changing your level of certainty mid-sentence.",
+          "You are skeptical of every explanation offered."
+        ],
+        "step2Questions": [
+          "Task 1 (Speculations): Brainstorm a strange occurrence (e.g., missing lead actor or on-set sounds). Speculate using *might have, could have,* and *must have*.",
+          "Task 2 (Processes): Explain how a specific creative task (like movie scoring or special effects) is executed step-by-step using the passive voice.",
+          "► Case File & Process Log: Theories on the Incident: It must have been [Incident Theory] | Creative Process Outlined: The soundtrack is [Process Outline]",
+          "► Director's Sign-Off: Is the deductive theory substantiated? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Media profession, e.g., screenwriter": [
+            "screenwriter", "stunt person", "prop designer", "casting director",
+            "gameplay programmer", "news photographer", "videographer", "web content manager",
+            "talk show host"
+          ],
+          "Reaction, e.g., criticism": [
+            "criticism", "complaint", "warning", "proposal", "compromise", "compliment",
+            "judgment"
+          ],
+          "Past modal of certainty": [
+            "been reacting to poor working conditions", "heard the news before anyone else",
+            "misunderstood the screen contract"
+          ],
+          "Past modal of judgment": [
+            "given a formal warning earlier", "offered a compromise immediately",
+            "made a better proposal"
+          ],
+          "Passive for process": [
+            "meticulously filmed by the director", "organized by the casting director",
+            "coordinated by the stunt coordinator", "supervised by the graphics supervisor"
+          ],
+          "Non-defining relative clause + passive process": [
+            ", who is creative, is consulted on art design",
+            ", who is extremely resourceful, is given creative control",
+            ", who works long hours, is paid fairly"
+          ]
+        },
+        "step2Opener": "A: \"Last week, a famous screenwriter made a complaint. Some staff claimed they must have seen the issue coming.\"<br>B: \"Yes! But others argued that the directors should have reached a compromise instead.\"<br>A: \"How is a movie produced?\"<br>B: \"First, the script is written, and then individual scenes are filmed by the director and audio effects are edited.\"",
+        "commonErrors": [
+          "Deductive participle error: <em>He must have went...</em> → <strong>He must have gone...</strong>.",
+          "Non-defining relative clause omission: <em>Nolan is a director works...</em> → <strong>Nolan, who is a director, works...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Reactions (Unit 13)",
+          "words": [
+            "assumption", "command", "complaint", "compliment", "compromise", "criticism",
+            "demand", "excuse", "instruction", "judgment", "prediction", "promise", "proposal",
+            "suggestion", "suspicion", "warning"
+          ]
+        },
+        {
+          "category": "Media Professions (Unit 14)",
+          "words": [
+            "band manager", "casting director", "club DJ", "computer-graphics supervisor",
+            "editorial director", "game animator", "gameplay programmer", "location scout",
+            "(movie) director", "(movie) extra", "news photographer", "photo editor", "producer",
+            "prop designer", "quality assurance analyst", "screenwriter", "songwriter",
+            "storyboard artist", "stunt person", "talk show host", "videographer",
+            "web content manager"
+          ]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "announcement", "cafeteria", "check", "doorbell", "explanation", "fear", "fight",
+            "flare", "haircut", "hint", "in-laws", "mess", "nephew", "pet peeve", "pipe",
+            "sci-fi", "sewer", "sister-in-law", "spaceship", "trumpet", "clerk",
+            "computer graphics", "crowd", "jury", "stage", "thousands (of)"
+          ]
+        },
+        {
+          "category": "Pronoun",
+          "words": ["one"]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "complicated", "dated", "giant", "high-pitched", "inconsiderate", "overnight",
+            "tricky", "understanding", "amazing", "challenging", "computer-animated", "entirely",
+            "final", "full-length", "in-demand", "nonexistent", "rude", "standard"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "argue", "baffle", "blame", "borrow", "chew", "clean up", "cut", "fall (asleep)",
+            "fire", "flee", "hear", "interrupt", "lend", "make up (an excuse)", "pack",
+            "pretend", "ring", "slip (one's mind)", "squeal", "take place", "turn",
+            "wash (the dishes)", "withdraw", "yawn", "beat", "complete", "deal (with)", "depend",
+            "rehearse", "run", "shoot (the movie)"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["besides", "constantly", "previously"]
+        },
+        {
+          "category": "Conjunction",
+          "words": ["however"]
+        },
+        {
+          "category": "Movies",
+          "words": [
+            "character", "detail", "film", "location", "role", "scene", "script", "set", "shot",
+            "special effects", "storyboard", "studio", "(movie) theater"
+          ]
+        },
+        {
+          "category": "Media professions",
+          "words": [
+            "actor", "(game) designer", "(production/technical/editorial) director", "editor",
+            "(art/photo) editor", "(lighting/sound-effects) technician"
+          ]
+        },
+        {
+          "category": "Adverb",
+          "words": ["simultaneously"]
+        },
+        {
+          "category": "Preposition",
+          "words": ["on (stage)"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Past modals & jobs",
+          "phrases": [
+            "could have", "might have", "may have", "must have", "should have", "would have",
+            "couldn't have", "must not have", "what does a… do?", "someone who…", "is sent to",
+            "is read by", "has to be revised"
+          ]
+        },
+        {
+          "category": "Judging past actions",
+          "phrases": ["You should/shouldn't have ...", "I wouldn't have ..."]
+        },
+        {
+          "category": "Suggesting alternative past actions",
+          "phrases": ["You could have ...", "I would have ..."]
+        },
+        {
+          "category": "Expressing approval of someone's action",
+          "phrases": ["... did the right thing."]
+        },
+        {
+          "category": "Explaining or identifying someone",
+          "phrases": ["... is the person who/that ..."]
+        },
+        {
+          "category": "Asking for an explanation",
+          "phrases": ["Can I ask why that is?"]
+        },
+        {
+          "category": "Saying you haven't decided yet",
+          "phrases": ["I'm considering ..."]
+        },
+        {
+          "category": "Talking about an opportunity",
+          "phrases": ["You get to ..."]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "units": "15-16",
+      "title": "Legal Debates & Lifelong Ambitions",
+      "badgeEmoji": "⚖️",
+      "imageUrl": "https://images.unsplash.com/photo-1589391886645-d51941baf7fb?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Passive voice modals for opinions (ought to be / must be + V3); Tag questions for consensus building; Simple past/present perfect milestones and future perfect goals.",
+        "focus": "Help students perfect the intonation and structure of Tag Questions (e.g., 'Vandalism ought to be punished, shouldn't it?'). Check correct usage of Unit 15 Social Issues and Unit 16 Antonyms.",
+        "speakingTasks": [
+          "Defend community policy reforms using passive modals and tags.",
+          "Map long-term milestone achievements using the future perfect tense."
+        ],
+        "interaccion": "Focus on tags agreement mechanics (affirmative statement matches negative tag)."
+      },
+      "student": {
+        "handoutTitle": "EXAM PREP (DEBATES & AMBITIONS)",
+        "diagOptions": [
+          "🏛️ Passive modals for recommendation (ought to be addressed)",
+          "❓ Tag questions for validation (shouldn't it?)",
+          "🏆 Simple past accomplishments with obstacles",
+          "🎯 Future perfect tenses for life goals"
+        ],
+        "vocabWords": [
+          "street crime", "vandalism", "company outsourcing", "gender discrimination",
+          "bullying", "resourceful", "adaptable", "compassionate"
+        ],
+        "step1Goal": "85-115 words",
+        "step1Text": "Present a municipal policy debate coupled with your chronological life targets:",
+        "freeWriteMin": 85,
+        "freeWriteMax": 115,
+        "freeWritePrompt": "Propose a policy reform for your city using passive modals and a tag question, then describe a long-term goal using the future perfect.",
+        "step1Template": "In our city, major social issues ought to be addressed immediately. For example, [Social issue, e.g., street crime] must be [Passive modal for recommendation], and we need policies to support families, shouldn't we? Shifting to personal development, I have worked hard to become more [Antonym / Quality, e.g., resourceful]. Last year, I [Simple past accomplishment]. By this time next year, I hope I will have [Future perfect goal] so that I can remain fully [Another Antonym / Quality, e.g., self-sufficient] throughout my career. The most challenging thing about [Activity in -ing] is [Gerund phrase: being fair].<br><br>**Sentence Starter Extension:** [[One law I would change if I could is... because...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Spokesperson",
+            "avatar": "📢",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Citizen Reporter",
+            "avatar": "🎙️",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are overly formal and political in your language.",
+          "You are skeptical of every policy proposed.",
+          "You are passionate to the point of being repetitive.",
+          "You keep forgetting to add the tag question.",
+          "You are extremely ambitious about your own goals.",
+          "You question whether the goals are realistic."
+        ],
+        "step2Questions": [
+          "Task 1 (Controversial Issues): Propose a controversial policy reform. Argue using passive modals and seek agreement with tag questions (e.g., \"Public transport should be subsidized, shouldn't it?\").",
+          "Task 2 (Inspirational Goals): Discuss challenges you've overcome and share future ambitions using the future perfect.",
+          "► Town Hall & Goal Validation: Proposed Community Reform: [Reform], shouldn't it? | Partner's Core Long-Term Ambition: By the end of the course, they will have [Ambition]",
+          "► Policy Poll Verdict: Majority in favor of the measure? ( ) YES  ( ) NO"
+        ],
+        "correctAnswers": {
+          "Social issue, e.g., street crime": [
+            "street crime", "vandalism", "company outsourcing", "gender discrimination",
+            "bullying", "noise pollution", "littering"
+          ],
+          "Passive modal for recommendation": [
+            "penalized much more severely by municipal authorities",
+            "banned completely in public centers",
+            "prevented through community awareness programs"
+          ],
+          "Antonym / Quality, e.g., resourceful": [
+            "resourceful", "adaptable", "compassionate", "self-sufficient", "tolerant", "upbeat",
+            "courageous"
+          ],
+          "Simple past accomplishment": [
+            "completed my systems design certification",
+            "managed a complex infrastructure project", "secured my intermediate B1 credentials"
+          ],
+          "Future perfect goal": [
+            "finished my advanced vocational modules",
+            "attained complete professional independence",
+            "launched my first creative development startup"
+          ],
+          "Another Antonym / Quality, e.g., self-sufficient": ["self-sufficient", "flexible", "resourceful", "adaptable", "compassionate"]
+        },
+        "step2Opener": "A: \"Street crime in our neighborhood ought to be prevented through community awareness programs, shouldn't it?\"<br>B: \"Yes! Also, we need policies to support families and decrease bullying.\"<br>A: \"What milestones will you have reached by next year?\"<br>B: \"I hope I will have completed my systems track so I can remain fully self-sufficient.\"",
+        "commonErrors": [
+          "Recommendation modal voice: <em>Social issues ought to address...</em> → <strong>Social issues ought to be addressed</strong>.",
+          "Mismatched tag validation: <em>We must build this, won't we?</em> → <strong>mustn't we?</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Social Issues (Unit 15)",
+          "words": [
+            "bullying", "company outsourcing", "gender discrimination", "gun violence",
+            "homelessness", "inadequate health care", "lack of affordable child care",
+            "lack of clean water", "littering", "noise pollution", "overcrowded classrooms",
+            "stray animals", "street crime", "vandalism"
+          ]
+        },
+        {
+          "category": "Antonyms & Qualities (Unit 16)",
+          "words": [
+            "adaptable", "compassionate", "courageous", "cynical", "dependent", "flexible",
+            "insensitive", "intolerant", "resourceful", "rigid", "selfish", "self-sufficient",
+            "timid", "tolerant", "unimaginative", "upbeat"
+          ]
+        },
+        {
+          "category": "Social issues",
+          "words": ["child care", "health care", "parental leave", "stray animal", "trash collection"]
+        },
+        {
+          "category": "Other nouns",
+          "words": [
+            "big deal", "citizen", "fare", "fur", "helmet", "(health) insurance", "key", "leash",
+            "mayor", "ownership", "permit", "plagiarism", "rail", "research", "royalties",
+            "seat belt", "shelter", "sidewalk", "source"
+          ]
+        },
+        {
+          "category": "Adjectives",
+          "words": [
+            "affordable", "(un)attended", "disabled", "inadequate", "irregular", "offensive",
+            "organic", "overcrowded", "soundproof", "unmarried", "downhill", "healthy",
+            "(un)imaginative", "self-motivated", "steady"
+          ]
+        },
+        {
+          "category": "Verbs",
+          "words": [
+            "assume", "ban", "belong", "critique", "deserve", "face", "fail", "feed", "litter",
+            "make ends meet", "pass", "pickpocket", "pretend", "require", "ride (a bike)",
+            "spot", "achieve", "count (on someone)", "deliver", "develop", "manage (to)", "pack",
+            "proud", "quit", "retire", "share", "soar", "succeed", "switch"
+          ]
+        },
+        {
+          "category": "Adverbs",
+          "words": ["fairly", "nowadays", "unfortunately", "ahead", "elsewhere", "plenty", "pretty"]
+        },
+        {
+          "category": "Nouns",
+          "words": [
+            "accomplishment", "best seller", "competition", "degree", "discipline", "eagle",
+            "goal", "goggles", "grade", "hurdle", "internship", "lifetime", "marathon", "nomad",
+            "pleasure", "promotion", "savings", "skill", "personal statement", "wish"
+          ]
+        },
+        {
+          "category": "Pronouns",
+          "words": ["myself", "yourself"]
+        }
+      ],
+      "expressions": [
+        {
+          "category": "Challenges & rewards",
+          "phrases": [
+            "The most challenging thing about…", "The most rewarding thing about…",
+            "One of the best aspects of…", "The most frustrating part of…", "is allowed to",
+            "is permitted to", "is required to", "don't you?", "isn't it?", "I managed to…",
+            "I hope I'll have…"
+          ]
+        },
+        {
+          "category": "Making a recommendation",
+          "phrases": [
+            "People ought to/should be required to ...", "People shouldn't be allowed to ...",
+            "Something has (got) to be done to ...", "A rule has to be made to ...",
+            "Laws must be passed to ...", "People mustn't be permitted to ..."
+          ]
+        },
+        {
+          "category": "Acknowledging an opinion and offering a different one",
+          "phrases": [
+            "That sounds interesting, but ...", "I think ...",
+            "That's not a bad idea. On the other hand, I feel that ...",
+            "You may have a point. However, I think ..."
+          ]
+        },
+        {
+          "category": "Asking for and giving reasons",
+          "phrases": ["Why?/Why not?", "Well, I don't think ...", "Well, for one thing, ..."]
+        },
+        {
+          "category": "Describing challenges, frustrations, and rewards",
+          "phrases": ["The most unusual/realistic/ambitious/rewarding thing about ... is ..."]
+        },
+        {
+          "category": "Describing past accomplishments",
+          "phrases": ["I've managed to ...", "I've been able to ...", "I was able to ..."]
+        },
+        {
+          "category": "Talking about future accomplishments",
+          "phrases": ["What do you hope you'll have achieved?", "I'd like to have ..."]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "units": "FINAL",
+      "title": "CUMULATIVE MASTERY REVIEW",
+      "badgeEmoji": "🎓",
+      "imageUrl": "https://images.unsplash.com/photo-1578269174936-2709b6aeb913?auto=format&fit=crop&w=400&q=80",
+      "teacher": {
+        "objetivo": "Relative pronouns, past regrets, passive voice operations, causatives, future perfect.",
+        "focus": "Adopt a strictly passive evaluator role. Chronometer exactly 5 minutes of speaking per student to train stamina, fluency, and time management.",
+        "speakingTasks": [
+          "Execute a full professional narrative outline and handle complex hypothetical pasts.",
+          "Deduce global tech trajectories and project environmental milestones for 2050."
+        ],
+        "interaccion": "Act as a silent evaluator. Strictly record timing thresholds during simulations."
+      },
+      "student": {
+        "handoutTitle": "FINAL EXAM PREP (CUMULATIVE)",
+        "diagOptions": [
+          "🌐 Relative and noun modifying structures",
+          "💔 Past regrets paired with mixed conditionals",
+          "⚙️ Passive operations and causative delegations",
+          "🔮 Future perfect projection frameworks"
+        ],
+        "vocabWords": ["Career", "Smart classes", "Hypotheticals", "Environmental issues", "Goals"],
+        "step1Goal": "110-150 words",
+        "step1Text": "Draft your comprehensive mastery statement using deep syntactic variety:",
+        "freeWriteMin": 110,
+        "freeWriteMax": 150,
+        "freeWriteNote": "The real final exam asks for 200-250 words; this practice uses a shorter goal adjusted to the ~20-minute session time.",
+        "freeWritePrompt": "Write a complete personal and professional profile: who you are, a regret from your past, an issue affecting your field today, and a goal you will have achieved by the end of this year.",
+        "step1Template": "Reflecting on my current path, I am an individual who [Relative clause]. My skills have been significantly developed by [By + gerund approach]. In the past, I made choices that I shouldn't have [Past regret]; if I had acted differently, I would have [Hypothetical past conditional]. Currently, my professional field is being transformed due to [Passive voice + cause modifier]. Therefore, new quality regulations must be [Passive modal suggestion]. In order to [Goal verb phrase], you are expected to [Expectation]. Looking forward, I have high expectations for my growth. By the time this year ends, I will have [Future perfect goal], which is an achievement I would like to have completed for my future peace of mind.<br><br>**Sentence Starter Extension:** [[If I were given the chance to live abroad, I would definitely...]]",
+        "roles": [
+          {
+            "title": "Role A",
+            "name": "Lead Evaluator",
+            "avatar": "👨‍🏫",
+            "color": "brand-sunset"
+          },
+          {
+            "title": "Role B",
+            "name": "Proficiency Candidate",
+            "avatar": "👩‍🎓",
+            "color": "brand-magenta"
+          }
+        ],
+        "scenarios": [
+          "You are calm and strictly professional throughout.",
+          "You are nervous about the time limit.",
+          "You mix up your past, present, and future tenses under pressure.",
+          "You are overly confident about your own performance.",
+          "You get reflective and emotional about your progress.",
+          "You try to extend your speaking time past the limit."
+        ],
+        "step2Questions": [
+          "Task 1 (The Professional Narrative): Ask: \"Can you outline a major professional milestone you have reached, a regret you have managed to move past, and how you currently handle daily responsibilities?\"",
+          "Task 2 (Global & Tech Speculations): Ask: \"What current societal or environmental issues are being neglected right now, and what milestones do you think humanity will have achieved to remedy them by 2050?\"",
+          "► Mock Exam B1 Verdict Checklist: [ ] Relative Clauses | [ ] Past Regrets | [ ] Passive Voice | [ ] Future Perfect | Constructive Tip: [Tip]",
+          "► Final Qualification: Candidate is ( ) READY FOR B2! ( ) NEEDS PRACTICE | Evaluator's Tip: [Tip]"
+        ],
+        "correctAnswers": {
+          "Relative clause": [
+            "who values cooperation and honesty", "who enjoys solving complex problems",
+            "who is creative and self-confident"
+          ],
+          "By + gerund approach": [
+            "practicing my communication skills daily", "managing my money carefully",
+            "improving my English every week"
+          ],
+          "Past regret": [
+            "been so impatient and argumentative", "wasted so much time with minor details",
+            "declined that great job invitation"
+          ],
+          "Hypothetical past conditional": [
+            "become a more mature leader", "reached my professional milestones sooner",
+            "acquired better career opportunities"
+          ],
+          "Passive voice + cause modifier": [
+            "is being transformed due to digital devices",
+            "is being changed because of company outsourcing",
+            "is being threatened due to environmental issues"
+          ],
+          "Passive modal suggestion": [
+            "banned to protect our local community",
+            "enforced much more strictly by the authorities",
+            "subsidized to support young professionals"
+          ],
+          "Future perfect goal": [
+            "finished my intermediate course", "acquired a self-sufficient lifestyle",
+            "achieved my most important ambitions"
+          ]
+        },
+        "step2Opener": "A: \"Can you outline a major professional milestone you have reached?\"<br>B: \"I've optimized an entire codebase. If I hadn't made that choice, our speed wouldn't be changing as fast as it is now.\"<br>A: \"What milestones will we have achieved by 2050?\"<br>B: \"Carbon emissions will have been minimized, as clean energy is being implemented daily.\"",
+        "commonErrors": [
+          "Mixing conditional states without temporal markers.",
+          "Incorrect gerund usage after preposition sequences: <em>by do this...</em> → <strong>by doing this...</strong>."
+        ]
+      },
+      "vocabBank": [
+        {
+          "category": "Greatest Hits: Units 1-4",
+          "words": [
+            "easygoing", "moody", "reliable", "ambitious", "career", "promotion",
+            "get along with", "I was wondering if", "would you mind", "witness", "article"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 5-8",
+          "words": [
+            "custom", "tradition", "embarrassed", "annoyed", "broken", "refund", "warranty",
+            "pollution", "extinct", "global warming", "recycle", "vocabulary"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 9-12",
+          "words": [
+            "laundry", "repair", "haircut", "invention", "revolution", "century", "famous",
+            "stubborn", "generous", "modest", "entrepreneur", "profit", "launch"
+          ]
+        },
+        {
+          "category": "Greatest Hits: Units 13-16",
+          "words": [
+            "suspicious", "director", "editor", "producer", "soundtrack", "law", "demand",
+            "ambition", "achieve"
+          ]
+        },
+        {
+          "category": "Review: purpose & expectations",
+          "words": [
+            "In order to…", "In order for… to…", "You're expected to…",
+            "You aren't supposed to…", "It's the custom to…", "Would you mind…?",
+            "I was wondering if…"
+          ]
+        },
+        {
+          "category": "Cumulative Personalities",
+          "words": [
+            "Assertive", "Considerate", "Naïve", "Pragmatic", "Rebellious", "Self-confident",
+            "Wise"
+          ]
+        },
+        {
+          "category": "Cumulative Actions & Milestones",
+          "words": [
+            "Achievement", "Catastrophe", "Coincidence", "Compromise", "Decision", "Milestone",
+            "Outsourcing", "Turning point"
+          ]
+        }
+      ]
+    }
+  ],
+  "speakingCards": {
+    "1": [
+      {
+        "chips": ["Annoy", "Children", "Lawyer", "Hours", "Work", "Study", "Hard", "Easy", "Make happy"],
+        "t1": "Using the words on the list, ask your partner questions about personality, careers, likes and dislikes.",
+        "t2": "Now your partner asks you questions related to the same topics."
+      },
+      {
+        "chips": ["Teacher", "Doctor", "Difficult", "Sad", "Stressed", "Happy", "Work", "Rest", "Relax"],
+        "t1": "Ask me questions related to careers, situations I like or dislike, my job, etc. You can use the words from the list.",
+        "t2": "I am going to ask you questions about the same topics."
+      }
+    ],
+    "2": [
+      {
+        "chips": ["Studies", "Jobs", "Trips", "Relationships"],
+        "t1": "Ask your partner about experiences he/she has lived and, based on what he/she tells you, ask for details about the parts that interested you. You can use the topics in the list as references.",
+        "t2": "Ask your partner to send information, requests and questions to other people. You can use the words in the list.",
+        "chips2": [
+          "Come home", "Birthday", "Concert", "Invite", "Restaurant", "Eat",
+          "Favorite food, song, cartoon, subject or place", "Don't leave your phone"
+        ]
+      },
+      {
+        "chips": ["Requests", "Things you need to know", "Experiences at Smart"],
+        "t1": "You are a new employee at Smart and I am your coworker. Make some requests about things you need to know or do.",
+        "t2": "Ask me about some experiences during my time working in the company."
+      }
+    ],
+    "3": [
+      {
+        "chips": ["Visiting someone", "Meeting someone", "Eating out", "Traveling"],
+        "t1": "Ask your partner about the customs he/she or his/her family have in certain situations. You can use the words in the list.",
+        "t2": "Ask your partner about damaged items in his/her house or workplace and tell him/her what you think needs to be done about them.",
+        "chips2": ["Lights", "Walls", "Clothes", "Chairs", "Desks", "Computers", "TVs", "Floor"]
+      },
+      {
+        "chips": [
+          "Moving to a new city", "Having a child", "Starting a new career",
+          "Living with roommates for the first time", "Car problems"
+        ],
+        "t1": "Let's use these situations to talk about our expectations and personal reactions in those cases.",
+        "t2": "I have 4 problems with my car. Try to guess what they are and ask me if I have tried to solve them."
+      }
+    ],
+    "4": [
+      {
+        "chips": [
+          "Acid rain", "Pollution", "Ozone depletion", "Waste disposal", "Ocean pollution",
+          "Water scarcity", "Global warming"
+        ],
+        "t1": "Talk with your partner about environmental problems and what you think is causing them, using the list.",
+        "t2": "Ask your partner about his/her opinions and preferences regarding actions that help reduce environmental and social problems."
+      },
+      {
+        "chips": [
+          "Live alone", "Live in another country", "Study", "Work", "Get married",
+          "Environmental problems in my community"
+        ],
+        "t1": "Ask me about things I would rather do in certain situations, then give me your opinion about them as well.",
+        "t2": "Ask me about the environmental problems I notice in my community and tell me what you think they are being caused by."
+      }
+    ],
+    "5": [
+      {
+        "chips": [
+          "Auto repair", "House cleaning", "Computer repair", "Tutoring", "Outsourcing",
+          "Future 2050"
+        ],
+        "t1": "Ask your partner about the type of services he/she gets done and tell him/her how you think those services will change in the future.",
+        "t2": "Ask your partner about changes or improvements he/she would like to make in himself/herself, and give advice on how to achieve them. Then discuss how you anticipate changing in the future."
+      },
+      {
+        "chips": ["City services", "Services a city needs", "How the world will change"],
+        "t1": "Ask me about the city where I live and tell me what kind of services a city needs to get done.",
+        "t2": "Ask me about ways I think the world will change and tell me which ones you agree with."
+      }
+    ],
+    "6": [
+      {
+        "chips": ["Money", "Studies", "Skills", "Activities", "Turning point", "Regrets"],
+        "t1": "Talk with your partner about important moments and decisions in your lives. Use the topics in the list to guide your questions and opinions.",
+        "t2": "Mention strategies to succeed in your partner's profession and ask his/her opinion about them."
+      },
+      {
+        "chips": [
+          "Popular brands", "Impact on lifestyles", "Staying in business",
+          "Regrets: work, study, relationships"
+        ],
+        "t1": "Let's talk about popular brands or companies, how they impact people's lifestyles and what they do to stay in business. You may begin.",
+        "t2": "Guess some of my regrets regarding work, study, relationships, and give some opinions."
+      }
+    ],
+    "7": [
+      {
+        "chips": [
+          "Sending an email", "Applying for a job", "Writing a book", "Planning a holiday",
+          "Getting a doctor's appointment"
+        ],
+        "t1": "Ask your partner about the process of something you are curious about. You can choose from the list.",
+        "t2": "You are friends, your partner lives far away and likes to be punctual. What would you assume if he/she were late to a meeting?"
+      },
+      {
+        "chips": [
+          "Sick", "Traffic jam", "Family emergency", "Oversleep", "Becoming a teacher at Smart",
+          "Becoming a student"
+        ],
+        "t1": "Ask me about the things I assume when a student doesn't show up. Tell me what you would think in the same situation if you were the teacher.",
+        "t2": "Ask me about the process to become a teacher at Smart, then describe the one to become a student."
+      }
+    ],
+    "8": [
+      {
+        "chips": [
+          "Noise", "Crime", "Rude neighbors", "Garbage disposal", "Bicycle lanes",
+          "Pedestrian spaces"
+        ],
+        "t1": "Ask your partner about situations he/she finds difficult or annoying in the neighborhood and give suggestions on what should be done about it.",
+        "t2": "Ask your partner about things he/she wants to accomplish or have done by some time in the future.",
+        "chips2": ["Travel", "Retire", "Buy a house", "Get a job", "Have money", "Get married"]
+      },
+      {
+        "chips": [
+          "Dangerous situations", "Serious situations in the community", "Suggestions",
+          "Goals in your 20s, 30s, 40s"
+        ],
+        "t1": "Ask me about dangerous or serious situations I notice around my community and give me suggestions on what should be done about it.",
+        "t2": "Mention some goals people should accomplish in their 20s, 30s and 40s and ask me about them."
+      }
+    ],
+    "9": [
+      {
+        "chips": [
+          "Career experiences or expectations", "Anecdotes about classes / work in Smart",
+          "Hypothetical situations and regrets", "Social and environmental issues",
+          "Recommendations to achieve goals"
+        ],
+        "t1": "Have a conversation about the topics in the list. You can start by asking your partner about his/her experiences or opinions.",
+        "t2": "Now your partner starts asking you about the same topics."
+      },
+      {
+        "chips": [
+          "Parents' or friends' occupations", "Recent anecdotes",
+          "City problems and social issues", "Life experiences, regrets, suggestions",
+          "Changes in society", "Future achievements"
+        ],
+        "t1": "Let's have a conversation about the topics in the list. You can start by asking about my experiences or opinions.",
+        "t2": "Now I start asking you about the same topics."
+      }
+    ]
+  }
+}

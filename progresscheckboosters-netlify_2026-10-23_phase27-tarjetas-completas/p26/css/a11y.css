@@ -1,0 +1,106 @@
+/* Accessibility layer shared by all level pages (loaded after the Tailwind build). */
+
+/* Visible keyboard focus on any background (double ring: dark + white). */
+:focus-visible {
+    outline: 3px solid #111827 !important;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px #ffffff;
+}
+.fill-in-blank:focus-visible,
+.freewrite-textarea:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline-offset: 1px;
+}
+
+/* Respect "reduce motion" system setting: no looping or sliding animation. */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    #confetti-canvas { display: none !important; }
+}
+
+/* Student content: nothing smaller than 12px, and readable grey for small text. */
+#app .text-\[8px\],
+#app .text-\[9px\],
+#app .text-\[10px\],
+#app .text-\[11px\] {
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+}
+#app .text-gray-400,
+#vocab-drawer .text-gray-400 { color: #6b7280 !important; }
+
+/* Sound toggle (created by engine.js) */
+#sound-toggle {
+    position: fixed; left: 16px; bottom: 16px; z-index: 45;
+    width: 44px; height: 44px; border-radius: 9999px;
+    border: 1px solid #cbd5e1; background: #ffffff; color: #111827;
+    font-size: 20px; line-height: 1; cursor: pointer;
+    box-shadow: 0 6px 16px rgba(15, 23, 42, 0.18);
+}
+#sound-toggle[aria-pressed="true"] { background: #111827; color: #ffffff; border-color: #111827; }
+
+/* Expressions drawer (same behaviour as the vocabulary drawer) */
+#expr-drawer-backdrop { transition: opacity .3s cubic-bezier(.16, 1, .3, 1); }
+#expr-drawer { transition: transform .35s cubic-bezier(.16, 1, .3, 1); box-shadow: rgba(0, 0, 0, .18) -10px 0 35px -5px; }
+#expr-drawer.drawer-open { transform: translateX(0); }
+#expr-drawer.drawer-closed { transform: translateX(100%); }
+#expr-drawer .text-gray-400 { color: #6B7280 !important; }
+@media (prefers-reduced-motion: reduce) { #expr-drawer, #expr-drawer-backdrop { transition: none; } }
+
+/* contrast: secondary gray text on tinted surfaces */
+.text-gray-500{color:#586172}
+
+
+/* ---- Phase 3 ---- */
+.icon-svg { display: inline-block; width: 1em; height: 1em; vertical-align: -0.125em; flex-shrink: 0; }
+
+/* Closed drawers must not be reachable with Tab or by screen readers. */
+#vocab-drawer.drawer-closed, #expr-drawer.drawer-closed { visibility: hidden; transition: transform .35s cubic-bezier(.16, 1, .3, 1), visibility 0s linear .35s; }
+#vocab-drawer.drawer-open, #expr-drawer.drawer-open { visibility: visible; transition: transform .35s cubic-bezier(.16, 1, .3, 1), visibility 0s; }
+@media (prefers-reduced-motion: reduce) { #vocab-drawer.drawer-closed, #expr-drawer.drawer-closed { transition: none; } }
+
+/* Word/phrase label is now a native button inside the card. */
+.vocab-card-label { flex: 1; min-width: 0; min-height: 32px; padding: 2px 0; background: none; border: 0; text-align: left; cursor: pointer; color: inherit; font: inherit; font-weight: 700; }
+.vocab-card-label mark { color: inherit; }
+
+/* Sound toggle now lives in the header (no longer floats over the content). */
+#sound-toggle.in-header { position: static; flex: 0 0 auto; width: 40px; height: 40px; margin-left: 8px; font-size: 18px; display: inline-flex; align-items: center; justify-content: center; background: rgba(255, 255, 255, .14); color: #fff; border: 1px solid rgba(255, 255, 255, .35); box-shadow: none; }
+#sound-toggle.in-header[aria-pressed="true"] { background: #fff; color: #111827; border-color: #fff; }
+#sound-toggle { display: inline-flex; align-items: center; justify-content: center; }
+
+/* Phones and tablets: bigger touch targets for the small audio buttons. */
+@media (pointer: coarse) {
+    #vocab-drawer button[data-say]:not(.vocab-card-label), #expr-drawer .vocab-word-card > div > button, #app button[data-say]:not(.vocab-card-label), #app button[title="Escuchar pronunciación"], #app button[title="Listen to question"], #app button[title="Escuchar pregunta"] { min-width: 40px; min-height: 40px; display: inline-flex; align-items: center; justify-content: center; }
+    .vocab-card-label { min-height: 40px; }
+}
+
+/* Carousel dots: 24 px touch area around an 8 px dot; on phones a counter replaces them (13 dots do not fit). */
+.carousel-dot { box-sizing: content-box; padding: 8px; background-clip: content-box; }
+.carousel-counter { display: none; font-weight: 700; font-size: 14px; color: #374151; }
+@media (max-width: 520px) {
+    .carousel-dot-row .carousel-dot { display: none; }
+    .carousel-dot-row .carousel-counter { display: inline-block; padding: 6px 0; }
+}
+
+/* Contrast: small orange / magenta text on tinted pills and bubbles */
+#app .text-brand-sunset { color: #B8420F; }
+#app .bg-brand-magenta\/15.text-brand-magenta { color: #B01A66; }
+
+/* Contrast per level (colours chosen to reach 4.5:1 for small text) */
+html[data-level="a2"] .tw-step1-tab.active,
+html[data-level="a2"] #app .bg-brand-coral\/20 { color: #09589F; }
+html[data-level="a2"] #app .text-brand-fuchsia { color: #5B34B0; }
+/* The partner role card and lines used to be dimmed with opacity, which made the text unreadable; they are now only desaturated. */
+#app .opacity-55, #app .opacity-60 { opacity: 1; filter: saturate(.55); }
+html[data-level="a2"] .vocab-category-chip.active { background: #0B63B5; border-color: #0B63B5; }
+html[data-level="b1"] .vocab-category-chip.active { background: #15803D; border-color: #15803D; }
+html[data-level="c1"] #app .bg-brand-teal\/20 { color: #0B5F67; }
+
+/* Audio icons were 10-12 px; make them legible on phones and projectors. */
+#vocab-drawer button[data-say] svg, #expr-drawer .vocab-word-card button svg, #app button[data-say] svg { width: 16px; height: 16px; }
